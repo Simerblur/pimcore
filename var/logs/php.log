@@ -4,3 +4,67 @@ Stack trace:
 #1 /var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DataCollector/SecurityDataCollector.php(116): Symfony\Component\Security\Http\Logout\LogoutUrlGenerator->getLogoutPath()
 #2 /var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Profiler/Profiler.php(165): Symfony\Bundle\SecurityBundle\DataCollector\SecurityDataCollector->collect(Object(Symfony\Component\HttpFoundation\Request), Object(Pimcore\Bundle\AdminBundle\HttpFoundation\JsonResponse), Object(RuntimeException))
 #3 /var/www/html/pimcore/vendor/symfony/symfony/sr in /var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Logout/LogoutUrlGenerator.php on line 127
+[16-May-2018 16:48:02 Europe/Berlin] PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/html/pimcore/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Logger.php(588): Monolog\Logger->addRecord(300, 'Failed to fetch...', Array)
+#3 /var/www/html/pimcore/pimcore/lib/Pimcore/Cache/Pool/CacheItem.php(238): Monolog\Logger->warning('Failed to fetch...', Array)
+#4 /var/www/html/pimcore/pimcore/lib/Pimcore/Cache/Pool/AbstractCacheItemPool.php(208): Pimcore\Cache\Pool\CacheItem::log(Object(Symfony\Bridge\Monolog\Logger), 'Failed to fetch...', Array)
+#5 /var/www/html/pimcore/ve in /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107
+[16-May-2018 16:48:02 Europe/Berlin] PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/html/pimcore/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Logger.php(588): Monolog\Logger->addRecord(300, 'Failed to fetch...', Array)
+#3 /var/www/html/pimcore/pimcore/lib/Pimcore/Cache/Pool/CacheItem.php(238): Monolog\Logger->warning('Failed to fetch...', Array)
+#4 /var/www/html/pimcore/pimcore/lib/Pimcore/Cache/Pool/AbstractCacheItemPool.php(208): Pimcore\Cache\Pool\CacheItem::log(Object(Symfony\Bridge\Monolog\Logger), 'Failed to fetch...', Array)
+#5 /var/www/html/pimcore/ve in /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107
+[16-May-2018 16:48:05 Europe/Berlin] PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/html/pimcore/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Logger.php(588): Monolog\Logger->addRecord(300, 'Failed to fetch...', Array)
+#3 /var/www/html/pimcore/pimcore/lib/Pimcore/Cache/Pool/CacheItem.php(238): Monolog\Logger->warning('Failed to fetch...', Array)
+#4 /var/www/html/pimcore/pimcore/lib/Pimcore/Cache/Pool/AbstractCacheItemPool.php(208): Pimcore\Cache\Pool\CacheItem::log(Object(Symfony\Bridge\Monolog\Logger), 'Failed to fetch...', Array)
+#5 /var/www/html/pimcore/ve in /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107
+[16-May-2018 16:48:20 Europe/Berlin] PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/html/pimcore/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Logger.php(588): Monolog\Logger->addRecord(300, 'Failed to fetch...', Array)
+#3 /var/www/html/pimcore/pimcore/lib/Pimcore/Cache/Pool/CacheItem.php(238): Monolog\Logger->warning('Failed to fetch...', Array)
+#4 /var/www/html/pimcore/pimcore/lib/Pimcore/Cache/Pool/AbstractCacheItemPool.php(208): Pimcore\Cache\Pool\CacheItem::log(Object(Symfony\Bridge\Monolog\Logger), 'Failed to fetch...', Array)
+#5 /var/www/html/pimcore/ve in /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107
+[16-May-2018 16:48:21 Europe/Berlin] PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/html/pimcore/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Logger.php(588): Monolog\Logger->addRecord(300, 'Failed to fetch...', Array)
+#3 /var/www/html/pimcore/pimcore/lib/Pimcore/Cache/Pool/CacheItem.php(238): Monolog\Logger->warning('Failed to fetch...', Array)
+#4 /var/www/html/pimcore/pimcore/lib/Pimcore/Cache/Pool/AbstractCacheItemPool.php(208): Pimcore\Cache\Pool\CacheItem::log(Object(Symfony\Bridge\Monolog\Logger), 'Failed to fetch...', Array)
+#5 /var/www/html/pimcore/ve in /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107
+[16-May-2018 16:48:22 Europe/Berlin] PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/html/pimcore/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Logger.php(588): Monolog\Logger->addRecord(300, 'Failed to fetch...', Array)
+#3 /var/www/html/pimcore/pimcore/lib/Pimcore/Cache/Pool/CacheItem.php(238): Monolog\Logger->warning('Failed to fetch...', Array)
+#4 /var/www/html/pimcore/pimcore/lib/Pimcore/Cache/Pool/AbstractCacheItemPool.php(208): Pimcore\Cache\Pool\CacheItem::log(Object(Symfony\Bridge\Monolog\Logger), 'Failed to fetch...', Array)
+#5 /var/www/html/pimcore/ve in /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107
+[16-May-2018 16:48:23 Europe/Berlin] PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/html/pimcore/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Logger.php(588): Monolog\Logger->addRecord(300, 'Failed to fetch...', Array)
+#3 /var/www/html/pimcore/pimcore/lib/Pimcore/Cache/Pool/CacheItem.php(238): Monolog\Logger->warning('Failed to fetch...', Array)
+#4 /var/www/html/pimcore/pimcore/lib/Pimcore/Cache/Pool/AbstractCacheItemPool.php(208): Pimcore\Cache\Pool\CacheItem::log(Object(Symfony\Bridge\Monolog\Logger), 'Failed to fetch...', Array)
+#5 /var/www/html/pimcore/ve in /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107
+[16-May-2018 16:48:25 Europe/Berlin] PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/html/pimcore/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Logger.php(588): Monolog\Logger->addRecord(300, 'Failed to fetch...', Array)
+#3 /var/www/html/pimcore/pimcore/lib/Pimcore/Cache/Pool/CacheItem.php(238): Monolog\Logger->warning('Failed to fetch...', Array)
+#4 /var/www/html/pimcore/pimcore/lib/Pimcore/Cache/Pool/AbstractCacheItemPool.php(208): Pimcore\Cache\Pool\CacheItem::log(Object(Symfony\Bridge\Monolog\Logger), 'Failed to fetch...', Array)
+#5 /var/www/html/pimcore/ve in /var/www/html/pimcore/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107
