@@ -1,0 +1,6 @@
+[10-May-2018 10:31:06 Europe/Berlin] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Call to a member function getBaseUrl() on null in /var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Logout/LogoutUrlGenerator.php:127
+Stack trace:
+#0 /var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Logout/LogoutUrlGenerator.php(78): Symfony\Component\Security\Http\Logout\LogoutUrlGenerator->generateLogoutUrl(NULL, 1)
+#1 /var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DataCollector/SecurityDataCollector.php(116): Symfony\Component\Security\Http\Logout\LogoutUrlGenerator->getLogoutPath()
+#2 /var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Profiler/Profiler.php(165): Symfony\Bundle\SecurityBundle\DataCollector\SecurityDataCollector->collect(Object(Symfony\Component\HttpFoundation\Request), Object(Pimcore\Bundle\AdminBundle\HttpFoundation\JsonResponse), Object(RuntimeException))
+#3 /var/www/html/pimcore/vendor/symfony/symfony/sr in /var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Logout/LogoutUrlGenerator.php on line 127
