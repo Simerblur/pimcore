@@ -23,7 +23,6 @@ class DefaultController extends FrontendController
      */
     public function blogarticleAction($id){
 
-     // $this->view->blogarticle = \Pimcore\Model\DataObject\Blogpost::getById($id);
-       // $blogarticle = Blogpost::getById(5);
+       $this->view->blogarticle = \Pimcore\Model\DataObject\Blogpost::getById($id);
     }
 }

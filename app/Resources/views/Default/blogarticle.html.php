@@ -55,9 +55,6 @@
 
 <!-- Page Header -->
 <header class="masthead">
-<!--    style="background-image: url(--><?php //if($this->blogarticle->getHeaderbackgroundimage() !="") {
-//    echo $this->blogarticle->getHeaderbackgroundimage()->getThumbnail("headerbackground"); }
-//    else {echo 'static/img/post-bg.jpg';} ?><!--)">-->
 
  <h1>.</h1>
 </header>
@@ -72,12 +69,15 @@
                 <h5>Z dumą przedstawiamy nowe oblicze Advoxu w świecie WWW
                 </h5>
                 <a href="#">
-                    <img class="img-fluid" src="/static/img/new-website_article.jpg" alt="">
+                    <img class="img-fluid"
+                         <?php if($this->blogarticle->getHeaderbackgroundimage() !="") {
+                             echo $this->blogarticle->getHeaderbackgroundimage()->getThumbnail("headerbackground"); }
+                         else {echo 'static/img/post-bg.jpg';} ?>)">
+
                 </a>
 
                 <p>Po miesiącach wytężonej pracy, kłótniach i tysiącach zmian koncepcji - “ten button musi być tam, ten hoover nie może być taki, nienawidzę cię, nie pracuję z Tobą więcej” i takich tam ;-), można powiedzieć, że szewc w końcu zrobił sobie buty. Na razie jeszcze mogą narobić mu trochę odcisków, ale rozchodzą się i powinny spełnić swoją rolę. Innymi słowy, udało nam się (po 5 długich latach), zrobić naszą nową stronę. Można na niej zobaczyć nasze fajne projekty, pełną ofertę, kierunki rozwoju firmy, ekipę, a także nauczyć się czegoś o technologiach w których pracujemy. </p>
 
-<!--                <p> --><?//= $blogpost -> getcontent(); ?><!--</p>-->
                 <p>Placeholder text by
                     <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by
                     <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>

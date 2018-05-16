@@ -2053,3 +2053,8 @@ dc78f7,127.0.0.1,GET,http://dev-pimcore.local/,1526478745,,200
 d00db6,127.0.0.1,GET,http://dev-pimcore.local/admin/misc/ping?_dc=1526478749522,1526478749,,200
 fa3a4d,127.0.0.1,GET,http://dev-pimcore.local/admin/misc/ping?_dc=1526480129521,1526480129,,200
 464753,127.0.0.1,GET,http://dev-pimcore.local/admin/misc/ping?_dc=1526481509521,1526481509,,200
+6a998b,127.0.0.1,GET,http://dev-pimcore.local/,1526484628,,200
+d72577,127.0.0.1,GET,http://dev-pimcore.local/article/5/Poznaj%20nasz%C4%85%20now%C4%85%20stron%C4%99,1526484634,,200
+c3b086,127.0.0.1,GET,http://dev-pimcore.local/article/5/Poznaj%20nasz%C4%85%20now%C4%85%20stron%C4%99,1526484688,,200
+465e19,127.0.0.1,GET,http://dev-pimcore.local/article/5/Poznaj%20nasz%C4%85%20now%C4%85%20stron%C4%99,1526484690,,200
+7d6b57,127.0.0.1,GET,http://dev-pimcore.local/article/5/Poznaj%20nasz%C4%85%20now%C4%85%20stron%C4%99,1526484707,,200
