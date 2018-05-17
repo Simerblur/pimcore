@@ -1,7 +1,7 @@
 <?php 
 
 /** 
-* Generated at: 2018-05-16T15:32:40+02:00
+* Generated at: 2018-05-17T10:55:43+02:00
 * Inheritance: no
 * Variants: no
 * Changed by: admin (2)
@@ -15,6 +15,7 @@ Fields Summary:
 - headerbackgroundimage [image]
 - author [input]
 - myDate [date]
+- boximage [image]
 */ 
 
 
@@ -22,7 +23,7 @@ return Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
    'name' => 'blogpost',
    'description' => '',
    'creationDate' => 0,
-   'modificationDate' => 1526477559,
+   'modificationDate' => 1526547341,
    'userOwner' => 2,
    'userModification' => 2,
    'parentClass' => '',
@@ -204,6 +205,30 @@ return Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
              'noteditable' => false,
              'index' => false,
              'locked' => false,
+             'style' => '',
+             'permissions' => NULL,
+             'datatype' => 'data',
+             'relationType' => false,
+             'invisible' => false,
+             'visibleGridView' => false,
+             'visibleSearch' => false,
+          )),
+          6 => 
+          Pimcore\Model\DataObject\ClassDefinition\Data\Image::__set_state(array(
+             'fieldtype' => 'image',
+             'width' => '',
+             'height' => '',
+             'uploadPath' => '',
+             'queryColumnType' => 'int(11)',
+             'columnType' => 'int(11)',
+             'phpdocType' => '\\Pimcore\\Model\\Asset\\Image',
+             'name' => 'boximage',
+             'title' => 'boximage',
+             'tooltip' => '',
+             'mandatory' => false,
+             'noteditable' => false,
+             'index' => false,
+             'locked' => NULL,
              'style' => '',
              'permissions' => NULL,
              'datatype' => 'data',

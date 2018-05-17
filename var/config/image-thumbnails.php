@@ -634,5 +634,53 @@ return [
         "modificationDate" => 1526300946,
         "creationDate" => 1526298957,
         "id" => "headerbackground"
+    ],
+    "headerbackgroundimage" => [
+        "items" => [
+            [
+                "method" => "scaleByWidth",
+                "arguments" => [
+                    "width" => 1980,
+                    "forceResize" => FALSE
+                ]
+            ]
+        ],
+        "medias" => [
+
+        ],
+        "name" => "headerbackgroundimage",
+        "description" => "",
+        "format" => "SOURCE",
+        "quality" => 85,
+        "highResolution" => 0.0,
+        "preserveColor" => FALSE,
+        "preserveMetaData" => FALSE,
+        "modificationDate" => 1526546503,
+        "creationDate" => 1526546455,
+        "id" => "headerbackgroundimage"
+    ],
+    "boximage" => [
+        "items" => [
+            [
+                "method" => "scaleByWidth",
+                "arguments" => [
+                    "width" => 640,
+                    "forceResize" => FALSE
+                ]
+            ]
+        ],
+        "medias" => [
+
+        ],
+        "name" => "boximage",
+        "description" => "",
+        "format" => "SOURCE",
+        "quality" => 85,
+        "highResolution" => 0.0,
+        "preserveColor" => FALSE,
+        "preserveMetaData" => FALSE,
+        "modificationDate" => 1526547081,
+        "creationDate" => 1526547063,
+        "id" => "boximage"
     ]
 ];

@@ -54,33 +54,60 @@
 </nav>
 
 <!-- Page Header -->
-<header class="masthead">
 
- <h1>.</h1>
+<header class="masthead" style="background-image: url()>
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row"
+            <div class="col-lg-8 col-md-10 mx-auto">
+
+
+            </div>
+        </div>
+    </div>
 </header>
+
+
 <!-- Post Content -->
 <article>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
 
-            <h3>Poznaj naszą nową stronę
+            <h3>
+                <?php if($this->blogarticle->getTitle() !="")
+                {echo $this->blogarticle->getTitle(); } else
+                { echo "Jan Kowalski";}?>
             </h3>
-                <h5>Z dumą przedstawiamy nowe oblicze Advoxu w świecie WWW
+                <h5>
+                    <?php if($this->blogarticle->getSubtitle() !="")
+                    {echo $this->blogarticle->getSubtitle(); } else
+                    { echo "Jan Kowalski";}?>
                 </h5>
-                <a href="#">
-                    <img class="img-fluid"
-                         <?php if($this->blogarticle->getHeaderbackgroundimage() !="") {
-                             echo $this->blogarticle->getHeaderbackgroundimage()->getThumbnail("headerbackground"); }
-                         else {echo 'static/img/post-bg.jpg';} ?>)">
+                <p>
+                    <img src=" <?php if($this->blogarticle->getBoximage() !="")
+                    {echo $this->blogarticle->getBoximage()->getThumbnail("boximage"); } else { echo'static/img/post-bg.jpg';}?>">
 
-                </a>
+                </p>
 
-                <p>Po miesiącach wytężonej pracy, kłótniach i tysiącach zmian koncepcji - “ten button musi być tam, ten hoover nie może być taki, nienawidzę cię, nie pracuję z Tobą więcej” i takich tam ;-), można powiedzieć, że szewc w końcu zrobił sobie buty. Na razie jeszcze mogą narobić mu trochę odcisków, ale rozchodzą się i powinny spełnić swoją rolę. Innymi słowy, udało nam się (po 5 długich latach), zrobić naszą nową stronę. Można na niej zobaczyć nasze fajne projekty, pełną ofertę, kierunki rozwoju firmy, ekipę, a także nauczyć się czegoś o technologiach w których pracujemy. </p>
+
+                <p>
+                    <?php if($this->blogarticle->getContent() !="")
+                    {echo $this->blogarticle->getContent(); } else
+                        { echo "Blad wprowadzania texu";}?>
 
                 <p>Placeholder text by
-                    <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by
-                    <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
+                    <a href="https://www.advox.pl/aktualnosci/Poznaj-Nasza-Nowa-Strone">
+
+                        <?php if($this->blogarticle->getAuthor() !="")
+                        {echo $this->blogarticle->getAuthor(); } else
+                        { echo "Jan Kowalski";}?>
+
+                    </a>
+
+
+
+                </p>
             </div>
         </div>
     </div>

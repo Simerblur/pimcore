@@ -1,7 +1,7 @@
 <?php 
 
 /** 
-* Generated at: 2018-05-16T15:32:40+02:00
+* Generated at: 2018-05-17T10:55:43+02:00
 * Inheritance: no
 * Variants: no
 * Changed by: admin (2)
@@ -15,6 +15,7 @@ Fields Summary:
 - headerbackgroundimage [image]
 - author [input]
 - myDate [date]
+- boximage [image]
 */ 
 
 namespace Pimcore\Model\DataObject;
@@ -28,6 +29,7 @@ namespace Pimcore\Model\DataObject;
 * @method static \Pimcore\Model\DataObject\Blogpost\Listing getByHeaderbackgroundimage ($value, $limit = 0) 
 * @method static \Pimcore\Model\DataObject\Blogpost\Listing getByAuthor ($value, $limit = 0) 
 * @method static \Pimcore\Model\DataObject\Blogpost\Listing getByMyDate ($value, $limit = 0) 
+* @method static \Pimcore\Model\DataObject\Blogpost\Listing getByBoximage ($value, $limit = 0) 
 */
 
 class Blogpost extends Concrete {
@@ -40,6 +42,7 @@ public $content;
 public $headerbackgroundimage;
 public $author;
 public $myDate;
+public $boximage;
 
 
 /**
@@ -205,6 +208,32 @@ public function getMyDate () {
 */
 public function setMyDate ($myDate) {
 	$this->myDate = $myDate;
+	return $this;
+}
+
+/**
+* Get boximage - boximage
+* @return \Pimcore\Model\Asset\Image
+*/
+public function getBoximage () {
+	$preValue = $this->preGetValue("boximage"); 
+	if($preValue !== null && !\Pimcore::inAdmin()) { 
+		return $preValue;
+	}
+	$data = $this->boximage;
+	if ($data instanceof \Pimcore\Model\DataObject\Data\EncryptedField) {
+		    return $data->getPlain();
+	}
+	return $data;
+}
+
+/**
+* Set boximage - boximage
+* @param \Pimcore\Model\Asset\Image $boximage
+* @return \Pimcore\Model\DataObject\Blogpost
+*/
+public function setBoximage ($boximage) {
+	$this->boximage = $boximage;
 	return $this;
 }
 
