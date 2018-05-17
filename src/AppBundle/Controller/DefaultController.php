@@ -11,11 +11,6 @@ class DefaultController extends FrontendController
     public function defaultAction()
     {
         $this->view->blogpostList = new \Pimcore\Model\DataObject\Blogpost\Listing();
-
-//        $paginator = \Zend_Paginator::factory($list);
-//        $paginator->setCurrentPageNumber( $request->get('page') );
-//        $paginator->setItemCountPerPage(10);
-//        $this->view->paginator  = $paginator;
     }
 
     /**

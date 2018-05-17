@@ -1,36 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81d67d2d-1e31-4852-9835-bb4e5ace0765" name="Default" comment="blg">
+    <list default="true" id="81d67d2d-1e31-4852-9835-bb4e5ace0765" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/Default/blogarticle.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/Default/blogarticle.html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/wjXlndgkD6/N/A/u3xe3HNKHY66rZJt1gcV" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/wjXlndgkD6/N/A/u3xe3HNKHY66rZJt1gcV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/wjXlndgkD6/Q/J/DHwCs1pnPT6IAL1JCmtX" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/wjXlndgkD6/Q/J/DHwCs1pnPT6IAL1JCmtX" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/wjXlndgkD6/Q/Y/31+yWdx7QB53X8wiPaY2" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/wjXlndgkD6/Q/Y/31+yWdx7QB53X8wiPaY2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/wjXlndgkD6/R/L/+Tx3GfUmpMMsXTTGj-qg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/wjXlndgkD6/R/L/+Tx3GfUmpMMsXTTGj-qg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/wjXlndgkD6/S/E/0GiJlR-z5L1V1+0xwEbg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/wjXlndgkD6/S/E/0GiJlR-z5L1V1+0xwEbg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/wjXlndgkD6/S/U/warpVur8kp5RzgkgzVke" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/wjXlndgkD6/S/U/warpVur8kp5RzgkgzVke" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/classes/DataObject/Blogpost.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/classes/DataObject/Blogpost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/classes/definition_blogpost.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/classes/definition_blogpost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/config/image-thumbnails.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/config/image-thumbnails.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/logs/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/logs/dev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/logs/usagelog.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/logs/usagelog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/sessions/sess_1rhifgmpjk0qlsojigb15olhq5" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/var/sessions/sess_3fp1utmhpsi5cjdqjg91k2q16l" beforeDir="false" afterPath="$PROJECT_DIR$/var/sessions/sess_3fp1utmhpsi5cjdqjg91k2q16l" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/sessions/sess_l2pitqtli5rp7sc0sar3pkd16s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/sessions/sess_neccg7fktkqmg678holbg4a9et" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/sessions/sess_q0g5iv1eqcfh239vmee35l6fq0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/sessions/sess_unsgc11dc7cfkgdjoqam80jekr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/versions/object/g0/5/29" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/versions/object/g0/5/31" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/versions/object/g0/5/33" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/versions/object/g0/5/34" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/versions/object/g0/5/35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/versions/object/g0/5/36" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/versions/object/g0/5/37" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/versions/object/g0/5/38" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/versions/object/g0/5/39" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/versions/object/g0/5/40" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/versions/object/g0/5/41" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/versions/object/g0/5/42" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/versions/object/g0/5/43" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/versions/object/g0/5/44" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/versions/object/g0/5/45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/versions/object/g0/10/55" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/versions/object/g0/10/56" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="blogarticle.html.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blogarticle.html.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/Default/blogarticle.html.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="84" column="45" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+            <state relative-caret-position="345">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
               <folding>
                 <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#1626#1632#0" expanded="true" />
@@ -57,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="default.html.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/Default/default.html.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="95" selection-end-column="24" />
+            <state relative-caret-position="315">
+              <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -69,8 +58,8 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="135">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -78,7 +67,7 @@
       <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/static/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="435">
               <caret line="101" column="12" selection-start-line="101" selection-start-column="12" selection-end-line="103" selection-end-column="16" />
             </state>
           </provider>
@@ -87,7 +76,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
+            <state relative-caret-position="15">
               <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
             </state>
           </provider>
@@ -141,8 +130,8 @@
         <option value="$PROJECT_DIR$/t.php" />
         <option value="$PROJECT_DIR$/web/install.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/Default/default.html.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/Default/blogarticle.html.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
       </list>
     </option>
   </component>
@@ -313,13 +302,36 @@
             <path>
               <item name="pimcore" type="b2602c69:ProjectViewProjectNode" />
               <item name="pimcore" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pimcore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pimcore" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pimcore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pimcore" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pimcore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pimcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pimcore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pimcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pimcore" type="b2602c69:ProjectViewProjectNode" />
               <item name="pimcore" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -328,7 +340,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="toUrl&#9;null&#9;null&#10;Te&#9;FILE&#9;file:///var/www/html/pimcore/pimcore/lib/Pimcore/Tool/Text.php&#10;Tool&#9;FILE&#9;file:///var/www/html/pimcore/pimcore/models/Tool&#10;text.php&#9;FILE&#9;file:///var/www/html/pimcore/pimcore/lib/Pimcore/Tool/Text.php" />
+    <property name="SearchEverywhereHistoryKey" value="layout&#9;FILE&#9;file:///var/www/html/pimcore/pimcore/lib/Pimcore/Bundle/AdminBundle/Resources/views/Admin/layout.html.php&#10;toUrl&#9;null&#9;null&#10;Te&#9;FILE&#9;file:///var/www/html/pimcore/pimcore/lib/Pimcore/Tool/Text.php&#10;Tool&#9;FILE&#9;file:///var/www/html/pimcore/pimcore/models/Tool&#10;text.php&#9;FILE&#9;file:///var/www/html/pimcore/pimcore/lib/Pimcore/Tool/Text.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -364,18 +376,17 @@
       <workItem from="1526025381834" duration="15352000" />
       <workItem from="1526283875403" duration="19897000" />
       <workItem from="1526458436697" duration="18642000" />
-      <workItem from="1526545727333" duration="3570000" />
+      <workItem from="1526545727333" duration="8457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69420000" />
+    <option name="totallyTimeSpent" value="74307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="354" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24942264" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22709776" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.16271722" />
@@ -395,27 +406,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24942264" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.16271722" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -425,7 +415,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="blg" />
-    <option name="LAST_COMMIT_MESSAGE" value="blg" />
+    <MESSAGE value="its working!" />
+    <MESSAGE value="sml chg" />
+    <option name="LAST_COMMIT_MESSAGE" value="sml chg" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/Resources/views/Default/blogarticle.html.php">
@@ -736,13 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/static/t.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -750,35 +735,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pimcore/lib/Pimcore/Bundle/AdminBundle/Resources/views/Admin/layout.html.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pimcore/models/DataObject/ClassDefinition/Layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="91" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="135">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/static/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="435">
           <caret line="101" column="12" selection-start-line="101" selection-start-column="12" selection-end-line="103" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/Default/default.html.php">
+    <entry file="file://$PROJECT_DIR$/web/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="95" selection-end-column="24" />
+        <state relative-caret-position="15">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/Default/blogarticle.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="84" column="45" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+        <state relative-caret-position="345">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#1626#1632#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/Default/default.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
         </state>
       </provider>
     </entry>
