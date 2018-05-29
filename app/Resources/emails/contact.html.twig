@@ -1,0 +1,33 @@
+{% block subject %}
+    ContactEmailSubject
+{% endblock %}
+{% block body_html %}
+    <br />
+    <h1>Wiadomość od klienta z podstrony kontakt.</h1>
+    <br />
+    <table>
+        {% if contact_interestedin is defined and contact_interestedin is not empty %}
+            <tr><td><b>Temat</b></td><td>{{ contact_interestedin }}</td></tr>
+        {% endif %}
+        {% if contact_name is defined and contact_name is not empty %}
+            <tr><td><b>Nazwisko</b></td><td>{{ contact_name }}</td></tr>
+        {% endif %}
+        {% if contact_email is defined and contact_email is not empty %}
+            <tr><td><b>Email</b></td><td>{{ contact_email }}</td></tr>
+        {% endif %}
+        {% if contact_budget is defined and contact_budget is not empty %}
+            <tr><td><b>Budżet</b></td><td>{{ contact_budget }}</td></tr>
+        {% endif %}
+        <tr>
+            <td style="height:10px;font-size:10px;line-height:10px">&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Wiadomość:</b></td>
+        </tr>
+        <tr>
+            <td colspan="2">{{ contact_message }}</td>
+        </tr>
+    </table>
+    <br/>
+{% endblock %}
+{% block body_text %}{% endblock %}

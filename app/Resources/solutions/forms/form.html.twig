@@ -1,0 +1,79 @@
+<div class="form-slider-container solution-form-container">
+    {{ form_start(contactsolutionForm, {'attr' : { 'id' : 'contact-career-form', 'name' : 'contact-solution-form', 'action': path('solutionssend') }}) }}
+    {{ form_widget(contactsolutionForm.name, {'attr': {'placeholder' : 'Your name' | trans,'class' : 'half-input left' } }) }}
+    <span class="validator-text name-career-validator-span">{{'_REQUIRED_FIELD_ERR_MESSAGE_' | trans}}</span>
+    {{ form_widget(contactsolutionForm.phone, {'attr': {'placeholder' : 'Phone' | trans, 'class' : 'half-input left'} }) }}
+    <span class="validator-text phone-career-validator-span">{{'_REQUIRED_FIELD_ERR_MESSAGE_' | trans}}</span>
+    {{ form_widget(contactsolutionForm.email, {'attr': {'placeholder' : 'E-mail' | trans, 'class' : 'half-input'} }) }}
+    <span class="validator-text email-career-validator-span">{{'_BADEMAIL_FIELD_ERR_MESSAGE_' | trans}}</span>
+    <div class="form_error_wrap">
+        {{ form_errors(contactsolutionForm) }}
+        {{ form_errors(contactsolutionForm.email) }}
+    </div>
+    <input id="career-form-submit" class="form_submit_button" type="submit" value="{{'_APPLY_FOR_THIS_JOB_' | trans}}">
+    {{ form_end(contactsolutionForm) }}
+</div>
+<script>
+    $(document).ready(function () {
+        
+        $('.file_label').click(function () {
+                $('.form_error_wrap ul').remove();
+            });
+
+        var CanSendForm = true;
+        $("#contact-career-form").on("click", "#career-form-submit", function () {
+           
+            $('#contact-career-form').validate({
+                    onkeyup: false,
+                    errorPlacement: function (error, element) {
+                        $(element).next().show();
+                        $(element).css('border-color', '#fc1556');
+                        $(element).addClass('placeholder-error');
+                    },
+                    success: function (error, element) {
+                        $(element).next().hide();
+                        $(element).css('border-color', '#dadad2');
+                        $(element).removeClass('placeholder-error');
+                    },
+                    rules: {
+                        'contact_solution[name]': {
+                            required: true
+                        },
+                        'contact_solution[phone]': {
+                            required: true
+                        },
+                        'contact_solution[email]': {
+                            required: true,
+                            email: true
+                        },
+                    },
+                    
+                    submitHandler: function(form) {
+                        if (CanSendForm) {
+                            CanSendForm = false;
+                            var form = $('#contact-career-form');
+                            var formAction = form.attr('action');
+
+                            var formData = new FormData(form[0]);
+
+                            $.ajax({
+                                url: formAction,
+                                type: 'POST',
+                                enctype: 'multipart/form-data',
+                                cache: false,
+                                processData: false,
+                                contentType: false,
+                                data: formData
+                            }).done(function (data) {
+                                $(".form-container").html(data);
+                                CanSendForm = true;
+                            }).fail(function () {
+                                
+                            });
+                        }
+                    }
+                });
+        });
+    });
+
+</script>

@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
+  <file date="2018-03-28T15:11:33Z" source-language="en" target-language="en" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="859a410c14055c11f8c93e4ed850d44ed1b820f4" resname="about-us">
+        <source>/about-us</source>
+        <target state="new">/about-us</target>
+      </trans-unit>
+      <trans-unit id="d09a44b5e4168f3b2f34f4308237a27e13c07158" resname="ambiganteproject">
+        <source>/projects/ambigante</source>
+        <target state="new">/projects/ambigante</target>
+      </trans-unit>
+      <trans-unit id="5cd363e18b138ad080a935a3d87196b7e3d62a2b" resname="app_redirects_news">
+        <source>/readthis/{news}</source>
+        <target state="new">/readthis/{news}</target>
+      </trans-unit>
+      <trans-unit id="d82f5543e866079244281e16fa3ba0b31df6e8c3" resname="app_redirects_news_1">
+        <source>/czytajto/{news}</source>
+        <target state="new">/czytajto/{news}</target>
+      </trans-unit>
+      <trans-unit id="f1e4dbfd670e2040d890bdc8152e82f185c33746" resname="app_redirects_redirect">
+        <source>/about-us/we-at-work</source>
+        <target state="new">/about-us/we-at-work</target>
+      </trans-unit>
+      <trans-unit id="5a988124d038a3a5f8794a2f49d1389881e20ddd" resname="app_redirects_redirect10">
+        <source>/realization/webdevelopment/wirtualne-biuro</source>
+        <target state="new">/realization/webdevelopment/wirtualne-biuro</target>
+      </trans-unit>
+      <trans-unit id="1e478385a386bda3124cdcb630a9649049a92f0a" resname="app_redirects_redirect100">
+        <source>/oferta/linki-sponsorowane</source>
+        <target state="new">/oferta/linki-sponsorowane</target>
+      </trans-unit>
+      <trans-unit id="b6d6942b587ad0afab10b81ce16cd9e57fab623a" resname="app_redirects_redirect100_1">
+        <source>/oferta/linki-sponsorowane/jak-to-dziala</source>
+        <target state="new">/oferta/linki-sponsorowane/jak-to-dziala</target>
+      </trans-unit>
+      <trans-unit id="e0a860cb1f24d1c787c514d8f985a2e887a8dca8" resname="app_redirects_redirect100_10">
+        <source>/oferta/gry-i-aplikacje/aplikacje-mobilne</source>
+        <target state="new">/oferta/gry-i-aplikacje/aplikacje-mobilne</target>
+      </trans-unit>
+      <trans-unit id="d59ac68de523036a9b0f127373e25a26078fc603" resname="app_redirects_redirect100_11">
+        <source>/oferta/gry-i-aplikacje/aplikacje-stacjonarne</source>
+        <target state="new">/oferta/gry-i-aplikacje/aplikacje-stacjonarne</target>
+      </trans-unit>
+      <trans-unit id="cc2bc561ffc24e059a049fa07f88146109b0c274" resname="app_redirects_redirect100_12">
+        <source>/oferta/pozycjonowanie</source>
+        <target state="new">/oferta/pozycjonowanie</target>
+      </trans-unit>
+      <trans-unit id="0828252e2bd8ef445d5f3079301dd98abe23ccf3" resname="app_redirects_redirect100_13">
+        <source>/oferta/social-media</source>
+        <target state="new">/oferta/social-media</target>
+      </trans-unit>
+      <trans-unit id="86239f1664328fd62dc94e91e9d4a3fc3af5a9cc" resname="app_redirects_redirect100_14">
+        <source>/oferta/salesmanago</source>
+        <target state="new">/oferta/salesmanago</target>
+      </trans-unit>
+      <trans-unit id="da3e93cb807207e6aea5f4019c90dab5fd3f9ee5" resname="app_redirects_redirect100_2">
+        <source>/oferta/linki-sponsorowane/koszty</source>
+        <target state="new">/oferta/linki-sponsorowane/koszty</target>
+      </trans-unit>
+      <trans-unit id="686e1df976b985afad626cf5c28598c826b97b92" resname="app_redirects_redirect100_3">
+        <source>/oferta/pozycjonowanie/jak-to-dziala</source>
+        <target state="new">/oferta/pozycjonowanie/jak-to-dziala</target>
+      </trans-unit>
+      <trans-unit id="5a67d62f7f2af91d3752b9f2f13e59bd396354a9" resname="app_redirects_redirect100_4">
+        <source>/oferta/pozycjonowanie/jak-pozycjonujemy</source>
+        <target state="new">/oferta/pozycjonowanie/jak-pozycjonujemy</target>
+      </trans-unit>
+      <trans-unit id="0581d7877f2e1e016792054d39d77ca967ad03d5" resname="app_redirects_redirect100_5">
+        <source>/oferta/social-media/facebook</source>
+        <target state="new">/oferta/social-media/facebook</target>
+      </trans-unit>
+      <trans-unit id="82939b9e318f8b918994003e1bd01b5a587f2906" resname="app_redirects_redirect100_6">
+        <source>/oferta/social-media/reklama</source>
+        <target state="new">/oferta/social-media/reklama</target>
+      </trans-unit>
+      <trans-unit id="3d80c00a61f672ba4ec12d961aa01e12289b4135" resname="app_redirects_redirect100_7">
+        <source>/oferta/social-media/aplikacje-spolecznosciowe</source>
+        <target state="new">/oferta/social-media/aplikacje-spolecznosciowe</target>
+      </trans-unit>
+      <trans-unit id="17efc897e59a9174a11d36ea098d7800a40b9a47" resname="app_redirects_redirect100_8">
+        <source>/oferta/gry-i-aplikacje</source>
+        <target state="new">/oferta/gry-i-aplikacje</target>
+      </trans-unit>
+      <trans-unit id="c08d1e4817042f86d7959d6057916a523d8f304f" resname="app_redirects_redirect100_9">
+        <source>/oferta/gry-i-aplikacje/gry</source>
+        <target state="new">/oferta/gry-i-aplikacje/gry</target>
+      </trans-unit>
+      <trans-unit id="0128920b7449c0bce021a2e7c0e33d14d7602203" resname="app_redirects_redirect10_1">
+        <source>/realization/wirtualne-biuro</source>
+        <target state="new">/realization/wirtualne-biuro</target>
+      </trans-unit>
+      <trans-unit id="0575658a5c7de35ef44e2530c4ef2c5d3353dd0d" resname="app_redirects_redirect10_2">
+        <source>/realization/strony-internetowe/wirtualne-biuro</source>
+        <target state="new">/realization/strony-internetowe/wirtualne-biuro</target>
+      </trans-unit>
+      <trans-unit id="0c520e5f86e98d13e6d26681606c9ea03c7fe72b" resname="app_redirects_redirect11">
+        <source>/realization/polish-souls</source>
+        <target state="new">/realization/polish-souls</target>
+      </trans-unit>
+      <trans-unit id="f5506034e235083bbc8b5b787ccc43b592c7d83d" resname="app_redirects_redirect11_1">
+        <source>/realization/webdevelopment/polish-souls</source>
+        <target state="new">/realization/webdevelopment/polish-souls</target>
+      </trans-unit>
+      <trans-unit id="ca1158b85bb75e8c13c7c6d5264d1a561b08c250" resname="app_redirects_redirect11_2">
+        <source>/realization/strony-internetowe/polish-souls</source>
+        <target state="new">/realization/strony-internetowe/polish-souls</target>
+      </trans-unit>
+      <trans-unit id="1ffed5f79dab04ddd005d1b8c26815f84c05fb8d" resname="app_redirects_redirect13">
+        <source>/kariera/Junior+Front-end+developer/7</source>
+        <target state="new">/kariera/Junior+Front-end+developer/7</target>
+      </trans-unit>
+      <trans-unit id="8d316629ea38982563562ba4a19b3f2fec9708b1" resname="app_redirects_redirect13_1">
+        <source>/kariera/Junior+Front-end+developer</source>
+        <target state="new">/kariera/Junior+Front-end+developer</target>
+      </trans-unit>
+      <trans-unit id="7d7c2229886f1cbd4ceea6090ee75b81471cfc7f" resname="app_redirects_redirect14">
+        <source>/kariera/Regular+Front-end+developer/6</source>
+        <target state="new">/kariera/Regular+Front-end+developer/6</target>
+      </trans-unit>
+      <trans-unit id="703298ac80d7362ed2661f3d2ad9c69fe82ea176" resname="app_redirects_redirect14_1">
+        <source>/kariera/Regular+Front-end+developer</source>
+        <target state="new">/kariera/Regular+Front-end+developer</target>
+      </trans-unit>
+      <trans-unit id="c23bb144d74e8754a9dc8f6a9910827b33e72f97" resname="app_redirects_redirect15">
+        <source>/kariera/Software+developer+(Magento)/5</source>
+        <target state="new">/kariera/Software+developer+(Magento)/5</target>
+      </trans-unit>
+      <trans-unit id="5da938ae88386b038efa41ed5ac8b1455c06f4fb" resname="app_redirects_redirect15_1">
+        <source>/kariera/Software+developer+(Magento)</source>
+        <target state="new">/kariera/Software+developer+(Magento)</target>
+      </trans-unit>
+      <trans-unit id="2460ed71fc7989cc0c0f7af89a45d8b772ecde8c" resname="app_redirects_redirect16">
+        <source>/kariera/Senior+PHP+Developer/3</source>
+        <target state="new">/kariera/Senior+PHP+Developer/3</target>
+      </trans-unit>
+      <trans-unit id="86db14e598296a2fd8e40e3868554c4ea2cacc47" resname="app_redirects_redirect16_1">
+        <source>/kariera/Senior+PHP+Developer</source>
+        <target state="new">/kariera/Senior+PHP+Developer</target>
+      </trans-unit>
+      <trans-unit id="57c22b9945a6a9c49b065fd1e178570abc2604bd" resname="app_redirects_redirect17">
+        <source>/kariera/Full-stack+Senior+Developer/2</source>
+        <target state="new">/kariera/Full-stack+Senior+Developer/2</target>
+      </trans-unit>
+      <trans-unit id="5633aa6f7331854c460ad4293729537bb801c020" resname="app_redirects_redirect17_1">
+        <source>/kariera/Full-stack+Senior+Developer</source>
+        <target state="new">/kariera/Full-stack+Senior+Developer</target>
+      </trans-unit>
+      <trans-unit id="1a2ec2f2b8f73fd13474150e5d4cb44769bc571b" resname="app_redirects_redirect2">
+        <source>/career</source>
+        <target state="new">/career</target>
+      </trans-unit>
+      <trans-unit id="543ec779ec7d6d35078d9514fa5878f30d1a2edb" resname="app_redirects_redirect2_1">
+        <source>/kariera</source>
+        <target state="new">/kariera</target>
+      </trans-unit>
+      <trans-unit id="86b44f11cb2e3a792b5e1eecfaf8003b15c6a96c" resname="app_redirects_redirect2_2">
+        <source>/o-nas/kariera</source>
+        <target state="new">/o-nas/kariera</target>
+      </trans-unit>
+      <trans-unit id="2b1e2c6b02dbcb2ad7d42635f132bb2c57baa22e" resname="app_redirects_redirect3">
+        <source>/contact/brief_project</source>
+        <target state="new">/contact/brief_project</target>
+      </trans-unit>
+      <trans-unit id="c7a348d4cdb259f758398bea1abcd7c2bcca6507" resname="app_redirects_redirect3_1">
+        <source>/kontakt/brief_graficzny</source>
+        <target state="new">/kontakt/brief_graficzny</target>
+      </trans-unit>
+      <trans-unit id="278b4ec96d60117f9538251848907b0b9cac2dff" resname="app_redirects_redirect4">
+        <source>/offer</source>
+        <target state="new">/offer</target>
+      </trans-unit>
+      <trans-unit id="77e85951a94227cf9ab934519796e036b507412a" resname="app_redirects_redirect4_1">
+        <source>/offer/magento</source>
+        <target state="new">/offer/magento</target>
+      </trans-unit>
+      <trans-unit id="932b0ce27f6378e6fc855644f8dd85447ae2a611" resname="app_redirects_redirect4_2">
+        <source>/offer/magento/other</source>
+        <target state="new">/offer/magento/other</target>
+      </trans-unit>
+      <trans-unit id="6313973c0ae52c488c6d05b975f2df27776c58ed" resname="app_redirects_redirect4_3">
+        <source>/oferta</source>
+        <target state="new">/oferta</target>
+      </trans-unit>
+      <trans-unit id="e2623d0f832ecaea726eaa1399ec30b83798b993" resname="app_redirects_redirect4_4">
+        <source>/oferta/magento</source>
+        <target state="new">/oferta/magento</target>
+      </trans-unit>
+      <trans-unit id="8c5d8f126bc35d65862cc893053cb4273f4c5448" resname="app_redirects_redirect4_5">
+        <source>/oferta/magento/pozostale</source>
+        <target state="new">/oferta/magento/pozostale</target>
+      </trans-unit>
+      <trans-unit id="909b264929fa46d6bc4b43299b477a348cc1fcb4" resname="app_redirects_redirect5">
+        <source>/offer/search-engine-optimalisation</source>
+        <target state="new">/offer/search-engine-optimalisation</target>
+      </trans-unit>
+      <trans-unit id="1c59cd1d003ab068ceef35d9d8d231f8530868a6" resname="app_redirects_redirect5_1">
+        <source>/offer/webpages/webdevelopment</source>
+        <target state="new">/offer/webpages/webdevelopment</target>
+      </trans-unit>
+      <trans-unit id="96afc7d3023bf5638654001f99a615c79f06f719" resname="app_redirects_redirect5_2">
+        <source>/offer/websao</source>
+        <target state="new">/offer/websao</target>
+      </trans-unit>
+      <trans-unit id="b164b95d7942e01a28e1c5592719bbec8718b145" resname="app_redirects_redirect6">
+        <source>/offer/webpages</source>
+        <target state="new">/offer/webpages</target>
+      </trans-unit>
+      <trans-unit id="265c95d6f4f1558fa57a6cb0ea3aadc7cea8277d" resname="app_redirects_redirect6_1">
+        <source>/offer/webpages/projectsportals</source>
+        <target state="new">/offer/webpages/projectsportals</target>
+      </trans-unit>
+      <trans-unit id="d9cf6d7891d35125f7f48ebc57fe85d7188c56d6" resname="app_redirects_redirect6_2">
+        <source>/offer/webpages/websites</source>
+        <target state="new">/offer/webpages/websites</target>
+      </trans-unit>
+      <trans-unit id="4d756da7093c2b645a97d0226c818d01f4986956" resname="app_redirects_redirect6_3">
+        <source>/oferta/strony-i-serwisy</source>
+        <target state="new">/oferta/strony-i-serwisy</target>
+      </trans-unit>
+      <trans-unit id="aa72f684dc4a5d0ba28eef8a350997cfba8862d3" resname="app_redirects_redirect6_4">
+        <source>/oferta/strony-i-serwisy/strony-internetowe</source>
+        <target state="new">/oferta/strony-i-serwisy/strony-internetowe</target>
+      </trans-unit>
+      <trans-unit id="09d5d8181b49f758ad28bcc96de8a6e541f64247" resname="app_redirects_redirect6_5">
+        <source>/oferta/strony-i-serwisy/serwisy-internetowe</source>
+        <target state="new">/oferta/strony-i-serwisy/serwisy-internetowe</target>
+      </trans-unit>
+      <trans-unit id="ce444425df29903cd91b4949dc9986d3b2478d4f" resname="app_redirects_redirect7">
+        <source>/realizations/da-de-la-independncia</source>
+        <target state="new">/realizations/da-de-la-independncia</target>
+      </trans-unit>
+      <trans-unit id="def2e663d037dc091dd5d876496dc71fd27e6cca" resname="app_redirects_redirect7_1">
+        <source>/realizations/yasumi-epil2</source>
+        <target state="new">/realizations/yasumi-epil2</target>
+      </trans-unit>
+      <trans-unit id="0c5a6cf8c9e5bbd0c4518517420d44d7fce9c39b" resname="app_redirects_redirect7_10">
+        <source>/realizations/zoio</source>
+        <target state="new">/realizations/zoio</target>
+      </trans-unit>
+      <trans-unit id="389fdfc1e7c96efc3db6092ca081778c99a14430" resname="app_redirects_redirect7_100">
+        <source>/realization/strony-internetowe/scienceshipcom</source>
+        <target state="new">/realization/strony-internetowe/scienceshipcom</target>
+      </trans-unit>
+      <trans-unit id="63a50c951f3edd7f8b14f112d4a962e94be6b058" resname="app_redirects_redirect7_101">
+        <source>/realization/strony-internetowe/yorknetpl</source>
+        <target state="new">/realization/strony-internetowe/yorknetpl</target>
+      </trans-unit>
+      <trans-unit id="da88304c43a139b7958bee5a369785d33d650ae6" resname="app_redirects_redirect7_102">
+        <source>/realization/strony-internetowe/zaremba-store</source>
+        <target state="new">/realization/strony-internetowe/zaremba-store</target>
+      </trans-unit>
+      <trans-unit id="12efae54f5b4d487ecead5a710424da434832f97" resname="app_redirects_redirect7_103">
+        <source>/realization/strony-internetowe/nickel-design2</source>
+        <target state="new">/realization/strony-internetowe/nickel-design2</target>
+      </trans-unit>
+      <trans-unit id="df65b141a50f15191255a268e0cc1af531e6cd94" resname="app_redirects_redirect7_104">
+        <source>/realization/strony-internetowe/akademia-nutricia</source>
+        <target state="new">/realization/strony-internetowe/akademia-nutricia</target>
+      </trans-unit>
+      <trans-unit id="e6407b36dc5ab1bb399cb9ea92fc728013514189" resname="app_redirects_redirect7_105">
+        <source>/realization/strony-internetowe/zoio</source>
+        <target state="new">/realization/strony-internetowe/zoio</target>
+      </trans-unit>
+      <trans-unit id="31143d7b97fa726aba4ca706e9b9b1f9736dea45" resname="app_redirects_redirect7_106">
+        <source>/realization/projekty-logo/wyrazownia</source>
+        <target state="new">/realization/projekty-logo/wyrazownia</target>
+      </trans-unit>
+      <trans-unit id="2567a696c02e914e8f0872d191ee17d3b1e583de" resname="app_redirects_redirect7_107">
+        <source>/realization/projekty-logo/well-group</source>
+        <target state="new">/realization/projekty-logo/well-group</target>
+      </trans-unit>
+      <trans-unit id="27f654adaba756c920cbc4843384ca34301c0f76" resname="app_redirects_redirect7_108">
+        <source>/realization/projekty-logo/pse</source>
+        <target state="new">/realization/projekty-logo/pse</target>
+      </trans-unit>
+      <trans-unit id="a18838c6cdf4498ca6792ba43fba3da57ed20741" resname="app_redirects_redirect7_109">
+        <source>/realization/projekty-logo/prizenoid</source>
+        <target state="new">/realization/projekty-logo/prizenoid</target>
+      </trans-unit>
+      <trans-unit id="84d6a8ef15508535243ec72777e6a011602ba764" resname="app_redirects_redirect7_11">
+        <source>/realizations/i-know-what-i-eat-mobile-app-rwd</source>
+        <target state="new">/realizations/i-know-what-i-eat-mobile-app-rwd</target>
+      </trans-unit>
+      <trans-unit id="68d08ea9fa4446bcc4942b5fee545fc04cd15e01" resname="app_redirects_redirect7_110">
+        <source>/realization/gry-i-aplikacje/da-de-la-independncia</source>
+        <target state="new">/realization/gry-i-aplikacje/da-de-la-independncia</target>
+      </trans-unit>
+      <trans-unit id="7cce411f27214c4060383c49f50855740054ee1c" resname="app_redirects_redirect7_111">
+        <source>/realization/gry-i-aplikacje/zentiva-aplikacja-mobilna</source>
+        <target state="new">/realization/gry-i-aplikacje/zentiva-aplikacja-mobilna</target>
+      </trans-unit>
+      <trans-unit id="4c08496eaf8403b62f7ca03b2ece00dd19b1757a" resname="app_redirects_redirect7_112">
+        <source>/realization/gry-i-aplikacje/qubus-hotel-memory-game</source>
+        <target state="new">/realization/gry-i-aplikacje/qubus-hotel-memory-game</target>
+      </trans-unit>
+      <trans-unit id="5b49acebe1cdd3cfa17ac616360bd6c27bcb3f6b" resname="app_redirects_redirect7_113">
+        <source>/realization/gry-i-aplikacje/zak</source>
+        <target state="new">/realization/gry-i-aplikacje/zak</target>
+      </trans-unit>
+      <trans-unit id="9eadafd45289f60a339b8cca7373f0e9dc1fd224" resname="app_redirects_redirect7_114">
+        <source>/realization/gry-i-aplikacje/firelli</source>
+        <target state="new">/realization/gry-i-aplikacje/firelli</target>
+      </trans-unit>
+      <trans-unit id="cafda46dfa7789bc1a2fc8d025bb00ff35eb8115" resname="app_redirects_redirect7_115">
+        <source>/realization/gry-i-aplikacje/super-przedsiebiorca</source>
+        <target state="new">/realization/gry-i-aplikacje/super-przedsiebiorca</target>
+      </trans-unit>
+      <trans-unit id="2b09c39c4598d699dccd598d906ec6b321adea8f" resname="app_redirects_redirect7_116">
+        <source>/realization/gry-i-aplikacje/coolturovo</source>
+        <target state="new">/realization/gry-i-aplikacje/coolturovo</target>
+      </trans-unit>
+      <trans-unit id="8b09be9eaa5943151bc0f2fbc0e9d3ebf49036a0" resname="app_redirects_redirect7_117">
+        <source>/realization/gry-i-aplikacje/gry-na-kase</source>
+        <target state="new">/realization/gry-i-aplikacje/gry-na-kase</target>
+      </trans-unit>
+      <trans-unit id="965770cf5ce65472c996ceaecbe23c01d57b1110" resname="app_redirects_redirect7_118">
+        <source>/realization/gry-i-aplikacje/zloty-orkisz</source>
+        <target state="new">/realization/gry-i-aplikacje/zloty-orkisz</target>
+      </trans-unit>
+      <trans-unit id="5d5b901452cdaaa4e6ae815ed511e68a000082ef" resname="app_redirects_redirect7_119">
+        <source>/realization/gry-i-aplikacje/fun-fair</source>
+        <target state="new">/realization/gry-i-aplikacje/fun-fair</target>
+      </trans-unit>
+      <trans-unit id="756ae6996cdffa4c1ea0b5c6c6367a08dc6fc7d1" resname="app_redirects_redirect7_12">
+        <source>/realizations/provita-me-magento-ecommerce</source>
+        <target state="new">/realizations/provita-me-magento-ecommerce</target>
+      </trans-unit>
+      <trans-unit id="ca0d83f3db33020aa4d19f7d35d292778c7f748d" resname="app_redirects_redirect7_120">
+        <source>/realization/gry-i-aplikacje/air-ball</source>
+        <target state="new">/realization/gry-i-aplikacje/air-ball</target>
+      </trans-unit>
+      <trans-unit id="946212e5d3b5ddef9dee8c0422aa966a6e4179c0" resname="app_redirects_redirect7_121">
+        <source>/realization/gry-i-aplikacje/popgirl</source>
+        <target state="new">/realization/gry-i-aplikacje/popgirl</target>
+      </trans-unit>
+      <trans-unit id="380eb487a5b18fdf8a6a4b107d0df15956feccc7" resname="app_redirects_redirect7_122">
+        <source>/realization/zoio</source>
+        <target state="new">/realization/zoio</target>
+      </trans-unit>
+      <trans-unit id="aee11751a5df7d6724ba096cbe665559736d8f77" resname="app_redirects_redirect7_123">
+        <source>/realization/i-know-what-i-eat-mobile-app-rwd</source>
+        <target state="new">/realization/i-know-what-i-eat-mobile-app-rwd</target>
+      </trans-unit>
+      <trans-unit id="0b955e5ab87abaf65106209c7f080a2578742e97" resname="app_redirects_redirect7_124">
+        <source>/realization/provita-me-magento-ecommerce</source>
+        <target state="new">/realization/provita-me-magento-ecommerce</target>
+      </trans-unit>
+      <trans-unit id="0e0f2905e8d5647bdd9bde4e660a5a857b24c5b7" resname="app_redirects_redirect7_125">
+        <source>/realization/ims-med</source>
+        <target state="new">/realization/ims-med</target>
+      </trans-unit>
+      <trans-unit id="4f0b9886a64ec40427ff32b2c0f2e2130593f284" resname="app_redirects_redirect7_126">
+        <source>/realization/ecolight-magento</source>
+        <target state="new">/realization/ecolight-magento</target>
+      </trans-unit>
+      <trans-unit id="32e8ffbca0624bc9e874e04ff4fab6c8ee99cdfd" resname="app_redirects_redirect7_127">
+        <source>/realization/platforma-edukacyjna-dla-starszych2</source>
+        <target state="new">/realization/platforma-edukacyjna-dla-starszych2</target>
+      </trans-unit>
+      <trans-unit id="3e87979afcbff4ebbc359e035628a4ea0f5bb02a" resname="app_redirects_redirect7_128">
+        <source>/realization/gb-architekt1</source>
+        <target state="new">/realization/gb-architekt1</target>
+      </trans-unit>
+      <trans-unit id="90f4409ec9a91699a1da88e5a7f3818704a7fbd9" resname="app_redirects_redirect7_129">
+        <source>/realization/platforma-edukacyjna-dla-dzieci1</source>
+        <target state="new">/realization/platforma-edukacyjna-dla-dzieci1</target>
+      </trans-unit>
+      <trans-unit id="1861a1ecfcd72693f587a0bd53c82adcb9293d21" resname="app_redirects_redirect7_13">
+        <source>/realizations/ecolight-magento</source>
+        <target state="new">/realizations/ecolight-magento</target>
+      </trans-unit>
+      <trans-unit id="f3fbb3b6101967265694229422cdb81ee6774a9b" resname="app_redirects_redirect7_130">
+        <source>/realization/bezglutenowy-swiat-sote1</source>
+        <target state="new">/realization/bezglutenowy-swiat-sote1</target>
+      </trans-unit>
+      <trans-unit id="4580d7cdea24b20d72b82dd39ca81b7f79bae588" resname="app_redirects_redirect7_131">
+        <source>/realization/zentiva-aplikacja-mobilna</source>
+        <target state="new">/realization/zentiva-aplikacja-mobilna</target>
+      </trans-unit>
+      <trans-unit id="0551bf6ac4a1e88364fa164addb30dadf2878ecf" resname="app_redirects_redirect7_132">
+        <source>/realization/fun-fair</source>
+        <target state="new">/realization/fun-fair</target>
+      </trans-unit>
+      <trans-unit id="1289e2ef4c19b08fef62f7b69f05542076d176d4" resname="app_redirects_redirect7_133">
+        <source>/realization/air-ball</source>
+        <target state="new">/realization/air-ball</target>
+      </trans-unit>
+      <trans-unit id="65bed29dd7c8da61da585c520a50bac72d7370e4" resname="app_redirects_redirect7_134">
+        <source>/realization/popgirl</source>
+        <target state="new">/realization/popgirl</target>
+      </trans-unit>
+      <trans-unit id="531f7e03622a3c0c63a47c1c8b39c4583ca31c55" resname="app_redirects_redirect7_135">
+        <source>/realization/akademia-policyjna</source>
+        <target state="new">/realization/akademia-policyjna</target>
+      </trans-unit>
+      <trans-unit id="19fa0cb719091c3349895fc2917857ec5427fc3c" resname="app_redirects_redirect7_136">
+        <source>/realization/prizenoid</source>
+        <target state="new">/realization/prizenoid</target>
+      </trans-unit>
+      <trans-unit id="885dcf77ad01432f1df4b4844cb56da47d022644" resname="app_redirects_redirect7_137">
+        <source>/realization/caveman</source>
+        <target state="new">/realization/caveman</target>
+      </trans-unit>
+      <trans-unit id="11ee026db852a975a4affeaf5e2fd768a8b8123e" resname="app_redirects_redirect7_138">
+        <source>/realization/the-carphone-warehouse</source>
+        <target state="new">/realization/the-carphone-warehouse</target>
+      </trans-unit>
+      <trans-unit id="7d81fafafa9a62f4b890aa5954a50365a2ec14b0" resname="app_redirects_redirect7_139">
+        <source>/realization/green-day</source>
+        <target state="new">/realization/green-day</target>
+      </trans-unit>
+      <trans-unit id="c20fe96f6aa2895b112a54b327ce2ae74ebfd410" resname="app_redirects_redirect7_14">
+        <source>/realizations/platforma-edukacyjna-dla-starszych2</source>
+        <target state="new">/realizations/platforma-edukacyjna-dla-starszych2</target>
+      </trans-unit>
+      <trans-unit id="be733891b39bca51e934cc9f79ba97788407b652" resname="app_redirects_redirect7_140">
+        <source>/realization/hearts-and-minds</source>
+        <target state="new">/realization/hearts-and-minds</target>
+      </trans-unit>
+      <trans-unit id="c875292738cef8350b02be95578eec54644ac302" resname="app_redirects_redirect7_141">
+        <source>/realization/strony-internetowe/i-know-what-i-eat-mobile-app-rwd</source>
+        <target state="new">/realization/strony-internetowe/i-know-what-i-eat-mobile-app-rwd</target>
+      </trans-unit>
+      <trans-unit id="6d45e661518903ee0370057b88425aec1ef3a68e" resname="app_redirects_redirect7_142">
+        <source>/realization/strony-internetowe/provita-me-magento-ecommerce</source>
+        <target state="new">/realization/strony-internetowe/provita-me-magento-ecommerce</target>
+      </trans-unit>
+      <trans-unit id="41dd0c35eedf99c47921db4026374668e2a8a494" resname="app_redirects_redirect7_143">
+        <source>/realization/strony-internetowe/ims-med</source>
+        <target state="new">/realization/strony-internetowe/ims-med</target>
+      </trans-unit>
+      <trans-unit id="9135198a210031723a844038e323315f0d61d9f5" resname="app_redirects_redirect7_144">
+        <source>/realization/strony-internetowe/ecolight-magento</source>
+        <target state="new">/realization/strony-internetowe/ecolight-magento</target>
+      </trans-unit>
+      <trans-unit id="a2e8cba7d41459e8865e2deff8feb54ed8dc373f" resname="app_redirects_redirect7_145">
+        <source>/realization/strony-internetowe/platforma-edukacyjna-dla-starszych2</source>
+        <target state="new">/realization/strony-internetowe/platforma-edukacyjna-dla-starszych2</target>
+      </trans-unit>
+      <trans-unit id="54e35d1a32633f7ee00489ffe8e7d6c458fa4ada" resname="app_redirects_redirect7_146">
+        <source>/realization/strony-internetowe/gb-architekt1</source>
+        <target state="new">/realization/strony-internetowe/gb-architekt1</target>
+      </trans-unit>
+      <trans-unit id="89ee33e700e02b7db3fa37633714b9e71daaff3d" resname="app_redirects_redirect7_147">
+        <source>/realization/strony-internetowe/platforma-edukacyjna-dla-dzieci1</source>
+        <target state="new">/realization/strony-internetowe/platforma-edukacyjna-dla-dzieci1</target>
+      </trans-unit>
+      <trans-unit id="406a8846f5cccb2219e21e05c2f5dfa54a51f3cc" resname="app_redirects_redirect7_148">
+        <source>/realization/strony-internetowe/bezglutenowy-swiat-sote1</source>
+        <target state="new">/realization/strony-internetowe/bezglutenowy-swiat-sote1</target>
+      </trans-unit>
+      <trans-unit id="ea569e48a7fae8f6b8a933037efb55707eef10bf" resname="app_redirects_redirect7_149">
+        <source>/realization/strony-internetowe/polska-szkola-echokardiografii1</source>
+        <target state="new">/realization/strony-internetowe/polska-szkola-echokardiografii1</target>
+      </trans-unit>
+      <trans-unit id="ccb4164fc64f52a407c814a8727ad9bb3f09d8fe" resname="app_redirects_redirect7_15">
+        <source>/realizations/gb-architekt1</source>
+        <target state="new">/realizations/gb-architekt1</target>
+      </trans-unit>
+      <trans-unit id="82e233408f1f0112aaf5cff58fafdfb6ee5d2270" resname="app_redirects_redirect7_150">
+        <source>/realization/strony-internetowe/nickel-dom2</source>
+        <target state="new">/realization/strony-internetowe/nickel-dom2</target>
+      </trans-unit>
+      <trans-unit id="314fa5ff5b07238351f324a760a5c2f858b89b60" resname="app_redirects_redirect7_151">
+        <source>/realization/strony-internetowe/nickel-design1</source>
+        <target state="new">/realization/strony-internetowe/nickel-design1</target>
+      </trans-unit>
+      <trans-unit id="7a218e510e346035c279bb82b26b40b4b0bd1b7a" resname="app_redirects_redirect7_152">
+        <source>/realization/strony-internetowe/wyrazownia1</source>
+        <target state="new">/realization/strony-internetowe/wyrazownia1</target>
+      </trans-unit>
+      <trans-unit id="13facded9a4e238a1c57eccd5c75831a08d546f4" resname="app_redirects_redirect7_153">
+        <source>/realization/strony-internetowe/optico1</source>
+        <target state="new">/realization/strony-internetowe/optico1</target>
+      </trans-unit>
+      <trans-unit id="1b8e1b5df600166eeeb1fa2f5b5019cf2e9feaab" resname="app_redirects_redirect7_154">
+        <source>/realization/strony-internetowe/rm-legal</source>
+        <target state="new">/realization/strony-internetowe/rm-legal</target>
+      </trans-unit>
+      <trans-unit id="79308eed45dec192bba13beb1864a26dcef7ac34" resname="app_redirects_redirect7_155">
+        <source>/realization/strony-internetowe/eco-light1</source>
+        <target state="new">/realization/strony-internetowe/eco-light1</target>
+      </trans-unit>
+      <trans-unit id="2d8a5b8e404541eb4e5415cf9380a00dac12503b" resname="app_redirects_redirect7_156">
+        <source>/realization/strony-internetowe/muzeum-fotografii-kalisza1</source>
+        <target state="new">/realization/strony-internetowe/muzeum-fotografii-kalisza1</target>
+      </trans-unit>
+      <trans-unit id="1456b9aa955148ef32ca4573d2b4a2a8d91d8fec" resname="app_redirects_redirect7_157">
+        <source>/realization/strony-internetowe/kamyk2</source>
+        <target state="new">/realization/strony-internetowe/kamyk2</target>
+      </trans-unit>
+      <trans-unit id="083152cb900cd28d15003ab71a0f3058bf288ba6" resname="app_redirects_redirect7_158">
+        <source>/realization/strony-internetowe/schodolaz-magento-ce1</source>
+        <target state="new">/realization/strony-internetowe/schodolaz-magento-ce1</target>
+      </trans-unit>
+      <trans-unit id="81fb562cbccf747a57c52c1d25ea8d6c61023883" resname="app_redirects_redirect7_159">
+        <source>/realization/strony-internetowe/tlen-dla-aktywnych-magento-ce1</source>
+        <target state="new">/realization/strony-internetowe/tlen-dla-aktywnych-magento-ce1</target>
+      </trans-unit>
+      <trans-unit id="7ca3b40d136ce5569643b6c5fb4fdeeba05e2338" resname="app_redirects_redirect7_16">
+        <source>/realizations/platforma-edukacyjna-dla-dzieci1</source>
+        <target state="new">/realizations/platforma-edukacyjna-dla-dzieci1</target>
+      </trans-unit>
+      <trans-unit id="3988cfe2aab2c40630ddcc48daaac0d430a7093a" resname="app_redirects_redirect7_160">
+        <source>/realization/strony-internetowe/gry-na-kase1</source>
+        <target state="new">/realization/strony-internetowe/gry-na-kase1</target>
+      </trans-unit>
+      <trans-unit id="f55f05477b74929df88b1329ee22082bdf3c317a" resname="app_redirects_redirect7_161">
+        <source>/realization/gry-i-aplikacje/akademia-policyjna</source>
+        <target state="new">/realization/gry-i-aplikacje/akademia-policyjna</target>
+      </trans-unit>
+      <trans-unit id="5e6e1eb5a6b01305cb93fc813490187179a1a474" resname="app_redirects_redirect7_162">
+        <source>/realization/gry-i-aplikacje/caveman</source>
+        <target state="new">/realization/gry-i-aplikacje/caveman</target>
+      </trans-unit>
+      <trans-unit id="b10b23546d742debba6f5b608a3c875b95724584" resname="app_redirects_redirect7_163">
+        <source>/realization/gry-i-aplikacje/pet-parlour</source>
+        <target state="new">/realization/gry-i-aplikacje/pet-parlour</target>
+      </trans-unit>
+      <trans-unit id="8ed68e755172e81173721b1f9deaa9ec16cfbaa5" resname="app_redirects_redirect7_164">
+        <source>/portfolio/klienci</source>
+        <target state="new">/portfolio/klienci</target>
+      </trans-unit>
+      <trans-unit id="8bd4c01bb843ba63e1e93c8b2b5c7666a606f99a" resname="app_redirects_redirect7_165">
+        <source>/portfolio/referencje</source>
+        <target state="new">/portfolio/referencje</target>
+      </trans-unit>
+      <trans-unit id="c62fb824db4bdaa25bcceefd8960b89e46a47ee5" resname="app_redirects_redirect7_166">
+        <source>/portfolio/studium-przypadku/{page}</source>
+        <target state="new">/portfolio/studium-przypadku/{page}</target>
+      </trans-unit>
+      <trans-unit id="9c9f492e8c18b39a314b648a1eabe02974271d81" resname="app_redirects_redirect7_167">
+        <source>/realizacje/{page}</source>
+        <target state="new">/realizacje/{page}</target>
+      </trans-unit>
+      <trans-unit id="b23ed9ced97c5d89c2064af24c013be5a7e3851f" resname="app_redirects_redirect7_168">
+        <source>/realizacje/strony-internetowe/{page}</source>
+        <target state="new">/realizacje/strony-internetowe/{page}</target>
+      </trans-unit>
+      <trans-unit id="2dbbd9a2f706322e793f57cbb6ea851c4ab57e70" resname="app_redirects_redirect7_169">
+        <source>/realizacje/gry-i-aplikacje/{page}</source>
+        <target state="new">/realizacje/gry-i-aplikacje/{page}</target>
+      </trans-unit>
+      <trans-unit id="8e826efb45a12407e32867ab2c428bb65c8d599c" resname="app_redirects_redirect7_17">
+        <source>/realizations/bezglutenowy-swiat-sote1</source>
+        <target state="new">/realizations/bezglutenowy-swiat-sote1</target>
+      </trans-unit>
+      <trans-unit id="558eb3271de4dfd94ce29050c4c486c99b0ba36c" resname="app_redirects_redirect7_170">
+        <source>/realizacje/projekty-logo/{page}</source>
+        <target state="new">/realizacje/projekty-logo/{page}</target>
+      </trans-unit>
+      <trans-unit id="dbb3af4122b7224f56d2fe118b79faca080c78d9" resname="app_redirects_redirect7_171">
+        <source>/realizacje//1</source>
+        <target state="new">/realizacje//1</target>
+      </trans-unit>
+      <trans-unit id="f922d5af3607e9dbb3558ee9da28d3fd9c1e22a9" resname="app_redirects_redirect7_18">
+        <source>/realizations/zentiva-aplikacja-mobilna</source>
+        <target state="new">/realizations/zentiva-aplikacja-mobilna</target>
+      </trans-unit>
+      <trans-unit id="683e317315113d0471f1e00dd3ea3a79883f6a7d" resname="app_redirects_redirect7_19">
+        <source>/realizations/polska-szkola-echokardiografii1</source>
+        <target state="new">/realizations/polska-szkola-echokardiografii1</target>
+      </trans-unit>
+      <trans-unit id="f31fae1e548b6058b08f5f7c344f5a25a12196d4" resname="app_redirects_redirect7_2">
+        <source>/realizations/yasumi</source>
+        <target state="new">/realizations/yasumi</target>
+      </trans-unit>
+      <trans-unit id="1a5c9843919a09f56ca1c1cbcf5ebfbef20bd850" resname="app_redirects_redirect7_20">
+        <source>/realizations/nickel-dom2</source>
+        <target state="new">/realizations/nickel-dom2</target>
+      </trans-unit>
+      <trans-unit id="e2b275b9efc90f69f8e493eb513be7adc9b40157" resname="app_redirects_redirect7_21">
+        <source>/realizations/nickel-design1</source>
+        <target state="new">/realizations/nickel-design1</target>
+      </trans-unit>
+      <trans-unit id="f9e333ae5f8e60ac714c89da2b12ab1247b9e876" resname="app_redirects_redirect7_22">
+        <source>/realizations/wyrazownia1</source>
+        <target state="new">/realizations/wyrazownia1</target>
+      </trans-unit>
+      <trans-unit id="2862b52fc85956e04e041aeca89360b688fa77c6" resname="app_redirects_redirect7_23">
+        <source>/realizations/qubus-hotel-memory-game</source>
+        <target state="new">/realizations/qubus-hotel-memory-game</target>
+      </trans-unit>
+      <trans-unit id="f0670e533149eecb16802a0a7a3bdba21998ffbc" resname="app_redirects_redirect7_24">
+        <source>/realizations/optico1</source>
+        <target state="new">/realizations/optico1</target>
+      </trans-unit>
+      <trans-unit id="2bfba77bf2c3750b691f914fef43d48cce742c7f" resname="app_redirects_redirect7_25">
+        <source>/realizations/zak</source>
+        <target state="new">/realizations/zak</target>
+      </trans-unit>
+      <trans-unit id="902859faa91e96bc5db7095038e4969dddebca62" resname="app_redirects_redirect7_26">
+        <source>/realizations/rm-legal</source>
+        <target state="new">/realizations/rm-legal</target>
+      </trans-unit>
+      <trans-unit id="86f275d3278aec78d29178522d721844bd74b625" resname="app_redirects_redirect7_27">
+        <source>/realizations/eco-light1</source>
+        <target state="new">/realizations/eco-light1</target>
+      </trans-unit>
+      <trans-unit id="095e6acf5acf2ae7f5ab7a68231c990213cad772" resname="app_redirects_redirect7_28">
+        <source>/realizations/muzeum-fotografii-kalisza1</source>
+        <target state="new">/realizations/muzeum-fotografii-kalisza1</target>
+      </trans-unit>
+      <trans-unit id="63f2ec4bdd4709270f6f7b07d659ff0031b8f2c7" resname="app_redirects_redirect7_29">
+        <source>/realizations/kamyk2</source>
+        <target state="new">/realizations/kamyk2</target>
+      </trans-unit>
+      <trans-unit id="511368a9153385f7c322b3787e39c0dfc4a884c9" resname="app_redirects_redirect7_3">
+        <source>/realizations/readymadecompanycom</source>
+        <target state="new">/realizations/readymadecompanycom</target>
+      </trans-unit>
+      <trans-unit id="69251c1561458336ce966b5036dceabb9a1c7fee" resname="app_redirects_redirect7_30">
+        <source>/realizations/schodolaz-magento-ce1</source>
+        <target state="new">/realizations/schodolaz-magento-ce1</target>
+      </trans-unit>
+      <trans-unit id="f748171638f40101cdf87773822e91996dec5c6c" resname="app_redirects_redirect7_31">
+        <source>/realizations/tlen-dla-aktywnych-magento-ce1</source>
+        <target state="new">/realizations/tlen-dla-aktywnych-magento-ce1</target>
+      </trans-unit>
+      <trans-unit id="05bd3364dc0759269cca3d1c64a3674542cb0826" resname="app_redirects_redirect7_32">
+        <source>/realizations/firelli</source>
+        <target state="new">/realizations/firelli</target>
+      </trans-unit>
+      <trans-unit id="421e7a094144157f70536c91ad1e6333d7198d94" resname="app_redirects_redirect7_33">
+        <source>/realizations/gry-na-kase1</source>
+        <target state="new">/realizations/gry-na-kase1</target>
+      </trans-unit>
+      <trans-unit id="4137c4c6d9dba5ff1ddfdb7140708ae51372dee6" resname="app_redirects_redirect7_34">
+        <source>/realizations/super-przedsiebiorca</source>
+        <target state="new">/realizations/super-przedsiebiorca</target>
+      </trans-unit>
+      <trans-unit id="f3d56af50166b1e958bdc17bec52b83bd26a2dda" resname="app_redirects_redirect7_35">
+        <source>/realizations/yasumi-epil</source>
+        <target state="new">/realizations/yasumi-epil</target>
+      </trans-unit>
+      <trans-unit id="3e85c09234b8344310758eb9607bfa2871ea5bd2" resname="app_redirects_redirect7_36">
+        <source>/realizations/coolturovo</source>
+        <target state="new">/realizations/coolturovo</target>
+      </trans-unit>
+      <trans-unit id="c25c74084e368b7a82dd5edf87a9552deceda7b1" resname="app_redirects_redirect7_37">
+        <source>/realizations/gry-na-kase</source>
+        <target state="new">/realizations/gry-na-kase</target>
+      </trans-unit>
+      <trans-unit id="880483264362488b016f49ffafe15ba99f7cad82" resname="app_redirects_redirect7_38">
+        <source>/realizations/wyrazownia</source>
+        <target state="new">/realizations/wyrazownia</target>
+      </trans-unit>
+      <trans-unit id="129ec21f5378d46801028facfe046b7eaebe9475" resname="app_redirects_redirect7_39">
+        <source>/realization/well-group</source>
+        <target state="new">/realization/well-group</target>
+      </trans-unit>
+      <trans-unit id="60f96ea0530aec0dddfb7f69cf94e1f2419eab59" resname="app_redirects_redirect7_4">
+        <source>/realizations/accountingservicespl</source>
+        <target state="new">/realizations/accountingservicespl</target>
+      </trans-unit>
+      <trans-unit id="b3c3fc12fb2b05ddaadd975dc212665115bd0b8e" resname="app_redirects_redirect7_40">
+        <source>/realization/pse</source>
+        <target state="new">/realization/pse</target>
+      </trans-unit>
+      <trans-unit id="09d274404ac0eb611059da49ff5424349e30cb4a" resname="app_redirects_redirect7_41">
+        <source>/realization/zloty-orkisz</source>
+        <target state="new">/realization/zloty-orkisz</target>
+      </trans-unit>
+      <trans-unit id="d8680ea087e642e934de2e3e860ec701f182d4b8" resname="app_redirects_redirect7_42">
+        <source>/realization/e24-cloud</source>
+        <target state="new">/realization/e24-cloud</target>
+      </trans-unit>
+      <trans-unit id="76ff68f40d5f68e354e98f964df61c333e704729" resname="app_redirects_redirect7_43">
+        <source>/realization/fun-fair</source>
+        <target state="new">/realization/fun-fair</target>
+      </trans-unit>
+      <trans-unit id="c6390db0880ff612306ea53d16aac1e6bedc70e5" resname="app_redirects_redirect7_44">
+        <source>/realization/air-ball</source>
+        <target state="new">/realization/air-ball</target>
+      </trans-unit>
+      <trans-unit id="214774d49ea10beb92a09140fafdda16e6436b10" resname="app_redirects_redirect7_45">
+        <source>/realization/popgirl</source>
+        <target state="new">/realization/popgirl</target>
+      </trans-unit>
+      <trans-unit id="21aaf7e5551490074b75bef94c2b1bb30b737cd6" resname="app_redirects_redirect7_46">
+        <source>/realization/akademia-policyjna</source>
+        <target state="new">/realization/akademia-policyjna</target>
+      </trans-unit>
+      <trans-unit id="df06fed33ee56ea0d88c8644105db64c9ce785d6" resname="app_redirects_redirect7_47">
+        <source>/realization/prizenoid</source>
+        <target state="new">/realization/prizenoid</target>
+      </trans-unit>
+      <trans-unit id="000b47c38dd5472facdaa9a6536bd63934b3e1e1" resname="app_redirects_redirect7_48">
+        <source>/realization/caveman</source>
+        <target state="new">/realization/caveman</target>
+      </trans-unit>
+      <trans-unit id="d860d7dfef2ec98b89d2614b1bc38caf456b3ba6" resname="app_redirects_redirect7_49">
+        <source>/realization/the-carphone-warehouse</source>
+        <target state="new">/realization/the-carphone-warehouse</target>
+      </trans-unit>
+      <trans-unit id="2ad4610bb348563316eb9893a80a34f1e23af7bc" resname="app_redirects_redirect7_5">
+        <source>/realizations/scienceshipcom</source>
+        <target state="new">/realizations/scienceshipcom</target>
+      </trans-unit>
+      <trans-unit id="55d6c878a3728954f3bad0fd2dfd5600412ef85d" resname="app_redirects_redirect7_50">
+        <source>/realization/green-day</source>
+        <target state="new">/realization/green-day</target>
+      </trans-unit>
+      <trans-unit id="03a9edff3b47f8705fef85100a47505e499d5c57" resname="app_redirects_redirect7_51">
+        <source>/realization/hearts-and-minds</source>
+        <target state="new">/realization/hearts-and-minds</target>
+      </trans-unit>
+      <trans-unit id="a5c970e3068765fea8707f16e95033f30d1c0700" resname="app_redirects_redirect7_52">
+        <source>/portfolio</source>
+        <target state="new">/portfolio</target>
+      </trans-unit>
+      <trans-unit id="4b5aca2ba9863219261e1b5e748a874b4299f1e4" resname="app_redirects_redirect7_53">
+        <source>/portfolio/customers</source>
+        <target state="new">/portfolio/customers</target>
+      </trans-unit>
+      <trans-unit id="cd56b6e3dd23e6048ad5c2915c517a9ac0202629" resname="app_redirects_redirect7_54">
+        <source>/portfolio/case-study</source>
+        <target state="new">/portfolio/case-study</target>
+      </trans-unit>
+      <trans-unit id="c07e921ea5866e5eac031f97b5fa52d03edd05c9" resname="app_redirects_redirect7_55">
+        <source>/realizations</source>
+        <target state="new">/realizations</target>
+      </trans-unit>
+      <trans-unit id="6a0d6aa8c68b3117b35360839c8acf00c9094d01" resname="app_redirects_redirect7_56">
+        <source>/portfolio/references</source>
+        <target state="new">/portfolio/references</target>
+      </trans-unit>
+      <trans-unit id="5e9e8b110ee1e662b4b5a110fa03088deae6b47d" resname="app_redirects_redirect7_57">
+        <source>/portfolio/case-study/{page}</source>
+        <target state="new">/portfolio/case-study/{page}</target>
+      </trans-unit>
+      <trans-unit id="81c06d961887eb0d31c945f3e9083d1986254604" resname="app_redirects_redirect7_58">
+        <source>/realization/{page}</source>
+        <target state="new">/realization/{page}</target>
+      </trans-unit>
+      <trans-unit id="dfd202a25c2b8d1adaee4f4e7b600bb84a61fd8b" resname="app_redirects_redirect7_59">
+        <source>/realization/webdevelopment/{page}</source>
+        <target state="new">/realization/webdevelopment/{page}</target>
+      </trans-unit>
+      <trans-unit id="2a16b0504eac830dca1e055c7702bcbd6c62aa67" resname="app_redirects_redirect7_6">
+        <source>/realizations/yorknetpl</source>
+        <target state="new">/realizations/yorknetpl</target>
+      </trans-unit>
+      <trans-unit id="5856e41746487cf7189fc96969bdb96a5cb40141" resname="app_redirects_redirect7_60">
+        <source>/realization/games-and-apps/{page}</source>
+        <target state="new">/realization/games-and-apps/{page}</target>
+      </trans-unit>
+      <trans-unit id="2ed234abcb225bd7e6c6da5ed699bbd8941398dc" resname="app_redirects_redirect7_61">
+        <source>/realization/logo-designs/{page}</source>
+        <target state="new">/realization/logo-designs/{page}</target>
+      </trans-unit>
+      <trans-unit id="29cc1c0043d5585d0374fec7f4f751d682baf0e1" resname="app_redirects_redirect7_62">
+        <source>/realization/da-de-la-independncia</source>
+        <target state="new">/realization/da-de-la-independncia</target>
+      </trans-unit>
+      <trans-unit id="8cf9a6a56952e1e3e5212b088ac10c8180373ed1" resname="app_redirects_redirect7_63">
+        <source>/realization/yasumi-epil2</source>
+        <target state="new">/realization/yasumi-epil2</target>
+      </trans-unit>
+      <trans-unit id="a2cb89639f35e54bad56350fc42b0e7f6a5a2cfc" resname="app_redirects_redirect7_64">
+        <source>/realization/yasumi</source>
+        <target state="new">/realization/yasumi</target>
+      </trans-unit>
+      <trans-unit id="78ffa02a3a960808af137fefc08c78550f2f1e7f" resname="app_redirects_redirect7_65">
+        <source>/realization/readymadecompanycom</source>
+        <target state="new">/realization/readymadecompanycom</target>
+      </trans-unit>
+      <trans-unit id="4fda1533066dbe917c1cbc90956ef76af3ed245b" resname="app_redirects_redirect7_66">
+        <source>/realization/accountingservicespl</source>
+        <target state="new">/realization/accountingservicespl</target>
+      </trans-unit>
+      <trans-unit id="86b9eb336cf94be0fdca11ca04d804d01350081c" resname="app_redirects_redirect7_67">
+        <source>/realization/scienceshipcom</source>
+        <target state="new">/realization/scienceshipcom</target>
+      </trans-unit>
+      <trans-unit id="d7210f1babdb80e303665ac1312eb743646deb10" resname="app_redirects_redirect7_68">
+        <source>/realization/yorknetpl</source>
+        <target state="new">/realization/yorknetpl</target>
+      </trans-unit>
+      <trans-unit id="53ae2689b9bc727c0a387a058d659557f3abe2c1" resname="app_redirects_redirect7_69">
+        <source>/realization/zaremba-store</source>
+        <target state="new">/realization/zaremba-store</target>
+      </trans-unit>
+      <trans-unit id="18ae02dfcc791342147f3c0e47114d7f7b187dd7" resname="app_redirects_redirect7_7">
+        <source>/realizations/zaremba-store</source>
+        <target state="new">/realizations/zaremba-store</target>
+      </trans-unit>
+      <trans-unit id="c5611020687b87ced96aa2ef4ec4c973de928896" resname="app_redirects_redirect7_70">
+        <source>/realization/nickel-design2</source>
+        <target state="new">/realization/nickel-design2</target>
+      </trans-unit>
+      <trans-unit id="b76a25ffe5ab07cfd4245abcecb47698fedf7596" resname="app_redirects_redirect7_71">
+        <source>/realization/akademia-nutricia</source>
+        <target state="new">/realization/akademia-nutricia</target>
+      </trans-unit>
+      <trans-unit id="6c515144909755d65a36bede5481c069cb33db21" resname="app_redirects_redirect7_72">
+        <source>/realization/polska-szkola-echokardiografii1</source>
+        <target state="new">/realization/polska-szkola-echokardiografii1</target>
+      </trans-unit>
+      <trans-unit id="94be73361854f5d60ed641022aa019b80251680e" resname="app_redirects_redirect7_73">
+        <source>/realization/nickel-dom2</source>
+        <target state="new">/realization/nickel-dom2</target>
+      </trans-unit>
+      <trans-unit id="7d195b849c7fc60307bfcf4e1e350c1ea824688e" resname="app_redirects_redirect7_74">
+        <source>/realization/nickel-design1</source>
+        <target state="new">/realization/nickel-design1</target>
+      </trans-unit>
+      <trans-unit id="c5b6195aaa9781b915365c3ed7aa688580e818d6" resname="app_redirects_redirect7_75">
+        <source>/realization/wyrazownia1</source>
+        <target state="new">/realization/wyrazownia1</target>
+      </trans-unit>
+      <trans-unit id="c9055cbcda8967fa5cdb5511965cd0c9bd7b3031" resname="app_redirects_redirect7_76">
+        <source>/realization/qubus-hotel-memory-game</source>
+        <target state="new">/realization/qubus-hotel-memory-game</target>
+      </trans-unit>
+      <trans-unit id="a94e1c748747e95e937eeff7ad427307ef0e856d" resname="app_redirects_redirect7_77">
+        <source>/realization/optico1</source>
+        <target state="new">/realization/optico1</target>
+      </trans-unit>
+      <trans-unit id="2d44b99e17fb4b9bd6ebe68ada3f68bc9aaad216" resname="app_redirects_redirect7_78">
+        <source>/realization/zak</source>
+        <target state="new">/realization/zak</target>
+      </trans-unit>
+      <trans-unit id="447b6bac8d6fcf903b0c3284c32a7ceaeb158515" resname="app_redirects_redirect7_79">
+        <source>/realization/rm-legal</source>
+        <target state="new">/realization/rm-legal</target>
+      </trans-unit>
+      <trans-unit id="0c0c055604086411e1b3b3df165d1cbbeab96ed4" resname="app_redirects_redirect7_8">
+        <source>/realizations/nickel-design2</source>
+        <target state="new">/realizations/nickel-design2</target>
+      </trans-unit>
+      <trans-unit id="e8dc7300302b753c858cb64a00e75203093cf6c6" resname="app_redirects_redirect7_80">
+        <source>/realization/eco-light1</source>
+        <target state="new">/realization/eco-light1</target>
+      </trans-unit>
+      <trans-unit id="2c34f981318ab844c11a4104a467cfbc44e94a42" resname="app_redirects_redirect7_81">
+        <source>/realization/muzeum-fotografii-kalisza1</source>
+        <target state="new">/realization/muzeum-fotografii-kalisza1</target>
+      </trans-unit>
+      <trans-unit id="d12f80a4b130a53f938a8fd5cee6d6041db41b6e" resname="app_redirects_redirect7_82">
+        <source>/realization/kamyk2</source>
+        <target state="new">/realization/kamyk2</target>
+      </trans-unit>
+      <trans-unit id="535d59c7ec2a748e4d9302fb56ae31cc3e7551c7" resname="app_redirects_redirect7_83">
+        <source>/realization/schodolaz-magento-ce1</source>
+        <target state="new">/realization/schodolaz-magento-ce1</target>
+      </trans-unit>
+      <trans-unit id="f2d343251f84095ecb0015269381bb0e43879610" resname="app_redirects_redirect7_84">
+        <source>/realization/tlen-dla-aktywnych-magento-ce1</source>
+        <target state="new">/realization/tlen-dla-aktywnych-magento-ce1</target>
+      </trans-unit>
+      <trans-unit id="1371f5a6906e13b3b29e65585252e3c75fcae613" resname="app_redirects_redirect7_85">
+        <source>/realization/firelli</source>
+        <target state="new">/realization/firelli</target>
+      </trans-unit>
+      <trans-unit id="facf0d34f39fc7c748842f216275b56ac0711314" resname="app_redirects_redirect7_86">
+        <source>/realization/gry-na-kase1</source>
+        <target state="new">/realization/gry-na-kase1</target>
+      </trans-unit>
+      <trans-unit id="77c679fbd1698d8b79ea10c1f93bc2e5071cad9c" resname="app_redirects_redirect7_87">
+        <source>/realization/super-przedsiebiorca</source>
+        <target state="new">/realization/super-przedsiebiorca</target>
+      </trans-unit>
+      <trans-unit id="cdd12dff859f33c964bc14ee8ff018bca5033ad6" resname="app_redirects_redirect7_88">
+        <source>/realization/yasumi-epil</source>
+        <target state="new">/realization/yasumi-epil</target>
+      </trans-unit>
+      <trans-unit id="6be4628b07bb3855e81d83afe59d94b4d94739d3" resname="app_redirects_redirect7_89">
+        <source>/realization/coolturovo</source>
+        <target state="new">/realization/coolturovo</target>
+      </trans-unit>
+      <trans-unit id="09fc1400d976ab1b135396a5c8ddc1bec17c775e" resname="app_redirects_redirect7_9">
+        <source>/realizations/akademia-nutricia</source>
+        <target state="new">/realizations/akademia-nutricia</target>
+      </trans-unit>
+      <trans-unit id="f0901bdad018a34744926081457c9e54b6ab8dbe" resname="app_redirects_redirect7_90">
+        <source>/realization/gry-na-kase</source>
+        <target state="new">/realization/gry-na-kase</target>
+      </trans-unit>
+      <trans-unit id="8020894777c865aacc0c0e92e83d3942380fecd8" resname="app_redirects_redirect7_91">
+        <source>/realization/wyrazownia</source>
+        <target state="new">/realization/wyrazownia</target>
+      </trans-unit>
+      <trans-unit id="16fc3e1a1e678ee911b3d318d3c36c1e3430c58b" resname="app_redirects_redirect7_92">
+        <source>/realization/well-group</source>
+        <target state="new">/realization/well-group</target>
+      </trans-unit>
+      <trans-unit id="50d9c352acf629e7741ae2a462e505ad62d30cde" resname="app_redirects_redirect7_93">
+        <source>/realization/pse</source>
+        <target state="new">/realization/pse</target>
+      </trans-unit>
+      <trans-unit id="62866f95b9b6ad1cb3059652dc39433e46f63e91" resname="app_redirects_redirect7_94">
+        <source>/realization/zloty-orkisz</source>
+        <target state="new">/realization/zloty-orkisz</target>
+      </trans-unit>
+      <trans-unit id="90bc27c0ac88b612fa3083cac74487b5dd48e8fc" resname="app_redirects_redirect7_95">
+        <source>/realization/e24-cloud</source>
+        <target state="new">/realization/e24-cloud</target>
+      </trans-unit>
+      <trans-unit id="cdfcdd0c2277c2e837973581a59fe130b6664858" resname="app_redirects_redirect7_96">
+        <source>/realization/strony-internetowe/yasumi-epil2</source>
+        <target state="new">/realization/strony-internetowe/yasumi-epil2</target>
+      </trans-unit>
+      <trans-unit id="7f127193d0a101b1af12eff2efd39d7993e690c0" resname="app_redirects_redirect7_97">
+        <source>/realization/strony-internetowe/yasumi</source>
+        <target state="new">/realization/strony-internetowe/yasumi</target>
+      </trans-unit>
+      <trans-unit id="c44bf0f91bb15749d0a49b39ca6782f88da5a53d" resname="app_redirects_redirect7_98">
+        <source>/realization/strony-internetowe/readymadecompanycom</source>
+        <target state="new">/realization/strony-internetowe/readymadecompanycom</target>
+      </trans-unit>
+      <trans-unit id="251d77ec2ab4c1d9afa600323fbbb8a238370580" resname="app_redirects_redirect7_99">
+        <source>/realization/strony-internetowe/accountingservicespl</source>
+        <target state="new">/realization/strony-internetowe/accountingservicespl</target>
+      </trans-unit>
+      <trans-unit id="a551f59e95a84765eb4d8431817176fe9b39fdc2" resname="app_redirects_redirect8">
+        <source>/realization/webdevelopment/mm-prime-tfi</source>
+        <target state="new">/realization/webdevelopment/mm-prime-tfi</target>
+      </trans-unit>
+      <trans-unit id="3f6b87b01f84bcca0d26dc91fc3937f6e57973e7" resname="app_redirects_redirect8_1">
+        <source>/realization/mm-prime-tfi</source>
+        <target state="new">/realization/mm-prime-tfi</target>
+      </trans-unit>
+      <trans-unit id="ac790dcd569b90c57266f2abe2d20215ff67f3b0" resname="app_redirects_redirect8_2">
+        <source>/realization/strony-internetowe/mm-prime-tfi</source>
+        <target state="new">/realization/strony-internetowe/mm-prime-tfi</target>
+      </trans-unit>
+      <trans-unit id="e03bd30961754517da67454d165ba0fd7b005f1d" resname="app_redirects_redirect9">
+        <source>/realization/ambigante-magento</source>
+        <target state="new">/realization/ambigante-magento</target>
+      </trans-unit>
+      <trans-unit id="c67bc932e82c601cfd781d5b187a46383a6929f1" resname="app_redirects_redirect99">
+        <source>/swieta/wielkanoc2013/</source>
+        <target state="new">/swieta/wielkanoc2013/</target>
+      </trans-unit>
+      <trans-unit id="91a1a56c3df160d57d1a0152a8835047211564a4" resname="app_redirects_redirect9_1">
+        <source>/realization/webdevelopment/ambigante-magento</source>
+        <target state="new">/realization/webdevelopment/ambigante-magento</target>
+      </trans-unit>
+      <trans-unit id="424599eb82759d5e042cfeaa72ab05bf09655925" resname="app_redirects_redirect9_2">
+        <source>/realization/strony-internetowe/ambigante-magento</source>
+        <target state="new">/realization/strony-internetowe/ambigante-magento</target>
+      </trans-unit>
+      <trans-unit id="332e708e7d762eb74e971dd5922a453ed028e56d" resname="app_redirects_redirect_1">
+        <source>/presentation</source>
+        <target state="new">/presentation</target>
+      </trans-unit>
+      <trans-unit id="d598f68ff88d2df19046831f811e4ec20cc7eef4" resname="app_redirects_redirect_2">
+        <source>/o-nas/my-w-pracy</source>
+        <target state="new">/o-nas/my-w-pracy</target>
+      </trans-unit>
+      <trans-unit id="f56dc0d17eda11c48413b5a786fdda6c1bbd7bb4" resname="architectsproject">
+        <source>/projects/architects</source>
+        <target state="new">/projects/architects</target>
+      </trans-unit>
+      <trans-unit id="1542f3a69e22e50f1977411b6d513ad3efb67055" resname="bestsportproject">
+        <source>/projects/bestsport</source>
+        <target state="new">/projects/bestsport</target>
+      </trans-unit>
+      <trans-unit id="f37b329cea3096c424d4ae5fbaab13817bf4c352" resname="careers">
+        <source>/careers</source>
+        <target state="new">/careers</target>
+      </trans-unit>
+      <trans-unit id="bb0d06b53c6d33cb96ee31e6a33d308d69a7568d" resname="careersend">
+        <source>/careersend</source>
+        <target state="new">/careersend</target>
+      </trans-unit>
+      <trans-unit id="ea39baa463694eee6834e45a2636608b44ca7dca" resname="clockshopproject">
+        <source>/projects/clockshop</source>
+        <target state="new">/projects/clockshop</target>
+      </trans-unit>
+      <trans-unit id="1a73af9e7ae00182733b2292511b814be66f065f" resname="contact">
+        <source>/contact</source>
+        <target state="new">/contact</target>
+      </trans-unit>
+      <trans-unit id="e7625cb6548ff8303b992edf29f519a25f5e673f" resname="contactsend">
+        <source>/contactsend</source>
+        <target state="new">/contactsend</target>
+      </trans-unit>
+      <trans-unit id="19655d236a9b04da64fa764e04ba02b02976ff6f" resname="contactsendview">
+        <source>/contactsendview</source>
+        <target state="new">/contactsendview</target>
+      </trans-unit>
+      <trans-unit id="c13a527d0d479d77a302479125ebab9cf9f5f1fe" resname="dicloproject">
+        <source>/projects/diclo</source>
+        <target state="new">/projects/diclo</target>
+      </trans-unit>
+      <trans-unit id="31e15c59d07185fbf3dc14fcfeee625a7c5e708c" resname="easybathroomsproject">
+        <source>/projects/easybathrooms</source>
+        <target state="new">/projects/easybathrooms</target>
+      </trans-unit>
+      <trans-unit id="585657434987d3e4d7b7b5517bcfe3af82b8cd47" resname="error404">
+        <source>/error404</source>
+        <target state="new">/error404</target>
+      </trans-unit>
+      <trans-unit id="dc92909f91b0d4f243932bb80701c92edec70c2c" resname="ewpaproject">
+        <source>/projects/ewpa</source>
+        <target state="new">/projects/ewpa</target>
+      </trans-unit>
+      <trans-unit id="2d0a1ae9efa46998794466627a28e592ad897e78" resname="frontenddevelopercareer">
+        <source>/careers/frontend-developer-career</source>
+        <target state="new">/careers/frontend-developer-career</target>
+      </trans-unit>
+      <trans-unit id="2d5f277032762c82768c3d13bdc88d12768a7364" resname="frontendservice">
+        <source>/service/frontend</source>
+        <target state="new">/service/frontend</target>
+      </trans-unit>
+      <trans-unit id="568be0fa2023d1a447e7bd150dda7068ece26898" resname="homepage">
+        <source>/</source>
+        <target state="new">/</target>
+      </trans-unit>
+      <trans-unit id="c47ce0b412e2403f8e34ad168c8b7accaf46729f" resname="ittouchproject">
+        <source>/projects/ittouch</source>
+        <target state="new">/projects/ittouch</target>
+      </trans-unit>
+      <trans-unit id="838268eb0ff8ec5442e8f28e8fce9a2956e7d6be" resname="juniorfrontenddevelopercareer">
+        <source>/careers/junior-frontend-developer-career</source>
+        <target state="new">/careers/junior-frontend-developer-career</target>
+      </trans-unit>
+      <trans-unit id="425988f64ab381410b7ec669d3a02bdbb45d5dcd" resname="kaliszmuseumproject">
+        <source>/projects/kalisz-museum</source>
+        <target state="new">/projects/kalisz-museum</target>
+      </trans-unit>
+      <trans-unit id="44841b425996df027d9a147acef347be7a11cae4" resname="magentodevelopercareer">
+        <source>/careers/magento-developer-career</source>
+        <target state="new">/careers/magento-developer-career</target>
+      </trans-unit>
+      <trans-unit id="410bd1f7f3a70a7e42e6e43970f5a41e70280a0b" resname="magentohelp">
+        <source>/magentohelp</source>
+        <target state="new">/magentohelp</target>
+      </trans-unit>
+      <trans-unit id="11606b5e854c1cf7edb0d2a41c26a5c057622eac" resname="magentoservice">
+        <source>/service/magento</source>
+        <target state="new">/service/magento</target>
+      </trans-unit>
+      <trans-unit id="63049eba344f355e2bcb952ecca1826dec1c1b83" resname="mmprimeproject">
+        <source>/projects/mmprime</source>
+        <target state="new">/projects/mmprime</target>
+      </trans-unit>
+      <trans-unit id="3c6bdcddc94f64bf77deb306aae490a90a6fc300" resname="news">
+        <source>/news/{page}</source>
+        <target state="new">/news/{page}</target>
+      </trans-unit>
+      <trans-unit id="14aa946a6d9363b848648325b2498ac6150ccfa9" resname="orgranproject">
+        <source>/projects/orgran</source>
+        <target state="new">/projects/orgran</target>
+      </trans-unit>
+      <trans-unit id="d2a94142a307c6386d2eb477ecd00b2a6b1677c6" resname="personal-bio">
+        <source>/personal-bio</source>
+        <target state="new">/personal-bio</target>
+      </trans-unit>
+      <trans-unit id="4d82ca7052245f5a533eebabcc30c8925ea2cd9e" resname="phpframeworksservice">
+        <source>/service/phpframeworks</source>
+        <target state="new">/service/phpframeworks</target>
+      </trans-unit>
+      <trans-unit id="f7a1c8fcae1611e9d5c78e15ffc69e0417fc5390" resname="polishsoulsproject">
+        <source>/projects/polish-souls</source>
+        <target state="new">/projects/polish-souls</target>
+      </trans-unit>
+      <trans-unit id="8c2aa4a8874eecd06797d68ba76eff4bb94b314c" resname="powerbodyproject">
+        <source>/projects/powerbody</source>
+        <target state="new">/projects/powerbody</target>
+      </trans-unit>
+      <trans-unit id="fa0386040da69398140618801bea709ea0b21d16" resname="privacypolicy">
+        <source>/privacy-policy</source>
+        <target state="new">/privacy-policy</target>
+      </trans-unit>
+      <trans-unit id="774c1a7355aef6d357972de6e57862308e30b642" resname="projectslist">
+        <source>/projects/{page}</source>
+        <target state="new">/projects/{page}</target>
+      </trans-unit>
+      <trans-unit id="c3c85b25c82449dfc3b0a3c38d99e47d5eadcaab" resname="seniordevelopercareer">
+        <source>/careers/senior-developer-career</source>
+        <target state="new">/careers/senior-developer-career</target>
+      </trans-unit>
+      <trans-unit id="d7a3e75fe492c2f177e0b7612df36cc164ea5494" resname="seniorphpcareer">
+        <source>/careers/senior-php-career</source>
+        <target state="new">/careers/senior-php-career</target>
+      </trans-unit>
+      <trans-unit id="76c80e39430b92774d368f8c8e28baed1c9c23ea" resname="singlenews1">
+        <source>/news/Say-Hello-To-Our-New-Website</source>
+        <target state="new">/news/Say-Hello-To-Our-New-Website</target>
+      </trans-unit>
+      <trans-unit id="894b200da0b31da2fbcee91dfa5a95ec510781f7" resname="singlenews10">
+        <source>/news/Happy-easter</source>
+        <target state="new">/news/Happy-easter</target>
+      </trans-unit>
+      <trans-unit id="d88923c164b04bc7d53c74253f621eae55186a91" resname="singlenews11">
+        <source>/news/Kamyk-is-live</source>
+        <target state="new">/news/Kamyk-is-live</target>
+      </trans-unit>
+      <trans-unit id="bef7278fcbb0c4bd3506530b4434e1a4b53faef1" resname="singlenews12">
+        <source>/news/Happy-New-Year</source>
+        <target state="new">/news/Happy-New-Year</target>
+      </trans-unit>
+      <trans-unit id="3e370c1e954a50d3a208ad64a529b43a7e71598d" resname="singlenews13">
+        <source>/news/Facebook-Campaign-for-Yasumi-Epil</source>
+        <target state="new">/news/Facebook-Campaign-for-Yasumi-Epil</target>
+      </trans-unit>
+      <trans-unit id="af85f7aeb6523f7fa804b5bb995d2d97eb146db1" resname="singlenews14">
+        <source>/news/Beta-version-of-Kalisz-Museum-of-Photography-online</source>
+        <target state="new">/news/Beta-version-of-Kalisz-Museum-of-Photography-online</target>
+      </trans-unit>
+      <trans-unit id="b98bfb2b54b28e687b9414c2d066e33a166d4d7a" resname="singlenews15">
+        <source>/news/Spring-Php-Coders-Recruitment</source>
+        <target state="new">/news/Spring-Php-Coders-Recruitment</target>
+      </trans-unit>
+      <trans-unit id="a4ad94c758863a80bfa3b571474408736cb341a5" resname="singlenews16">
+        <source>/news/The-new-office</source>
+        <target state="new">/news/The-new-office</target>
+      </trans-unit>
+      <trans-unit id="9b2816d4a34f5e1ff1bc71b400b4daeaaf1d7006" resname="singlenews17">
+        <source>/news/Grab-Your-Free-Campaign</source>
+        <target state="new">/news/Grab-Your-Free-Campaign</target>
+      </trans-unit>
+      <trans-unit id="abd92979506ce1699cba990b8d3a4e5632cd0824" resname="singlenews2">
+        <source>/news/Meet-Magento-Poland-2016</source>
+        <target state="new">/news/Meet-Magento-Poland-2016</target>
+      </trans-unit>
+      <trans-unit id="5143b2e6338ebf00639814a4ccec52472ec87dae" resname="singlenews3">
+        <source>/news/Magento-Registered-Partner</source>
+        <target state="new">/news/Magento-Registered-Partner</target>
+      </trans-unit>
+      <trans-unit id="b12705ad4a3b14c83a5ef7a47d4b37eed77b20c4" resname="singlenews4">
+        <source>/news/Phpers-Summit-2016</source>
+        <target state="new">/news/Phpers-Summit-2016</target>
+      </trans-unit>
+      <trans-unit id="606c4477710fcc51f456d213cbf8e058eeab2500" resname="singlenews5">
+        <source>/news/Tomek-and-Maciej-new-certified-Magento-developers</source>
+        <target state="new">/news/Tomek-and-Maciej-new-certified-Magento-developers</target>
+      </trans-unit>
+      <trans-unit id="4884cff603820f59022e96c9b85339bd61f35358" resname="singlenews6">
+        <source>/news/Holiday-delays</source>
+        <target state="new">/news/Holiday-delays</target>
+      </trans-unit>
+      <trans-unit id="e368b42da28b534f0216a16fe28faba580b47c8e" resname="singlenews7">
+        <source>/news/Graphic-designer-wanted</source>
+        <target state="new">/news/Graphic-designer-wanted</target>
+      </trans-unit>
+      <trans-unit id="b8a64a3ff858df04f05cc1a65dfa2f525147a1c4" resname="singlenews8">
+        <source>/news/We-have-magento-developer-certificate!</source>
+        <target state="new">/news/We-have-magento-developer-certificate!</target>
+      </trans-unit>
+      <trans-unit id="a33b73053605e49e7267b8250b29c2f409219563" resname="singlenews9">
+        <source>/news/Urgently-wanted-new-business-manager</source>
+        <target state="new">/news/Urgently-wanted-new-business-manager</target>
+      </trans-unit>
+      <trans-unit id="8facaaa9e16a70b74ce4463fc314ba8f70aba4c8" resname="solutions">
+        <source>/solutions</source>
+        <target state="new">/solutions</target>
+      </trans-unit>
+      <trans-unit id="272a06abd04e1cfe723cb585d7d8c413c5b4625c" resname="solutions-ecommerce-custom">
+        <source>/solutions-ecommerce-custom</source>
+        <target state="new">/solutions-ecommerce-custom</target>
+      </trans-unit>
+      <trans-unit id="08afa6510799cde74bbb02b50ddb26003308292d" resname="solutions-ecommerce-retail">
+        <source>/solutions-ecommerce-retail</source>
+        <target state="new">/solutions-ecommerce-retail</target>
+      </trans-unit>
+      <trans-unit id="7b4754d2b41e0842025a146caea330d28e62cef2" resname="solutions-support-and-custom-service">
+        <source>/solutions-support-and-custom-service</source>
+        <target state="new">/solutions-support-and-custom-service</target>
+      </trans-unit>
+      <trans-unit id="65b0a42c8c586daa3c91ba0fb4747fc73cd47f99" resname="solutionssend">
+        <source>/solutionssend</source>
+        <target state="new">/solutionssend</target>
+      </trans-unit>
+      <trans-unit id="0512e9373cde614fd897c307f1ff75026feea437" resname="uxanddesignservice">
+        <source>/service/uxanddesign</source>
+        <target state="new">/service/uxanddesign</target>
+      </trans-unit>
+      <trans-unit id="16f4e5f029465488800c310cbb2bec7cce7687ac" resname="virtualofficeproject">
+        <source>/projects/wirtualne-biuro</source>
+        <target state="new">/projects/wirtualne-biuro</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

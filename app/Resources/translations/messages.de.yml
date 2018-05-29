@@ -1,0 +1,1539 @@
+# INDEX TRANSLATES START
+
+'_WELCOME_TO_': Wir sind
+'_WELCOME_TO_TEXT_1': Softwareentwickler aus Leidenschaft!
+'_WELCOME_TO_TEXT_2': Wir designen. Wir programmieren. Wir testen.
+'_E-COMMERCE_&_MAGENTO_': E-COMMERCE & MAGENTO
+'_SYMFONY_&_ZEND_DEVELOPMENT_': SYMFONY & ZEND ENTWICKLUNG
+'_MOBILE_DEVELOPMENT_': MOBILE ENTWICKLUNG
+'_FRONTEND_DEVELOPMENT_': FRONTEND ENTWICKLUNG
+'_UX_&_UI_DESIGN_': UX & <br> UI DESIGN
+'_GET_TO_KNOW_US_BETTER_': LERNEN SIE UNS KENNEN
+'_A_LITTLE_MATH_': EIN BISSCHEN MATHEMATIK
+'_LAST_REALIZATION_': LAST REALIZATION
+'_LAST_PROJECTS_': PROJEKTE
+'_LATEST_NEWS_': AKTUELLES
+'_WE_ARE_': UNSERE
+'_WE_HAVE_': WIR HABEN
+'_WORKING_ON_': KUNDEN
+'NEWS_OUR_NEWS_TITLE': AKTUELLES
+'NEWS_CHECK_IT_OUT': ÜBERPRÜFEN SIE ES
+'_NEWS_': AKTUELLES
+'_PRIVACY_POLICY_': Datenschutzerklärung
+
+'_MAGENTO_PROJECTS_': MAGENTO PROJEKTE
+'_DEVELOPERS_': ENTWICKLER
+'_MAGENTO_CERTIFIED_DEVELOPERS_': MAGENTO ZERTIFIZIERTE ENTWICKLER
+'_PROJECT_MANAGERS_': PROJEKTMANAGER
+
+'_MEET_OUR_TEAM_': UNSER TEAM
+'_GO_TO_NEWS_': ALLE NEWS
+
+_WE_ARE_MAGENTO_PARTNER_: WIR SIND
+'_CONTACT_BTN_': KONTAKT
+
+'_SAY_HELLO_INDEX_NEWS_': HALLO!
+'_TO_OUR_INDEX_NEWS_': Unsere neue
+'_NEW_WEBSITE_INDEX_NEWS_': WEBSEITE IST ONLINE
+
+'_GO_DEEPER_': ERFAHREN SIE MEHR
+
+'_INDEX_OUR_': UNSERE
+'_INDEX_SERVICES_': LEISTUNGEN
+'_INDEX_OUR_SERVICES_SEE_OFFER_': JETZT ANSEHEN
+
+'_INDEX_OUR_SERVICES_SERVICE_1_TITLE_': E-commerce & Magento Entwicklung
+'_INDEX_OUR_SERVICES_SERVICE_1_SUBTITLE_': ''
+'_INDEX_OUR_SERVICES_SERVICE_1_DESCRIPTION_': Erfahren Sie mehr über die Plattform, die von 250.000 Unternehmen weltweit - darunter auch Giganten des E-Commerce - genutzt wird. Wir zeigen Ihnen, warum sich die Implementierung von Magento lohnt und welche Funktionen es bietet. Erhalten Sie einen Einblick in unsere Projekte und Möglichkeiten, die Magento auch für Sie bietet!
+'_INDEX_OUR_SERVICES_SERVICE_1_ALT_': E-commerce i Magento MacBook
+
+'_INDEX_OUR_SERVICES_SERVICE_2_TITLE_': Symfony & Zend Entwicklung
+'_INDEX_OUR_SERVICES_SERVICE_2_SUBTITLE_': ''
+'_INDEX_OUR_SERVICES_SERVICE_2_DESCRIPTION_': Symfony und Zend sind wahrscheinlich die beliebtesten PHP Frameworks. Dank ihrer Effektivität, Flexibilität und hoher Sicherheit sind sie sowohl für einfache als auch komplexe Webanwendungen ideal geeignet. Möchten Sie wissen, wie wir diese Frameworks auch für Ihr Projekt einsetzen können? Hier erfahren Sie mehr!
+
+'_INDEX_OUR_SERVICES_SERVICE_2_ALT_': Symfony and Zend MacBook
+
+'_INDEX_OUR_SERVICES_SERVICE_3_TITLE_': Frontend Entwicklung
+'_INDEX_OUR_SERVICES_SERVICE_3_SUBTITLE_': ''
+'_INDEX_OUR_SERVICES_SERVICE_3_DESCRIPTION_': Front-End ist eine Kurzgeschichte über Liebe auf den ersten Blick in einer komplexen E-Commerce Welt. Erfahren Sie wie Advox auch für Sie die neuesten Technologien spektakulär und zielführend einsetzen kann. Gemeinsam entwickeln wir ein digitales Meisterstück, das bei Ihren Kunden garantiert einen bleibenden Eindruck hinterlassen wird!
+'_INDEX_OUR_SERVICES_SERVICE_3_ALT_': Frontend Development MacBook
+
+'_INDEX_OUR_SERVICES_SERVICE_4_TITLE_': UX & UI Design
+'_INDEX_OUR_SERVICES_SERVICE_4_SUBTITLE_': ''
+'_INDEX_OUR_SERVICES_SERVICE_4_DESCRIPTION_': UX und UI - kleine Abkürzungen mit großer Bedeutung. Lernen Sie unseren Design-Ansatz kennen und erfahren Sie, warum es so wichtig ist, ein gesundes Gleichgewicht zwischen kommerziellem Aspekt Ihres Produktes und der Benutzerfreundlichkeit für potenzielle Kunden zu schaffen. Wir sorgen dafür, dass sich Ihre Kunden bei Ihnen wie zu Hause fühlen!
+'_INDEX_OUR_SERVICES_SERVICE_4_ALT_': UX i UI Design MacBook
+
+# INDEX TRANSLATES END
+
+# ERROR PAGE TRANSLATES START
+
+'_404_PAGE_TEXT_1': <span>OH NEIN!</span> HIER IST WAS SCHIEFGELAUFEN
+'_404_PAGE_TEXT_2': Die Seite, die Sie suchen, konnte nicht gefunden werden.
+'_TAKE_ME_HOME_': ZURÜCK ZUR STARTSEITE
+
+# ERROR PAGE TRANSLATES END
+
+# PERSONAL BIO START
+
+'_OUR_TEAM_': DAS TEAM
+'_GREAT_YOUNG_AND_TALENTED_': STARK, JUNG & TALENTIERT
+'_PERSONAL_BIO_TEXT_1_': Den Erfolg unserer Projekte haben wir unseren talentierten Mitarbeitern zu verdanken - und das sind die Gesichter dazu.
+'_FOUNDER_': GRÜNDER
+'_LEGAL_COUNSEL_': RECHTSBERATER
+'_CEO_': CEO
+'_PROJECT_MANAGER_': Projekt Manager
+'_ACCOUNT_MANAGER_': Account Manager
+'_INTERNET_MARKETING_SPECIALIST_': INTERNET MARKETING SPECIALIST
+'_GRAPHIC_DESIGNER_': Grafikdesigner
+'_DEVELOPER_': Entwickler
+'_UIUX_DESIGNER_': UI/UX designer
+
+# PERSONAL BIO END
+
+# CAREERS START
+
+'_YOUR_FUTURE_': YOUR FUTURE
+'_TIME_TO_JOIN_OUR_CRAZY_TEAM_': TIME TO JOIN OUR CRAZY TEAM
+'_CAREERS_TEXT_1_': Currently, there are 20 developers + testers + other staff (around 30 people altogether) in our team and it's still growing. Right now we're looking for additional 2 or 3 people.
+'_CAREERS_TEXT_2_': We usually work in Agile-Scrum but not always - it depends on the project. We're easy-going and definitely don't like stiff collars but we strive to be really effective with what we're doing.
+'_HELLO_': HELLO :)
+'_APPLY_BUTTON_': APPLY NOW
+
+
+'_MAGENTO_DEVELOPER_': MAGENTO DEVELOPER
+'_BACK-END_DEVELOPER_': SENIOR PHP DEVELOPER
+'_SENIOR_DEVELOPER_': SENIOR DEVELOPER
+'_FRONT-END_DEVELOPER_': FRONT-END DEVELOPER
+'_JUNIOR_FRONT-END_DEVELOPER_': JUNIOR FRONT-END DEVELOPER
+
+'_CAREERS_CONTACT_THANKS_': Thanks for your application!
+'_APPLY_FOR_THIS_JOB_': APPLY FOR THIS JOB
+
+'Your name': Your name
+'Phone': Phone
+'E-mail': E-Mail
+'Cover letter': Cover letter
+
+'Add cv': ADD CV
+
+# CAREERS END
+
+### SINGLE CAREERS START
+
+'_JOB_OFFER_NOT_ACTUALY_NOW_TEXT_': WE HAVE NO OPEN POSITIONS AT THE MOMENT.<br>However, you are welcome to leave your CV for future recruitments.<br>
+
+'_CURRENTLY_THERE_ARE_TEXT_': Advox is currently composed of more than 25 people, including 20 programmers. We are constantly striving for growth and self-improvement. Our most recent aim is to expand our front-end section. Our areas of expertise are Magento, Zend Framework and front-end projects. Despite the fact that we are set on successful completion of projects, the atmosphere is chilled-out.
+'_SALARY_': SALARY
+'_WANTED_': WE ARE LOOKING FOR
+'_YOUR_SKILLS_': YOUR SKILLS
+'WHAT_WE_D_LOVE': WHAT WE'D LOVE
+'_WHAT_YOU_LL_GET_FROM_US_': WHAT YOU'LL GET FROM US
+
+'GET_FROM_US_LIST_1': steady job based on an employment form that your prefer,
+'GET_FROM_US_LIST_2': bonuses for the development of yourself and the project,
+'GET_FROM_US_LIST_3': participation in interesting, international projects,
+'GET_FROM_US_LIST_4': a lot of difficult problems to solve,
+'GET_FROM_US_LIST_5': trainings and possibilities to develop in other technologies,
+'GET_FROM_US_LIST_6': pizza every Friday, massages at the office every second week,
+'GET_FROM_US_LIST_7': chilled-out but goal-oriented atmosphere,
+'GET_FROM_US_LIST_8': Multisport card for free,
+'GET_FROM_US_LIST_9': private health insurance,
+'GET_FROM_US_LIST_10': ...and a lot of other fancy things.
+
+# SINGLE CAREER PHP SENIOR DEVELOPER START
+
+'_WE_ARE_LOOKING_FOR_PHP_SENIOR_': We are looking for
+'_A_SENIOR_PHP_DEVELOPER_': Senior PHP Developer
+'_SALARY_SENIOR_PHP_': 4000 - 7000 PLN net | full-time | Poznań
+
+'_SENIOR_PHP_DESCRIPTION_1_': We’re looking for a confident PHP developer who’d like to join our office located next (and we mean it - it’s a 60-second walk) to the Poznań Old Square.
+'_SENIOR_PHP_DESCRIPTION_2_': Apart from the PHP mastery, we'd like you to know - or be learning - other languages,as we'll work with and combine different technologies (JAVA,PYTHON,RUBY etc.)
+
+'_SENIOR_PHP_SKILLS_1_': very good knowledge of PHP (OOP) + any MVC framework
+'_SENIOR_PHP_SKILLS_2_': good knowledge of SQL databases (MySQL)
+'_SENIOR_PHP_SKILLS_3_': good knowledge of HTML5 and CSS3
+'_SENIOR_PHP_SKILLS_4_': at least a basic knowledge of JavaScript libraries
+'_SENIOR_PHP_SKILLS_5_': ability to read and search for PHP, Apache2, MySQL etc. logs
+'_SENIOR_PHP_SKILLS_6_': knowledge of issues related to PHP, Apache2, MySQL optimisation (knowledge of installation and configuration of ModPageSpeed for Apache2 or Nginx will be an asset, as well as familiarity with cache-related problems)
+'_SENIOR_PHP_SKILLS_7_': English - for documentation
+'_SENIOR_PHP_SKILLS_8_': knowledge of GIT or other version-control system
+
+'_SENIOR_PHP_ADV_SKILLS_1_': knowledge of Zend Framework or Zend Framework 2
+'_SENIOR_PHP_ADV_SKILLS_2_': knowledge of other programming languages or a willingness to learn them (Java, Python, Ruby Objective C)
+'_SENIOR_PHP_ADV_SKILLS_3_': experience in e-commerce and Magento platform
+'_SENIOR_PHP_ADV_SKILLS_4_': Zend Framework certificate
+'_SENIOR_PHP_ADV_SKILLS_5_': team-work skills
+
+# SINGLE CAREER PHP SENIOR DEVELOPER END
+
+# SINGLE CAREER SENIOR DEVELOPER START
+
+'_WE_ARE_LOOKING_FOR_SENIOR_DEVELOPER_': We are looking for
+'_A_SENIOR_DEVELOPER_': Full-stack Senior Developer
+'_SALARY_SENIOR_DEVELOPER_': 4000-7000 PLN net | full-time | Poznań
+
+'_SENIOR_DEVELOPER_DESCRIPTION_1_': A proficient programmer with vast experience both in development and programming environment
+
+'_SENIOR_DEVELOPER_SKILLS_1_': proficiency in PHP (OOP), HTML, CSS3 and MySQL
+'_SENIOR_DEVELOPER_SKILLS_2_': good knowledge of JavaScript
+'_SENIOR_DEVELOPER_SKILLS_3_': ability to use version-control systems such as SVN, GIT
+'_SENIOR_DEVELOPER_SKILLS_4_': ability to work with xdebug
+'_SENIOR_DEVELOPER_SKILLS_5_': ability to read and search for PHP, Apache2, MySQL etc. logs
+'_SENIOR_DEVELOPER_SKILLS_6_': flair in UNIX systems (especially Debian)
+'_SENIOR_DEVELOPER_SKILLS_7_': knowledge of issues related to PHP, Apache2, MySQL optimisation (knowledge of installation and configuration of ModPageSpeed for Apache2 or Nginx will be an asset, as well as familiarity with cache-related problems)
+'_SENIOR_DEVELOPER_SKILLS_8_': English or German - conversational level
+
+'_SENIOR_DEVELOPER_ADV_SKILLS_1_': knowledge of Zend Framework or Zend Framework 2
+'_SENIOR_DEVELOPER_ADV_SKILLS_2_': previous experience as a team leader
+'_SENIOR_DEVELOPER_ADV_SKILLS_3_': Zend Certified Developer certificate
+'_SENIOR_DEVELOPER_ADV_SKILLS_4_': good knowledge of Magento platform
+'_SENIOR_DEVELOPER_ADV_SKILLS_5_': ability to service domains (editing domain zone file, familiarity with popular domain management services such as Cloudflare)
+'_SENIOR_DEVELOPER_ADV_SKILLS_6_': knowledge of different types of CMS (Drupal, Wordpress, Joomla, PhpBB, Prestashop, Sote)
+'_SENIOR_DEVELOPER_ADV_SKILLS_7_': basic knowledge of RoR and Passenger configuration for Apache2
+'_SENIOR_DEVELOPER_ADV_SKILLS_8_': experience in analysing the scope of works for projects (creating WBS)
+'_SENIOR_DEVELOPER_ADV_SKILLS_9_': knowledge of security issues
+'_SENIOR_DEVELOPER_ADV_SKILLS_10_': familiarity with SSL issues - generating CSR files, configuring ssl for Apache2
+'_SENIOR_DEVELOPER_ADV_SKILLS_11_': basic understanding of network issues
+'_SENIOR_DEVELOPER_ADV_SKILLS_12_': familiarity with the configuration of Apache2, Nginx, MySQL/Percona, Varnish, Solr or Memcached
+
+# SINGLE CAREER SENIOR DEVELOPER END
+
+# SINGLE CAREER JUNIOR FRONTEND DEVELOPER START
+
+'_WE_ARE_LOOKING_FOR_JUNIOR_FRONTEND_': We are looking for
+'_A_JUNIOR_FRONTEND_DEVELOPER_': Junior Front-end developer
+'_SALARY_JUNIOR_FRONTEND_DEVELOPER_': 2000 - 3500 PLN net | full time | Poznań
+
+'_JUNIOR_FRONTEND_DEVELOPER_DESCRIPTION_1_': A talented programmer who avidly follows the most recent front-end technologies and understands that a job done well has to be thorough. Since the very beginning you will have a chance to gather professional experience - juniors in our company receive totally serious tasks. Rest assured, though - help of more experienced colleagues will be also available.
+
+'_JUNIOR_FRONTEND_DEVELOPER_SKILLS_1_': good knowledge of HTML and CSS3
+'_JUNIOR_FRONTEND_DEVELOPER_SKILLS_2_': basic knowledge of JavaScript libraries
+'_JUNIOR_FRONTEND_DEVELOPER_SKILLS_3_': understanding of RWD principles and technologies
+'_JUNIOR_FRONTEND_DEVELOPER_SKILLS_4_': ability to use simple graphic design tools
+'_JUNIOR_FRONTEND_DEVELOPER_SKILLS_5_': sense of aesthetics and knowledge of UX principles
+'_JUNIOR_FRONTEND_DEVELOPER_SKILLS_6_': English (for reading the documentation)
+
+'_JUNIOR_FRONTEND_DEVELOPER_ADV_SKILLS_1_': basic knowledge od PHP (especially OOP)
+'_JUNIOR_FRONTEND_DEVELOPER_ADV_SKILLS_2_': knowledge of GIT (or other version-control system)
+
+# SINGLE CAREER JUNIOR FRONTEND DEVELOPER END
+
+# SINGLE CAREER FRONTEND DEVELOPER START
+
+'_WE_ARE_LOOKING_FOR_FRONTEND_DEVELOPER_': We are looking for
+'_A_FRONTEND_DEVELOPER_': Regular Front-end developer
+'_SALARY_FRONTEND_DEVELOPER_': 3500 - 5000 PLN net | full time | Poznań
+
+'_FRONTEND_DEVELOPER_DESCRIPTION_1_': A talented programmer who avidly follows the most recent front-end technologies and understands that a job done well has to be thorough. Since the very beginning you will have a chance to gather professional experience - juniors in our company receive totally serious tasks. Rest assured, though - help of more experienced colleagues will be also available.
+
+'_FRONTEND_DEVELOPER_SKILLS_1_': good knowledge of HTML and CSS3
+'_FRONTEND_DEVELOPER_SKILLS_2_': basic knowledge of JavaScript libraries
+'_FRONTEND_DEVELOPER_SKILLS_3_': understanding of RWD principles and technologies
+'_FRONTEND_DEVELOPER_SKILLS_4_': ability to use simple graphic design tools
+'_FRONTEND_DEVELOPER_SKILLS_5_': sense of aesthetics and knowledge of UX principles
+'_FRONTEND_DEVELOPER_SKILLS_6_': English (for reading the documentation)
+
+'_FRONTEND_DEVELOPER_ADV_SKILLS_1_': basic knowledge od PHP (especially OOP)
+'_FRONTEND_DEVELOPER_ADV_SKILLS_2_': knowledge of GIT (or other version-control system)
+
+# SINGLE CAREER FRONTEND DEVELOPER END
+
+# SINGLE CAREER MAGENTO DEVELOPER START
+
+'_WE_ARE_LOOKING_FOR_MAGENTO_DEVELOPER_': We are looking for
+'_A_MAGENTO_DEVELOPER_': Software developer (Magento)
+'_SALARY_MAGENTO_DEVELOPER_': 4000-7000 net | full time | Poznań
+
+'_MAGENTO_DEVELOPER_DESCRIPTION_1_': A programmer with experience in Magento (version 1.7 and newer). We primarily work on various international projects. Your will be faced with a diversified range of tasks- from installation of ready-made modules to ERP installations. We provide interesting challenges, professional attitude to projects (Scrum, Gantt, tests, QA) and great atmosphere.
+
+'_MAGENTO_DEVELOPER_SKILLS_1_': proficiency in Magento and Zend Framework
+'_MAGENTO_DEVELOPER_SKILLS_2_': very good knowledge of SQL databases (MySQL)
+'_MAGENTO_DEVELOPER_SKILLS_3_': ability to create your own modules
+'_MAGENTO_DEVELOPER_SKILLS_4_': basic knowledge of HTML, CSS3 and JavaScript
+'_MAGENTO_DEVELOPER_SKILLS_5_': English (for reading documentation)
+'_MAGENTO_DEVELOPER_SKILLS_6_': knowledge of GIT or other system of version control.
+
+'_MAGENTO_DEVELOPER_ADV_SKILLS_1_': knowledge of other programming languages (Java, Python, Ruby Objective C) or a willingness to learn them
+'_MAGENTO_DEVELOPER_ADV_SKILLS_2_': experience in integrating other systems with Magento
+'_MAGENTO_DEVELOPER_ADV_SKILLS_3_': ability to work in a team
+
+# SINGLE CAREER MAGENTO DEVELOPER END
+
+### SINGLE CAREERS END
+
+### PROJECTS LISTS START
+
+'_PROJECTS_LIST_HEADER_TITLE_1_': Wir arbeiten mit interaktiven Agenturen und Start-ups zusammen, um innovative und wundervolle digitale Produkte mit Fokus auf Programmierung und visuelles Design zu entwickeln. Hier finden Sie das, was wir in letzter Zeit gemacht haben.
+'_OUR_WORK_': PROJEKTE
+'_PLATFORM_': PLATTFORM
+'_TECHNOLOGIES_': TECHNOLOGIEN
+'_CHECK_PROJECT_': PROJEKT ANSEHEN
+'_INFO_SINGLE_PROJECT_': Info
+'_WEBSITE_SINGLE_PROJECT_': Webseite
+'_SCOPE_SINGLE_PROJECT_': Leistung
+'_NEW_VS_OLD_': Neu VS Alt
+'_PROJECTLIST_DESIGN_': DESIGN
+'_PROJECTLIST_DEVELOPMENT_': ENTWICKLUNG
+
+### ORGRAN PROJECT START
+
+'_PROJECT_HEADER_CATEGORY_MAIN_': e-commerce
+'_ORGRAN_PROJECT_MAIN_TITLE_': Hungrig nach einem digitalen Makeover!
+'_INFO_DESCRIPTION_SINGLE_PROJECT_ORGRAN_': Orgran ist ein Händler für gesunde, glutenfreie Snacks & Lebensmittel. Wir haben eine neue Webseite auf Basis von Joomla entwickelt, die genauso anpassungsfähig und lecker ist, wie die auf ihr präsentierten Produkte.
+
+'_APPROACHABLE_CATEGORY_VIEW': Ansprechnde Kategorieansicht
+
+'_VERSION_FULLY_': Optimiert für
+'_RESPONSIVE_': MOBILGERÄTE
+'_VERSION_FULLY_DESCRIPTION_': Unternehmen von heute müssen mit ihren Kunden kanalübergreifend in Verbindung bleiben. Das macht eine mobiloptimierte Webseite zu einem Must-have. Das Design der Seite passt sich allen Bildschirmgrößen an, sodass Inhalte auch auf Smartphones benutzerfreundlich und gut leserlich dargestellt werden.
+
+'_ABOUT_THE_TECHNOLOGY_': Über die technologie
+
+'_A_LOOK_@_THE_': Das Projekt
+'_WHOLE_': IM DETAIL
+'_OVERVIEW_DESCRIPTION_ORGRAN_': Orgran macht die Welt mit leckeren glutenfreien Produkten zu einem besseren Ort... und wir sind stolz darauf, dazu einen Teil beigetragen zu haben.
+'_MAIN_PAGE_': Startseite
+'_HOME_DIR': home
+'_CATEGORY_': KATEGORIE
+'_PRODUCT_PAGE_': PRODUKTSEITE
+'_MY_ACCOUNT_': ACCOUNT
+'_INFORMATION_': INFORMATION
+'_CHECKOUT_': CHECKOUT
+'_MAIL_TEMPLATES_': MAIL TEMPLATES
+'_MINI_BASKET_': MINI WARENKORB
+
+'_OUR_CRAZY_TEAM_': Unser verrücktes TEAM
+'_SHARE_IF_YOU_LIKE_': Share if you like
+'_SEE_MORE_PROJECTS_': See more our projects
+
+'_PREVIOUS_': ZURÜCK
+'_SEE_ALL_PROJECTS_': alle projekte ansehen
+'_NEXT_': WEITER
+### ORGRAN PROJECT END
+
+### EWPA PROJECT START
+'_EWPA_PROJECT_MAIN_TITLE_': Eine Webseite für einen führenden Bauzulieferer
+'_INFO_DESCRIPTION_SINGLE_PROJECT_EWPA_': Mit diesem digitalen Showroom für EWPA auf Magento-Basis mit neuem Design und Backend wird unser Kunde als Marktführer präsentiert. Eine veraltete Webseite, die mehr hinderlich als hilfreich war, wurde so zu einem effizienten Tool, das Umsatz und Wachstum vorantreibt.
+
+'_WE_MADE_CHANGES_': Die Seite wurde ETWAS verändert
+
+'_NOT_ONLY_': Nicht nur ein
+'_AN_EXCAVATORS_': neuer Shop
+'_RESPONSIVE_SHOWCASE_DESCRIPTION_EWPA_': Durch die Schaffung von fünf separaten Stores für jede Kategorie von Bau- und Landwirtschaftlicher Ausrüstung, haben wir uns darauf fokusiert, die Reichweite von EWPA zu optimieren. So finden Kunden ihr Produkt noch schneller und effizienter.
+
+'_OVERVIEW_DESCRIPTION_EWPA_': Die neue Website von EWPA wird dem Kunden signifikante Benefits, einschließlich höherer Umsätze, bringen. Mehr Details zum Projekt finden Sie hier.
+
+'_ABOUT_US_': Über uns
+'_CONTACT_': Kontakt
+'_SEND_US_AN_EMAIL_': SEND US AN EMAIL
+'_WARE_OUR_CLIENT_ARE_': UNSERE KUNDEN SIND HIER
+'_WHERE_WE_ARE_': WIR SIND HIER
+
+'_NEWS_': Aktuelles
+'_SEE_THE_NEWS_': BEITRÄGE
+'_BACK_TO_NEWS_': ZURÜCK
+
+### EWPA PROJECT END
+
+### VIRTUAL OFFICE START
+
+'_VIRTUALOFFICE_PROJECT_MAIN_TITLE_': Ein brandneues Büro - wann immer Sie es brauchen
+'_INFO_DESCRIPTION_SINGLE_PROJECT_VIRTUALOFFICE_': Eine neue Unternehmens-Website, die auf Wordpress-Basis erstellt wurde. Als Verantwortlicher für Design und Entwicklung haben wir eine moderne Website geschaffen, die mit unkonventionellem Design und attraktiven Animationen das Angebot des Unternehmens präsentiert.
+
+'_RESPONSIVE_SHOWCASE_DESCRIPTION_VIRTUALOFFICE_': Gemäß den Anforderungen des Kunden haben wir ein maßgeschneidertes und intuitives Buchungssystem entwickelt. Die Webseite ist benutzerfreundlicher und bietet dank der implementierten Funktionen weit mehr als nur Informationen.
+
+'_OVERVIEW_DESCRIPTION_VIRTUALOFFICE_': Wir sind stolz, hier die Früchte unserer Arbeit präsentieren zu können.
+
+'_VO_MAIN_PAGE_': STARTSEITE
+'_VO_HOME_DIR': HOME
+'_VO_ABOUT_US_': ÜBER UNS
+'_VO_PRICE_LIST_': PREISLISTE
+'_VO_CORPORATE_': UNTERNEHMEN
+'_VO_SERVICES_': ANGEBOT
+
+'_VO_MORE_THAN_': MEHR
+'_VO_JUST_A_WEBSITE_': als einfach nur eine Webseite
+
+### VIRTUAL OFFICE END
+
+### WIRTUALNE MUZEUM KALISZA START
+
+'_CITY_SITE_': City site Stadt webseite
+'_WMK_MAIN_PAGE_': STARTSEITE
+'_WMK_HOME_DIR_': HOME
+'_WMK_ABOUT_': ÜBER UNS
+'_WMK_OUR_NEWS_': NEWS
+'_WMK_GALLERY_': GALERIE
+'_WMK_VIEW_IMAGE_': BILDER ANSEHEN
+'_WMK_ADD_PHOTO_': FOTO HINZUFÜGEN
+'_WMK_CONTACT_': KONTAKT
+'_VIRTUAL_TOUR_': Kommen Sie mit auf eine
+'_JUST_FOR_YOU_': zeitreise
+'_WMK_PROJECT_MAIN_TITLE_': Ein kleines Zuhause in einer virtuellen Welt
+'_INFO_DESCRIPTION_SINGLE_PROJECT_WMK_': Im Gegensatz zu dem was Sie vielleicht denken, gibt es für uns auch Leben hinter dem E-Commerce. Deswegen haben wir uns dazu entschieden, das Kalisz Virtual Photo Museum zu entwickeln. Umgesetzt als One-Pager auf Basis von Zend und AJAX.
+'_SHOWCASE_DESCRIPTION_WMK_': Neugierig auf die älteste polnische Stadt? Dank unserer Lösungen ist es jetzt möglich, tief in die Geschichte von Kalisz einzutauchen.
+'_OVERVIEW_DESCRIPTION_WMK_': Aufgepasst - diese einzigartige Fotokollektion in Kombination mit den spannenden Geschichten der Einwohner lässt die Zeit eventuell ein bisschen still stehen.
+'_MORE_THAN_1300_PICTURES_IN_GALLERY_': Mehr als 1.300 Bilder in der Galerie
+
+
+### WIRTUALNE MUZEUM KALISZA END
+
+### POLISHSOULS START
+
+'_POLISHSOULS_PROJECT_MAIN_TITLE_': Der beste Weg einen Seelenverwandten zu finden!
+'_INFO_DESCRIPTION_SINGLE_PROJECT_POLISHSOULS_': Die Anforderung unseres Kunden war es, die Suche nach der "besseren Hälfte" so einfach und genau wie möglich zu machen. Um dies zu erreichen, haben wir eine Website designt und entwickelt, die auf PHP ZEND basiert und damit eine Plattform geschaffen, die für Polen "im Exil" zu einem einzigartigen Ort geworden ist.
+
+'_RESPONSIVE_SHOWCASE_DESCRIPTION_POLISHSOULS_': Unsere Website ist jetzt in den wichtigsten Ländern für polnische Einwanderer verfügbar - Großbritannien, Deutschland, Niederlande, Italien und den USA. Polish Souls trägt dazu bei, das Gefühl von Einsamkeit in einem fremden Land zu mindern.
+
+'_OVERVIEW_DESCRIPTION_POLISHSOULS_': Wir sind besonders stolz darauf, die Früchte dieser Arbeit zu präsentieren. Im Folgenden finden Sie detailierte Einblicke in das Projekt.
+
+'_PS_1_IMAGE_BIG': STARTSEITE
+'_PS_1_IMAGE_SMALL': HOME
+'_PS_2_IMAGE_BIG': ACCOUNT
+'_PS_2_IMAGE_SMALL': PHOTOS
+'_PS_3_IMAGE_BIG': SUCHERGEBNISSE
+'_PS_3_IMAGE_SMALL': BENUTZERPROFILE
+
+'_PS_MORE_THAN_': VERFÜGBAR
+'_PS_JUST_A_WEBSITE_': in zahlreichen Länder
+'_PORTAL_': PORTAL
+'_WE_CREATED_MOBILE_APP_': Entwicklung einer Mobile-App
+
+### POLISHSOULS END
+
+### POWERBODY PROJECT START
+'_POWERBODY_MAIN_TITLE_': Wieder in Form gebracht - eine Webseite für Bodybuilding & Gesundheit
+'_POWERBODY_SUBTITLE_': Wir haben ein GROSSES Stück Arbeit geleistet.
+'_INFO_DESCRIPTION_SINGLE_PROJECT_POWERBODY_': 'Powerbody brauchte eine neue funktionale Webseite, die zum Gesicht der Marke passt. Die Lösung: Ein Magento-Shop mit über 120 individuellen Modulen, maßgeschneiderte und synchronisierten ERP- und CRM-Systemen sowie einem 5-Jahresplan zur Eroberung des Marktes.'
+
+
+'_POWERBODY_RESPONSIVE_SHOWCASE_TITLE_': Optimierung für
+'_POWERBODY_RESPONSIVE_SHOWCASE_SUBTITLE_': HÄNDLER
+'_RESPONSIVE_SHOWCASE_DESCRIPTION_POWERBODY_': Maßgeschneiderte Seiten passen sich exakt den Bedürfnissen von Powerbodys Kunden aus Groß- und Einzelhandel verschiedener Länder und Sprachen an. Unser Know-how in der Antizipation von Designanforderungen und der Entwicklung von individuellen Lösungen war beim Erfolg dieses Projekts ausschlaggebend.
+
+'_OVERVIEW_DESCRIPTION_POWERBODY_': Mit unseren Skills in Design und Entwicklung haben wir für Powerbody einen Onlineshop auf die Beine gestellt, der sie auch für die Zukunft stark macht!
+
+'_PB_1_IMAGE_BIG': STARTSEITE
+'_PB_1_IMAGE_SMALL': HOME
+'_PB_2_IMAGE_BIG': KATEGORIE
+'_PB_2_IMAGE_SMALL': PRODUKTSEITE
+'_PB_3_IMAGE_BIG': WARENKORB
+'_PB_3_IMAGE_SMALL': CHECKOUT
+'_PB_4_IMAGE_BIG': ÜBER UNS
+'_PB_4_IMAGE_SMALL': RANKING
+### POWERBODY PROJECT END
+
+
+### AMBIGANTE PROJECT START
+'_AMBIGANTE_PROJECT_MAIN_TITLE_': Eine hübsche Webseite ist immer en vogue!
+'_INFO_DESCRIPTION_SINGLE_PROJECT_AMBIGANTE_': Magento ist die ideale Plattform für den Modehändler Ambigante. Für unseren Kunden haben wir mit neuen Design eine Nutzererfahrung geschaffen, die Kleidung shoppen noch einfacher und angenehmer macht.
+
+'_AMBIGANTE_RESPONSIVE_SHOWCASE_TITLE_': Einfacher & funktionaler
+'_AMBIGANTE_RESPONSIVE_SHOWCASE_SUBTITLE_': Checkout
+'_RESPONSIVE_SHOWCASE_DESCRIPTION_AMBIGANTE_': Ein einfacher, sicherer und leicht zu navigierender Checkoutprozess ist unumgänglich, um Kaufabrüche zu minimieren. Das neue Design sorgt dafür, dass Kunden den Checkout einfach durchlaufen und so schnell von Shoppern zu Käufern werden.
+
+'_OVERVIEW_DESCRIPTION_AMBIGANTE_': Die neue Webseite sieht nun genauso gut aus, wie Ambigantes Mode - und genau so soll es sein!
+### AMBIGANTE PROJECT END
+
+### ZOIO PROJECT START
+
+'_ZOIO_PROJECT_MAIN_TITLE_': Clothing for every occasion
+'_INFO_DESCRIPTION_SINGLE_PROJECT_ZOIO_': We were faced with a challenge of creating a visually-appealing, modern store. Sure enough, Magento turned out to be the most suitable solution. We accompanied the store with an Advox-made graphic design.
+'_WE_TOOK_CARE_OF_FRONTEND_ZOIO_': We took care of FRONT-END
+'_RESPONSIVE_ZOIO_': Fully-responsive
+'_ON_ALL_DEVICES_': version
+'_RESPONSIVE_SHOWCASE_DESCRIPTION_ZOIO_': Creating a functional and appealing project was not the end of the project. We took great pains to make the front-end equally nice and usable in the mobile versions.
+'_OVERVIEW_DESCRIPTION_ZOIO_': 'Do you know anyone who is always sure about what to wear? We neither. ZOiO was once in such a pickle but Advox, as experienced stylists and advisors, came to the rescue and suggested the following solutions:'
+'_A_LOOK_@_THE_ZOIO_': A look @ the
+'_WHOLE_ZOIO_': WHOLE
+'_MAIN_PAGE_ZOIO_': STARTSEITE
+'_HOME_DIR_ZOIO_': HOME
+'_PRODUCT_LIST_ZOIO_': PRODUCT LIST
+'_PRODUCT_PAGE_ZOIO_': PRODUKTSEITE
+'_CHECKOUT_ZOIO_': CHECKOUT
+'_CONTACT_ADDRESS_ZOIO_': CONTACT ADDRESS
+
+### ZOIO PROJECT END
+
+
+### MM PRIME TFI PROJECT START
+'_COMPANY_SITE_': Unternehmens webseite
+'_MMPRIMETFI_PROJECT_MAIN_TITLE_': Wertschöpfung für einen Investment-Dienstleister
+'_INFO_DESCRIPTION_SINGLE_PROJECT_MMPRIME_': Dank PHP-Zend-Framework ist es uns gelungen, einen sehr starken und aussagefähigen Internetauftritt für unseren Kunden zu schaffen. Unsere Leistungen bei diesem Projekt umfassen Design, Branding, Back-End-Entwicklung, sowie die Entwicklung eines benutzerdefinierten CMS und Client-Panel. Die Website ist anwenderfreundlich und besticht durch klare Aussagen.
+
+'_WE_ALSO_TOOK_CARE_': Branding - Markenaufbau durch Advox
+
+'_RESPONSIVE_SECTION_UPPER_TITLE_MMPRIME_': Auch für
+'_RESPONSIVE_SECTION_LOWER_TITLE_MMPRIME_': mobile optimert
+
+'_RESPONSIVE_SHOWCASE_DESCRIPTION_MMPRIME_': Investment-Kunden müssen jederzeit und von überall auf ihre Konten und Informationen zugreifen können - eine mobiloptimierte Webseite ist daher essentiell. Die neue Webseite ist schnell, responsive und überzeugt durch ein auf allen Endgeräten klarem und einfachem Design.
+'_OVERVIEW_DESCRIPTION_MMPRIME_': Für MM Prime hat sich die Investition in den neuen Online-Auftritt gelohnt. Investieren Sie jetzt auch!
+
+'_ABOUT_': ÜBER UNS
+'_WHY_US_': WARUM WIR
+'_CAREER_': KARRIERE
+'_COOPERATION_': KOOPERATIONEN
+'_CLIENT_ZONE_': KUNDENBEREICH
+
+### MM PRIME TFI PROJECT END
+
+
+### EASYBATHROOMS PROJECT START
+
+'_INFO_DESCRIPTION_SINGLE_PROJECT_EB_': Das perfekte Badezimmer...
+'_INFO_DESCRIPTION_SINGLE_PROJECT_EB_5': Bei diesem Projekt waren wir für die Optimierung des Einkaufsprozesses sowie für die generelle Weiterentwicklung des Shops zuständig. U.a. zählten die Implementierung von neuen Designs für ausgewählte Seiten sowie deren Geschwindigkeitsoptimierung zu unseren Aufgaben.
+'_INFO_DESCRIPTION_SINGLE_PROJECT_EB_2': In wenigen Schritten zum passenden Produkt
+'_INFO_DESCRIPTION_SINGLE_PROJECT_EB_3': <span>Umfangreiches</span><br>Filter-System
+'_INFO_DESCRIPTION_SINGLE_PROJECT_EB_4': Die Renovierung eines Badezimmers kann zu einer echten Herausforderung werden. Umso wichtiger ist ein Onlineshop, der es so einfach wie möglich macht, die passenden Artikel zu finden. <br><br> Ein umfangreiches Filtersystems ermöglicht den Kunden von Easybathrooms, ihre Suche einzuschränken und auf kurzem Weg maßgeschneiderte Produktempfehlungen zu erhalten.
+'_OVERVIEW_DESCRIPTION_EB': Sie möchten mehr über das Projekt erfahren? Hier finden Sie ein paar Beispiele unserer Arbeit!
+'_EB_PROJECT_IMAGE_1_ALT_':
+'_EB_PROJECT_IMAGE_2_ALT_':
+'_EB_PROJECT_IMAGE_3_ALT_':
+'_EB_PROJECT_IMAGE_4_ALT_':
+'_EB_PROJECT_IMAGE_5_ALT_':
+'_EB_PROJECT_IMAGE_6_ALT_':
+'_EB_PROJECT_IMAGE_7_ALT_':
+'_EB_PROJECT_IMAGE_8_ALT_':
+'_EB_PROJECT_IMAGE_9_ALT_':
+'_EB_PROJECT_IMAGE_10_ALT_':
+'_EB_PROJECT_IMAGE_11_ALT_':
+'_EB_PROJECT_IMAGE_12_ALT_':
+'_EB_PROJECT_IMAGE_13_ALT_':
+'_EB_PROJECT_IMAGE_14_ALT_':
+
+### EASYBATHROOMS PROJECT END
+
+### BESTSPORT PROJECT START
+
+'_INFO_DESCRIPTION_SINGLE_PROJECT_BESP_': Ein Schritt in die Zukunft des <span>E-Commerce</span>
+'_INFO_DESCRIPTION_SINGLE_PROJECT_BESP_1': Unsere Aufgabe war es, den Onlineshop auf ein neues Level zu bringen. Das haben wir dank unseres individualisierten Grafikdesigns auf Basis von Magento 2 erreicht. Eine Reihe von Integrationen (Inpost, Facebook, G + und andere) machen Kunden und Mitarbeitern das Leben leichter.
+'_INFO_DESCRIPTION_SINGLE_PROJECT_BESP_2': Freundliche und aufgeräumte Ansicht
+'_INFO_DESCRIPTION_SINGLE_PROJECT_BESP_3': Komplett responsive
+'_INFO_DESCRIPTION_SINGLE_PROJECT_BESP_4': Die Konzeption von einem funktionalen und ästhetischen Design für die Desktop-Ansicht reicht nicht aus. Um Attraktivität und Benutzerfreundlichkeit auch auf mobilen Geräten zu gewährleisten, haben wir das Design für fünf unterschiedliche Breakpoints konzipiert.
+'_OVERVIEW_DESCRIPTION_BESP': Lust darauf, mehr über das Projekt zu erfahren? Hier finden Sie Beispiele unserer Arbeit!
+'_BESP_PROJECT_IMAGE_2_ALT_': iMac with project
+'_BESP_PROJECT_IMAGE_3_ALT_': shoe polish
+'_BESP_PROJECT_IMAGE_4_ALT_': shoe polish
+'_BESP_PROJECT_IMAGE_5_ALT_': Boots
+'_BESP_PROJECT_IMAGE_6_ALT_': Bestsport site view
+'_BESP_PROJECT_IMAGE_7_ALT_': Bestsport site view
+'_BESP_PROJECT_IMAGE_8_ALT_': Bestsport site view
+'_BESP_PROJECT_IMAGE_9_ALT_': Bestsport site view
+'_BESP_PROJECT_IMAGE_10_ALT_': Bestsport site view
+'_BESP_PROJECT_IMAGE_11_ALT_': Bestsport site view
+'_BESP_PROJECT_IMAGE_12_ALT_': Bestsport site view
+'_BESP_PROJECT_IMAGE_13_ALT_': Bestsport site view
+'_BESP_PROJECT_IMAGE_14_ALT_': Bestsport site view
+'_BESP_PROJECT_IMAGE_15_ALT_': Bestsport site view
+'_BESP_PROJECT_IMAGE_16_ALT_': Bestsport site view
+'_BESP_PROJECT_IMAGE_17_ALT_': Bestsport site view
+'_BESP_PROJECT_IMAGE_18_ALT_': Bestsport site view
+'_BESP_PROJECT_IMAGE_19_ALT_': Bestsport site view
+
+### BESTSPORT PROJECT END
+
+### ARCHITECTS PROJECT START
+
+'_ARCHITECTS_PROJECT_MAIN_TITLE_':
+'_INFO_DESCRIPTION_SINGLE_PROJECT_ARCHITECTS_':
+'_RESPONSIVE_SHOWCASE_DESCRIPTION_ARCHITECTS_':
+'_OVERVIEW_DESCRIPTION_ARCHITECTS_':
+'_ARCHITECTS_PROJECT_IMAGE_1_ALT_':
+'_ARCHITECTS_PROJECT_IMAGE_2_ALT_':
+'_ARCHITECTS_PROJECT_IMAGE_3_ALT_':
+'_ARCHITECTS_PROJECT_IMAGE_4_ALT_':
+'_ARCHITECTS_PROJECT_IMAGE_5_ALT_':
+'_ARCHITECTS_PROJECT_IMAGE_6_ALT_':
+'_ARCHITECTS_PROJECT_IMAGE_7_ALT_':
+'_ARCHITECTS_PROJECT_IMAGE_8_ALT_':
+'_ARCHITECTS_PROJECT_IMAGE_9_ALT_':
+'_ARCHITECTS_PROJECT_IMAGE_10_ALT_':
+'_ARCHITECTS_PROJECT_IMAGE_11_ALT_':
+'_ARCHITECTS_PROJECT_IMAGE_12_ALT_':
+'_ARCHITECTS_PROJECT_IMAGE_13_ALT_':
+
+### ARCHITECTS PROJECT END
+
+### ITTOUCH PROJECT START
+
+'_ITTOUCH_PROJECT_MAIN_TITLE_': Liczy się partnerstwo
+'_INFO_DESCRIPTION_SINGLE_PROJECT_ITTOUCH_': Powierzono nam zaprojektowanie nowej odsłony strony firmowej jednego z wiodących dostawców usług IT. Nasze zadanie polegało na przygotowaniu wszystkiego tak, aby strona była gotowa do wdrożenia. Postawiliśmy na wyjątkowy motyw przewodni, animacje i prawdziwe zdjęcia, aby oddać autentyczność i profesjonalizm, jakimi charakteryzuje się ta firma.
+'_ATTENTION_': ZADBALIŚMY
+'_TO_DETAILS_': o wszystko
+'_RESPONSIVE_SHOWCASE_DESCRIPTION_ITTOUCH_': Strona to nie tylko projekt graficzny. Byliśmy odpowiedzialni za stworzenie całej koncepcji, przygotowanie makiet, opracowanie treści, dobór zdjęć i wreszcie dostarczenie docelowego projektu graficznego, skrojonego na wszystkie urządzenia.
+'_OVERVIEW_DESCRIPTION_ITTOUCH_': W efekcie klient otrzymał projekt dopracowany w każdym calu.
+'_ITTOUCH_PROJECT_IMAGE_0_ALT_':
+'_ITTOUCH_PROJECT_IMAGE_1_ALT_':
+'_ITTOUCH_PROJECT_IMAGE_2_ALT_':
+'_ITTOUCH_PROJECT_IMAGE_3_ALT_':
+'_ITTOUCH_PROJECT_IMAGE_4_ALT_':
+'_ITTOUCH_PROJECT_IMAGE_5_ALT_':
+'_ITTOUCH_PROJECT_IMAGE_6_ALT_':
+'_ITTOUCH_PROJECT_IMAGE_7_ALT_':
+'_ITTOUCH_PROJECT_IMAGE_8_ALT_':
+'_ITTOUCH_PROJECT_IMAGE_9_ALT_':
+'_ITTOUCH_PROJECT_IMAGE_10_ALT_':
+'_ITTOUCH_PROJECT_IMAGE_11_ALT_':
+'_ITTOUCH_PROJECT_IMAGE_12_ALT_':
+
+### ITTOUCH PROJECT END
+
+### PROJECTS LISTS END
+
+# CONTACT START
+
+'_CONTACT_TEXT_1_': If you think
+'_CONTACT_TEXT_2_': Wir können Geschäfte zusammen machen
+'_CONTACT_US_': SCHREIBEN SIE UNS
+'_SEE_LOCATION_': Standort anzeigen
+
+'_SMALL_BUDGET_': Small Budget
+'_MIDDLE_BUDGET_': Middle Budget
+'_BIG_BUDGET_': Big Budget
+'_BUDGET_': Budget*
+'_HEADQUARTERS_': STANDORTE
+'_CONTACT_ADDRESS_': Adresse
+'_CONTACT_PHONE_': Telefon
+'_CONTACT_EMAIL_': E-Mail
+'_CONTACT_GENERALMANAGER_': General Manager
+'_CONTACT_COOPERATIONANDMEDIA_': Zusammenarbeit und Medien
+
+'_CONTACT_WARSAW_': <span class="bigSpanCityParagraph">WARSAW</span> <span class="smallSpanCityParagraph">STANDORT</span>
+'_CONTACT_LONDON_': <span class="bigSpanCityParagraph">LONDON</span> <span class="smallSpanCityParagraph">STANDORT</span>
+'_CONTACT_BERLIN_': <span class="bigSpanCityParagraph">MAINZ</span> <span class="smallSpanCityParagraph">STANDORT</span>
+'_CONTACT_POZNAN_': <span class="bigSpanCityParagraph">POZNAŃ</span> <span class="smallSpanCityParagraph">STANDORT</span>
+
+'_CONTACT_BRANCH_': STANDORT
+
+'_CONTACT_GENERAL_': GENERAL
+'_CONTACT_MANAGER_': MANAGER
+
+'_COUNTRY_MANAGER_1_': COUNTRY
+'_COUNTRY_MANAGER_2_': MANAGER
+
+'_COUNTRY_MANAGER_': Country Manager
+'_ACCOUNT_DIRECTOR_': ACCOUNT DIRECTOR
+
+'_CONTACT_ATTENTION_': Achtung!
+'_CONTACT_ISCOMINGTOTOWN_': Advox kommt jetzt auch nach Berlin!
+
+'_CONTACT_THANKSFORYOUINQUIRY_': Vielen Dank für Ihre Anfrage.
+'_CONTACT_CONTACTABOUT24_': Wir werden uns in ungefähr 24 Stunden bei Ihnen melden!
+
+'_REQUIRED_FIELDS_FORM_': '*Pflichtfelder'
+
+'Name/company*': Name/Firma*
+'E-mail*': E-mail*
+'Phone*': Telefon*
+'Message': Nachricht
+
+'_SEND_MESSAGE_': NACHRICHT SENDEN
+
+'_BADEMAIL_FIELD_ERR_MESSAGE_': Falsche E-Mail Adresse
+'_REQUIRED_FIELD_ERR_MESSAGE_': Pflichtfeld
+'_CHOOSE_FIELD_ERR_MESSAGE_': Wählen Sie das Feld aus
+
+
+#'_CREATING_A_STORE_': Creating a store
+#'_CREATE_WEBSITE_': Creating a website
+#'_CREATE_MOBILE_APP_': Creating a mobile app
+#'_ONLY_DEVELOPMENT_': Only development
+#'_ONLY_UI_DESIGN_': Only design
+#'_OTHER_': Other
+
+'_E_COMMERCE_MAGENTO_DEVELOPMENT_CONTACT': Magento Entwicklung
+'_FRONTEND_DEVELOPMENT_CONTACT': Front-End Entwicklung
+'_ZEND_SYMFONY_DEVELOPMENT_CONTACT_': Zend / Symfony Entwicklung
+'_E_COMMERCE_CONSULTING_': eCommerce Beratung
+'_OTHER_DEVELOPMENT_CONTACT_': Andere Programmierung
+'_UX_DESIGN_CONTACT_': UX / UI Design
+'_GENERAL_ENQUIRY_': Generelle Anfrage
+
+'_INTERESTED_IN_': Ich interessiere mich für...*
+
+
+# CONTACT END
+
+# HEADER START
+
+'_MENU_': MENU
+'_CLOSE_': SCHLIEßEN
+
+# HEADER END
+
+# MENU START
+
+'_HOME_ELMENU': STARTSEITE
+'_NEWS_ELMENU': AKTUELLES
+'_ABOUT_US_ELMENU': ÜBER UNS
+'_OUR_TEAM_ELMENU': DAS TEAM
+'_SERVICES': LEISTUNGEN
+'_ECOMMERCE&MAGENTO_ELMENU': E-COMMERCE & MAGENTO
+'_SYMFONY&ZENDDEVELOPMENT_ELMENU': SYMFONY & ZEND ENTWICKLUNG
+'_FRONTENDDEVELOPMENT_ELMENU': FRONTEND ENTWICKLUNG
+'_UX&UIDESIGN_ELMENU': UX & UI DESIGN
+'_PROJECTS_ELMENU': PROJEKTE
+'_CAREERS_ELMENU': CAREERS
+'_CONTACT_ELMENU': KONTAKT
+'_LANGUAGE': LANGUAGE
+
+# MENU END
+
+# NEWS START
+
+'_SEE_ALL_NEWS_': ALLE AKTUELLES
+'_READ_MORE_': LESEN SIE MEHR
+
+# NEWS END
+
+# SERVICES START
+
+'_SEE_REALIZATION_': PROJEKT ANSEHEN
+'_CHECK_WEBSITE_': WEBSEITE ANSEHEN
+
+'_GO_DEEPER_': ERFAHREN SIE MEHR
+'_BACK_TO_THE_TOP_': BACK TO THE TOP
+
+# MAGENTO SERVICE START
+
+'_MS_S1_TITLE_HEADER_': MAGENTO
+'_MS_S1_PARAGRAPH1_': Wenn Sie das hier lesen,
+'_MS_S1_PARAGRAPH2_': 'ist Ihnen <span>MAGENTO</span> wahrscheinlich schon ein Begriff.'
+'_MS_S1_PARAGRAPH3_': "Falls das nicht der Fall ist, hier eine Kurzfassung: Magento ist eine Open Source E-Commerce Plattform, die bereits von über 250.000 Unternehmen & Organisationen weltweit genutzt wird. Der Nike Shop? Magento. Olympus? Magento. SEAT, Munchkin, Rosetta Stone, CDP? Alles Magento."
+'_MS_S1_PARAGRAPH4_': ''
+
+'_MS_IB1_TEXT_1_': 15 MAGENTO ENTWICKLER AN BORD
+'_MS_IB1_TEXT_2_': (5 zertifiziert) - Front & Backend
+'_MS_IB2_TEXT_1_': 4 ERFAHRENE MAGENTO PM's
+'_MS_IB3_TEXT_1_': ÜBER 100 ERFOLGREICHE MAGENTO PROJEKTE
+'_MS_IB4_TEXT_1_': MAGENTO PARTNER
+'_MS_IB4_TEXT_2_': 5 Jahre Erfahrung mit Magento
+'_MS_IB5_TEXT_1_': ENTWICKLUNG VON ÜBER 200 MODULEN
+'_MS_IB6_TEXT_1_': GROSSES API KNOW-HOW
+
+'_MS_ANCHOR_1': ÜBER MAGENTO
+'_MS_ANCHOR_2': UNSERE PROJEKTE
+'_MS_ANCHOR_3': UNSERE MAGENTO PROJEKTE
+
+'_MS_S2_TITLE_HEADER_':
+'_MS_S2_PARAGRAPH_1_': Warum haben sich diese weltbekannten Marken sowie tausende andere kleine und große Unternehmen für Magento als ihre E-Commerce Plattform entschieden?
+'_MS_S2_PARAGRAPH_2_': Die Antwort ist einfach - weil sie mit Magento alles bekommen, was sie brauchen, um erfolgreich einen Onlineshop zu betreiben.
+'_MS_S2_PARAGRAPH_3_': Wir sind Advox Studio Magento Experten und offizieller Magento Partner. Ob Mode, Elektronik, Kunst, Unterhaltung oder Healthcare - wir liefern Ihnen eine auf Ihr Business zugeschnittene Magento Lösung, die Ihren Unternehmenswachstum vorantreibt und Ihr Online-Unternehmen wettbewerbsfähig macht. <br><br> Nach fast einem Jahrzehnt kotinuierlicher Entwicklung bietet Magento Lösungen an, die Ihrem Unternehmen ermöglichen, Ressourcen besser zu verwalten, die Effizienz zu maximieren und Ihren Kunden eine herausragende E-Commerce-Erfahrung zu bieten.
+
+
+'_MS_S3_TITLE_HEADER_': UMFANGREICHE <span>E-COMMERCE</span> FUNKTIONEN
+'_MS_S3_PARAGRAPH_1_': ''
+'_MS_S3_PARAGRAPH_2_': Die Liste ist endlos... das sind nur wenige beliebte Funktionen und Vorteile, die Magento bietet. Dazu kommt außerdem die erweiterte Berichterstattung und die einfache Verknüpfung mit Google Analytics. Statische Seiten und Blöcke können einfach und effizient über ein CMS verwaltet werden.
+'_MS_S3_IMAGE_PARAGRAPH_1_': Marketing und Promotion-Werkzeuge
+'_MS_S3_IMAGE_PARAGRAPH_2_': Kundengruppen und Userrollen
+'_MS_S3_IMAGE_PARAGRAPH_3_': Produktbewertungen
+'_MS_S3_IMAGE_PARAGRAPH_4_': Integrierte Lagerverwaltung
+'_MS_S3_IMAGE_PARAGRAPH_5_': Wunschliste
+'_MS_S3_IMAGE_PARAGRAPH_6_': Flexible Attribute
+'_MS_S3_IMAGE_PARAGRAPH_7_': Adaptierbare Filter
+'_MS_S3_IMAGE_PARAGRAPH_8_': Layered Navigation
+'_MS_S3_IMAGE_PARAGRAPH_9_': Drittanbieter-Integration (PayPal, DHL, UPS, Fed Ex und mehr)
+
+
+'_MS_S4_TITLE_HEADER_': OPEN-SOURCE CODE
+'_MS_S4_PARAGRAPH_1_': Was bedeutet das eigentlich?
+'_MS_S4_PARAGRAPH_2_': Ohne groß auf technische Details einzugehen, meint "Open-Source" die Freiheit der kostenlosen Installation und Modifizierung von Programmen wie Magento Community. <br> Diese Magento-Plattform kann von uns kostenfrei heruntergeladen und an die Anforderungen Ihres Unternehmens angepasst werden. Unsere besten Magento Entwickler stellen Ihnen damit eine Plattform bereit, die dank individualisierbarer Module exakt auf Ihre Bedürfnisse zugeschnitten ist.
+'_MS_S4_PARAGRAPH_3_': ''
+'_MS_S4_PARAGRAPH_4_': ''
+
+
+'_MS_S5_TITLE_HEADER_': MODULARE SOFTWARE ARCHITEKTUR
+'_MS_S5_PARAGRAPH_1_': Mehr geht immer!
+'_MS_S5_PARAGRAPH_2_': Die Flexibilität von Magento ermöglicht eine grenzenlose Anpassung des Systems an kundenspezifische Anforderugnen. In einer Community haben Entwickler weltweit die Möglichkeit, vorgefertigte Lösungen bereitzustellen und auf passende Module zurückzugreifen. Mit einer Vielzahl an zusätzlichen Features werden so auch exotischste Anforderungen an einen Shop bedient. <br> Derzeit sind mehr als 25.000 Magento-Erweiterungen verfügbar, von denen die meisten kostenlos oder zu erschwinglichen Preisen erhältlich sind. Dazu zählen Erweiterungen für die Verwaltung von Geschenkkarten, Bonuspunkten, Treueprogrammen, Affiliate-Netzwerken, erweiterten Suchmaschinen usw. <br> Darüber hinaus sind unsere Magento Spezialisten in der Lage, neue Module exakt nach Ihren Spezifikationen zu entwickeln.
+'_MS_S5_PARAGRAPH_3_': ''
+
+'_MS_S6_TITLE_HEADER_': SKALIERBARKEIT
+'_MS_S6_PARAGRAPH_1_': Wieviele Artikel haben Sie in Ihrem Inventar?
+'_MS_S6_PARAGRAPH_2_': Fangfrage! Magento ist für kleine und große Shops geeignet - egal ob Ihr Sortiment 10 oder 10.000 Produkte umfasst. Dank einer effizienten Indexierung kann Magento problemlos 500.000 Produkte verwalten - einige Shops haben sogar mehr als 1 Millionen SKU's!
+
+'_MS_S7_TITLE_HEADER_': MULTI-STORE-FUNKTION
+'_MS_S7_PARAGRAPH_1_': Vielleicht ist Ihre Produktvielfalt in mehreren Shops besser bedient? Oder möchten Sie sich regional organisieren? Oder müssen Sie Dienstleistungen nach Markt segmentieren?
+'_MS_S7_PARAGRAPH_2_': Kein Problem für Magento! Wenn Sie ein Multi-Store-System benötigen, ist Mageento die ideale Lösung. <br> Hier können Sie verschiedene Shops von einem einzigen Administrationsbereich verwalten.
+
+'_MS_S8_TITLE_HEADER_': SUCHMASCHINEN OPTIMIERUNG (SEO)
+'_MS_S8_PARAGRAPH_1_': "Eine gute Position in den Suchmaschinen ist das A und O für ein erfolgreiches Online-Projekt. Zugegeben: Magento macht 'SEO' natürlich nicht von alleine, aber es bietet eine saubere technologische Basis dafür. <br> SEO-freundliche URLs und Sitemaps und die Möglichkeit der Pflege von Meta Daten gehören hier zum Standard. Das Beste - Das SEO-Toolkit von Magento kann mit Plugins erweitert werden - Sie sagen welche SEO Leistung Sie benötigen und wir machen es für Sie möglich! "
+
+'_MS_S9_TITLE_HEADER_': SICHERHEIT
+'_MS_S9_PARAGRAPH_1_': Datensicherheit, Transaktionssicherheit und Dateischutz sind ein großes Thema. Online lauern viele Gefahren und 100% Sicherheit wird es nie geben.
+'_MS_S9_PARAGRAPH_2_': Um dennoch maximale Sicherheit zu gewährleisten stellt Magento regelmäßig Sicherheitsupdates zur Verfügung. Die Plattform wird ununterbrochen von Entwicklern und Sicherheitsexperten getestet, sodass Sicherheitslücken sofort erkannt und behoben werden.
+
+'_START_': START
+'_TIMELINE_TEXT_1_': Senden Sie uns Ihre Anfrage.
+'_TIMELINE_TEXT_2_': Erzählen Sie mehr! In einem Gespräch definieren wir Ihre Anforderungen und erste potentielle Lösungen.
+'_TIMELINE_TEXT_3_': Wir analysieren Ihre Wettbewerber (denn irgendwas machen sie richtig!)
+'_TIMELINE_TEXT_4_': Erstes Angebot zur Prüfung
+'_TIMELINE_TEXT_5_': Erstellung eines Projektplans, anhand dessen Sie den gesamten Prozess verfolgen können.
+'_TIMELINE_TEXT_6_': Sobald Sie den Vertrag unterschrieben haben, starten wir mit unserer Arbeit.
+'_TIMELINE_TEXT_7_': Wir erstellen ein Mock-Up Ihres Projektes, um böse Überraschungen im Nachhinein zu vermeiden.
+'_TIMELINE_TEXT_8_': Die Grafikdesigner legen los.
+'_TIMELINE_TEXT_9_': Wir definierten, vervollständigen und testen alle Teilaufgaben fortlaufend in unseren Tracking-Tools (JIRA, Redmine)
+'_TIMELINE_TEXT_10_': Während dieses Prozesses stehen wir in kontinuierlichem Kontakt mit unseren Kunden, um Herausforderungen zu diskutieren und mögliche Lösungen zu erarbeiten.
+'_TIMELINE_TEXT_11_': Es ist so weit! Wir übergeben einen voll funktionsfähigen Shop, der Traffic und Umsatz generiert.
+'_TIMELINE_TEXT_12_': Wir sind immernoch an Ihrer Seite - <span class="small-time-line-paragraph-top"> Sie erhalten technischen Support und jede Unterstützung, die nötig ist, um aus Ihrem Shop das Beste rauszuholen. </span>
+
+'_OUR_': DER
+'_PROCESS_': PROZESS
+
+'_MS_REALIZATION_1_TITLE_1_': Außergewöhnlicher Shop
+'_MS_REALIZATION_1_TITLE_2_': EWPA
+'_MS_REALIZATION_1_PARAGRAPH_1_': Ein auf Magento basierender Shop zur Präsentation von Nicht-Standard Produkten. Die Webseite unsere Kunden hat einen neuen Anstrich gebraucht, also haben wir sie mit neuem Design und Backend auf den Kopf gestellt.
+
+'_MS_REALIZATION_2_TITLE_1_': Multisupplement Store
+'_MS_REALIZATION_2_TITLE_2_': POWERBODY
+'_MS_REALIZATION_2_PARAGRAPH_1_': Unser Kunde hat sich dafür entschieden, sein altes E-Commerce System zu erneuern. Wir haben daraufhin einen Magento Shop mit kundenspezifischen Modulen sowie individuell angepassten ERP und CRM Systemen entwickelt.
+
+'_MS_REALIZATION_3_TITLE_1_': Fashion store
+'_MS_REALIZATION_3_TITLE_2_': AMBIGANTE
+'_MS_REALIZATION_3_PARAGRAPH_1_': Shop basierend auf einer Magento Plattform, mit dem Ziel ein unkompliziertes und angenehmes Shoppingerlebnis zu kreieren. Dank New Visual und UX Design ist es nun ein echtes Vergnügen, durch die Seite zu surfen und die Produkte zu entdecken.
+
+'_MS_ANCHOR_LINK_1_': magento-einfuehrung
+'_MS_ANCHOR_LINK_2_': ueber-magento
+'_MS_ANCHOR_LINK_3_': e-commerce-funktionalitaet
+'_MS_ANCHOR_LINK_4_': open-source-code
+'_MS_ANCHOR_LINK_5_': modulare-softwarearchitektur
+'_MS_ANCHOR_LINK_6_': skalierbarkeit
+'_MS_ANCHOR_LINK_7_': multi-store-faehigkeiten
+'_MS_ANCHOR_LINK_8_': suchmaschinenoptimierung
+'_MS_ANCHOR_LINK_9_': sicherheit
+'_MS_ANCHOR_LINK_10_': wie-machen-wir-magento
+'_MS_ANCHOR_LINK_11_': unsere-projekte
+
+# MAGENTO SERVICE END
+
+
+# FRONTEND SERVICE START
+
+'_FES_S1_TITLE_HEADER_': FRONT-END
+'_FES_S1_PARAGRAPH1_': Glauben Sie an Liebe auf den ersten Blick?
+'_FES_S1_PARAGRAPH2_': Man bekommt keine zweite Chance für den ersten Eindruck und das letzte was man will ist, den Kunden im Bett mit der Konkurrenz sehen. Also fragen Sie sich selbst - ist es IHRE Webseite, die potentiellen Kunden den Kopf verdreht, oder doch eine andere?
+'_FES_S1_PARAGRAPH3_': Advox Studio ist sich der hohen Relevanz von Front-End Entwicklung bewusst. Unsere Experten wissen, wie Sie Ihre Kunden ins (eigene) Bett kriegen!
+
+'_FES_IB1_TEXT_1_': 6 FRONTEND ENTWICKLER AN BORD
+'_FES_IB2_TEXT_1_': UX SPEZIALIST
+'_FES_IB3_TEXT_1_': 2 WEB DESIGNER
+'_FES_IB4_TEXT_1_': ÜBER 60 ERFOLGREICHE PROJEKTE
+'_FES_IB5_TEXT_1_': GROSSES KNOW HOW IN JS FRAMEWORKS
+
+'_FES_ANCHOR_1': ÜBER FRONTEND
+'_FES_ANCHOR_2': UNSERE FRONTEND PROJEKTE
+
+'_FES_S2_TITLE_HEADER_': INNOVATIVE TECHNOLOGIEN
+'_FES_S2_PARAGRAPH1_': Diese führenden Front-End-Technologien wirken zunächst spektakulär (und das sind sie auch!), doch für Profis wie uns gehören sie zum täglichen Handwerkszeug.
+'_FES_S2_PARAGRAPH2_': Wir wissen genau, wie wir welche Technologien einsetzen, um Front-End-Erlebnisse zu schaffen, die Kunden begeistern.
+
+'_FES_S3_TITLE_HEADER_': Kunden kaufen mit den Augen!
+'_FES_S3_PARAGRAPH1_': Deshalb ist ein attraktives Erscheinungsbild ausschlaggebend für den Erfolg.Um optisch das gewisse Etwas zu erreichen, braucht es jede Menge Arbeit und ein professionelles Team, das es schafft, Design und Funktionalität in ein eineinheitliches und für Mobilgeräte optimiertes Front-End umzusetzen, das Ihre Kunden umhaut.
+
+'_FES_S4_TITLE_HEADER_': ENTSCHEIDENDE DETAILS
+'_FES_S4_PARAGRAPH1_': Es sind die Details, die eine Seite von der Masse abheben und maßgeblich zum Erfolg beitragen. Wir codieren perfekte Seitenstrukturen, erstellen eindrucksvolle Animationen und gestalten innovative Interaktionen, optimiert für Desktops und mobile Geräte - denn Responsive Web Design (RWD) gehört für uns schon lange zum Standard.
+
+'_FES_S5_TITLE_HEADER_': QUALITÄT VS QUANTITÄT
+'_FES_S5_PARAGRAPH1_': Gute Front-End-Entwicklung erfordert ein besonderes Gespür für den schmalen Grad zwischen "genau richtig" und "zu viel". Grafiken, Spezialeffekte und Gadgets sind schnell implementiert, aber wichtiger ist es zu wissen, wo die Grenze erreicht ist, um maximale Performance und geräteübergreifende Kompatibilität zu gewährleisten. <br><br> Ihre Website muss attraktiv und ansprechend sein, aber nicht auf Kosten von Geschwindigkeit oder Nutzerfreundlichkeit... genau dabei können wir Ihnen helfen!
+
+'_FES_S6_TITLE_HEADER_': WIR HABEN DAS KNOW-HOW!
+'_FES_S6_PARAGRAPH1_': ... außerdem Talent und ein Streben nach Innovation sowie ein außergewöhnliches Engagement gegenüber unseren Kunden. Und mit dieser großen Macht kommt große Verantwortung (wurde uns mal gesagt), weshalb unsere Front-End Entwickler alles dafür geben, ihre Stärken darin zu investieren, Ihr Projekt großartig zu machen, indem wir die uns zur Verfügung stehenden Technologien verantwortungsvoll für Sie einsetzen.
+
+'_FES_REALIZATION_1_TITLE_1_': Wertschöpfung für einen Investment-Dienstleister
+'_FES_REALIZATION_1_TITLE_2_': MM PRIME
+'_FES_REALIZATION_1_PARAGRAPH_1_': Dank PHP-Zend-Framework ist es uns gelungen, einen sehr starken und aussagefähigen Internetauftritt für unseren Kunden zu schaffen. Unsere Leistungen bei diesem Projekt umfassen Design, Branding, Back-End-Entwicklung, sowie die Entwicklung eines benutzerdefinierten CMS und Client-Panel. Die Website ist anwenderfreundlich und besticht durch klare Aussagen.
+
+'_FES_REALIZATION_2_TITLE_1_': Die Geschichte einer
+'_FES_REALIZATION_2_TITLE_2_': GLUTENFREIE WELT
+'_FES_REALIZATION_2_PARAGRAPH_1_': Für diesen Kunden haben wir eine neue Webseite auf Basis von Joomla entwickelt, die genauso anpassungsfähig und lecker ist, wie die angebotenen glutenfreien Produkte selbst. Neben der Entwicklung waren wir auch für Visual Design und UX Design verantwortlich.
+
+'_FES_REALIZATION_3_TITLE_1_': Ein brandneues Büro
+'_FES_REALIZATION_3_TITLE_2_': wann immer Sie es brauchen
+'_FES_REALIZATION_3_PARAGRAPH_1_': Eine neue, Wordpress-basierte Website. Als Verantwortliche für Design und Entwicklung hat unser Team eine moderne Website mit einem unkonventionellen Design und attraktiven Animationen erstellt, um das Angebot des Unternehmens ansprechend zu präsentieren.
+
+'_FES_ANCHOR_LINK_1_': frontend-vorwort
+'_FES_ANCHOR_LINK_2_': neueste-technologien
+'_FES_ANCHOR_LINK_3_': kunden-kaufen-mit-ihren-augen
+'_FES_ANCHOR_LINK_4_': erster-eindruck
+'_FES_ANCHOR_LINK_5_': qualitaet-vs-quantitaet
+'_FES_ANCHOR_LINK_6_': wir-haben-das-wissen
+'_FES_ANCHOR_LINK_7_': unsere-projekte
+
+# FRONTEND SERVICE END
+
+# SYMFONY & ZEND DEVELOPMENT SERVICE START
+
+'_SZS_S1_TITLE_HEADER_': SYMFONY & ZEND
+'_SZS_S1_PARAGRAPH1_': Symfony und Zend sind die führenden Frameworks der PHP-Programmiersprache.
+
+'_SZS_S1_PARAGRAPH2_': Sie werden aufgrund ihrer enormen Flexibilität und hohen Sicherheit gerne für die Erstellung von Websites und Online-Apps verwendet. Wenn Sie BBC, MTV, Bla Bla Car oder auch zehntausende andere Websites besucht haben, haben Sie Symfony und Zend bereits in Aktion gesehen.
+'_SZS_S1_PARAGRAPH3_': Advox Studios ist erfahrener und zuverlässiger Entwickler von Zend und Symfony. Hier einige Gründe, warum wir der richtige Partner für Sie sind.
+
+'_SZS_IB1_TEXT_1_': 6 ENTWICKLER AN BORD
+'_SZS_IB2_TEXT_1_': 8 JAHRE ERFAHRUNG
+'_SZS_IB3_TEXT_1_': ÜBER 30 ERFOLGREICHE PROJEKTE
+'_SZS_IB4_TEXT_1_': GROSSES KNOW-HOW IN DER OPTIMIERUNG hochfrequentierter Webseiten
+
+'_SZS_ANCHOR_1': ÜBER FRAMEWORKS
+'_SZS_ANCHOR_2': UNSERE FRAMEWORKS PROJEKTE
+
+'_SZS_S2_TITLE_HEADER_': SIE WOLLEN MAXIMALE FLEXIBILITÄT
+'_SZS_S2_PARAGRAPH1_': 'Symfony 3 ist eine Open-Source-Plattform, die eine große und leistungsfähige Entwicklungsgemeinschaft dazu animiert, täglich innovative Erweiterungen und Funktionen zu liefern. Der Nutzen für die Benutzer liegt auf der Hand: Mit der korrekten Konfiguration von Symfony und Zend ist nahezu nichts unmöglich!'
+'_SZS_S2_PARAGRAPH2_':  Die Flexibilität von Symfony und Zend ermöglicht eine branchen-, fach-, sprachen- und kompatibilitätsspezifische Anpassung der Performance - und hierin sind wir Experten!
+
+'_SZS_S3_TITLE_HEADER_': SIE WOLLEN OPTIMALE EFFIZENZ
+'_SZS_S3_PARAGRAPH1_': Symfony und Zend wurden entwickelt, um die PHP-Sprache äußerst effizient zu nutzen. Dieses Optimierungsniveau reduziert die Zeit, den Aufwand und die Ressourcen, die während der Entwicklung und des Testens aufgewendet werden. <br><br> Die nachgelagerten Anforderungen an die Wartung sind ebenfalls geringer - und das ohne jeden Qualitätsverlust!
+
+'_SZS_S4_TITLE_HEADER_': SIE WOLLEN SICHERHEIT, DER SIE VERTRAUEN KÖNNEN
+'_SZS_S4_PARAGRAPH1_': Webseiten, die auf Symfony und Zend basieren, heben sich deutlich im Faktor Sicherheit ab und werden nur selten Opfer von Hacker-Angriffen. Das liegt daran, dass Zend ein Framwork der Entwickler der PHP-Sprache ist, deren Erfahrung und Know-How dafür sorgen, dass Zend absolut luftdicht ist. <br><br> Damit sind wir in der Lage, Ihre Website oder App unter idealen Sicherheitsaspekten zu erstellen.
+
+'_SZS_S5_TITLE_HEADER_': SIE WOLLEN EINFACHHEIT & SUPPORT
+'_SZS_S5_PARAGRAPH1_': Fügen Sie Einfachheit zu den oben genannten Vorteilem hinzu, denn diese Plattformen sind für ihre einfache Anwendbarkeit bekannt. Das ist auch der Grund, weshalb Zend weltweit in über 75 Millionen Projekte implementiert wurde. <br><br> Und wenn es mal ein Problem gibt? Der Technische Support für Entwickler ist 24/7 erreichbar. Dazu kommt ein umfangreiches Hilfe-Portal mit zahlreichen Fragen und Antworten. Für Sie bedeutet das maximale Zuverlässigkeit.
+
+'_SZS_S6_TITLE_HEADER_':
+'_SZS_S6_PARAGRAPH1_':
+'_SZS_S6_PARAGRAPH2_':
+
+
+'_SZS_REALIZATION_1_TITLE_1_': Der beste Weg einen Seelenverwandten zu finden!
+'_SZS_REALIZATION_1_TITLE_2_': ''
+'_SZS_REALIZATION_1_PARAGRAPH_1_': Die Anforderung unseres Kunden war es, die Suche nach der "besseren Hälfte" so einfach und genau wie möglich zu machen. Um dies zu erreichen, haben wir eine Website designt und entwickelt, die auf PHP ZEND basiert und damit eine Plattform geschaffen, die für Polen "im Exil" zu einem einzigartigen Ort geworden ist.
+
+'_SZS_REALIZATION_2_TITLE_1_': Wenn Sie Geld mögen, werden Sie
+'_SZS_REALIZATION_2_TITLE_2_': MM PRIME lieben!
+'_SZS_REALIZATION_2_PARAGRAPH_1_': Moderne Unternehmens-Website, die auf Basis des PHP Zend Framework erstellt wurde. Wir waren für das gesamte Projekt verantwortlich, vom Design bis hin zur Back-End Entwicklung mit individuellem CMS und Kundenpanel.
+
+'_SZS_REALIZATION_3_TITLE_1_': Kleine Heimat in einer virtuellen Welt!
+'_SZS_REALIZATION_3_TITLE_2_': ''
+'_SZS_REALIZATION_3_PARAGRAPH_1_': Im Gegensatz zu dem, was Sie vielleicht denken, gibt es für uns auch Leben jenseits des E-Commerce. Deshalb haben wir beschlossen, das Kalisz Virtual Photo Museum zu entwickeln. Umgesetzt als One-Pager auf Basis von Zend und AJAX.
+
+'_SZS_ANCHOR_LINK_1_': frameworks-einfuehrung
+'_SZS_ANCHOR_LINK_2_': flexibilitaet
+'_SZS_ANCHOR_LINK_3_': effizienz
+'_SZS_ANCHOR_LINK_4_': sicherheit
+'_SZS_ANCHOR_LINK_5_': einfachheit-und-technische-unterstuetzung
+'_SZS_ANCHOR_LINK_6_': unsere-projekte
+
+# SYMFONY & ZEND DEVELOPMENT END
+
+# UX & DESIGN SERVICE START
+
+'_UXS_S1_TITLE_HEADER_': UX & UI DESIGN
+'_UXS_S1_PARAGRAPH1_': UX & UI klingt zunächst kompliziert, doch was steckt wirklich dahinter?
+'_UXS_S1_PARAGRAPH2_': Es dreht sich alles um den Designansatz und den Prozess, der zur Erstellung eines Produkts führt - zum Beispiel Ihrer Website oder Ihres Onlineshops. In diesem Prozess konzentrieren wir uns nicht nur auf den wirtschaftlichen Aspekt des Produkts, sondern (oder vielleicht vor allem?) auf den Nutzen für Ihren zukünftigen Kunden.
+'_UXS_S1_PARAGRAPH3_': Wie funktioniert das genau? Hier verraten wir mehr.
+
+'_UXS_IB1_TEXT_1_': 2 WEBDESIGNER + 1 UX SPEZIALIST AN BORD
+'_UXS_IB2_TEXT_1_': ÜBER 80 ERFOLGREICHE PROJEKTE
+'_UXS_IB3_TEXT_1_': KNOW-HOW IN WIREFRAME DESIGN UND IMPLEMENTIERUNG
+'_UXS_IB4_TEXT_1_': KNOW-HOW IN AXURE UND MATERIAL DESIGN
+'_UXS_IB5_TEXT_1_': USABILITY TESTS
+'_UXS_IB6_TEXT_1_': UMFANGREICHE KENNTNISSE IN WEBANALYTICS
+
+'_UXS_ANCHOR_1': ÜBER UX & DESIGN
+'_UXS_ANCHOR_2': UNSERE UX & DESIGN PROJEKTE
+
+'_UXS_S2_TITLE_HEADER_': RESEARCH
+'_UXS_S2_PARAGRAPH1_': Bevor wir mit dem eigentlichen Designprozess starten, sammeln wir sämtliche Daten über Ihre potentiellen Kunden, um uns ein genaues Bild von Benutzern und ihren Bedürfnissen und Erfahrungen zu machen. Wir diagnostizieren Probleme, mit denen sie zu kämpfen haben, überprüfen unsere Ideen und konfrontieren die Geschäftsziele mit den Bedürfnissen der Endnutzer. Wir untersuchen den Markt, Wettbewerber und Trends. So schaffen wir eine fundierte Grundlage für alle weiteren Schritte.
+
+'_UXS_S3_TITLE_HEADER_': ANALYSE
+'_UXS_S3_PARAGRAPH1_': In diesem Schritt werden die gesammelten Daten analysiert und unsere anfängliche Vision für Ihr Projekt geformt, indem wir diese auf spezifische Szenarien und mögliche Funktionen anwenden. Es werden "Must haves", "Should haves" und "Nice to haves" definiert. <br><br> Klingt bisher einleuchtend, oder?
+
+'_UXS_S4_TITLE_HEADER_': DESIGN
+'_UXS_S4_PARAGRAPH1_': "Nach der Analyse können wir zur Designphase übergehen. Hier entwerfen wir User Flows, erstellen erste Skizzen und bauen Mock Ups - zunächst nur grob, im weiteren Verlauf zunehmend komplexer und realistischer, einschließlich anklickbarer und animierter Grafikelemente. Unser Entwurfsprozess ist iterativ: Der Prototyp wird genau unter die Lupe genommen, angepasst und erneut geprüft, bis wir das ideale Design haben."
+
+'_UXS_S5_TITLE_HEADER_': PRODUKTION
+'_UXS_S5_PARAGRAPH1_': "Das Zieldesign ist konzipiert, freigegeben und an das Entwicklerteam weitergeleitet. Jetzt erfolgt die längste Phase des gesamten Prozesses: Die Produktion. Anhand eines mit dem Kunden abgestimmten Zeitplans kann dieser den aktuellen Stand während der Implementierung immer einsehen. Während der Implementierung wird das Produkt kontinuierlich getestet, bis es perfekt ist. <br><br> Und wir meinen wirklich P-E-R-F-E-K-T"
+
+'_UXS_S6_TITLE_HEADER_': WIR GEHEN LIVE
+'_UXS_S6_PARAGRAPH1_': "Diesen Projektabschnitt mag jeder am liebsten: Das Kind erblickt das Licht der Welt. Doch der Livegang ist noch lange nicht das Ende unserer Arbeit. Jedes Kind braucht Aufmerksamkeit, Pflege und Unterstützung. Wir bleiben Ihnen mit unserem technischen Support so lange erhalten, bis alle eventuell aufkommenden Kinderkrankheiten behoben sind."
+'_UXS_S6_PARAGRAPH2_': Sobald Ihr Baby erwachsen und bereit ist, der Welt ins Gesicht zu sehen, ist es okay zu weinen :)
+
+'_UXS_S7_TITLE_HEADER_': ZUSAMMENFASSUNG
+'_UXS_S7_PARAGRAPH1_': Unser UX & UI Design Prozess hat sich bereits bei vielen Projekten bewährt. Im Fokus steht der Endnutzer, dem nicht nur ein schönes Produkt, sondern auch eine qualitativ hochwertige Nutzererfahrung beim Kontakt mit dem Produkt bereitet werden soll. Die iterative, zyklusbasierte Arbeitsweise befähigt uns dabei, Herausforderungen zu erkennen und erfolgreich in die Entwicklung Ihres Projekts mit einfließen zu lassen.
+'_UXS_S7_PARAGRAPH2_': Natürlich stecken wir nicht in starren Prozessen fest, denn jedes Projekt ist anders und so passen wir auch unsere Projektphasen den individuellen Anforderungen an Budget, Zeitplan, Ressourcen und Ziel unserer Kunden an. <br><br> Vertrauen Sie auf unsere Erfahrung. Wir feuen uns auf Ihr Projekt!
+
+'_UXS_REALIZATION_1_TITLE_1_': The best way to find a soulmate!
+'_UXS_REALIZATION_1_TITLE_2_': ''
+'_UXS_REALIZATION_1_PARAGRAPH_1_': Our client asked us to do our best and make looking for the significant other as simple and accurate as possible. In order to do that, we designed and built a website based on PHP ZEND which has become a truly unique place for the Poles staying abroad.
+
+'_UXS_REALIZATION_2_TITLE_1_': Clothes for every occasion
+'_UXS_REALIZATION_2_TITLE_2_': ''
+'_UXS_REALIZATION_2_PARAGRAPH_1_': We were faced with a challenge of creating a visually-appealing, modern store. Sure enough, Magento turned out to be the most suitable solution. We accompanied the store with an Advox-made graphic design.
+
+'_UXS_REALIZATION_3_TITLE_1_': PROJECTS COMING
+'_UXS_REALIZATION_3_TITLE_2_': SOON
+'_UXS_REALIZATION_3_PARAGRAPH_1_':
+
+'_UXS_ANCHOR_LINK_1_': uxandui-einfuehrung
+'_UXS_ANCHOR_LINK_2_': forschung
+'_UXS_ANCHOR_LINK_3_': analyse
+'_UXS_ANCHOR_LINK_4_': design-prozess
+'_UXS_ANCHOR_LINK_5_': bildungsprozess
+'_UXS_ANCHOR_LINK_6_': wir-gehen-live
+'_UXS_ANCHOR_LINK_7_': zusammenfassung
+'_UXS_ANCHOR_LINK_8_': unsere-projekte
+
+# UX & DESIGN SERVICE END
+
+# SERVICES END
+
+# ABOUT US START
+
+'_AU_ANCHOR_1': HOW WE WORK
+'_AU_ANCHOR_2': OUR HISTORY
+'_AU_ANCHOR_3': ATMOSPHERE
+
+'_AU_S1_TITLE_HEADER_': ÜBER UNS
+'_AU_S1_PARAGRAPH1_': Wer sind wir?<br>Was machen wir?
+'_AU_S1_PARAGRAPH2_': Lernen Sie uns kennen und erfahren Sie, warum es Spaß macht, mit uns zu arbeiten!
+'_AU_S1_PARAGRAPH3_': Jedes Projekt ist für uns Herausforderung, Abenteuer und Spaß zugleich!
+
+'_AU_S2_TITLE_HEADER_': WIE WIR ARBEITEN
+'_AU_S2_PARAGRAPH1_': Scrum ist unsere zweite Sprache. Für die Durchführung unserer Projekte und die frühzeitige Erkennung und Überwindung von Hindernissen nutzen wir vorwiegend agile Methoden.
+'_AU_S2_PARAGRAPH2_': Da die Welt der Programmierung und Entwicklung nie still steht, tun wir das auch nicht. Wir arbeiten immer am Zahn der Zeit und folgen den Guidelines des Agilen Manifests. Doch genauso schätzen wir die Tradition':' Wenn die Anwendung eines kaskadierenden Modells gewünscht und gerechtfertigt ist, sind wir jederzeit in der Lage, umzuswitchen.
+
+'_AU_S3_TITLE_HEADER_': WIR LIEBEN ES, ABZULIEFERN
+'_AU_S3_PARAGRAPH1_': Ergebnisse haben oberste Priorität. Wenn wir Entscheidungen treffen, geschieht dies immer im Kontext Ihrer Anforderungen. Die Bedeutung von Effizienz und Kosten-Nutzen-Beziehungen ist uns stets bewusst, da sich diese unmittelbar auf die Ergebnisse auswirken.
+'_AU_S3_PARAGRAPH2_': Wenn Sie uns für Ihr Projekt an Bord holen, ist es für uns mehr als eine reine Geschäftsbeziehung. Es ist eine neue Herausforderung, ein Abenteuer und eine weitere Gelegenheit, unser Talent erneut unter Beweis zu stellen.
+'_AU_S3_PARAGRAPH3_': Da sie genauso in den Prozess investieren wie in die Ergebnisse, sind unsere Kunden dabei immer Teil des Entstehungsprozesses. Dank der Kommunikation über Trackingsoftwares wie JIRA und Redmine sind unsere Kunden immer auf dem aktuellen Stand des Projektes und können als vollwertige Mitglieder des Teams an der Arbeit teilnehmen.
+
+'_AU_S4_TITLE_HEADER_': EINZIGARTIGE ATMOSPHÄRE
+'_AU_S4_PARAGRAPH1_': Deadlines, Ziele, ASAP - diese und andere Buzzwords sind fester Bestandteil unserer Arbeit. Umso wichtiger ist uns bei Advox ein ausgelassenes Unternehmensklima.
+'_AU_S4_PARAGRAPH2_': Wir achten auf eine ausgeglichene Work-Life-Balance und eine entspannte Arbeitsathmosphäre. Denn obwohl wir hier sind, um einen guten Job zu machen, sind wir am Ende des Tages alle Menschen.
+
+'_AU_S5_TITLE_HEADER_': ABSCHALTEN
+'_AU_S5_PARAGRAPH1_': Einige der härtesten Rivalitäten führen wir gegen uns selbst. Bei täglichen Tischfußballspielen geht es oft stürmisch zu. Wer heute noch kein Profi-Spieler ist, wird es bei uns schnell werden!
+'_AU_S5_PARAGRAPH2_': ''
+
+'_WE_PROVIDE_FOR_YOU_': Das bieten wie unseren mitarbeitern
+
+'_AU_UNDER_IMAGE_TEXT_1': Entspannende <br> Massagen :)
+'_AU_UNDER_IMAGE_TEXT_2': Iss <br> mich!!!
+'_AU_UNDER_IMAGE_TEXT_3': Zeit für ein kleines Bier
+'_AU_UNDER_IMAGE_TEXT_4': Zeit für soziale Kontakte
+'_AU_UNDER_IMAGE_TEXT_5': Trainings, Weiterbildungen und mehr
+'_AU_UNDER_IMAGE_TEXT_6': Geburtstagsüberraschungen :p
+'_AU_UNDER_IMAGE_TEXT_7': Umfangreiches Sportprogramm
+'_AU_UNDER_IMAGE_TEXT_8': Indoor und Outdooraktivitäten
+
+'_HISTORY_': GESCHICHTE
+
+'_AU_TIMELINE_TEXT_1_': Vor langer Zeit, als das iPhone noch einen Kopfhöreranschluss hatte, starteten wir mit der Eroberung der IT-Welt.
+'_AU_TIMELINE_TEXT_2_': Es ist offiziell - Advox startet als interaktive Agentur durch. Unser Fokus':' PPC Advertising, Web Analytics und Web Design.
+'_AU_TIMELINE_TEXT_3_': Wir erstellen unser Portfolio und erweitern unseren Kundenstamm.
+'_AU_TIMELINE_TEXT_4_': Fokussierung auf reine Online-Projekte mit einem stolzen Team von 5 Entwicklern!
+'_AU_TIMELINE_TEXT_5_': Teamerweiterung auf 8 Mitarbeiter erlaubt uns eine weitere Fokussierung des E-Commerce.
+'_AU_TIMELINE_TEXT_6_': Jetzt sind wir schon 12, bis zum Anschlag mit professionellen Tools und Methoden bewaffnet.
+'_AU_TIMELINE_TEXT_7_': Unser Portfolio erlaubt es uns, größere und ehrgeizigere Projekte anzugehen. Unsere Firma wächst weiter!
+'_AU_TIMELINE_TEXT_8_': 20 Mitarbeiter, jetzt gibt es auch Büromassagen, weshalb wir wohl schnell mit weiterem Zuwachs rechnen können ;)
+'_AU_TIMELINE_TEXT_9_': Demographische Krise? Davon merken wir nichts. Das Advox-Team besteht bereits aus 25 Mitarbeitern, Tendenz steigend!
+
+'_AU_ANCHOR_LINK_1_': ueberuns-vorwort
+'_AU_ANCHOR_LINK_2_': wie-wir-arbeiten
+'_AU_ANCHOR_LINK_3_': es-zaehlt-nur-das-ergebnis
+'_AU_ANCHOR_LINK_4_': arbeitsklima
+'_AU_ANCHOR_LINK_5_': chill-out
+'_AU_ANCHOR_LINK_6_': wir-kuemmern-uns-um-unsere-mitarbeiter
+'_AU_ANCHOR_LINK_7_': unsere-geschichte
+
+# ABOUT US END
+
+# PRIVACY POLICY START
+
+'_PP_VERTICAL_TITLE_1_': COOKIES INFO
+
+'_PP_PARAGRAPH_1_': Die Privatsphäre der Nutzer unserer Dienstleistungen ist sehr wichtig für uns. Im Folgenden finden Sie Informationen zu den persönlichen Daten, die während des Besuchs auf www.advoxstudio.de gesammelt wurden. Wir geben keine personenbezogenen Daten an Dritte weiter. Die Daten werden nur dazu verwendet, unsere Website ordnungsgemäß zu nutzen.
+'_PP_PARAGRAPH_2_': Die von www.advoxstudio.de gesammelten persönlichen Daten dürfen nicht an Dritte weitergegeben, verkauft oder veröffentlicht werden und werden ausschließlich zur Erfüllung von Kundenpflichten, wie zum Beispiel der Zusendung von Geschäftsdokumenten, und Kundensupport verwendet.
+'_PP_TITLE_PARAGRAPH_1_': LOG-DATEIEN
+
+'_PP_PARAGRAPH_3_': Wie bei den meisten anderen Websites erfassen und verwenden wir die in den Logdateien enthaltenen Daten. Die Informationen in den Protokolldateien enthalten Ihre IP-Adresse, den Netzwerknamen der Computer- (Host-) Adresse, Ihren Internetdienstanbieter, den von Ihnen verwendeten Webbrowser (z. B. Internet Explorer oder Firefox), den Zeitpunkt Ihres Besuchs auf unserer Website und die Seiten, die Sie auf unserer Website besucht haben.
+'_PP_TITLE_PARAGRAPH_2_': COOKIES
+
+'_PP_PARAGRAPH_4_': Wir verwenden Cookies, um Informationen zu speichern, z. B. Ihre persönlichen Präferenzen, wenn Sie www.advoxstudio.de besuchen und sich möglicherweise in bestimmte Funktionen wie Benutzerkonten oder Formularfelder einloggen können.
+'_PP_TITLE_PARAGRAPH_3_': GOOGLE ANALYTICS STATISTIKEN
+
+'_PP_PARAGRAPH_5_': Der Verkehr auf der Website wird durch Google Analytics-Statistiken überwacht. Ziel ist es, Daten über die Popularität unserer Websites und deren Nutzung durch die Nutzer zu sammeln. Durch die Nutzung der einzigen Seiten der Website stimmen Sie zu, dass Ihre Websites von Google Analytics für die oben beschriebenen Zwecke und gemäß den Regeln von Google Analytics analysiert werden.
+'_PP_TITLE_PARAGRAPH_4_': KONTAKT
+
+'_PP_PARAGRAPH_6_': Benutzer, die Fragen zu dieser Datenschutzerklärung, zu Vorgehensweisen auf dieser Website oder zu Kontaktmöglichkeiten haben, werden gebeten, ihre Kommentare an info@advoxstudio.de zu senden
+
+# PRIVACY POLICY END
+
+# (TMP) NEWS START
+'TMP_NEWS_DATE_1':   '06.12.2016'
+'TMP_NEWS_TITLE_1':   'Unsere neue Webseite ist online!'
+'TMP_NEWS_SNIPPET_1': 'Wir sind stolz darauf, endlich das neue Design unserer Webseite präsentieren zu können.'
+'TMP_NEWS_TEXT_1': Nach monatelanger mühsamer Arbeit, unzähligen Konzeptänderungen und hitzigen Diskussionen über die Position von Buttons und anderen Elementen, können wir nun endlich sagen, dass wir es geschafft haben, unserer eigenen Weibseite ein Redesign zu verpassen. <br><br> Obwohl der Prozess am Anfang etwas holprig war, wurden wir von Tag zu Tag besser. In anderen Worten - nach 5 Jahren haben wir es endlich geschafft! Surfen Sie durch unsere Dienstleistungen und Angebote, erfahren Sie mehr über die Art und Weise unserer Unternehmensführung und lernen Sie unsere angewendeten Technologien kennen... aber entdecken Sie bloß nicht zu viele BUGs! ;)
+
+'TMP_NEWS_DATE_2':   '19.09.2016'
+'TMP_NEWS_TITLE_2':   'Meet Magento Polen 2016'
+'TMP_NEWS_SNIPPET_2': 'Die Meet Magento Polen 2016 findet wieder statt und wir sind erneut als Sponsor mit dabei.'
+'TMP_NEWS_TEXT_2_1': Die Meet Magento ist ein Must-be für alle E-Commerce Interessierten. Die internationale Konferenz findet dieses Jahr u.a. wieder in Poznań (Polen) statt. An zwei Tagen haben Teilnehmer die Chance, an heißen Diskussionen über die Entwicklung der Magento Plattform und Onlineshops teilzunehmen. Spezielle Workshops und Vorträge sind außerdem eine tolle Möglichkeit, die passende Lösung für Ihr Projekt zu finden.
+'TMP_NEWS_TEXT_2_2': Advox lässt sich so eine Gelegenheit natürlich nicht entgehen. Seit nun drei Jahren sponsern wir die Meet Magento Polen. Unsere Entwickler und Projektmanager sind natürlich mit unter den Teilnehmern!
+
+'TMP_NEWS_DATE_3':   '16.09.2016'
+'TMP_NEWS_TITLE_3':   'Advox ist Magento Partner!'
+'TMP_NEWS_SNIPPET_3': 'Wir freuen uns, bekannt geben zu können, dass Advox den Magento Partnerstatus erworben hat.'
+'TMP_NEWS_TEXT_3': 'E-Commerce mit Magento ist unser Steckenpferd. Wir arbeiten stetig daran, unsere Skills mit dieser Plattform weiter auszubauen und unsere Kooperationen weiterzuentwicklen. Diese Bemühungen resultieren letztendlich in einer Magento Partnerschaft. Und das ist erst der Anfang!'
+
+'TMP_NEWS_DATE_4':   '20.08.2016'
+'TMP_NEWS_TITLE_4':   'PHP Summit 2016'
+'TMP_NEWS_SNIPPET_4': 'Silber Sponsor der PHP Konferenz'
+'TMP_NEWS_TEXT_4': Die PHP Summit war die erste Veranstaltung für PHP-Entwickler in Polen. Am 20. Oktober 2016 war Poznań Zuhause für mehrere hundert passionierte polnische PHP-Spezialisten. Die ganztägige Konferenz bestand aus jeder Menge inspirierenden Vorträgen, interessanten Diskussionen und Meetings von Leuten aus der Branche. Ganz klar, dass wir Veranstaltungen dieser Art voll und ganz unterstützen!
+
+'TMP_NEWS_DATE_5':   '21.04.2015'
+'TMP_NEWS_TITLE_5':   'Tomek und Maciej - neue zertifizierte Magento Entwickler!'
+'TMP_NEWS_SNIPPET_5': 'Unser Team expandiert!'
+'TMP_NEWS_TEXT_5': 'Es gehört einiges dazu, sich "zertifizierter Magento Entwickler" nennen zu dürfen. Während einer 2-stündigen Prüfung müssen 85 schwierige Fragen bearbeitet werden (schummeln unmöglich!). Es wird auf Herz und Nieren geprüft, ob ein Entwickler wirklich alles über die Entwicklung maßgeschneiderter Magento Shops weiß. Und eines sei an dieser Stelle gesagt: Es ist ein Vergnügen mit solchen Experten arbeiten zu dürfen. Gut gemacht, Jungs!'
+
+'TMP_NEWS_DATE_6':   '01.04.2015'
+'TMP_NEWS_TITLE_6':   'Verzug wegen Urlaub!'
+'TMP_NEWS_SNIPPET_6': 'Manchmal braucht man einfach eine Auszeit...'
+'TMP_NEWS_TEXT_6': 'Liebe Kunden, <br><br> gestern Abend haben wir eine überraschende, aber sehr erfreuliche Nachricht erhalten: Einer unserer Advox-Entwickler, Karol, hat beim Lotto gewonnen. Der Gewinn ist höher als man sich erträumen kann... auch wir konnten es kaum glauben, aber es ist wahr! <br><br> Karol war schon immer ein spendabler Mensch und versorgt uns hier regelmäßig mit Cola, Pizza mit Kapern und norwegischem Lachs. Einfach weil er er ist. <br><br> Jetzt hat seine Großzügigkeit neue Formen angenommen: <br><br> In diesem Fall beadauern wir es nicht, unsere Kunden darüber zu informieren, dass wir in ein paar Stunden einen Flug wahrzunehmen haben und noch jede Menge Gepäck zu packen ist. Schließlich muss man sich auf einen Urlaub im Gabunischen Dschungel vorbereiten. Wir werden uns wahrscheinlich weit ab des Internets aufhalten, sodass sich die Fertigstellung Ihrer Projekte mit hoher Wahrscheinlichkeit etwas verzögern wird. <br><br> Wir versprechen Ihnen aber, dass wir uns nach Rückkehr wieder unmittalbar an die Arbeit stürzen werden. <br><br> Oder auch... wenn unser Boss uns wieder diszipliniert... was genau jetzt gerade passiert ;)'
+
+'TMP_NEWS_DATE_7':   '07.07.2014'
+'TMP_NEWS_TITLE_7':   'Grafikdesigner gesucht'
+'TMP_NEWS_SNIPPET_7': 'Wer hat Lust Teil unserer Advox Familie zu werden?'
+'TMP_NEWS_TEXT_7': Zu Ihren Aufgaben zählen Mailings, Internetprojekte, Web-App-Schnittstellen und die Erstellung von Bannern. <br><br> Wir schätzen Kreativität und eine lockere Arbeitsatmosphäre. Wenn Sie sich angesprochen fühlen, senden Sie uns Ihr Portfolio und Ihren Lebenslauf. <br><br> Wir stellen nur die Besten ein - hauen Sie uns um!
+
+'TMP_NEWS_DATE_8':   '13.08.2013'
+'TMP_NEWS_TITLE_8':   'Wir haben das Magento Entwickler-Zertifikat!'
+'TMP_NEWS_SNIPPET_8': 'Neue Magento-Entwickler an Bord!'
+'TMP_NEWS_TEXT_8': Unser Entwickler, Pawel, gehört zu einem von nur 20 Magento zertifizierten Magento-Entwicklern in Polen. Dieses Zertifikat ist nun der offizielle Beweis für seine überragenden Fähigkeiten und eine Garantie für die Professionalität und Zuverlässigkeit seiner entwickleten Shops. <br><br> Pawel ist ein gutes Beispiel dafür, dass wir nur mit den Besten der Besten arbeiten. <br><br> Wenn Sie mehr über das von Pawel brandneu erworbene Zertifikat erfahren möchten, klicken Sie hier. <br><br> Sie möchten mehr über seine Projekte erfahren? Dann besuchen Sie unsere Referenzen. <br><br> Und wenn Sie sich immernoch fragen, wem Sie Ihr Online-Projekt anvertrauen können - rufen Sie uns jetzt an.
+
+'TMP_NEWS_DATE_9':   '21.05.2013'
+'TMP_NEWS_TITLE_9':   'Dringend gesucht: New Business Manager'
+'TMP_NEWS_SNIPPET_9': 'Der Konjunkturrückgang lässt uns kalt - kommen Sie in unser Team!'
+'TMP_NEWS_TEXT_9': 'So viel Mühe wir uns auch geben, aber von einer Wirtschaftskrise bekommen wir hier nichts mit. Im Gegenteil, wir erweitern unser Team und sind auf der Suche nach einem New Business Manager für den europäischen Markt. Hauptaufgabe wird es sein, international neue Kunden zu generieren. Unablässlich für diesen Job ist das Beherrschen einer der folgenden Sprachen: Deutsch, Griechisch, Französisch, Spanisch, Schwedisch, Dänisch, Litauisch oder Italienisch.'
+
+'TMP_NEWS_DATE_10':   '29.03.2013'
+'TMP_NEWS_TITLE_10':   'Frohe Ostern!'
+'TMP_NEWS_SNIPPET_10': 'Das hat der Osterhase für Sie im Gepäck!'
+'TMP_NEWS_TEXT_10': 'Auch wenn das Wetter manchmal irreführend ist - es ist Ostern! Wir wünschen allen unseren gegenwärtigen und zukünftigen Kunden jede Menge Umsatz und alles Gute.'
+
+'TMP_NEWS_DATE_11':   '08.02.2013'
+'TMP_NEWS_TITLE_11':   'Kamyk ist live!'
+'TMP_NEWS_SNIPPET_11': 'Eine neues Magento-Projekt von uns ist online.'
+'TMP_NEWS_TEXT_11': 'Es wurde hart gearbeitet und es gibt immer noch was zu tun. Die meisten Module haben wir speziell für den Kunden entwickelt, gleichzeitig wurden aber auch bestehende Lösungen genutzt. <br><br> Um nur einige Dinge zu nennen: Wir haben die etwas "einfache" Magento-Suche verbessert; der Warenkorb läuft nun über AJAX. Außerdem gibt es weitere Programmierungen, die das Leben der User um einiges einfacher machen. <br><br> Im grafischen Bereich gab es eine ganz wichtige Regel zu befolgen (die wie ein Mantra von hunderten Designern immer und immer wieder wiederholt wird): "Weniger ist mehr". Da die potentielle Zielgruppe dieses Projekts hauptsächlich Frauen sind, besticht der Shop durch eine subtile Linie und ansprechende Details. <br><br> Ganz unbescheiden müssen wir einfach sagen, dass wir echt stolz auf das Ergebnis sind :) <br><br> Wir hoffen, dass es Ihnen (und am allermeisten natürlich Kamyks Kunden) ebenso gefällt.'
+
+'TMP_NEWS_DATE_12':   '02.01.2013'
+'TMP_NEWS_TITLE_12':   'Frohes Neues!'
+'TMP_NEWS_SNIPPET_12': 'Das Advox Team wünscht allen nur das Beste für das neue Jahr!'
+'TMP_NEWS_TEXT_12': 'Wie es bei Star Trek so schön heißt: <br><br> "To boldly go where no man has gone before". <br><br> In diesem Sinne wünschen wir ein frohes neues Jahr!'
+
+'TMP_NEWS_DATE_13':   '29.10.2012'
+'TMP_NEWS_TITLE_13':   'Facebook Kampagne für Yasumi Epil'
+'TMP_NEWS_SNIPPET_13': 'Wie hinterlässt man Spuren im Social Web? Nichts einfacher als das!'
+'TMP_NEWS_TEXT_13': 'Vom Konzept bis zur Umsetzung - das ist die kurze Beschreibung dieser Facebook-Kampagne für Yasumi-epil, eine Kette polnischer Schönheitssalons. <br><br> Ziel der Kampagne war es, die Marke über Facebook zu promoten. Es sollten nicht nur Fans, sondern potentielle Kunden erreicht werden. <br><br> Der Sommer stand vor der Tür, daher war die Rechnung ganz einfach: Sommer + Enthaarung = Beach. Yasumi Beach um genauer zu sein. Ein Strand, an dem jeder glatt und schön ist, wie bei Baywatch! <br><br> Das Ergebnis war spektakulär: Die komplette Case Study lesen Sie hier.'
+
+'TMP_NEWS_DATE_14':   '26.09.2012'
+'TMP_NEWS_TITLE_14':   'Small Homeland 2.0.'
+'TMP_NEWS_SNIPPET_14': 'Beta Version des Kalisz Museum of Photography ist online'
+'TMP_NEWS_TEXT_14': 'Wir wünschen den Autoren dieses tollen Projekts viel Glück und versprechen, das Projekt auch langfristig mit unserem technischen Support zu unterstützen. <br><br> Nach einigen Wochen Arbeit von Grafikdesignern und Entwicklern haben wir dieses schöne Projekt auf die Beine gestellt. <br><br> Nach nur noch wenigen Anpassungen wird diese Seite zu einem echten Highlight. Wir hoffen, damit ein bisschen zu der Geschichte dieser faszinierenden Stadt beizutragen. Die Fotos sind atemberaubend, genauso wie die spannenden Geschichten der Anwohner. Sehen Sie selbst!'
+
+'TMP_NEWS_DATE_15':   '17.03.2012'
+'TMP_NEWS_TITLE_15':   'Wir stellen PHP Entwickler ein'
+'TMP_NEWS_SNIPPET_15': 'Wachsen Sie mit uns und ergänzen Sie unser Team!'
+'TMP_NEWS_TEXT_15': 'Wir haben aktuell zwei Stellen als Junior und Senior PHP-Entwickler ausgeschrieben. Wenn Sie Leidenschaft und Begeisterungsfähigkeit für den Job mitbringen, begrüßen wir Sie gerne an Board! <br><br> Wir suchen nach erfahrenen Entwicklern, die schnell lernen, für neue Technologien brennen und Lust auf interessante Projekte in unserem Büro in Poznańs Innenstadt haben - 5 Minuten vom Alten Marktplatz entfernt. Mehr Informationen zur Bewerbung finden Sie hier.'
+
+'TMP_NEWS_DATE_16':   '01.03.2012'
+'TMP_NEWS_TITLE_16':   'Ein neues Büro!'
+'TMP_NEWS_SNIPPET_16': 'Da das Advox-Team stetig wächst, mussten wir die Räumlichkeiten wechseln.'
+'TMP_NEWS_TEXT_16': 'Endlich, ein neues Büro! <br><br> Es ist warm (was die letzten Tage nicht selbstverständlich war), großzügig und nah am Stadtzentrum gelegen. <br><br> Wir sind begeistert und voller Energie!'
+
+'TMP_NEWS_DATE_17':   '12.12.2011'
+'TMP_NEWS_TITLE_17':   'Schnappen Sie sich eine kostenlose Kampagne!'
+'TMP_NEWS_SNIPPET_17': 'Ergreifen Sie die Gelegenheit - testen Sie kostenlos eine Marketing-Kampagne'
+'TMP_NEWS_TEXT_17': 'Wenn alle mitmachen, können wir natürlich nicht nein sagen: Bis Weihnachten können Sie mit Ihrem Business eine kostenlose Sponsored-link Kampagne testen.'
+
+'TMP_NEWS_AUTHOR_1': 'Kornelia'
+'TMP_NEWS_AUTHORDESC_1': 'Ein echter Energie-Geysir und eine Plaudertasche. Wirklich. Sie ist aber auch sehr gut darin, den Kunden immer geduldig, fast psychotherapeutisch zuzuhören.'
+
+'TMP_NEWS_AUTHOR_2': 'Ela'
+'TMP_NEWS_AUTHORDESC_2': "Unsere Stichwort-Spezialistin ist eine wirklich vielseitige Person - sie wird keiner Art von Arbeit ausweichen. Es gibt keine andere Person, die sympatischer wäre, als sie. Auch gibt es keine andere Person, die so gerne reisen würde. Sie liebt hohe Diskussionen, bleibt fit und spielt (gelegentlich) Tischfußball."
+
+'TMP_NEWS_AUTHOR_3': 'Michał'
+'TMP_NEWS_AUTHORDESC_3': "Ein PM mit hervorragender Arbeitsethik, der selbst die schwierigsten Termine meistern kann. In seiner Freizeit schreibt und veröffentlicht er Artikel über die Weltkonflikte, die oft in die Schlagzeilen geraten. Abgesehen davon - er spielt Bass und geht den Entwicklern auf die Nerven. Aber wer würde sich gegen ihn stellen, wissend, dass Michał auch Jiu Jitsu trainiert?"
+
+'TMP_NEWS_AUTHOR_4': 'Sebastian'
+'TMP_NEWS_AUTHORDESC_4': 'Ein Meister des trockenen Humors, sowohl auf Polnisch als auch auf Englisch. Er setzt seine lignistischen Talente in effizientes Projektmanagement um. Einst in Iława ansässig, ist jetzt ein stolzer Einwohner von Posen. Besitzer des dünnsten Handgelenks in diesem Teil der Welt.'
+
+'TMP_NEWS_AUTHOR_5': 'Damian'
+'TMP_NEWS_AUTHORDESC_5': "Geboren, um sich beschweren zu können. Er findet immer ein Haar in der Suppe und geht den Entwicklern auf die Nerven, aber vor allem ist er ein talentierter Software-Tester!"
+# (TMP) NEWS END
+
+##### VALIDATORS #####
+
+'_REQUIRED_FIELD_': Required field
+'_UNCORRECT_EMAIL_ADDRESS_': Uncorrect email address
+'_PLEASE_UPLOAD_A_VALID_FILE_': Please upload a valid file (.pdf, .doc, .docx)
+'_ANYFIELD_IS_REQUIRED_': File is required
+'_ADDED_FILE_': Added file
+
+##### VALIDATORS #####
+
+
+### METATAGS ###
+
+'_PERSONALBIO_META_TITLE_': Das Team | Diese Leute stecken hinter unserem Erfolg
+'_PERSONALBIO_META_KEYWORDS_': ADVOX Studio team
+'_PERSONALBIO_META_DESCRIPTION_': Alle Gesichter hinter Advox - die Verantwortlichen für unseren Erfolg im Rampenlicht!
+
+'_ABOUTUS_META_TITLE_': Über uns | Alles was Sie schon immer über Advox wissen wollten ;)
+'_ABOUTUS_META_KEYWORDS_': Advox Studio Geschichte, Advox Team, Unser Ziel
+'_ABOUTUS_META_DESCRIPTION_': Keine Geheimnisse! Hier finden Sie heraus, wie wir es geschaft haben, alle unsere kleinen Meisterstücke auf die Beine zu stellen, wie wir arbeiten, wie wir relaxen und Sie bekommen Einblicke in unsere Firmenhistorie - zurück bis zu Zeiten King Arthurs!
+
+'_CAREERS_META_TITLE_': Karriere | Deine Chance, Teil eines Märchens zu werden
+'_CAREERS_META_KEYWORDS_': ADVOX Studio team, Stellenangebot, Karriere
+'_CAREERS_META_DESCRIPTION_': Werden Sie Teil unserers professionellen Teams und nehmen Sie die Herausforderungen an, die die Welt des E-Commerce mit sich bringen!
+
+'_CAREERS_FRONTENDDEVELOPER_META_TITLE_': Frontend Entwickler | Stellenangebot
+'_CAREERS_FRONTENDDEVELOPER_META_KEYWORDS_': ADVOX Studio team, Stellenangebot, Karriere
+'_CAREERS_FRONTENDDEVELOPER_META_DESCRIPTION_': Wir suchen nach einem erfahrenen Entwickler mit großem Know-how in den aktuellen Frontend-Technologien. Das sind genau Sie? Zögern Sie nicht und bewerben Sie sich!
+
+'_CAREERS_JUNIORFRONTENDDEVELOPER_META_TITLE_': Junior Frontend Entwickler | Stellenangebot
+'_CAREERS_JUNIORFRONTENDDEVELOPER_META_KEYWORDS_': ADVOX Studio team, Stellenangebot, Karriere
+'_CAREERS_JUNIORFRONTENDDEVELOPER_META_DESCRIPTION_': Wir suchen nach Entwicklern, die großes Know-how in den aktuellen Frontend-Technologien mitbringen - vielleicht sind Sie das? Zögern Sie nicht und bewerben Sie sich!
+
+'_CAREERS_MAGENTODEVELOPER_META_TITLE_': Magento Entwickler | Stellenangebot
+'_CAREERS_MAGENTODEVELOPER_META_KEYWORDS_': ADVOX Studio team, Stellenangebot, Karriere
+'_CAREERS_MAGENTODEVELOPER_META_DESCRIPTION_': Wir sind auf der Suche nach einem Entwickler mit Magento-Erfahrung. Das trifft auf Sie zu? Dann freuen wir uns auf Ihre Bewerbung!
+
+'_CAREERS_SENIORDEVELOPER_META_TITLE_': Senior Entwickler | Stellenangebot
+'_CAREERS_SENIORDEVELOPER_META_KEYWORDS_': ADVOX Studio team, Stellenangebot, Karriere
+'_CAREERS_SENIORDEVELOPER_META_DESCRIPTION_': Wir sind auf der Suche nach einem erfahrenen Entwickler. Das trifft auf Sie zu? Dann freuen wir uns auf Ihre Bewerbung!
+
+'_CAREERS_SENIORPHPDEVELOPER_META_TITLE_': Senior PHP Entwickler | Stellenangebot
+'_CAREERS_SENIORPHPDEVELOPER_META_KEYWORDS_': ADVOX Studio team, Stellenangebot, Karriere
+'_CAREERS_SENIORPHPDEVELOPER_META_DESCRIPTION_': Wir sind auf der Suche nach einem erfahrenen PHP Developer. Das trifft auf Sie zu? Dann freuen wir uns auf Ihre Bewerbung!
+
+'_CONTACTPAGE_META_TITLE_': So nehmen Sie mit uns Kontakt auf
+'_CONTACTPAGE_META_TITLE_UK': Contact - Magento Agency London
+'_CONTACTPAGE_META_KEYWORDS_': Kontakt, Adressbuch, Standort
+'_CONTACTPAGE_META_DESCRIPTION_': Wenn Sie sich fragen, wie Ihre brandneue Webseite / Ihr brandneuer Onlineshop aussehen könnte - wir haben die Antwort! Kontaktieren Sie uns jetzt!
+
+'_CONTACTPAGESEND_META_TITLE_': Danke für Ihre Nachricht
+
+'_INDEX_META_TITLE_': UX, Design & Programmierung fürs E-Commerce | Magento Partner
+'_INDEX_META_KEYWORDS_': Software Entwicklung, PHP, Zend, Magento, Symfony, Design, User Experience, eCommerce, B2B, Onlineshops
+'_INDEX_META_DESCRIPTION_': Wir sind ADVOX Studio, eine Design & Software Agentur mit jahrelanger Erfahrung im E-Commerce. Wir sind spezialisiert auf Magento, Zend, Symfony und Frontend Entwicklung.
+
+'_PRIVACYPOLICY_META_TITLE_': Datenschutzbestimmungen
+
+'_PROJECTSLIST_META_TITLE_': Unser Portfolio | Projekte von Advox
+'_PROJECTSLIST_META_KEYWORDS_': EWPA, Ambigante, Powerbody, Orgran, MM Prime, Wirtualne Biuro, Polishsouls, Projekte, Realisierungen, portfolio, Referenzen, design, Entwicklung, Programmeirung
+'_PROJECTSIST_META_DESCRIPTION_': In den letzten Jahren haben wir dutzende neue Projekte auf die Beine gestellt. Hier finden Sie nur einen Auszug unserer Referenzen in unseren spezialisierten Bereichen.
+
+'_PROJECTAMBIGANTE_META_TITLE_': Ambigante | Magento Shop
+'_PROJECTAMBIGANTE_META_KEYWORDS_': Magento, PHP7, JS, Jquery, MySql, HTML5, CSS3, Visual design, UX design, Entwicklung, Programmeirung
+'_PROJECTAMBIGANTE_META_DESCRIPTION_': Für ein Modeunternehmen haben wir einen Onlineshop auf die Beine gestellt, bei dem Shoppen einfach ist und Spaß macht. Dank des neuen Visual und UX Designs ist der Shop benutzerfreundlicher und ansprechender geworden. Sehen Sie selbst!
+
+'_PROJECTEWPA_META_TITLE_': EWPA | Magento Onlineshop
+'_PROJECTEWPA_META_KEYWORDS_': Magento, PHP7, JS, Jquery, MySql, HTML5, CSS3, visual design, UX design, Entwicklung, Programmeirung
+'_PROJECTEWPA_META_DESCRIPTION_': Für diesen Kunden haben wir eine komplett neue Magento Webseite für die Präsentation von sehr speziellen Produkten entwickelt. Wir sind stolz darauf, hier Einblicke in dieses Projekt zeigen zu können!
+
+'_PROJECTMMPRIME_META_TITLE_': MM Prime | Moderne Webseite mit PHP und Zend
+'_PROJECTMMPRIME_META_KEYWORDS_': ZEND, JS, PHP7, MySql, HTML5, CSS3, RWD, Visual design, UX design, Entwicklung, Programmeirung
+'_PROJECTMMPRIME_META_DESCRIPTION_': Für unseren Kunden, ein Finanzunternehmen, haben wir vom Frontend bis zum Backend mit kundenspezifischem CMS und Administrationsbereich alles neu designt und programmiert. Wir sind stolz darauf, Ihnen dieses Ergebnis zeigen zu können!
+
+'_PROJECTORGRAN_META_TITLE_': Orgran | Joomla! Webseite
+'_PROJECTORGRAN_META_KEYWORDS_': Joomla!, RWD, HTML5, CSS3, Jquery, JS, PHP7, Visual design, UX design, Entwicklung, Programmeirung
+'_PROJECTORGRAN_META_DESCRIPTION_': Für die Präsentation von Orgrans glutenfreien Produkten haben wir eine Webseite auf Basis von Joomla! designt und programmiert. Wir sind stolz, Ihnen diese Einblicke zeigen zu können!
+
+'_PROJECTPOLISHSOULS_META_TITLE_': PolishSouls | PHP Zend Framework Dating Webseite
+'_PROJECTPOLISHSOULS_META_KEYWORDS_': ZEND, PHP7, JS, RWDm CSS3, HTML5, MySQL
+'_PROJECTPOLISHSOULS_META_DESCRIPTION_': Design und Programmeirung einer Dating Webseite, speziell für polnische Migranten in der UK, Deutschland, den Niederlanden und anderen Ländern. Hier sehen Sie das Ergebnis!
+
+'_PROJECTPOWERBODY_META_TITLE_': Powerbody | Magento Onlineshop mit ERP & CRM Systemen
+'_PROJECTPOWERBODY_META_KEYWORDS_': Magento, SoapUI, JS, PHP7, MySql, HTML5, CSS3, RWD, Entwicklung, Programmeirung
+'_PROJECTPOWERBODY_META_DESCRIPTION_': Für diesen Kunden haben wir das alte E-Commerce System zu neuem Leben erweckt inkl. Integration neuer kundenspezifischer Module. Es war eine große Herausforderung und jetzt sind wir stolz, Ihnen das Ergebnis zu zeigen!
+
+'_PROJECTWIRTUALNEBIURO_META_TITLE_': Wirtualne Buiro | Wordpress Webseite
+'_PROJECTWIRTUALNEBIURO_META_KEYWORDS_': WordPress, PHP7, JS, MySQL, HTML5, CSS3, Visual design, UX design, Entwicklung, Programmeirung
+'_PROJECTWIRTUALNEBIURO_META_DESCRIPTION_': Eine brandneue Webseite für unseren Kunden. Modernes Design, ansprechende Animationen. Alles was eine Webseite nach heutigen Anforderungen erfüllen muss - und sogar ein bisschen mehr. Sehen Sie selbst!
+
+'_PROJECTMUZEUMKALISZA_META_TITLE_': Kalisz Virtual Photo Museum | Zend Framework Onepager Webseite
+'_PROJECTMUZEUMKALISZA_META_KEYWORDS_': ZEND, AJAX
+'_PROJECTMUZEUMKALISZA_META_DESCRIPTION_': Design und Programmierung von einer Webseite für die Präsentation der Geschichte und alten Fotos des wunderbaren Ortes Kalisz.
+
+'_PROJECTZOIO_META_TITLE_': ZOiO | Magento Onlineshop
+'_PROJECTZOIO_META_KEYWORDS_': Magento, PHP7, JS, Jquery, MySql, HTML5, CSS3, visual design, UX design, Programmierung, Entwicklung
+'_PROJECTZOIO_META_DESCRIPTION_': Für unseren Kunden haben wir einen funktionellen Shop in attraktivem Design auf die Beine gestellt. Sehen Sie selbst!
+
+'_PROJECTEASYBATHROOMS_META_TITLE_': Eathybathrooms | Magento Onlineshop
+'_PROJECTEASYBATHROOMS_META_KEYWORDS_': Magento, PHP5, JS, MySql, HTML5, CSS3
+'_PROJECTEASYBATHROOMS_META_DESCRIPTION_': Für einen Kunden aus einem anspruchsvollen britischen Markt haben wir neue Designs implementiert und den Kaufprozess optimiert.
+
+'_PROJECTBESTSPORT_META_TITLE_': Bestport | Magento 2 Onlineshop
+'_PROJECTBESTSPORT_META_KEYWORDS_': Magento 2, PHP7, JS, MySql, Html5, CSS3
+'_PROJECTBESTSPORT_META_DESCRIPTION_': Für unseren Kunden haben wir einen Onlineshop im ansprechenden Design und mit einer Reihe von Integrationen für Lieferanten entwickelt. Sehen Sie selbst!
+
+'_FRONTENDSERVICE_META_TITLE_': Frontend Programmierung seit 2008 - CSS3, HTML5, JS, Bootstrap
+'_FRONTENDSERVICE_META_KEYWORDS_': frontend Programmierung, CSS3, HTML5, JS, Bootstrap
+'_FRONTENDSERVICE_META_DESCRIPTION_': Seit dem Anfang von Advox Studio sind wir auf Frontend Programmierung spezialisiert.
+
+'_MAGENTOSERVICE_META_TITLE_': Design & Programmierung von Magento seit 2011 | Magento Partner
+'_MAGENTOSERVICE_META_KEYWORDS_': Magento, eCommerce, Magento zertifizierte Entwickler, Magento Partner, B2B eCommerce, Onlineshop
+'_MAGENTOSERVICE_META_DESCRIPTION_': Wir arbeiten seit 2011 mit Magento E-Commerce. Seither haben wir über 100 Projekte designt und programmiert!
+
+'_PHPFRAMEWORKSSERVICE_META_TITLE_': Zend Framework & Symfony Programmierung seit 2008
+'_PHPFRAMEWORKSSERVICE_META_KEYWORDS_': Zend Framework, Symfony Framework, Symfony 3, PHP OOP, PHP 7
+'_PHPFRAMEWORKSSERVICE_META_DESCRIPTION_': 2008 haben wir begonnen mit dem Zend Framework zu arbeiten. Damals das beste Framework seiner Zeit. Heute sprechen wir fließend Zend & Symfony.
+
+'_UXANDDESIGNSERVICE_META_TITLE_': UX & UI Design seit 2008
+'_UXANDDESIGNSERVICE_META_KEYWORDS_': UX & UI design , User experience, Benutzererfahrung, User interface, User research, Usability
+'_UXANDDESIGNSERVICE_META_DESCRIPTION_': Jahrelange Erfahrung in UX und UI Design
+
+'_NEWS_META_TITLE_': Aktuelles | Projekte, Events, Internes
+### METATAGS ###
+
+### FOOTER ### START 
+
+'_FOOTER_FACEBOOK_LINK': 'https://www.facebook.com/advoxstudio/'
+
+### FOOTER ###
+
+### IMAGES ALT ###
+
+'_INDEX_IMAGE_1_ALT_': magento partner
+'_INDEX_IMAGE_2_ALT_': magento-certified-developer-advox
+'_INDEX_IMAGE_3_ALT_': magento-certified-developer-frontend-advox
+'_INDEX_IMAGE_4_ALT_': magento-certified-solution-advox
+'_INDEX_IMAGE_5_ALT_': e-commerce icon
+'_INDEX_IMAGE_6_ALT_': symfony & zend icon
+'_INDEX_IMAGE_7_ALT_': frontend icon
+'_INDEX_IMAGE_8_ALT_': ux & design icon
+'_INDEX_IMAGE_9_ALT_': ewpa project
+'_INDEX_IMAGE_10_ALT_': orgran project
+'_INDEX_IMAGE_11_ALT_': powerbody project
+'_INDEX_IMAGE_12_ALT_': background icon
+'_INDEX_IMAGE_13_ALT_': background icon
+'_INDEX_IMAGE_14_ALT_': background icon
+
+'_PERSONALBIO_IMAGE_1_ALT_': background icon
+'_PERSONALBIO_IMAGE_2_ALT_': background icon
+'_PERSONALBIO_IMAGE_3_ALT_': background icon
+'_PERSONALBIO_IMAGE_4_ALT_': background icon
+'_PERSONALBIO_IMAGE_5_ALT_': background icon
+'_PERSONALBIO_IMAGE_6_ALT_': background icon
+'_PERSONALBIO_IMAGE_7_ALT_': background icon
+
+'_NEWS_IMAGE_1_ALT_': background icon
+'_NEWS_IMAGE_2_ALT_': background icon
+'_NEWS_IMAGE_3_ALT_': background icon
+'_NEWS_IMAGE_4_ALT_': background icon
+'_NEWS_IMAGE_5_ALT_': background icon
+'_NEWS_IMAGE_6_ALT_': background icon
+'_NEWS_IMAGE_7_ALT_': background icon
+
+'_SINGLE_NEWS_IMAGE_ALT_': background icon
+
+'_CAREERS_IMAGE_1_ALT_': background icon
+'_CAREERS_IMAGE_2_ALT_': background icon
+'_CAREERS_IMAGE_3_ALT_': background icon
+'_CAREERS_IMAGE_4_ALT_': background icon
+'_CAREERS_IMAGE_5_ALT_': background icon
+
+'_SINGLE_CAREER_IMAGE_ALT_': background icon
+
+'_PP_IMAGE_1_ALT_': background icon
+'_PP_IMAGE_2_ALT_': background icon
+'_PP_IMAGE_3_ALT_': background icon
+'_PP_IMAGE_4_ALT_': background icon
+'_PP_IMAGE_5_ALT_': background icon
+
+'_INFOBOX_IMAGE_ALT_': infobox icon
+
+'_FRONTEND_SERVICE_IMAGE_1_ALT_': macbook-frontend
+
+'_MAGENTO_SERVICE_IMAGE_1_ALT_': macbook-magento
+'_MAGENTO_SERVICE_ECOMMERCE_ICON_ALT_': ecommerce functionalities icon
+
+'_FRAMEWORKS_SERVICE_IMAGE_1_ALT_': macbook-phpframeworks
+
+'_UXIUI_SERVICE_IMAGE_1_ALT_': macbook-uxanddesign
+
+'_PROJECTLIST_IMAGE_1_ALT_': background icon
+'_PROJECTLIST_IMAGE_2_ALT_': background icon
+'_PROJECTLIST_IMAGE_3_ALT_': background icon
+'_PROJECTLIST_IMAGE_4_ALT_': background icon
+'_PROJECTLIST_IMAGE_5_ALT_': background icon
+
+'_PROJECTLIST_MAGENTO_SYGNATURE_ALT_': magento sygnature icon
+'_PROJECTLIST_JOOMLA_SYGNATURE_ALT_': joomla sygnature icon
+'_PROJECTLIST_ZEND_SYGNATURE_ALT_': zend sygnature icon
+'_PROJECTLIST_WORDPRESS_SYGNATURE_ALT_': wordpress sygnature icon
+
+'_ERROR_IMAGE_ALT_': Error Image
+
+## SINGLE PROJECTS ALTS
+
+'_AMBIGANTE_PROJECT_IMAGE_1_ALT_': Magento logo
+'_AMBIGANTE_PROJECT_IMAGE_2_ALT_': jacket
+'_AMBIGANTE_PROJECT_IMAGE_3_ALT_': lipsticks
+'_AMBIGANTE_PROJECT_IMAGE_4_ALT_': jeans pants
+'_AMBIGANTE_PROJECT_IMAGE_5_ALT_': high heels
+'_AMBIGANTE_PROJECT_IMAGE_6_ALT_': mac-ambigante
+'_AMBIGANTE_PROJECT_IMAGE_7_ALT_': image clothes
+'_AMBIGANTE_PROJECT_IMAGE_8_ALT_': image clothes
+'_AMBIGANTE_PROJECT_IMAGE_9_ALT_': handbag
+'_AMBIGANTE_PROJECT_IMAGE_10_ALT_': glasses
+'_AMBIGANTE_PROJECT_IMAGE_11_ALT_': high heels
+'_AMBIGANTE_PROJECT_IMAGE_12_ALT_': laptops
+'_AMBIGANTE_PROJECT_IMAGE_13_ALT_': Ambigante site image
+'_AMBIGANTE_PROJECT_IMAGE_14_ALT_': Ambigante site image
+'_AMBIGANTE_PROJECT_IMAGE_15_ALT_': Ambigante site image
+
+'_EWPA_PROJECT_IMAGE_0_ALT_': Magento logo
+'_EWPA_PROJECT_IMAGE_1_ALT_': tractor
+'_EWPA_PROJECT_IMAGE_2_ALT_': imac ewpa
+'_EWPA_PROJECT_IMAGE_3_ALT_': MacBook
+'_EWPA_PROJECT_IMAGE_4_ALT_': laptop
+'_EWPA_PROJECT_IMAGE_5_ALT_': Showcase
+'_EWPA_PROJECT_IMAGE_6_ALT_': Ewpa site image
+'_EWPA_PROJECT_IMAGE_7_ALT_': Ewpa site image
+'_EWPA_PROJECT_IMAGE_8_ALT_': Ewpa site image
+'_EWPA_PROJECT_IMAGE_9_ALT_': Ewpa site image
+'_EWPA_PROJECT_IMAGE_10_ALT_': Ewpa site image
+'_EWPA_PROJECT_IMAGE_11_ALT_': Ewpa site image
+'_EWPA_PROJECT_IMAGE_12_ALT_': Ewpa site image
+
+'_ZOIO_PROJECT_IMAGE_0_ALT_': Magento logo
+'_ZOIO_PROJECT_IMAGE_1_ALT_': lipstick
+'_ZOIO_PROJECT_IMAGE_2_ALT_': bag
+'_ZOIO_PROJECT_IMAGE_3_ALT_': cosmetic item
+'_ZOIO_PROJECT_IMAGE_4_ALT_': cosmetic item
+'_ZOIO_PROJECT_IMAGE_5_ALT_': boots
+'_ZOIO_PROJECT_IMAGE_6_ALT_': iMac computer
+'_ZOIO_PROJECT_IMAGE_7_ALT_': frontend-presentation-image
+'_ZOIO_PROJECT_IMAGE_8_ALT_': frontend-presentation-image
+'_ZOIO_PROJECT_IMAGE_9_ALT_': frontend-presentation-image
+'_ZOIO_PROJECT_IMAGE_10_ALT_': frontend-presentation-image
+'_ZOIO_PROJECT_IMAGE_11_ALT_': frontend-presentation-image
+'_ZOIO_PROJECT_IMAGE_12_ALT_': iphone
+'_ZOIO_PROJECT_IMAGE_13_ALT_': ipad
+'_ZOIO_PROJECT_IMAGE_14_ALT_': macbook
+'_ZOIO_PROJECT_IMAGE_15_ALT_': zoio site image
+'_ZOIO_PROJECT_IMAGE_16_ALT_': zoio site image
+'_ZOIO_PROJECT_IMAGE_17_ALT_': zoio site image
+'_ZOIO_PROJECT_IMAGE_18_ALT_': zoio site image
+'_ZOIO_PROJECT_IMAGE_19_ALT_': zoio site image
+
+'_MMPRIME_PROJECT_IMAGE_1_ALT_': Zend logo
+'_MMPRIME_PROJECT_IMAGE_2_ALT_': laptop
+'_MMPRIME_PROJECT_IMAGE_3_ALT_': laptop
+'_MMPRIME_PROJECT_IMAGE_4_ALT_': Letter
+'_MMPRIME_PROJECT_IMAGE_5_ALT_': Magazine
+'_MMPRIME_PROJECT_IMAGE_6_ALT_': Bussines cards
+'_MMPRIME_PROJECT_IMAGE_7_ALT_': Envelope
+'_MMPRIME_PROJECT_IMAGE_8_ALT_': Clips
+'_MMPRIME_PROJECT_IMAGE_9_ALT_': Mug
+'_MMPRIME_PROJECT_IMAGE_10_ALT_': hand with phone
+'_MMPRIME_PROJECT_IMAGE_11_ALT_': mmprime site image
+'_MMPRIME_PROJECT_IMAGE_12_ALT_': mmprime site image
+'_MMPRIME_PROJECT_IMAGE_13_ALT_': mmprime site image
+'_MMPRIME_PROJECT_IMAGE_14_ALT_': mmprime site image
+'_MMPRIME_PROJECT_IMAGE_15_ALT_': mmprime site image
+'_MMPRIME_PROJECT_IMAGE_16_ALT_': mmprime site image
+'_MMPRIME_PROJECT_IMAGE_17_ALT_': mmprime site image
+
+'_ORGRAN_PROJECT_IMAGE_1_ALT_': Joomla logo
+'_ORGRAN_PROJECT_IMAGE_2_ALT_': ipad
+'_ORGRAN_PROJECT_IMAGE_3_ALT_': iphone
+'_ORGRAN_PROJECT_IMAGE_4_ALT_': orgran site image
+'_ORGRAN_PROJECT_IMAGE_5_ALT_': orgran site image
+'_ORGRAN_PROJECT_IMAGE_6_ALT_': orgran site image
+'_ORGRAN_PROJECT_IMAGE_7_ALT_': orgran site image
+'_ORGRAN_PROJECT_IMAGE_8_ALT_': orgran site image
+
+'_PS_PROJECT_IMAGE_1_ALT_': Zend logo
+'_PS_PROJECT_IMAGE_2_ALT_': laptop
+'_PS_PROJECT_IMAGE_3_ALT_': laptop
+'_PS_PROJECT_IMAGE_4_ALT_': heart
+'_PS_PROJECT_IMAGE_5_ALT_': hearts
+'_PS_PROJECT_IMAGE_6_ALT_': hearts
+'_PS_PROJECT_IMAGE_7_ALT_': application screen
+'_PS_PROJECT_IMAGE_8_ALT_': application screen
+'_PS_PROJECT_IMAGE_9_ALT_': application screen
+'_PS_PROJECT_IMAGE_10_ALT_': application screen
+'_PS_PROJECT_IMAGE_11_ALT_': application screen
+'_PS_PROJECT_IMAGE_12_ALT_': application screen
+'_PS_PROJECT_IMAGE_13_ALT_': site showcase
+'_PS_PROJECT_IMAGE_14_ALT_': Polishsouls site image
+'_PS_PROJECT_IMAGE_15_ALT_': Polishsouls site image  
+'_PS_PROJECT_IMAGE_16_ALT_': Polishsouls site image  
+'_PS_PROJECT_IMAGE_17_ALT_': Polishsouls site image  
+'_PS_PROJECT_IMAGE_18_ALT_': Polishsouls site image  
+
+
+'_PB_PROJECT_IMAGE_1_ALT_': Magento logo
+'_PB_PROJECT_IMAGE_2_ALT_': capsules
+'_PB_PROJECT_IMAGE_3_ALT_': imac computer
+'_PB_PROJECT_IMAGE_4_ALT_': laptop
+'_PB_PROJECT_IMAGE_5_ALT_': imac computer
+'_PB_PROJECT_IMAGE_6_ALT_': tablet
+'_PB_PROJECT_IMAGE_7_ALT_': smartfone
+'_PB_PROJECT_IMAGE_8_ALT_': site showcase
+'_PB_PROJECT_IMAGE_9_ALT_': site showcase
+'_PB_PROJECT_IMAGE_10_ALT_': site showcase
+'_PB_PROJECT_IMAGE_11_ALT_': Powerbody site image
+'_PB_PROJECT_IMAGE_12_ALT_': Powerbody site image
+'_PB_PROJECT_IMAGE_13_ALT_': Powerbody site image
+'_PB_PROJECT_IMAGE_14_ALT_': Powerbody site image
+'_PB_PROJECT_IMAGE_15_ALT_': Powerbody site image
+'_PB_PROJECT_IMAGE_16_ALT_': Powerbody site image
+'_PB_PROJECT_IMAGE_17_ALT_': Powerbody site image
+
+'_VO_PROJECT_IMAGE_1_ALT_': Wordpress logo
+'_VO_PROJECT_IMAGE_2_ALT_': imac computer
+'_VO_PROJECT_IMAGE_3_ALT_': safety pins
+'_VO_PROJECT_IMAGE_4_ALT_': pen
+'_VO_PROJECT_IMAGE_5_ALT_': calendar
+'_VO_PROJECT_IMAGE_6_ALT_': cup
+'_VO_PROJECT_IMAGE_7_ALT_': stapler
+'_VO_PROJECT_IMAGE_8_ALT_': paper
+'_VO_PROJECT_IMAGE_9_ALT_': macbook
+'_VO_PROJECT_IMAGE_10_ALT_': computer
+'_VO_PROJECT_IMAGE_11_ALT_': paper
+'_VO_PROJECT_IMAGE_12_ALT_': iphone
+'_VO_PROJECT_IMAGE_13_ALT_': tablet
+'_VO_PROJECT_IMAGE_14_ALT_': pen
+'_VO_PROJECT_IMAGE_15_ALT_': computer mouse
+'_VO_PROJECT_IMAGE_16_ALT_': Virtual Office site image
+'_VO_PROJECT_IMAGE_17_ALT_': Virtual Office site image
+'_VO_PROJECT_IMAGE_18_ALT_': Virtual Office site image
+'_VO_PROJECT_IMAGE_19_ALT_': Virtual Office site image
+'_VO_PROJECT_IMAGE_20_ALT_': Virtual Office site image
+
+'_WMK_PROJECT_IMAGE_1_ALT_': Zend logo
+'_WMK_PROJECT_IMAGE_2_ALT_': compass
+'_WMK_PROJECT_IMAGE_3_ALT_': camera
+'_WMK_PROJECT_IMAGE_4_ALT_': imac computer
+'_WMK_PROJECT_IMAGE_5_ALT_': timeline
+'_WMK_PROJECT_IMAGE_6_ALT_': city photo
+'_WMK_PROJECT_IMAGE_7_ALT_': city photo
+'_WMK_PROJECT_IMAGE_8_ALT_': city photo
+'_WMK_PROJECT_IMAGE_9_ALT_': city photo
+'_WMK_PROJECT_IMAGE_10_ALT_': city photo
+'_WMK_PROJECT_IMAGE_11_ALT_': city photo
+'_WMK_PROJECT_IMAGE_12_ALT_': kalisz city photo
+'_WMK_PROJECT_IMAGE_13_ALT_': compass
+'_WMK_PROJECT_IMAGE_14_ALT_': telescope
+'_WMK_PROJECT_IMAGE_15_ALT_': paper
+'_WMK_PROJECT_IMAGE_16_ALT_': Kalisz museum site image
+'_WMK_PROJECT_IMAGE_17_ALT_': Kalisz museum site image
+'_WMK_PROJECT_IMAGE_18_ALT_': Kalisz museum site image
+'_WMK_PROJECT_IMAGE_19_ALT_': Kalisz museum site image
+'_WMK_PROJECT_IMAGE_20_ALT_': Kalisz museum site image
+'_WMK_PROJECT_IMAGE_21_ALT_': Kalisz museum site image
+'_WMK_PROJECT_IMAGE_22_ALT_': Kalisz museum site image
+## SINGLE PROJECTS ALTS
+### IMAGES ALT ###
+
+## SOLUTIONS START
+
+'_SINGLESOLUTION_1_META_TITLE_':
+'_SINGLESOLUTION_1_META_KEYWORDS_':
+'_SINGLESOLUTION_1_META_DESCRIPTION_':
+
+## SOLUTIONS END

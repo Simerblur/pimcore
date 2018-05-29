@@ -1,0 +1,33 @@
+{% extends 'TwigBundle:Exception:base.html.twig' %}
+{% block body %}
+    <div class="page-error-container">
+        <div class="content-container-full-width">
+            <div class="error-page-background">
+                <img class="desktop-error-image" src="/images/backgrounds/404background/404_page_desktop.jpg" alt="{{'_ERROR_IMAGE_ALT_' | trans}}"/>
+                <img class="tablet-error-image" src="/images/backgrounds/404background/404_page_desktop.jpg" alt="{{'_ERROR_IMAGE_ALT_' | trans}}"/>
+                <img class="mobile-error-image" src="/images/backgrounds/404background/404_page_desktop.jpg" alt="{{'_ERROR_IMAGE_ALT_' | trans}}"/>
+                <div class="error-box">
+                    <div class="center-box">
+                    <div class="left-side-content">
+                        <p>{{'_404_PAGE_TEXT_1' | trans | raw}}</p>
+                        <p>{{'_404_PAGE_TEXT_2' | trans}}</p>
+                    </div>
+                    <div class="right-side-content">
+                        <a href="{{ path('homepage') }}">
+                        <div class="error-button">
+                            <p>{{'_TAKE_ME_HOME_' | trans}}</p>
+                        </div>
+                        </a>
+                    </div>
+                        <div class="both-clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                        <script>
+                            document.body.style.backgroundColor = '#070b0c';
+                        </script>
+{% endblock %}
+
+

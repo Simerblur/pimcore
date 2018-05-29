@@ -1,0 +1,41 @@
+<div class="form-header-container">
+    <p class="form-title-text-success">{{'_CAREERS_CONTACT_THANKS_' | trans}}</p>
+</div>
+
+<script>
+    setTimeout(function () {
+
+        if ($("#contact-form-container").css("margin-right") == "0px")
+        {
+            $('#contact-form-container').animate({"margin-right": '-=' + $("#contact-form-container").width()});
+            $('#overlay-back').fadeOut(500);
+        }
+
+        if (($(window).width() >= 1220)) {
+
+            if ($("#contact-form-careers-container").css("margin-right") == "0px")
+            {
+                $('#contact-form-careers-container').animate({"margin-right": '-=' + $("#contact-form-careers-container").width()});
+                $('#overlay-back').fadeOut(500);
+            }
+        }
+
+        if (($(window).width() > 767) && ($(window).width() < 1220)) {
+
+            if ($("#contact-form-careers-container").css("margin-right") == "0px")
+            {
+                $('#contact-form-careers-container').animate({"right": "-660px"});
+                $('#overlay-back').fadeOut(500);
+            }
+        }
+
+        if (($(window).width() < 767)) {
+
+            if ($("#contact-form-careers-container").css("margin-right") == "0px")
+            {
+                $('#contact-form-careers-container').animate({"right": "-320px"});
+                $('#overlay-back').fadeOut(500);
+            }
+        }
+    }, 3000);
+</script>

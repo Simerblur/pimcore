@@ -1,0 +1,24 @@
+{% block subject %}
+    ContactEmailSubject
+{% endblock %}
+{% block body_html %}
+    <br />
+    <h1>Zgłoszenie ze stron solutions.</h1>
+    <br />
+    <table>
+        {% if solution_type is defined and solution_type is not empty %}
+            <tr><td><b>Stanowisko</b></td><td>{{ solution_type }}</td></tr>
+        {% endif %}
+        {% if contact_name is defined and contact_name is not empty %}
+            <tr><td><b>Nazwisko</b></td><td>{{ contact_name }}</td></tr>
+        {% endif %}
+        {% if contact_phone is defined and contact_phone is not empty %}
+            <tr><td><b>Telefon</b></td><td>{{ contact_phone }}</td></tr>
+        {% endif %}
+        {% if contact_email is defined and contact_email is not empty %}
+            <tr><td><b>Email</b></td><td>{{ contact_email }}</td></tr>
+        {% endif %}
+    </table>
+    <br/>
+{% endblock %}
+{% block body_text %}{% endblock %}

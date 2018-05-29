@@ -1,0 +1,153 @@
+{% extends 'layout/base.html.twig' %}
+{% block title %}
+    {{ '_SOLUTIONS_META_TITLE_' | trans }}
+    {{ '_SOLUTIONS_META_KEYWORDS_' | trans }}
+    {{ '_SOLUTIONS_META_DESCRIPTION_' | trans }}
+{% endblock %}
+{% block javascriptsAppend %}
+    <script src="{{ asset('scripts/dotdotdot/jquery.dotdotdot.min.js') }}" type="text/javascript"></script>
+{% endblock %}
+{% block body %}
+    <section class="top-projects-list-section">
+        <div class="content-container">
+            <h2>{{'_SOLUTIONS_TITLE_' | trans}}</h2>
+            <p class="main-paragraph">{{'_SOLUTIONS_HEADER_DESCRIPTION_' | trans}}</p>
+            <div class="both-clear"></div>
+        </div>			
+    </section>
+    <div class="both-clear"></div>
+    <div class="content-container">
+        <div class="solutions-section-container-title">
+            <div class="number-section-solutions">
+                <p>.01</p>
+            </div>
+            <div class="both-clear"></div>
+            <div class="solutions-verticall-text">
+                <h2>
+                    {{'_SOLUTIONS_OUR_INTEGRATION_' | trans | raw}}
+                </h2>
+            </div>
+            <div class="both-clear"></div>
+        </div>
+        <div class="solutions-section-container">
+            <div class="solutions-box">
+                <div class="top-section-sbox">
+                    <h3>{{'_SOLUTIONS_1_TITLE_' | trans | raw}}</h3>
+                </div>
+                <div class="images-section-sbox">
+                    <div class="images-box">
+                        <div class="solutions-image-greyscale image-1-solutions"></div>
+                        <div class="solutions-image-greyscale image-2-solutions"></div>
+                    </div>
+                </div>
+                <div class="text-section-sbox">
+                    <p class="snippet-solutions-paragraph">{{'_SOLUTIONS_1_DESCRIPTION_' | trans}}</p>
+                </div>
+                <a href="{{ path('solutions-ecommerce-custom') }}">
+                <div class="solutions-button">
+                    <p>{{'_READ_MORE_' | trans}}</p>
+                </div>
+                </a>
+            </div>
+                
+            <div class="solutions-box">
+                <div class="top-section-sbox">
+                    <h3>{{'_SOLUTIONS_2_TITLE_' | trans | raw}}</h3>
+                </div>
+                <div class="images-section-sbox">
+                    <div class="images-box">
+                        <div class="solutions-image-greyscale image-1-solutions"></div>
+                        <div class="solutions-image-greyscale image-2-solutions"></div>
+                    </div>
+                </div>
+                <div class="text-section-sbox">
+                    <p class="snippet-solutions-paragraph">{{'_SOLUTIONS_2_DESCRIPTION_' | trans}}</p>
+                </div>
+                <a href="{{ path('solutions-ecommerce-retail') }}">
+                <div class="solutions-button">
+                    <p>{{'_READ_MORE_' | trans}}</p>
+                </div>
+                </a>
+            </div>
+                
+            <div class="solutions-box">
+                <div class="top-section-sbox">
+                    <h3>{{'_SOLUTIONS_3_TITLE_' | trans | raw}}</h3>
+                </div>
+                <div class="images-section-sbox">
+                    <div class="images-box">
+                        <div class="solutions-image-greyscale image-1-solutions"></div>
+                        <div class="solutions-image-greyscale image-2-solutions"></div>
+                    </div>
+                </div>
+                <div class="text-section-sbox">
+                    <p class="snippet-solutions-paragraph">{{'_SOLUTIONS_3_DESCRIPTION_' | trans}}</p>
+                </div>
+                <a href="{{ path('solutions-support-and-custom-service') }}">
+                <div class="solutions-button">
+                    <p>{{'_READ_MORE_' | trans}}</p>
+                </div>
+                </a>
+            </div>
+                
+            <div class="both-clear"></div>
+        </div>
+        <div class="solutions-section-container-title">
+            <div class="number-section-solutions">
+                <p>.02</p>
+            </div>
+            <div class="both-clear"></div>
+            <div class="solutions-verticall-text">
+                <h2>
+                    {{'_SOLUTIONS_OUR_INTEGRATION_' | trans | raw}}
+                </h2>
+            </div>
+            <div class="both-clear"></div>
+
+        </div>
+        <div class="solutions-section-container">
+            <div class="solutions-box">
+                <div class="top-section-sbox">
+                    <h3>{{'_SOLUTIONS_4_TITLE_' | trans | raw}}</h3>
+                </div>
+                <div class="images-section-sbox">
+                    <div class="images-box">
+                        <div class="solutions-image-greyscale image-1-solutions"></div>
+                        <div class="solutions-image-greyscale image-2-solutions"></div>
+                    </div>
+                </div>
+                <div class="text-section-sbox">
+                    <p class="snippet-solutions-paragraph">{{'_SOLUTIONS_4_DESCRIPTION_' | trans}}</p>
+                </div>
+                <div class="solutions-button">
+                    <p>{{'_READ_MORE_' | trans}}</p>
+                </div>
+            </div>
+
+            <div class="both-clear"></div>
+        </div>     
+        <div class="static-background-element solutions-main-element-1">
+            <img src="/images/svg/joboffersvgs/juniorfrontenddeveloper/element_3_jfed.svg" alt=""/>
+        </div>
+        <div class="static-background-element solutions-main-element-2">
+            <img src="/images/svg/joboffersvgs/magentodeveloper/element_1_md.svg" alt=""/>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".snippet-solutions-paragraph").dotdotdot({
+            });
+            
+            $('.solutions-box').hover(function() {
+               $('.images-section-sbox .images-box .solutions-image-greyscale',this).addClass("greyscaleOut");
+              });
+              
+            $('.solutions-box').mouseleave(function() {
+                $('.images-section-sbox .images-box .solutions-image-greyscale',this).removeClass("greyscaleOut");
+              });
+                            
+        });
+    </script>
+{% endblock %}
+
+

@@ -1,0 +1,161 @@
+
+# Created by https://www.gitignore.io/api/pimcore,phpstorm,phpstorm+iml
+
+### PhpStorm ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+
+# Sensitive or high-churn files:
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+# Gradle:
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# CMake
+cmake-build-debug/
+
+# Mongo Explorer plugin:
+.idea/**/mongoSettings.xml
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Ruby plugin and RubyMine
+/.rakeTasks
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+### PhpStorm Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
+
+# Sonarlint plugin
+.idea/sonarlint
+
+### PhpStorm+iml ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff:
+
+# Sensitive or high-churn files:
+
+# Gradle:
+
+# CMake
+
+# Mongo Explorer plugin:
+
+## File-based project format:
+
+## Plugin-specific files:
+
+# IntelliJ
+
+# mpeltonen/sbt-idea plugin
+
+# JIRA plugin
+
+# Cursive Clojure plugin
+
+# Ruby plugin and RubyMine
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+
+### PhpStorm+iml Patch ###
+# Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
+
+*.iml
+modules.xml
+.idea/misc.xml
+*.ipr
+
+### Pimcore ###
+# pimcore source files
+/pimcore
+
+# asset files
+/website/var/assets/*
+
+# backups
+/website/var/backup/*
+
+# file cache
+/website/var/cache/*
+
+# generated PHP classes, keep definition files (.psf)
+/website/var/classes/Object*
+!/website/var/classes/objectbricks
+
+# various configuration files
+/website/var/config/system.xml
+/website/var/config/cache.xml
+/website/var/config/robots.txt
+/website/var/config/Geo*
+/website/var/config/object/*
+/website/var/config/portal/*
+/website/var/config/sqlreport/*
+
+# sent e-mail log files
+/website/var/email/*
+
+# log files
+/website/var/log/*.log
+
+# serialized recyclebin files
+/website/var/recyclebin/*
+
+# search plugin
+/website/var/search/*
+
+# various temp files
+/website/var/system/*
+/website/var/tmp/*
+
+# serialized version files
+/website/var/versions/asset/*
+/website/var/versions/document/*
+/website/var/versions/object/*
+
+# user profile images
+/website/var/user-image/*
+
+# keep .dummy files
+!.dummy
+
+
+# End of https://www.gitignore.io/api/pimcore,phpstorm,phpstorm+iml

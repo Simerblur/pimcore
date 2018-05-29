@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 77 77" style="enable-background:new 0 0 77 77;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="126.7905" y1="-325.0525" x2="199.145" y2="-325.0525" gradientTransform="matrix(0.908 0.4191 -0.4191 0.908 -245.684 265.5383)">
+	<stop  offset="0" style="stop-color:#0E4ADD"/>
+	<stop  offset="0.7385" style="stop-color:#1CF9FE"/>
+	<stop  offset="1" style="stop-color:#1CFDFF"/>
+</linearGradient>
+<path class="st0" d="M25.6,71.3L5.9,51.6c-7.1-7.1-7.1-18.7,0-25.9L25.6,6.1c7.1-7.1,18.7-7.1,25.9,0l19.7,19.7
+	c7.1,7.1,7.1,18.7,0,25.9L51.4,71.3C44.3,78.5,32.7,78.5,25.6,71.3z"/>
+</svg>

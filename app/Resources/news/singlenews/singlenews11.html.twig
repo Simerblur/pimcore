@@ -1,0 +1,54 @@
+{% extends 'layout/base.html.twig' %}
+{% block title %}{{ 'TMP_NEWS_TITLE_11' | trans }}{% endblock %}
+{% block body %}
+    <div class="content-container-static">
+     <a class="back-to-news" href="{{ path('news') }}"><span class="arrow-left"></span><span class="back-to-news-paragraph">{{ '_BACK_TO_NEWS_' | trans }}</span></a>
+        <h1 class="article-header">{{ 'NEWS_OUR_NEWS_TITLE' | trans }}</h1>
+        <div class="article-content-container">
+            
+            <p class="vertical-paragraph-news">{{ 'NEWS_CHECK_IT_OUT' | trans }}</p>
+            <h2 class="article-title-header">{{ 'TMP_NEWS_TITLE_11' | trans }}</h2>
+            <p class="article-date">{{ 'TMP_NEWS_DATE_11'  | trans }}</p>
+            <h3 class="article-introduction">{{ 'TMP_NEWS_SNIPPET_11' | trans }}</h3>
+            <div class="article-image-container">
+                <img src="/images/newsimages/2_kamyk.jpg" alt="{{ 'TMP_NEWS_TITLE_11' | trans }}"/>
+            </div>
+            <div class="article-image-container-tablet-mobile">
+                <img src="/images/newsimages/tablet_mobile/2_kamyk.jpg" alt="{{ 'TMP_NEWS_TITLE_11' | trans }}"/>
+            </div>
+            <p class="article-regular-paragraph">
+                {{ 'TMP_NEWS_TEXT_11' | trans | raw}}
+            </p>
+        </div>
+    {{ include('/news/module/backgroundelementssinglenews.html.twig') }} 
+    </div>
+    <div class="article-author-container">
+        <div class="content-container-static">
+            <div class="article-content-container">
+                <div class="left-side-content">
+                    <div class="help-person person-{{ 'TMP_NEWS_AUTHOR_5' | trans | lower }}"></div>
+                    <div class="help-person-description">
+                        <p class="help-person-name">{{ 'TMP_NEWS_AUTHOR_5' | trans | capitalize }}</p>
+                        <p class="help-person-interests">{{ 'TMP_NEWS_AUTHORDESC_5' | trans}}</p>
+                    </div>
+                </div>
+                <div class="right-side-content">
+                    <div class="social-media-box">
+
+                    </div>
+                </div>
+                <div class="both-clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="next-prev-section">
+        <div class="content-container-static">
+            <a href="{{ path('singlenews12') }}" id="prev-btn"><span></span><p>{{'_PREVIOUS_' | trans}}</p></a>
+            <a href="{{ path('news') }}">{{'_SEE_ALL_NEWS_' | trans}}</a>
+            <a href="{{ path('singlenews10') }}" id="next-btn"><p>{{'_NEXT_' | trans}}</p><span></span></a>
+        </div>
+    </div>
+    <div class="both-clear"></div>
+{% endblock %}
+
+

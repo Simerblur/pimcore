@@ -1061,7 +1061,10 @@
       <parameter key="sensio_distribution.security_checker.command">true</parameter>
     </parameter>
     <parameter key="pimcore.service_controllers" type="collection">
+      <parameter key="AppBundle\Controller\CareersControler">AppBundle\Controller\CareersControler</parameter>
+      <parameter key="AppBundle\Controller\ContactController">AppBundle\Controller\ContactController</parameter>
       <parameter key="AppBundle\Controller\DefaultController">AppBundle\Controller\DefaultController</parameter>
+      <parameter key="AppBundle\Controller\RedirectsController">AppBundle\Controller\RedirectsController</parameter>
       <parameter key="Pimcore\Bundle\AdminBundle\Controller\Admin\AssetController">Pimcore\Bundle\AdminBundle\Controller\Admin\AssetController</parameter>
       <parameter key="Pimcore\Bundle\AdminBundle\Controller\Admin\ClassController">Pimcore\Bundle\AdminBundle\Controller\Admin\ClassController</parameter>
       <parameter key="Pimcore\Bundle\AdminBundle\Controller\Admin\ClassificationstoreController">Pimcore\Bundle\AdminBundle\Controller\Admin\ClassificationstoreController</parameter>
@@ -2151,6 +2154,9 @@
             <argument>/var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.de.xlf</argument>
             <argument>/var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.de.xlf</argument>
             <argument>/var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.de.xlf</argument>
+            <argument>/var/www/html/pimcore/app/Resources/translations/jms/messages.de.xlf</argument>
+            <argument>/var/www/html/pimcore/app/Resources/translations/jms/routes.de.xlf</argument>
+            <argument>/var/www/html/pimcore/app/Resources/translations/messages.de.yml</argument>
           </argument>
           <argument key="el" type="collection">
             <argument>/var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.el.xlf</argument>
@@ -2161,6 +2167,10 @@
             <argument>/var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.en.xlf</argument>
             <argument>/var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.en.xlf</argument>
             <argument>/var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.en.xlf</argument>
+            <argument>/var/www/html/pimcore/app/Resources/translations/jms/messages.en.xlf</argument>
+            <argument>/var/www/html/pimcore/app/Resources/translations/jms/routes.en.xlf</argument>
+            <argument>/var/www/html/pimcore/app/Resources/translations/messages.en.yml</argument>
+            <argument>/var/www/html/pimcore/app/Resources/translations/new/routes.en.xlf</argument>
           </argument>
           <argument key="es" type="collection">
             <argument>/var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.es.xlf</argument>
@@ -2271,6 +2281,9 @@
             <argument>/var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pl.xlf</argument>
             <argument>/var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.pl.xlf</argument>
             <argument>/var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.pl.xlf</argument>
+            <argument>/var/www/html/pimcore/app/Resources/translations/jms/messages.pl.xlf</argument>
+            <argument>/var/www/html/pimcore/app/Resources/translations/jms/routes.pl.xlf</argument>
+            <argument>/var/www/html/pimcore/app/Resources/translations/messages.pl.yml</argument>
           </argument>
           <argument key="pt" type="collection">
             <argument>/var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pt.xlf</argument>
@@ -5641,6 +5654,10 @@
         <argument>!Swiftmailer</argument>
       </call>
       <call method="addPath">
+        <argument>/var/www/html/pimcore/app/Resources/TwigBundle/views</argument>
+        <argument>Twig</argument>
+      </call>
+      <call method="addPath">
         <argument>/var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views</argument>
         <argument>Twig</argument>
       </call>
@@ -5823,6 +5840,10 @@
       <call method="addPath">
         <argument>/var/www/html/pimcore/vendor/symfony/swiftmailer-bundle/Resources/views</argument>
         <argument>!Swiftmailer</argument>
+      </call>
+      <call method="addPath">
+        <argument>/var/www/html/pimcore/app/Resources/TwigBundle/views</argument>
+        <argument>Twig</argument>
       </call>
       <call method="addPath">
         <argument>/var/www/html/pimcore/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views</argument>
@@ -8051,7 +8072,16 @@
       <tag name="console.command"/>
     </service>
     <service id="Pimcore\Bundle\GeneratorBundle\Command\Helper\QuestionHelper" class="Pimcore\Bundle\GeneratorBundle\Command\Helper\QuestionHelper" public="false" autowire="true" autoconfigure="true"/>
+    <service id="AppBundle\Controller\CareersControler" class="AppBundle\Controller\CareersControler" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
+    <service id="AppBundle\Controller\ContactController" class="AppBundle\Controller\ContactController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
     <service id="AppBundle\Controller\DefaultController" class="AppBundle\Controller\DefaultController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
+    <service id="AppBundle\Controller\RedirectsController" class="AppBundle\Controller\RedirectsController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
     </service>
     <service id="instanceof.Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerInterface.0.Pimcore\HttpKernel\CacheWarmer\MkdirCacheWarmer" class="Pimcore\HttpKernel\CacheWarmer\MkdirCacheWarmer" public="false" autowire="true" abstract="true"/>
@@ -8408,8 +8438,14 @@
     <service id="abstract.instanceof.Pimcore\Bundle\AdminBundle\EventListener\UsageStatisticsListener" class="Pimcore\Bundle\AdminBundle\EventListener\UsageStatisticsListener" public="false" autowire="true" autoconfigure="true" abstract="true"/>
     <service id="instanceof.Symfony\Component\Console\Command\Command.0.Pimcore\Bundle\GeneratorBundle\Command\GenerateBundleCommand" class="Pimcore\Bundle\GeneratorBundle\Command\GenerateBundleCommand" public="false" autowire="true" abstract="true"/>
     <service id="abstract.instanceof.Pimcore\Bundle\GeneratorBundle\Command\GenerateBundleCommand" class="Pimcore\Bundle\GeneratorBundle\Command\GenerateBundleCommand" public="false" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id="instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.AppBundle\Controller\CareersControler" class="AppBundle\Controller\CareersControler" public="true" autowire="true" abstract="true"/>
+    <service id="abstract.instanceof.AppBundle\Controller\CareersControler" class="AppBundle\Controller\CareersControler" public="true" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id="instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.AppBundle\Controller\ContactController" class="AppBundle\Controller\ContactController" public="true" autowire="true" abstract="true"/>
+    <service id="abstract.instanceof.AppBundle\Controller\ContactController" class="AppBundle\Controller\ContactController" public="true" autowire="true" autoconfigure="true" abstract="true"/>
     <service id="instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.AppBundle\Controller\DefaultController" class="AppBundle\Controller\DefaultController" public="true" autowire="true" abstract="true"/>
     <service id="abstract.instanceof.AppBundle\Controller\DefaultController" class="AppBundle\Controller\DefaultController" public="true" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id="instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.AppBundle\Controller\RedirectsController" class="AppBundle\Controller\RedirectsController" public="true" autowire="true" abstract="true"/>
+    <service id="abstract.instanceof.AppBundle\Controller\RedirectsController" class="AppBundle\Controller\RedirectsController" public="true" autowire="true" autoconfigure="true" abstract="true"/>
     <service id="service_locator.psov4wx" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator"/>
       <argument type="collection">

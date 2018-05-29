@@ -1,0 +1,3 @@
+personal-bio:
+    locales:  { en: "/welcome", pl: "/bienvenue"}
+    defaults: { _controller: AppBundle:Default:personalbio }

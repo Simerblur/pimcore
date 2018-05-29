@@ -1,0 +1,406 @@
+{% extends 'layout/base.html.twig' %}
+{% block title %}{{'_PROJECTSLIST_META_TITLE_' | trans}}{% endblock %}
+{% block keywords %}{{'_PROJECTSLIST_META_KEYWORDS_' | trans}}{% endblock %}
+{% block description %}{{'_PROJECTSIST_META_DESCRIPTION_' | trans}}{% endblock %}
+{% block javascriptsAppend %}
+    <script src="{{ asset('scripts/DirectionalHover/jquery.directional-hover.js') }}" type="text/javascript"></script>
+{% endblock %}
+{% block body %}
+    <section class="top-projects-list-section">
+        <div class="content-container">
+            <h2>{{'_OUR_WORK_' | trans}}</h2>
+            <p class="main-paragraph">{{'_PROJECTS_LIST_HEADER_TITLE_1_' | trans}}</p>
+            <div class="both-clear"></div>
+        </div>
+    </section>
+    <section class="projects-gird-section">
+        <div class="content-container">
+            <div class="projects-grid">
+                {#<div class="single-project-box-container two-thirds-width">
+                    <a href="{{ path('ittouchproject') }}" class="project-trigger">
+                        <img src="/images/projects/projectslist/bs_img.jpg" alt="bestsport"/>
+                        <div class="project-category-description">
+                            <div class="project-desc-box">
+                                <p class="project-desc-title">IT-TOUCH</p>
+                                <p class="project-desc-tech">{{'_TECHNOLOGIES_' | trans}}:</p>
+                                <p class="project-desc-tech-enum">Magento 2 / PHP7 / JS / RWD / CSS3 / HTML5</p>
+                                <p>{{'_CHECK_PROJECT_' | trans}}
+                                    <span class="arrow-right">
+                                            <span class="arrowhead-up"></span>
+                                            <span class="arrow-line"></span>
+                                            <span class="arrowhead-down"></span>
+                                        </span>
+                                </p>
+                            </div>
+                        </div>
+                        <h3>{{'_PROJECTLIST_DESIGN_' | trans}} / {{'_PROJECTLIST_DEVELOPMENT_' | trans}}</h3>
+                        <div class="project-slide-magento-signature">
+                            <img src="/images/svg/magento_sygnet.svg" alt="{{'_PROJECTLIST_MAGENTO_SYGNATURE_ALT_' | trans}}"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="single-project-box-container one-thirds-width">
+                    <a href="{{ path('dicloproject') }}" class="project-trigger">
+                        <img src="/images/projects/projectslist/power-body-img.jpg" alt="powerbody"/>
+                        <div class="project-category-description">
+                            <div class="project-desc-box">
+                                <p class="project-desc-title">DICLO</p>
+                                <p class="project-desc-tech">{{'_TECHNOLOGIES_' | trans}}:</p>
+                                <p class="project-desc-tech-enum">Magento / SoapUI / JS / PHP7 / MySql / HTML5 / CSS3 / RWD</p>
+                                <p>{{'_CHECK_PROJECT_' | trans}}
+                                    <span class="arrow-right">
+                                            <span class="arrowhead-up"></span>
+                                            <span class="arrow-line"></span>
+                                            <span class="arrowhead-down"></span>
+                                        </span>
+                                </p>
+                            </div>
+                        </div>
+                        <h3>{{'_PROJECTLIST_DESIGN_' | trans}} / {{'_PROJECTLIST_DEVELOPMENT_' | trans}}</h3>
+                        <div class="project-slide-magento-signature">
+                            <img src="/images/svg/magento_sygnet.svg" alt="{{'_PROJECTLIST_MAGENTO_SYGNATURE_ALT_' | trans}}"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="single-project-box-container two-thirds-width">
+                    <a href="{{ path('architectsproject') }}" class="project-trigger">
+                        <img src="/images/projects/projectslist/mm-prime-img.jpg" alt="mmprime"/>
+                        <div class="project-category-description">
+                            <div class="project-desc-box">
+                                <p class="project-desc-title">ARCHITECTS</p>
+                                <p class="project-desc-tech">{{'_TECHNOLOGIES_' | trans}}:</p>
+                                <p class="project-desc-tech-enum">ZEND / JS / PHP7 / MySql / HTML5 / CSS3 / RWD</p>
+                                <p>{{'_CHECK_PROJECT_' | trans}}
+                                    <span class="arrow-right">
+                                            <span class="arrowhead-up"></span>
+                                            <span class="arrow-line"></span>
+                                            <span class="arrowhead-down"></span>
+                                        </span>
+                                </p>
+                            </div>
+                        </div>
+                        <h3>{{'_PROJECTLIST_DESIGN_' | trans}} / {{'_PROJECTLIST_DEVELOPMENT_' | trans}}</h3>
+                        <div class="project-slide-zend-signature">
+                            <img src="/images/zendsygnat.png" alt="{{'_PROJECTLIST_ZEND_SYGNATURE_ALT_' | trans}}"/>
+                        </div>
+                    </a>
+                </div>#}
+                <div class="single-project-box-container two-thirds-width">
+                    <a href="{{ path('bestsportproject') }}" class="project-trigger">
+                        <img src="/images/projects/projectslist/bs_img.jpg" alt="bestsport"/>
+                        <div class="project-category-description">
+                            <div class="project-desc-box">
+                                <p class="project-desc-title">BESTSPORT</p>
+                                <p class="project-desc-tech">{{'_TECHNOLOGIES_' | trans}}:</p>
+                                <p class="project-desc-tech-enum">Magento 2 / PHP7 / JS / RWD / CSS3 / HTML5</p>
+                                <p>{{'_CHECK_PROJECT_' | trans}}
+                                    <span class="arrow-right">
+                                            <span class="arrowhead-up"></span>
+                                            <span class="arrow-line"></span>
+                                            <span class="arrowhead-down"></span>
+                                        </span>
+                                </p>
+                            </div>
+                        </div>
+                        <h3>{{'_PROJECTLIST_DESIGN_' | trans}} / {{'_PROJECTLIST_DEVELOPMENT_' | trans}}</h3>
+                        <div class="project-slide-magento-signature">
+                            <img src="/images/svg/m_2.svg" alt="{{'_PROJECTLIST_MAGENTO_SYGNATURE_ALT_' | trans}}"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="single-project-box-container one-thirds-width">
+                    <a href="{{ path('easybathroomsproject') }}" class="project-trigger">
+                        <img src="/images/projects/projectslist/easybathroom_img_big.jpg" alt="wirtualne muzeum kalisza"/>
+                        <div class="project-category-description">
+                            <div class="project-desc-box">
+                                <p class="project-desc-title">EASYBATHROOMS</p>
+                                <p class="project-desc-tech">{{'_TECHNOLOGIES_' | trans}}:</p>
+                                <p class="project-desc-tech-enum">Magento / PHP7 / JS / RWD / CSS3 / HTML5</p>
+                                <p>{{'_CHECK_PROJECT_' | trans}}
+                                    <span class="arrow-right">
+                                            <span class="arrowhead-up"></span>
+                                            <span class="arrow-line"></span>
+                                            <span class="arrowhead-down"></span>
+                                        </span>
+                                </p>
+                            </div>
+                        </div>
+                        <h3>{{'_PROJECTLIST_DESIGN_' | trans}} / {{'_PROJECTLIST_DEVELOPMENT_' | trans}}</h3>
+                        <div class="project-slide-magento-signature">
+                            <img src="/images/svg/m_1.svg" alt="{{'_PROJECTLIST_MAGENTO_SYGNATURE_ALT_' | trans}}"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="single-project-box-container one-thirds-width">
+                    <a href="{{ path('orgranproject') }}" class="project-trigger">
+                        <img src="/images/projects/projectslist/orgran-img.jpg" alt="orgran"/>
+                        <div class="project-category-description">
+                            <div class="project-desc-box">
+                                <p class="project-desc-title">ORGRAN</p>
+                                <p class="project-desc-tech">{{'_TECHNOLOGIES_' | trans}}:</p>
+                                <p class="project-desc-tech-enum">Joomla / RWD / HTML5 / CSS3 / Jquery / JS / PHP7</p>
+                                <p>{{'_CHECK_PROJECT_' | trans}}
+                                    <span class="arrow-right">
+                                            <span class="arrowhead-up"></span>
+                                            <span class="arrow-line"></span>
+                                            <span class="arrowhead-down"></span>
+                                        </span>
+                                </p>
+                            </div>
+                        </div>
+                        <h3>{{'_PROJECTLIST_DESIGN_' | trans}} / {{'_PROJECTLIST_DEVELOPMENT_' | trans}}</h3>
+                        <div class="project-slide-joomla-signature">
+                            <img src="/images/joomlasygnat.png" alt="{{'_PROJECTLIST_JOOMLA_SYGNATURE_ALT_' | trans}}"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="single-project-box-container two-thirds-width">
+                    <a href="{{ path('ewpaproject') }}" class="project-trigger">
+                        <img src="/images/projects/projectslist/ewpa-img.jpg" alt="ewpa"/>
+                        <div class="project-category-description">
+                            <div class="project-desc-box">
+                                <p class="project-desc-title">EWPA</p>
+                                <p class="project-desc-tech">{{'_TECHNOLOGIES_' | trans}}:</p>
+                                <p class="project-desc-tech-enum">Magento / PHP7 / JS / Jquery / MySql / HTML5 / CSS3</p>
+                                <p>{{'_CHECK_PROJECT_' | trans}}
+                                    <span class="arrow-right">
+                                            <span class="arrowhead-up"></span>
+                                            <span class="arrow-line"></span>
+                                            <span class="arrowhead-down"></span>
+                                        </span>
+                                </p>
+                            </div>
+                        </div>
+                        <h3>{{'_PROJECTLIST_DESIGN_' | trans}} / {{'_PROJECTLIST_DEVELOPMENT_' | trans}}</h3>
+                        <div class="project-slide-magento-signature">
+                            <img src="/images/svg/m_1.svg" alt="{{'_PROJECTLIST_MAGENTO_SYGNATURE_ALT_' | trans}}"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="single-project-box-container two-thirds-width">
+                    <a href="{{ path('mmprimeproject') }}" class="project-trigger">
+                        <img src="/images/projects/projectslist/mm-prime-img.jpg" alt="mmprime"/>
+                        <div class="project-category-description">
+                            <div class="project-desc-box">
+                                <p class="project-desc-title">MM PRIME</p>
+                                <p class="project-desc-tech">{{'_TECHNOLOGIES_' | trans}}:</p>
+                                <p class="project-desc-tech-enum">ZEND / JS / PHP7 / MySql / HTML5 / CSS3 / RWD</p>
+                                <p>{{'_CHECK_PROJECT_' | trans}}
+                                    <span class="arrow-right">
+                                            <span class="arrowhead-up"></span>
+                                            <span class="arrow-line"></span>
+                                            <span class="arrowhead-down"></span>
+                                        </span>
+                                </p>
+                            </div>
+                        </div>
+                        <h3>{{'_PROJECTLIST_DESIGN_' | trans}} / {{'_PROJECTLIST_DEVELOPMENT_' | trans}}</h3>
+                        <div class="project-slide-zend-signature">
+                            <img src="/images/zendsygnat.png" alt="{{'_PROJECTLIST_ZEND_SYGNATURE_ALT_' | trans}}"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="single-project-box-container one-thirds-width">
+                    <a href="{{ path('powerbodyproject') }}" class="project-trigger">
+                        <img src="/images/projects/projectslist/power-body-img.jpg" alt="powerbody"/>
+                        <div class="project-category-description">
+                            <div class="project-desc-box">
+                                <p class="project-desc-title">POWERBODY</p>
+                                <p class="project-desc-tech">{{'_TECHNOLOGIES_' | trans}}:</p>
+                                <p class="project-desc-tech-enum">Magento / SoapUI / JS / PHP7 / MySql / HTML5 / CSS3 / RWD</p>
+                                <p>{{'_CHECK_PROJECT_' | trans}}
+                                    <span class="arrow-right">
+                                            <span class="arrowhead-up"></span>
+                                            <span class="arrow-line"></span>
+                                            <span class="arrowhead-down"></span>
+                                        </span>
+                                </p>
+                            </div>
+                        </div>
+                        <h3>{{'_PROJECTLIST_DESIGN_' | trans}} / {{'_PROJECTLIST_DEVELOPMENT_' | trans}}</h3>
+                        <div class="project-slide-magento-signature">
+                            <img src="/images/svg/m_1.svg" alt="{{'_PROJECTLIST_MAGENTO_SYGNATURE_ALT_' | trans}}"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="single-project-box-container one-thirds-width-taller">
+                    <a href="{{ path('ambiganteproject') }}" class="project-trigger" >
+                        <img src="/images/projects/projectslist/ambigante-img.jpg" alt="ambigante"/>
+                        <div class="project-category-description">
+                            <div class="project-desc-box">
+                                <p class="project-desc-title">AMBIGANTE</p>
+                                <p class="project-desc-tech">{{'_TECHNOLOGIES_' | trans}}:</p>
+                                <p class="project-desc-tech-enum">Magento / PHP7 / JS / Jquery / MySql / HTML5 / CSS3</p>
+                                <p>{{'_CHECK_PROJECT_' | trans}}
+                                    <span class="arrow-right">
+                                            <span class="arrowhead-up"></span>
+                                            <span class="arrow-line"></span>
+                                            <span class="arrowhead-down"></span>
+                                        </span>
+                                </p>
+                            </div>
+                        </div>
+                        <h3>{{'_PROJECTLIST_DESIGN_' | trans}} / {{'_PROJECTLIST_DEVELOPMENT_' | trans}}</h3>
+                        <div class="project-slide-magento-signature">
+                            <img src="/images/svg/m_1.svg" alt="{{'_PROJECTLIST_MAGENTO_SYGNATURE_ALT_' | trans}}"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="single-project-box-container one-thirds-width-taller">
+                    <a href="{{ path('virtualofficeproject') }}" class="project-trigger" >
+                        <img src="/images/projects/projectslist/wirtualne-biuro-img.jpg" alt="wirtualne biuro"/>
+                        <div class="project-category-description">
+                            <div class="project-desc-box">
+                                <p class="project-desc-title">WIRTUALNE BIURO</p>
+                                <p class="project-desc-tech">{{'_TECHNOLOGIES_' | trans}}:</p>
+                                <p class="project-desc-tech-enum">WordPress / RWD / CSS3 / HTML5 / PHP7 / JS / MySQL</p>
+                                <p>{{'_CHECK_PROJECT_' | trans}}
+                                    <span class="arrow-right">
+                                            <span class="arrowhead-up"></span>
+                                            <span class="arrow-line"></span>
+                                            <span class="arrowhead-down"></span>
+                                        </span>
+                                </p>
+                            </div>
+                        </div>
+                        <h3>{{'_PROJECTLIST_DESIGN_' | trans}} / {{'_PROJECTLIST_DEVELOPMENT_' | trans}}</h3>
+                        <div class="project-slide-magento-signature">
+                            <img src="/images/svg/wordpress_sygnet.svg" alt="{{'_PROJECTLIST_WORDPRESS_SYGNATURE_ALT_' | trans}}"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="single-project-box-container one-thirds-width-taller">
+                    <a href="{{ path('polishsoulsproject') }}" class="project-trigger">
+                        <img src="/images/projects/projectslist/polish-souls-img.jpg" alt="polish souls"/>
+                        <div class="project-category-description">
+                            <div class="project-desc-box">
+                                <p class="project-desc-title">POLISH SOULS</p>
+                                <p class="project-desc-tech">{{'_TECHNOLOGIES_' | trans}}:</p>
+                                <p class="project-desc-tech-enum">ZEND / PHP7 / JS / RWD / CSS3 / HTML5 / MySQL</p>
+                                <p>{{'_CHECK_PROJECT_' | trans}}
+                                    <span class="arrow-right">
+                                            <span class="arrowhead-up"></span>
+                                            <span class="arrow-line"></span>
+                                            <span class="arrowhead-down"></span>
+                                        </span>
+                                </p>
+                            </div>
+                        </div>
+                        <h3>{{'_PROJECTLIST_DESIGN_' | trans}} / {{'_PROJECTLIST_DEVELOPMENT_' | trans}}</h3>
+                        <div class="project-slide-magento-signature">
+                            <img src="/images/zendsygnat.png"alt="{{'_PROJECTLIST_ZEND_SYGNATURE_ALT_' | trans}}"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="single-project-box-container half-width">
+                    <a href="{{ path('kaliszmuseumproject') }}" class="project-trigger">
+                        <img src="/images/projects/projectslist/wirtualne-muzeum-kalisza.jpg" alt="wirtualne muzeum kalisza"/>
+                        <div class="project-category-description">
+                            <div class="project-desc-box">
+                                <p class="project-desc-title">WIRTUALNE MUZEUM KALISZA</p>
+                                <p class="project-desc-tech">{{'_TECHNOLOGIES_' | trans}}:</p>
+                                <p class="project-desc-tech-enum">ZEND / PHP7 / JS / RWD / CSS3 / HTML5 / MySQL</p>
+                                <p>{{'_CHECK_PROJECT_' | trans}}
+                                    <span class="arrow-right">
+                                            <span class="arrowhead-up"></span>
+                                            <span class="arrow-line"></span>
+                                            <span class="arrowhead-down"></span>
+                                        </span>
+                                </p>
+                            </div>
+                        </div>
+                        <h3>{{'_PROJECTLIST_DESIGN_' | trans}} / {{'_PROJECTLIST_DEVELOPMENT_' | trans}}</h3>
+                        <div class="project-slide-magento-signature">
+                            <img src="/images/zendsygnat.png" alt="{{'_PROJECTLIST_ZEND_SYGNATURE_ALT_' | trans}}"/>
+                        </div>
+                    </a>
+                </div>
+
+
+
+
+                {#<div class="single-project-box-container half-width">
+                    <a href="{{ path('zoioproject') }}" class="project-trigger" id="project-7th">
+                        <img src="/images/projects/projectslist/zoio.jpg" alt="zoio"/>
+                        <div class="project-category-description">
+                            <div class="project-desc-box">
+                                <p class="project-desc-title">ZOIO</p>
+                                <p class="project-desc-tech">{{'_TECHNOLOGIES_' | trans}}:</p>
+                                <p class="project-desc-tech-enum">MAGENTO / PHP7 / JQUERY / JS / MySQL / HTML5 / CSS3 / AXURE</p>
+                                <p>{{'_CHECK_PROJECT_' | trans}}
+                                        <span class="arrow-right">
+                                            <span class="arrowhead-up"></span>
+                                            <span class="arrow-line"></span>
+                                            <span class="arrowhead-down"></span>
+                                        </span>
+                                </p>
+                            </div>
+                        </div>
+                        <h3>{{'_PROJECTLIST_DESIGN_' | trans}} / {{'_PROJECTLIST_DEVELOPMENT_' | trans}}</h3>
+                        <div class="project-slide-magento-signature">
+                            <img src="/images/svg/magento_sygnet.svg" alt="{{'_PROJECTLIST_ZEND_SYGNATURE_ALT_' | trans}}"/>
+                        </div>
+                    </a>
+                </div>#}
+
+
+
+                {#<div class="single-project-box-container half-width">
+                    <a href="#0" class="project-trigger" id="project-9th">
+                        <div class="project-category-description"></div>
+                        <h3>design / development</h3>
+                    </a>
+                </div>#}
+
+                {#<div class="single-project-box-container one-thirds-width-taller">
+                    <a href="#0" class="project-trigger" id="project-10th">
+                        <div class="project-category-description"></div>
+                        <h3>design / development</h3>
+                    </a>
+                </div>
+
+                <div class="single-project-box-container one-thirds-width-taller">
+                    <a href="#0" class="project-trigger" id="project-11th">
+                        <div class="project-category-description"></div>
+                        <h3>design / development</h3>
+                    </a>
+                </div>
+
+                <div class="single-project-box-container one-thirds-width-taller">
+                    <a href="#0" class="project-trigger" id="project-12th">
+                        <div class="project-category-description"></div>
+                        <h3>design / development</h3>
+                    </a>
+                </div>#}
+            </div>
+            <div class="static-background-element project-list-element-1">
+                <img src="/images/svg/parallaxElements/element_7.svg" alt="{{'_PROJECTLIST_IMAGE_1_ALT_' | trans}}"/>
+            </div>
+            <div class="static-background-element project-list-element-2">
+                <img src="/images/svg/joboffersvgs/magentodeveloper/element_1_md.svg" alt="{{'_PROJECTLIST_IMAGE_2_ALT_' | trans}}"/>
+            </div>
+            <div class="static-background-element project-list-element-3">
+                <img src="/images/svg/joboffersvgs/seniorphpdeveloper/element_6_spd.svg" alt="{{'_PROJECTLIST_IMAGE_3_ALT_' | trans}}"/>
+            </div>
+            <div class="static-background-element project-list-element-4">
+                <img src="/images/svg/joboffersvgs/seniorphpdeveloper/element_4_spd.svg" alt="{{'_PROJECTLIST_IMAGE_4_ALT_' | trans}}"/>
+            </div>
+            <div class="static-background-element project-list-element-5">
+                <img src="/images/svg/joboffersvgs/frontenddeveloper/element_1_fed.svg" alt="{{'_PROJECTLIST_IMAGE_5_ALT_' | trans}}"/>
+            </div>
+        </div>
+    </section>
+    <script>
+        $(window).load(function () {
+            $('.single-project-box-container').directionalHover({
+                overlay: "project-category-description",
+                easing: "swing",
+                speed: 400
+            });
+        })
+    </script>
+{% endblock %}
+
+
+
+

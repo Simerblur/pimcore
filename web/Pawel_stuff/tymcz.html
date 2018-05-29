@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Advox - example project</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="../styles/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	 <div class="careers-container">
+        <div class="content-container">
+
+            <div class="careers-description-box">
+                <p class="career-small-title">{{'_YOUR_FUTURE_' | trans}}</p>
+                <p class="career-bit-title">{{'_TIME_TO_JOIN_OUR_CRAZY_TEAM_' | trans}}:)</p>
+                <p class="career-regular-text">{{'_CAREERS_TEXT_1_' | trans}}</p>
+                <p class="career-regular-text">{{'_CAREERS_TEXT_2_' | trans}}</p>
+            </div>
+            <div class="careers-list-container">
+                <div class="single-career-box" data-aos="fade-up" data-aos-easing="linear">
+                    <p>MAGENTO DEVELOPER</p>
+                    <a class="arrow-right">
+                        <span class="arrowhead-up"></span>
+                        <span class="arrow-line"></span>
+                        <span class="arrowhead-down"></span>
+                    </a>
+                </div>
+                <div class="single-career-box" data-aos="fade-up" data-aos-easing="linear">
+                    <p>BACK-END-DEVELOPER</p>
+                    <a class="arrow-right">
+                        <span class="arrowhead-up"></span>
+                        <span class="arrow-line"></span>
+                        <span class="arrowhead-down"></span>
+                    </a>
+                </div>
+                <div class="single-career-box" data-aos="fade-up" data-aos-easing="linear">
+                    <p>SENIOR DEVELOPER</p>
+                    <a class="arrow-right">
+                        <span class="arrowhead-up"></span>
+                        <span class="arrow-line"></span>
+                        <span class="arrowhead-down"></span>
+                    </a>
+                </div>
+                <div class="single-career-box" data-aos="fade-up" data-aos-easing="linear">
+                    <p>FRONT-END DEVELOPER</p>
+                    <a class="arrow-right">
+                        <span class="arrowhead-up"></span>
+                        <span class="arrow-line"></span>
+                        <span class="arrowhead-down"></span>
+                    </a>
+                </div>
+                <div class="single-career-box" data-aos="fade-up" data-aos-easing="linear">
+                    <p>JUNIOR FRONT-END DEVELOPER</p>
+                    <a class="arrow-right">
+                        <span class="arrowhead-up"></span>
+                        <span class="arrow-line"></span>
+                        <span class="arrowhead-down"></span>
+                    </a>
+                </div>
+                <div class="single-career-box" data-aos="fade-up" data-aos-easing="linear">
+                    <p>PROJECT MANAGER</p>
+                    <a class="arrow-right">
+                        <span class="arrowhead-up"></span>
+                        <span class="arrow-line"></span>
+                        <span class="arrowhead-down"></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="parallax-element parallax-element-4" data-scroll-speed="-3">
+                    <img src="images/svg/parallaxElements/element_10.svg"/>
+                </div>
+                <div class="parallax-element parallax-element-5" data-scroll-speed="-1">
+                    <img src="images/svg/parallaxElements/element_2.svg"/>
+                </div>
+                <div class="parallax-element parallax-element-6" data-scroll-speed="-2">
+                    <img src="images/svg/parallaxElements/element_8.svg"/>
+                </div>
+                <div class="parallax-element parallax-element-7" data-scroll-speed="2">
+                    <img src="images/svg/parallaxElements/Mobile.svg"/>
+                </div>
+                <div class="parallax-element parallax-element-8" data-scroll-speed="6">
+                    <img src="images/svg/parallaxElements/element_3.svg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+
+        $.fn.moveIt = function () {
+            var $window = $(window);
+            var instances = [];
+
+            $(this).each(function () {
+                instances.push(new moveItItem($(this)));
+            });
+
+            window.onscroll = function () {
+                var scrollTop = $window.scrollTop();
+                instances.forEach(function (inst) {
+                    inst.update(scrollTop);
+                });
+            }
+        }
+
+        var moveItItem = function (el) {
+            this.el = $(el);
+            this.speed = parseInt(this.el.attr('data-scroll-speed'));
+        };
+
+        moveItItem.prototype.update = function (scrollTop) {
+            var pos = scrollTop / this.speed;
+            this.el.css('transform', 'translateY(' + -pos + 'px)');
+        };
+
+        $(function () {
+            $('[data-scroll-speed]').moveIt();
+        });
+
+    </script>
+
+    <script src="../scripts/aos/aos.js"></script>
+
+    <script>
+        AOS.init({
+            easing: 'ease-out-back'
+        });
+    </script>
+
+</body>
+</html>

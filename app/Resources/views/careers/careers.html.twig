@@ -1,0 +1,91 @@
+{% extends 'layout/base.html.twig' %}
+{% block title %}{{'_CAREERS_META_TITLE_' | trans}}{% endblock %}
+{% block keywords %}{{'_CAREERS_META_KEYWORDS_' | trans}}{% endblock %}
+{% block description %}{{'_CAREERS_META_DESCRIPTION_' | trans}}{% endblock %}
+{% block body %}
+    <div class="careers-container">
+        <div class="content-container-static">
+            <div class="careers-description-box">
+                <p class="career-small-title">{{'_YOUR_FUTURE_' | trans}}</p>
+                <p class="career-bit-title">{{'_TIME_TO_JOIN_OUR_CRAZY_TEAM_' | trans}} :)</p>
+                <p class="career-regular-text">{{'_CAREERS_TEXT_1_' | trans}}</p>
+                <p class="career-regular-text">{{'_CAREERS_TEXT_2_' | trans}}</p>
+            </div>
+            <div class="careers-list-container">
+                <div class="single-career-box" data-aos="fade-up" data-aos-easing="linear">
+                    <a href="{{ path('magentodevelopercareer') }}">
+                        <p>{{'_MAGENTO_DEVELOPER_' | trans}}</p>
+                        <span class="arrow-right">
+                            <span class="arrowhead-up"></span>
+                            <span class="arrow-line"></span>
+                            <span class="arrowhead-down"></span>
+                        </span>
+                    </a>
+                </div>
+                <div class="single-career-box" data-aos="fade-up" data-aos-easing="linear">
+                    <a href="{{ path('seniorphpcareer') }}">
+                        <p>{{'_BACK-END_DEVELOPER_' | trans}}</p>
+                        <span class="arrow-right">
+                            <span class="arrowhead-up"></span>
+                            <span class="arrow-line"></span>
+                            <span class="arrowhead-down"></span>
+                        </span>
+                    </a>
+                </div>
+                <div class="single-career-box" data-aos="fade-up" data-aos-easing="linear">
+                    <a href="{{ path('seniordevelopercareer') }}">
+                        <p>{{'_SENIOR_DEVELOPER_' | trans}}</p>
+                        <span class="arrow-right">
+                            <span class="arrowhead-up"></span>
+                            <span class="arrow-line"></span>
+                            <span class="arrowhead-down"></span>
+                        </span>
+                    </a>
+                </div>
+                <div class="single-career-box" data-aos="fade-up" data-aos-easing="linear">
+                    <a href="{{ path('frontenddevelopercareer') }}">
+                        <p>{{'_FRONT-END_DEVELOPER_' | trans}}</p>
+                        <span class="arrow-right">
+                            <span class="arrowhead-up"></span>
+                            <span class="arrow-line"></span>
+                            <span class="arrowhead-down"></span>
+                        </span>
+                    </a>
+                </div>        
+                <div class="single-career-box" data-aos="fade-up" data-aos-easing="linear">
+                    <a href="{{ path('juniorfrontenddevelopercareer') }}">
+                        <p>{{'_JUNIOR_FRONT-END_DEVELOPER_' | trans}}</p>
+                        <span class="arrow-right">
+                            <span class="arrowhead-up"></span>
+                            <span class="arrow-line"></span>
+                            <span class="arrowhead-down"></span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="static-background-element carrers-main-element-1">
+                <img src="/images/svg/parallaxElements/element_10.svg" alt="{{'_CAREERS_IMAGE_1_ALT_' | trans}}"/>
+            </div>
+            <div class="static-background-element carrers-main-element-2">
+                <img src="/images/svg/parallaxElements/element_2.svg" alt="{{'_CAREERS_IMAGE_2_ALT_' | trans}}"/>
+            </div>
+            <div class="static-background-element carrers-main-element-3">
+                <img src="/images/svg/parallaxElements/element_8.svg"alt="{{'_CAREERS_IMAGE_3_ALT_' | trans}}"/>
+            </div>
+            <div class="static-background-element carrers-main-element-4">
+                <img src="/images/svg/parallaxElements/Mobile.svg" alt="{{'_CAREERS_IMAGE_4_ALT_' | trans}}"/>
+            </div>
+            <div class="static-background-element carrers-main-element-5">
+                <img src="/images/svg/parallaxElements/element_3.svg" alt="{{'_CAREERS_IMAGE_5_ALT_' | trans}}"/>
+            </div>
+        </div>
+    </div>
+    <script src="../scripts/aos/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back'
+        });
+    </script>
+{% endblock %}
+
+

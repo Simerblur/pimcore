@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Magento help</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../styles/style.css" />
+        <link rel="stylesheet" type="text/css" href="../styles/slick-slider/slick.css" />
+        <link rel="stylesheet" type="text/css" href="../styles/slick-slider/slick-theme.css" />
+        <script src="../scripts/jquery/jquery-1.11.3.min.js"></script>
+        <script src="../scripts/slick-slider/slick.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.help-slider').slick({
+                    infinite: true,
+                    appendArrows: $('.next-prev-section .content-container'),
+                    prevArrow: '<a id="prev-btn" href="#0"><span></span>previous</a>',
+                    nextArrow: '<a id="next-btn" href="#0">next<span></span></a>'
+                });
+                $('.help-box').click(function () {
+                    var clickedID = this.id;
+                    $('.help-slider').slick('slickGoTo', clickedID);
+                    $('.help-slider-box').fadeIn();
+                    $('html, body').animate({
+                        scrollTop: ($('.help-scroll-to').offset().top)
+                    }, 250);
+                });
+                $('.help-slider-close').click(function () {
+                    $('.help-slider-box').fadeOut();
+                });
+                $('#all-btn').click(function () {
+                    $('.help-slider-box').fadeOut();
+                });
+
+
+            })
+        </script>
+    </head>
+    <body>
+        <div class="main-page-container">	
+            <header>
+                <div class="content-container">
+                    <div class="left-header-side">
+
+                        <div class="menu-paragraph">MENU</div>
+                        <div class="logo-box">
+                            <img id="logoImage-desktop" src="../images/logo/logo_front.svg"/>
+                            <img id="mottoImage-desktop" src="../images/logo/logo motto_front.svg"/>
+                            <img id="logoImage-mobile" src="../images/logo/logo_front_mob.svg" />
+                        </div>
+                        <div class="both-clear"></div>
+                    </div>
+                    <div class="right-header-side">dgf
+                    </div>
+                    <div class="both-clear"></div>
+                </div>
+                <div class="both-clear help-scroll-to"></div>
+            </header>
+            <div class="content-container">
+                <h1>Magento help</h1>
+                <div class="both-clear"></div>
+
+                <nav class="help-menu">
+                    <a class="help-label help-all active">view all</a>
+                    <a class="help-label help-basic">basic info </a>
+                    <a class="help-label help-sales">sales </a>
+                    <a class="help-label help-promotions">promotions </a>
+                    <a class="help-label help-front-end">front-end</a>
+                </nav>
+                <div class="both-clear"></div>
+                <div class="help-boxes">
+                    <div id="0" class="help-box square12">
+                        <div class="help-box-content box-bg box-bg1">
+                            <div class="help-box-txt">
+                                <h4>Promotion with discount</h4>
+                                <p>How to set the type of promotion When purchasing promotional products, XX zł additional discount on all purchases?</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-promotions">Promotions</p>
+                                <div class="help-person lady"></div>
+                            </div>	
+                        </div>
+                    </div>
+                    <div id="1" class="help-box square11">
+                        <div class="help-box-content">
+                            <div class="help-box-txt">
+                                <h4>New attribute</h4>
+                                <p>How to add a new attribute to an existing product?</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-front-end">Front-end</p>
+                                <div class="help-person man1"></div>
+                            </div>	
+                        </div>
+                    </div>
+                    <div id="2" class="help-box square11">
+                        <div class="help-box-content">
+                            <div class="help-box-txt">
+                                <h4>Admin session</h4>
+                                <p>Jak wydłużyć czas trwania sesji w adminie (czas bezczynności, po którym trzeba się logować?)</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-basic">Basic info</p>
+                                <div class="help-person man1"></div>
+                            </div>	
+                        </div>
+                    </div>
+
+                    <div class="both-clear"></div>
+
+                    <div id="3" class="help-box square21 float-right">
+                        <div class="help-box-content box-bg box-bg2">
+                            <div class="help-box-txt">
+                                <h4>Subscribe to a newsletter</h4>
+                                <p>How to give the user the option to subscribe to a list of notifications of change in price or product will be available again?</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-basic">Basic info</p>
+                                <div class="help-person lady"></div>
+                            </div>	
+                        </div>
+                    </div>
+                    <div id="4" class="help-box square11">
+                        <div class="help-box-content">
+                            <div class="help-box-txt">
+                                <h4>Change logo</h4>
+                                <p>How to change the logo without FTP?</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-front-end">Front-end</p>
+                                <div class="help-person lady"></div>
+                            </div>	
+                        </div>
+                    </div>
+                    <div id="5" class="help-box square11">
+                        <div class="help-box-content">
+                            <div class="help-box-txt">
+                                <h4>Prices setting </h4>
+                                <p>How to set to the price of the product is dependent on the number of ordered pieces (eg. 1 piece for X zł, 3 pieces for XX zł, and 5 pieces for XXX zł)?</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-sales">Sale</p>
+                                <div class="help-person lady"></div>
+                            </div>	
+                        </div>
+                    </div>				
+                    <div id="6" class="help-box square11">
+                        <div class="help-box-content">
+                            <div class="help-box-txt">
+                                <h4>Prices setting</h4>
+                                <p>How to set the type of promotion Buy two of the same products and get the third, the same for free?</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-promotions">Promotions</p>
+                                <div class="help-person lady"></div>
+                            </div>	
+                        </div>
+                    </div>
+                    <div id="7" class="help-box square11">
+                        <div class="help-box-content">
+                            <div class="help-box-txt">
+                                <h4>Contact form</h4>
+                                <p>How to add the form to your CMS?</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-basic">Basic info</p>
+                                <div class="help-person lady"></div>
+                            </div>	
+                        </div>
+                    </div>
+                    <div id="8" class="help-box square11">
+                        <div class="help-box-content">
+                            <div class="help-box-txt">
+                                <h4>Page optimize </h4>
+                                <p>How can I optimize the Magento without the help of a developer?</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-front-end">Front-end</p>
+                                <div class="help-person lady"></div>
+                            </div>	
+                        </div>
+                    </div>
+                    <div id="9" class="help-box square11">
+                        <div class="help-box-content">
+                            <div class="help-box-txt">
+                                <h4>Change logo</h4>
+                                <p>How to change the logo without FTP?</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-basic">Basic info</p>
+                                <div class="help-person lady"></div>
+                            </div>	
+                        </div>
+                    </div>
+
+                    <div class="both-clear"></div>
+
+                    <div id="10" class="help-box square21">
+                        <div class="help-box-content">
+                            <div class="help-box-txt">
+                                <h4>Admin session</h4>
+                                <p>Jak wydłużyć czas trwania sesji w adminie (czas bezczynności, po którym trzeba się logować?)</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-front-end">Front-end</p>
+                                <div class="help-person lady"></div>
+                            </div>	
+                        </div>
+                    </div>
+                    <div id="11" class="help-box square11">
+                        <div class="help-box-content">
+                            <div class="help-box-txt">
+                                <h4>Change logo</h4>
+                                <p>How to change the logo without FTP?</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-basic">Basic info</p>
+                                <div class="help-person lady"></div>
+                            </div>	
+                        </div>
+                    </div>
+                    <div id="12" class="help-box square11">
+                        <div class="help-box-content">
+                            <div class="help-box-txt">
+                                <h4>Admin session</h4>
+                                <p>Jak wydłużyć czas trwania sesji w adminie (czas bezczynności, po którym trzeba się logować?)</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-basic">Basic info</p>
+                                <div class="help-person lady"></div>
+                            </div>	
+                        </div>
+                    </div>				
+                    <div id="13" class="help-box square11">
+                        <div class="help-box-content">
+                            <div class="help-box-txt">
+                                <h4>Change logo</h4>
+                                <p>How to change the logo without FTP?</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-front-end">Front-end</p>
+                                <div class="help-person lady"></div>
+                            </div>	
+                        </div>
+                    </div>
+                    <div id="14" class="help-box square11">
+                        <div class="help-box-content">
+                            <div class="help-box-txt">
+                                <h4>Change logo</h4>
+                                <p>How to change the logo without FTP?</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-basic">Basic info</p>
+                                <div class="help-person lady"></div>
+                            </div>	
+                        </div>
+                    </div>
+                    <div id="15" class="help-box square11">
+                        <div class="help-box-content box-bg box-bg3">
+                            <div class="help-box-txt">
+                                <h4>Admin session</h4>
+                                <p>Jak wydłużyć czas trwania sesji w adminie (czas bezczynności, po którym trzeba się logować?)</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-basic">Basic info</p>
+                                <div class="help-person lady"></div>
+                            </div>	
+                        </div>
+                    </div>
+                    <div id="16" class="help-box square11">
+                        <div class="help-box-content ">
+                            <div class="help-box-txt">
+                                <h4>Change logo</h4>
+                                <p>How to change the logo without FTP?</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-basic">Basic info</p>
+                                <div class="help-person lady"></div>
+                            </div>	
+                        </div>
+                    </div>
+
+                    <div class="both-clear"></div>
+
+                    <div id="17" class="help-box square11">
+                        <div class="help-box-content">
+                            <div class="help-box-txt">
+                                <h4>Change logo</h4>
+                                <p>How to change the logo without FTP?</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-front-end">Front-end</p>
+                                <div class="help-person lady"></div>
+                            </div>	
+                        </div>
+                    </div>
+                    <div id="18" class="help-box square11">
+                        <div class="help-box-content">
+                            <div class="help-box-txt">
+                                <h4>Admin session</h4>
+                                <p>Jak wydłużyć czas trwania sesji w adminie (czas bezczynności, po którym trzeba się logować?)</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-sales">Sale</p>
+                                <div class="help-person lady"></div>
+                            </div>	
+                        </div>
+                    </div>
+                    <div id="19" class="help-box square12">
+                        <div class="help-box-content">
+                            <div class="help-box-txt">
+                                <h4>Admin session</h4>
+                                <p>Jak wydłużyć czas trwania sesji w adminie (czas bezczynności, po którym trzeba się logować?)</p>		
+                            </div>
+                            <div class="help-box-label">
+                                <p class="help-label help-sales">Sale</p>
+                                <div class="help-person lady"></div>
+                            </div>	
+                        </div>
+                    </div>
+
+                    <div class="both-clear"></div>
+                </div>
+
+                <div class="help-slider-box" style="display:none;">
+                    <div class="content-container relative">
+                        <div class="help-slider-close">x</div>	
+                    </div>	
+                    <div class="help-slider">
+                        <div>
+                            <article>
+                                <div class="content-container  question">
+                                    <div class="relative col-left">
+                                        <h6>Question</h6>
+                                        <img class="triangle" src="../images/svg/e-Commerce.svg" alt="obrazek"/>
+                                    </div>
+                                    <div class="col-right-header width-50">
+                                        <h5>Promotion with discount</h5>
+                                        <p class="help-label help-promotions">Promotions</p>
+                                        <p>How to set the type of promotion When purchasing promotional products, XX zł additional discount on all purchases?</p>
+                                    </div>
+                                    <div class="both-clear"></div>
+                                </div>
+                                <div class="content-container answer">
+                                    <h6><span>answer</span><br>
+                                        how to do it</h6>
+                                    <div class="answer-point">
+                                        <div class="col-left">
+                                            <div class="help-point help-promotions">.01</div>
+                                        </div>
+                                        <div class="col-right-header">
+                                            <h5>Load the log file</h5>
+                                        </div>
+                                        <div class="both-clear"></div>
+                                        <div class="col-right offset">
+                                            <p>W panelu administracyjnym otwórz dowolny blok statyczny (CMS -> Bloki statyczne). W edytorze naciśnij przycisk “Insert image” </p>
+                                            <div class="help-image"><img alt="ilustracja dla Load the log file" src="./../Alicja_stuff/img1.png" /></div>
+                                            <p>W następnym okienku stwórz katalog o nazwie Logo (Create folder), wybierz plik z logiem (Browse files) i dodaj (Upload files) go do utworzonego katalogu.</p>
+                                            <div class="help-image"><img alt="ilustracja druga dla Load the log file" src="./../Alicja_stuff/img2.png" /></div>
+                                        </div>
+                                    </div>	
+                                    <div class="both-clear"></div>
+                                    <div class="answer-point">
+                                        <div class="col-left">
+                                            <div class="help-point help-promotions relative">.02
+                                                <img class="arc" src="../images/svg/arc.svg" alt="obrazek"/>
+                                            </div>
+                                        </div>								
+                                        <div class="col-right-header">
+                                            <h5>Configuration</h5>
+                                        </div>
+                                        <div class="both-clear"></div>
+                                        <div class="col-right offset offset-tablet">
+                                            <p>Aby wskazać nową ścieżkę do logo, przejdź do zakładki </br>
+                                                Wygląd (System -> Konfiguracja -> Ogólne -> Wygląd). </br>
+                                                W zakładce Header (Nagłówek) znajdziesz pola do podania ścieżki logo. Twoja nowa ścieżka będzie wyglądać tak: </br>../../../../media/wysiwyg/logo/twojenowelogo.png
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="both-clear"></div>
+                                </div>
+                                <div class="help-person-box">
+                                    <div class="content-container">
+                                        Kornelia
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div>
+                            test 1
+                        </div>
+                        <div>
+                            test 2
+                        </div>
+                        <div>
+                            test 3
+                        </div>
+                        <div>
+                            test 4
+                        </div>
+                        <div>
+                            test 5
+                        </div>
+                        <div>
+                            test 6
+                        </div>
+                        <div>
+                            test 7
+                        </div>
+                        <div>
+                            test 8
+                        </div>
+                        <div>
+                            test 9
+                        </div>
+                        <div>
+                            test 10
+                        </div>
+                        <div>
+                            test 11
+                        </div>
+                        <div>
+                            test 12
+                        </div>
+                        <div>
+                            test 13
+                        </div>
+                        <div>
+                            test 14
+                        </div>
+                        <div>
+                            test 15
+                        </div>
+                        <div>
+                            test 16
+                        </div>
+                        <div>
+                            test 17
+                        </div>
+                        <div>
+                            test 18
+                        </div>
+                        <div>
+                            test 19
+                        </div>
+                    </div>
+
+                    <div class="next-prev-section">
+                        <div class="content-container">
+                            <a id="all-btn" href="#0">see all projects</a>
+                        </div>
+                        <div class="both-clear"></div>
+                    </div>
+                </div>
+
+                <div class="both-clear"></div>
+
+            </div>
+            <div class="both-clear"></div>
+            <footer>
+                <div class="content-container">
+                    <div class="left-footer-side">
+                        <div class="copyrights-footer">
+                            <p class="copyright-paragraph">COPYRIGHT © 	{{ "now"|date("Y") }} ADVOX STUDIO</p>
+                            <a href="#"><p class="cookies-link">COOKIES</p></a>
+                        </div>
+                    </div>
+                    <div class="right-footer-side">
+                        <div class="social-footer">
+                            <a href="#"><p class="facebook-link">FACEBOOK</p></a>
+                            <a href="#"><p class="google-link">GOOGLE</p></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

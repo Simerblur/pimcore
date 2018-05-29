@@ -1,0 +1,463 @@
+{% extends 'layout/base.html.twig' %}
+{% block title %}{{'_PERSONALBIO_META_TITLE_' | trans}}{% endblock %}
+{% block keywords %}{{'_PERSONALBIO_META_KEYWORDS_' | trans}}{% endblock %}
+{% block description %}{{'_PERSONALBIO_META_DESCRIPTION_' | trans}}{% endblock %}
+{% block javascriptsAppend %}
+    <script src="{{ asset('scripts/DirectionalHover/jquery.directional-hover.js') }}" type="text/javascript"></script>
+{% endblock %}
+{% block body %}
+    <div class="personal-bio-container">
+        <div class="content-container">
+            <h1 class="our-team-small-title">{{'_OUR_TEAM_' | trans}}</h1>
+            <h2 class="our-team-big-title">{{'_GREAT_YOUNG_AND_TALENTED_' | trans}}</h2>
+            <p class="our-team-title-description">{{'_PERSONAL_BIO_TEXT_1_' | trans}}</p>
+            <div class="our-team-boxes-container">
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-01"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.01</p>
+                                <p class="person-name">ARMAND</p>
+                                <p class="person-company-position">{{'_FOUNDER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-02"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.02</p>
+                                <p class="person-name">MARTA</p>
+                                <p class="person-company-position">{{'_FOUNDER_' | trans}} /<br>{{'_LEGAL_COUNSEL_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-03"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.03</p>
+                                <p class="person-name">RAFAŁ</p>
+                                <p class="person-company-position">{{'_CEO_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-04"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.04</p>
+                                <p class="person-name">SEBASTIAN</p>
+                                <p class="person-company-position">{{'_PROJECT_MANAGER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-05"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.05</p>
+                                <p class="person-name">MICHAŁ</p>
+                                <p class="person-company-position">{{'_PROJECT_MANAGER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-06"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.06</p>
+                                <p class="person-name">KORNELIA</p>
+                                <p class="person-company-position">{{'_PROJECT_MANAGER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-07"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.07</p>
+                                <p class="person-name">DAMIAN</p>
+                                <p class="person-company-position">{{'_PROJECT_MANAGER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-08"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.08</p>
+                                <p class="person-name">ELA</p>
+                                <p class="person-company-position">{{'_ACCOUNT_MANAGER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-09"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.09</p>
+                                <p class="person-name">KRZYSZTOF</p>
+                                <p class="person-company-position">{{'_INTERNET_MARKETING_SPECIALIST_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-10"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.10</p>
+                                <p class="person-name">IZA</p>
+                                <p class="person-company-position">{{'_GRAPHIC_DESIGNER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-11"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.11</p>
+                                <p class="person-name">MARTA</p>
+                                <p class="person-company-position">{{'_GRAPHIC_DESIGNER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-12"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.12</p>
+                                <p class="person-name">PIOTR</p>
+                                <p class="person-company-position">{{'_DEVELOPER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-13"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.13</p>
+                                <p class="person-name">AGATA</p>
+                                <p class="person-company-position">{{'_DEVELOPER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-14"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.14</p>
+                                <p class="person-name">ARTUR</p>
+                                <p class="person-company-position">{{'_DEVELOPER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-15"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.15</p>
+                                <p class="person-name">MICHAŁ</p>
+                                <p class="person-company-position">{{'_DEVELOPER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-16"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.16</p>
+                                <p class="person-name">TOMEK</p>
+                                <p class="person-company-position">{{'_DEVELOPER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-17"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.17</p>
+                                <p class="person-name">MICHAŁ B.</p>
+                                <p class="person-company-position">{{'_DEVELOPER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-18"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.18</p>
+                                <p class="person-name">ALICJA</p>
+                                <p class="person-company-position">{{'_DEVELOPER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-19"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.19</p>
+                                <p class="person-name">BŁAŻEJ</p>
+                                <p class="person-company-position">{{'_DEVELOPER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-20"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.20</p>
+                                <p class="person-name">MARCIN</p>
+                                <p class="person-company-position">{{'_DEVELOPER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-21"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.21</p>
+                                <p class="person-name">PIOTR</p>
+                                <p class="person-company-position">{{'_DEVELOPER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-22"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.22</p>
+                                <p class="person-name">PAWEŁ</p>
+                                <p class="person-company-position">{{'_DEVELOPER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-23"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.23</p>
+                                <p class="person-name">MACIEK</p>
+                                <p class="person-company-position">{{'_DEVELOPER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+                <div class="single-box-person" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="person-image-box person-bio-24"></div>
+                    <div class="blue-transparent-box-overflow">
+                        <div class="blue-transparent-box-person">
+                            <div class="blue-box-paragraphs">
+                                <p class="person-number">.24</p>
+                                <p class="person-name">TOMEK</p>
+                                <p class="person-company-position">{{'_DEVELOPER_' | trans}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                    <div class="person-box-footer">
+                        <div class="person-box-footer-line"></div>
+                        <p class="person-box-footer-person-mail"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="both-clear"></div>
+                <div class="static-background-element personal-bio-element-1">
+                    <img src="/images/svg/parallaxElements/element_8.svg" alt="{{'_PERSONALBIO_IMAGE_1_ALT_' | trans}}"/>
+                </div>
+                <div class="static-background-element personal-bio-element-2">
+                    <img src="/images/svg/joboffersvgs/frontenddeveloper/element_1_fed.svg" alt="{{'_PERSONALBIO_IMAGE_2_ALT_' | trans}}"/>
+                </div>
+                <div class="static-background-element personal-bio-element-3">
+                    <img src="/images/svg/parallaxElements/element_10.svg" alt="{{'_PERSONALBIO_IMAGE_3_ALT_' | trans}}"/>
+                </div>
+                <div class="static-background-element personal-bio-element-4">
+                    <img src="/images/svg/joboffersvgs/seniorphpdeveloper/element_5_spd.svg" alt="{{'_PERSONALBIO_IMAGE_4_ALT_' | trans}}"/>
+                </div>
+                <div class="static-background-element personal-bio-element-5">
+                    <img src="/images/svg/joboffersvgs/magentodeveloper/element_1_md.svg" alt="{{'_PERSONALBIO_IMAGE_5_ALT_' | trans}}"/>
+                </div>
+                <div class="static-background-element personal-bio-element-6">
+                    <img src="/images/svg/joboffersvgs/seniorphpdeveloper/element_1_spd.svg" alt="{{'_PERSONALBIO_IMAGE_6_ALT_' | trans}}"/>
+                </div>
+                <div class="static-background-element personal-bio-element-7">
+                    <img src="/images/svg/joboffersvgs/seniorphpdeveloper/element_3_spd.svg" alt="{{'_PERSONALBIO_IMAGE_7_ALT_' | trans}}"/>
+                </div>
+        </div>
+    </div>
+    <script>
+        $('.blue-transparent-box-overflow').directionalHover({
+            overlay: "blue-transparent-box-person",
+            easing: "swing",
+            speed: 400
+        });
+    </script>
+    <script src="../scripts/aos/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back'
+        });
+    </script>
+{% endblock %}
+
+

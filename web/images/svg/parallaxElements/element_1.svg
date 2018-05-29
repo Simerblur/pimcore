@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 162 142" style="enable-background:new 0 0 162 142;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:url(#SVGID_1_);stroke-width:12.3484;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:url(#SVGID_2_);stroke-width:12.3484;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="53.3344" y1="90.2496" x2="160.8033" y2="90.2496">
+		<stop  offset="0" style="stop-color:#0E4ADD"/>
+		<stop  offset="0.1765" style="stop-color:#0F54DE"/>
+		<stop  offset="0.6692" style="stop-color:#26FCF5"/>
+	</linearGradient>
+	<path class="st0" d="M73.2,133.3c-10.7-0.1-17.2-11.8-11.6-20.9l18.1-29.6l18.1-29.6c5.6-9.1,19-8.7,23.9,0.8L137,83.3l16,30.5
+		c4.8,9.2-1.9,20.3-12.3,20.2l-34.4-0.3L73.2,133.3z"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="0.8707" y1="50.5267" x2="94.4322" y2="50.5267">
+		<stop  offset="0.218" style="stop-color:#0E4ADD"/>
+		<stop  offset="0.8954" style="stop-color:#FE00FF"/>
+	</linearGradient>
+	<path class="st1" d="M88.3,94.2l-34.4-0.3l-33.1-0.3C10,93.5,3.5,81.8,9.1,72.7L27.2,43l18.1-29.6c5.6-9.1,19-8.7,23.9,0.8
+		l15.4,29.3"/>
+</g>
+</svg>

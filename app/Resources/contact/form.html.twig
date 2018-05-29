@@ -1,0 +1,29 @@
+<div class="form-header-container">
+    <p class="form-title-text">{{'_CONTACT_US_' | trans}}</p>
+    <div class="both-clear"></div>
+</div>
+
+{{ form_start(contactForm, {'attr' : { 'id' : 'contact-main-form', 'name' : 'contact-main-form', 'action': path('contactsend') }}) }}
+{{ form_widget(contactForm.interestedin , {'attr': {'class': 'half-input'} }) }}
+<span class="validator-text interested-validator-span">{{'_CHOOSE_FIELD_ERR_MESSAGE_' | trans}}</span>
+{{ form_widget(contactForm.name, {'attr': {'class': 'half-input', 'placeholder' : 'Name/company*' | trans } }) }}
+<span class="validator-text name-validator-span">{{'_REQUIRED_FIELD_ERR_MESSAGE_' | trans}}</span>
+{{ form_widget(contactForm.phone, {'attr': {'class': 'half-input left', 'placeholder' : 'Phone*' | trans }  }) }}
+<span class="validator-text phone-validator-span">{{'_REQUIRED_FIELD_ERR_MESSAGE_' | trans}}</span>
+{{ form_widget(contactForm.email, {'attr': {'class': 'half-input', 'placeholder' : 'E-mail*' | trans}  }) }}
+<span class="validator-text email-validator-span">{{'_BADEMAIL_FIELD_ERR_MESSAGE_' | trans}}</span>
+{{ form_widget(contactForm.description, {'attr': {'class': 'input', 'placeholder' : 'Message' | trans}  }) }}
+
+<div class="form_error_wrap">
+    {{ form_errors(contactForm) }}
+    {{ form_errors(contactForm.email) }}
+</div>
+
+<p class="required-fields-paragraph">{{'_REQUIRED_FIELDS_FORM_' | trans}}</p>
+<div class="g-recaptcha"
+     data-sitekey="{{ captcha.getKey }}"
+     data-callback="ContactSubmit"
+     data-size="invisible">
+</div>
+<input id="contact-form-submit" class="form_submit_button" type="submit" value="{{'_SEND_MESSAGE_' | trans}}">
+{{ form_end(contactForm) }}

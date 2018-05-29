@@ -1,0 +1,21 @@
+<div class="form-slider-container">
+    {{ form_start(contactForm, {'attr' : { 'id' : 'contact-career-form', 'name' : 'contact-career-form', 'action': path('careersend') }}) }}
+    {{ form_widget(contactForm.name, {'attr': {'placeholder' : 'Your name' | trans } }) }}
+    <span class="validator-text name-career-validator-span">{{'_REQUIRED_FIELD_ERR_MESSAGE_' | trans}}</span>
+    {{ form_widget(contactForm.phone, {'attr': {'placeholder' : 'Phone' | trans, 'class' : 'half-input left'} }) }}
+    <span class="validator-text phone-career-validator-span">{{'_REQUIRED_FIELD_ERR_MESSAGE_' | trans}}</span>
+    {{ form_widget(contactForm.email, {'attr': {'placeholder' : 'E-mail' | trans, 'class' : 'half-input'} }) }}
+    <span class="validator-text email-career-validator-span">{{'_BADEMAIL_FIELD_ERR_MESSAGE_' | trans}}</span>
+    {{ form_widget(contactForm.cover_letter, {'attr': {'placeholder' : 'Cover letter' | trans} }) }}
+    <span class="validator-text coverletter-career-validator-span">{{'_REQUIRED_FIELD_ERR_MESSAGE_' | trans}}</span>
+    <div class="form_error_wrap">
+        {{ form_errors(contactForm) }}
+        {{ form_errors(contactForm.email) }}
+        {{ form_errors(contactForm.cv) }}
+    </div>
+    {{ form_label(contactForm.cv, 'Add cv' | trans | upper, {'label_attr': {'class': 'file_label', 'data-trans': '_ADDED_FILE_' | trans }}) }}
+    {{ form_widget(contactForm.cv, {'attr': {'id' : 'cv'} } ) }}
+    <input id="career-form-submit" class="form_submit_button" type="submit" value="{{'_APPLY_FOR_THIS_JOB_' | trans}}">
+    {{ form_end(contactForm) }}
+</div>
+

@@ -1,0 +1,117 @@
+{% extends 'layout/base.html.twig' %}
+{% block title %}{{'_CAREERS_SENIORDEVELOPER_META_TITLE_' | trans}}{% endblock %}
+{% block keywords %}{{'_CAREERS_SENIORDEVELOPER_META_KEYWORDS_' | trans}}{% endblock %}
+{% block description %}{{'_CAREERS_SENIORDEVELOPER_META_DESCRIPTION_' | trans}}{% endblock %}
+{% block stylesheetsAppend %}
+     <link href="{{ asset('styles/BoxIt/jquery.selectBoxIt.css') }}" rel="stylesheet" type="text/css"/>
+     <link href="{{ asset('styles/magnificPopup/magnific-popup.css') }}" rel="stylesheet" type="text/css"/>
+{% endblock %}
+{% block javascriptsAppend %}
+    <script src="{{ asset('scripts/magnificPopup/jquery.magnific-popup.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('scripts/BoxIt/jquery.selectBoxIt.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('scripts/validate/jquery.validate.min.js') }}" type="text/javascript"></script>
+{% endblock %}
+{% block body %}
+    <div id="contact-form-careers-container">
+        <div class="form-slider-box">
+            <div class="form-header-container">
+                <p class="form-title-text">{{'_HELLO_' | trans}}</p>
+                <span class="contact-form-exit form-exit-icon" ></span>
+                <div class="both-clear"></div>
+            </div>
+            <div class="form-container">
+                {{ include('careers/form.html.twig') }}
+            </div>
+            <div class="g-recaptcha"
+                 data-sitekey="{{ captcha.getKey }}"
+                 data-callback="ContactSubmit"
+                 data-size="invisible">
+            </div>
+        </div>
+    </div>
+    <div id="overlay-back"></div> 
+    <div class="careers-container">
+        <div class="single-career-description-container">
+            <div class="single-career-banner-box senior-developer-career-background">
+                <div class="content-container-static">
+                    <div class="single-career-title-box">
+                        <p class="small-title-paragraph-single-career">{{'_WE_ARE_LOOKING_FOR_SENIOR_DEVELOPER_' | trans}}</p>
+                        <p class="big-title-paragraph-single-career">{{'_A_SENIOR_DEVELOPER_' | trans}}</p>
+                    </div>
+                    <div class="parallax-element-single-career first-main-element-svg-career-offer-background" >
+                        <img src="/images/svg/joboffersvgs/seniordeveloper/element_1_sd.svg" alt="{{'_SINGLE_CAREER_IMAGE_ALT_' | trans}}"/>
+                    </div>
+                    <div class="parallax-element-single-career second-element-svg-career-offer-background" >
+                        <img src="/images/svg/joboffersvgs/seniordeveloper/element_2_sd.svg" alt="{{'_SINGLE_CAREER_IMAGE_ALT_' | trans}}"/>
+                    </div>
+                    <div class="parallax-element-single-career third-element-svg-career-offer-background" >
+                        <img src="/images/svg/joboffersvgs/seniordeveloper/element_3_sd.svg" alt="{{'_SINGLE_CAREER_IMAGE_ALT_' | trans}}"/>
+                    </div>
+                    <div class="parallax-element-single-career fourth-element-svg-career-offer-background" >
+                        <img src="/images/svg/joboffersvgs/seniorphpdeveloper/element_5_spd.svg" alt="{{'_SINGLE_CAREER_IMAGE_ALT_' | trans}}"/>
+                    </div>
+                    <div class="parallax-element-single-career fifth-element-svg-career-offer-background" >
+                        <img src="/images/svg/joboffersvgs/seniorphpdeveloper/element_6_spd.svg" alt="{{'_SINGLE_CAREER_IMAGE_ALT_' | trans}}"/>
+                    </div>
+                    <div class="parallax-element-single-career sixth-element-svg-career-offer-background" >
+                        <img src="/images/svg/joboffersvgs/seniorphpdeveloper/element_4_spd.svg" alt="{{'_SINGLE_CAREER_IMAGE_ALT_' | trans}}"/>
+                    </div>
+                </div>
+            </div>
+            <div class="single-career-description-box">
+                <div class="content-container-static">
+                    <p class="single-career-regular-paragraph">{{'_CURRENTLY_THERE_ARE_TEXT_' | trans}}
+                    <p class="career-title-description-paragraph">{{'_SALARY_' | trans}}</p>
+                    <p class="single-career-regular-paragraph">{{'_SALARY_SENIOR_DEVELOPER_' | trans}}</p>
+                    <p class="career-title-description-paragraph">{{'_WANTED_' | trans}}</p>
+                    <p class="single-career-regular-paragraph">{{'_SENIOR_DEVELOPER_DESCRIPTION_1_' | trans}}</p>
+                    <p class="career-title-description-paragraph">{{'_YOUR_SKILLS_' | trans}}</p>
+                    <ul class="single-career-regular-list">
+                        <li>- {{'_SENIOR_DEVELOPER_SKILLS_1_' | trans}}</li>
+                        <li>- {{'_SENIOR_DEVELOPER_SKILLS_2_' | trans}}</li>
+                        <li>- {{'_SENIOR_DEVELOPER_SKILLS_3_' | trans}}</li>
+                        <li>- {{'_SENIOR_DEVELOPER_SKILLS_4_' | trans}}</li>
+                        <li>- {{'_SENIOR_DEVELOPER_SKILLS_5_' | trans}}</li>
+                        <li>- {{'_SENIOR_DEVELOPER_SKILLS_6_' | trans}}</li>
+                        <li>- {{'_SENIOR_DEVELOPER_SKILLS_7_' | trans}}</li>
+                        <li>- {{'_SENIOR_DEVELOPER_SKILLS_8_' | trans}}</li>
+                    </ul>
+                    <p class="career-title-description-paragraph">{{'WHAT_WE_D_LOVE' | trans}}</p>
+                    <ul class="single-career-regular-list">
+                        <li>- {{'_SENIOR_DEVELOPER_ADV_SKILLS_1_' | trans}}</li>
+                        <li>- {{'_SENIOR_DEVELOPER_ADV_SKILLS_2_' | trans}}</li>
+                        <li>- {{'_SENIOR_DEVELOPER_ADV_SKILLS_3_' | trans}}</li>
+                        <li>- {{'_SENIOR_DEVELOPER_ADV_SKILLS_4_' | trans}}</li>
+                        <li>- {{'_SENIOR_DEVELOPER_ADV_SKILLS_5_' | trans}}</li>
+                        <li>- {{'_SENIOR_DEVELOPER_ADV_SKILLS_6_' | trans}}</li>
+                        <li>- {{'_SENIOR_DEVELOPER_ADV_SKILLS_7_' | trans}}</li>
+                        <li>- {{'_SENIOR_DEVELOPER_ADV_SKILLS_8_' | trans}}</li>
+                        <li>- {{'_SENIOR_DEVELOPER_ADV_SKILLS_9_' | trans}}</li>
+                        <li>- {{'_SENIOR_DEVELOPER_ADV_SKILLS_10_' | trans}}</li>
+                        <li>- {{'_SENIOR_DEVELOPER_ADV_SKILLS_11_' | trans}}</li>
+                        <li>- {{'_SENIOR_DEVELOPER_ADV_SKILLS_12_' | trans}}</li>
+                    </ul>
+                    <p class="career-title-description-paragraph">{{'_WHAT_YOU_LL_GET_FROM_US_' | trans}}</p>
+                    <ul class="single-career-regular-list">
+                        <li>- {{'GET_FROM_US_LIST_1' | trans}}</li>
+                        <li>- {{'GET_FROM_US_LIST_2' | trans}}</li>
+                        <li>- {{'GET_FROM_US_LIST_3' | trans}}</li>
+                        <li>- {{'GET_FROM_US_LIST_4' | trans}}</li>
+                        <li>- {{'GET_FROM_US_LIST_5' | trans}}</li>
+                        <li>- {{'GET_FROM_US_LIST_6' | trans}}</li>
+                        <li>- {{'GET_FROM_US_LIST_7' | trans}}</li>
+                        <li>- {{'GET_FROM_US_LIST_8' | trans}}</li>
+                        <li>- {{'GET_FROM_US_LIST_9' | trans}}</li>
+                        <li>- {{'GET_FROM_US_LIST_10' | trans}}</li>
+                    </ul>
+                    <div class="apply-button open-popup-link">
+                        <p>{{'_APPLY_BUTTON_' | trans}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{{ asset('scripts/pages/careers/pagescripts.js') }}" type="text/javascript"></script>
+{% endblock %}
+
+

@@ -91,13 +91,49 @@ return [
         "controller" => "@AppBundle\\Controller\\DefaultController",
         "action" => "blogarticle",
         "variables" => "id,title",
-        "defaults" => NULL,
+        "defaults" => "",
         "siteId" => [
 
         ],
         "priority" => 0,
         "legacy" => FALSE,
         "creationDate" => 1526294052,
-        "modificationDate" => 1526296159
+        "modificationDate" => 1526907632
+    ],
+    7 => [
+        "id" => 7,
+        "name" => "homepage",
+        "pattern" => "/\\/homepage/",
+        "reverse" => "/homepage/",
+        "module" => NULL,
+        "controller" => "@AppBundle\\Controller\\DefaultController",
+        "action" => "default",
+        "variables" => "",
+        "defaults" => NULL,
+        "siteId" => [
+
+        ],
+        "priority" => 0,
+        "legacy" => FALSE,
+        "creationDate" => 1526907782,
+        "modificationDate" => 1526912168
+    ],
+    8 => [
+        "id" => 8,
+        "name" => "about-as",
+        "pattern" => "/\\/about-us/",
+        "reverse" => "/about-us/",
+        "module" => NULL,
+        "controller" => "@AppBundle\\Controller\\DefaultController",
+        "action" => "default",
+        "variables" => NULL,
+        "defaults" => NULL,
+        "siteId" => [
+
+        ],
+        "priority" => 0,
+        "legacy" => FALSE,
+        "creationDate" => 1526912574,
+        "modificationDate" => 1526912646
     ]
 ];

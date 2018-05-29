@@ -3123,7 +3123,12 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
-        elseif (0 === strpos($pathinfo, '/webservice/rest')) {
+        // app_redirects_redirect
+        if ('/about-us/we-at-work' === $pathinfo) {
+            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirectAction',  '_route' => 'app_redirects_redirect',);
+        }
+
+        if (0 === strpos($pathinfo, '/webservice/rest')) {
             if (0 === strpos($pathinfo, '/webservice/rest/class')) {
                 // pimcore_api_rest_class_class
                 if (0 === strpos($pathinfo, '/webservice/rest/class/id') && preg_match('#^/webservice/rest/class/id/(?P<id>\\d+)$#sD', $pathinfo, $matches)) {
@@ -3713,6 +3718,1416 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             not_pimcore_api_rest_info_user:
 
         }
+
+        elseif (0 === strpos($pathinfo, '/c')) {
+            if (0 === strpos($pathinfo, '/careers')) {
+                // careers
+                if ('/careers' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\CareersControler::careersAction',  '_route' => 'careers',);
+                }
+
+                // seniorphpcareer
+                if ('/careers/senior-php-career' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\CareersControler::seniorphpcareerAction',  '_route' => 'seniorphpcareer',);
+                }
+
+                // seniordevelopercareer
+                if ('/careers/senior-developer-career' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\CareersControler::seniordevelopercareerAction',  '_route' => 'seniordevelopercareer',);
+                }
+
+                // frontenddevelopercareer
+                if ('/careers/frontend-developer-career' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\CareersControler::frontenddevelopercareerAction',  '_route' => 'frontenddevelopercareer',);
+                }
+
+                // juniorfrontenddevelopercareer
+                if ('/careers/junior-frontend-developer-career' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\CareersControler::juniorfrontenddevelopercareerAction',  '_route' => 'juniorfrontenddevelopercareer',);
+                }
+
+                // magentodevelopercareer
+                if ('/careers/magento-developer-career' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\CareersControler::magentodevelopercareerAction',  '_route' => 'magentodevelopercareer',);
+                }
+
+                // careersend
+                if ('/careersend' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\CareersControler::sendCareerFormAction',  '_route' => 'careersend',);
+                }
+
+            }
+
+            // app_redirects_redirect2
+            if ('/career' === $pathinfo) {
+                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect2Action',  '_route' => 'app_redirects_redirect2',);
+            }
+
+            if (0 === strpos($pathinfo, '/contact')) {
+                // contact
+                if ('/contact' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\ContactController::contactAction',  '_route' => 'contact',);
+                }
+
+                if (0 === strpos($pathinfo, '/contactsend')) {
+                    // contactsend
+                    if ('/contactsend' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\ContactController::sendContactFormAction',  '_route' => 'contactsend',);
+                    }
+
+                    // contactsendview
+                    if ('/contactsendview' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\ContactController::contactSendViewAction',  '_route' => 'contactsendview',);
+                    }
+
+                }
+
+                // app_redirects_redirect3
+                if ('/contact/brief_project' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect3Action',  '_route' => 'app_redirects_redirect3',);
+                }
+
+            }
+
+            // app_redirects_news_1
+            if (0 === strpos($pathinfo, '/czytajto') && preg_match('#^/czytajto(?:/(?P<news>.+))?$#sD', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'app_redirects_news_1')), array (  'news' => false,  '_controller' => 'AppBundle\\Controller\\RedirectsController::newsAction',));
+            }
+
+        }
+
+        // app_redirects_redirect_1
+        if ('/presentation' === $pathinfo) {
+            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirectAction',  '_route' => 'app_redirects_redirect_1',);
+        }
+
+        if (0 === strpos($pathinfo, '/portfolio')) {
+            // app_redirects_redirect7_52
+            if ('/portfolio' === $pathinfo) {
+                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_52',);
+            }
+
+            // app_redirects_redirect7_53
+            if ('/portfolio/customers' === $pathinfo) {
+                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_53',);
+            }
+
+            if (0 === strpos($pathinfo, '/portfolio/case-study')) {
+                // app_redirects_redirect7_54
+                if ('/portfolio/case-study' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_54',);
+                }
+
+                // app_redirects_redirect7_57
+                if (preg_match('#^/portfolio/case\\-study(?:/(?P<page>\\d+))?$#sD', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'app_redirects_redirect7_57')), array (  'page' => false,  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',));
+                }
+
+            }
+
+            // app_redirects_redirect7_56
+            if ('/portfolio/references' === $pathinfo) {
+                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_56',);
+            }
+
+            // app_redirects_redirect7_165
+            if ('/portfolio/referencje' === $pathinfo) {
+                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_165',);
+            }
+
+            // app_redirects_redirect7_164
+            if ('/portfolio/klienci' === $pathinfo) {
+                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_164',);
+            }
+
+            // app_redirects_redirect7_166
+            if (0 === strpos($pathinfo, '/portfolio/studium-przypadku') && preg_match('#^/portfolio/studium\\-przypadku(?:/(?P<page>\\d+))?$#sD', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'app_redirects_redirect7_166')), array (  'page' => false,  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',));
+            }
+
+        }
+
+        elseif (0 === strpos($pathinfo, '/o')) {
+            // app_redirects_redirect_2
+            if ('/o-nas/my-w-pracy' === $pathinfo) {
+                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirectAction',  '_route' => 'app_redirects_redirect_2',);
+            }
+
+            // app_redirects_redirect2_2
+            if ('/o-nas/kariera' === $pathinfo) {
+                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect2Action',  '_route' => 'app_redirects_redirect2_2',);
+            }
+
+            if (0 === strpos($pathinfo, '/offer')) {
+                // app_redirects_redirect4
+                if ('/offer' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect4Action',  '_route' => 'app_redirects_redirect4',);
+                }
+
+                if (0 === strpos($pathinfo, '/offer/magento')) {
+                    // app_redirects_redirect4_1
+                    if ('/offer/magento' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect4Action',  '_route' => 'app_redirects_redirect4_1',);
+                    }
+
+                    // app_redirects_redirect4_2
+                    if ('/offer/magento/other' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect4Action',  '_route' => 'app_redirects_redirect4_2',);
+                    }
+
+                }
+
+                // app_redirects_redirect5
+                if ('/offer/search-engine-optimalisation' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect5Action',  '_route' => 'app_redirects_redirect5',);
+                }
+
+                if (0 === strpos($pathinfo, '/offer/webpages')) {
+                    // app_redirects_redirect5_1
+                    if ('/offer/webpages/webdevelopment' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect5Action',  '_route' => 'app_redirects_redirect5_1',);
+                    }
+
+                    // app_redirects_redirect6
+                    if ('/offer/webpages' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect6Action',  '_route' => 'app_redirects_redirect6',);
+                    }
+
+                    // app_redirects_redirect6_1
+                    if ('/offer/webpages/projectsportals' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect6Action',  '_route' => 'app_redirects_redirect6_1',);
+                    }
+
+                    // app_redirects_redirect6_2
+                    if ('/offer/webpages/websites' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect6Action',  '_route' => 'app_redirects_redirect6_2',);
+                    }
+
+                }
+
+                // app_redirects_redirect5_2
+                if ('/offer/websao' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect5Action',  '_route' => 'app_redirects_redirect5_2',);
+                }
+
+            }
+
+            elseif (0 === strpos($pathinfo, '/oferta')) {
+                // app_redirects_redirect4_3
+                if ('/oferta' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect4Action',  '_route' => 'app_redirects_redirect4_3',);
+                }
+
+                if (0 === strpos($pathinfo, '/oferta/magento')) {
+                    // app_redirects_redirect4_4
+                    if ('/oferta/magento' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect4Action',  '_route' => 'app_redirects_redirect4_4',);
+                    }
+
+                    // app_redirects_redirect4_5
+                    if ('/oferta/magento/pozostale' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect4Action',  '_route' => 'app_redirects_redirect4_5',);
+                    }
+
+                }
+
+                elseif (0 === strpos($pathinfo, '/oferta/s')) {
+                    if (0 === strpos($pathinfo, '/oferta/strony-i-serwisy')) {
+                        // app_redirects_redirect6_3
+                        if ('/oferta/strony-i-serwisy' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect6Action',  '_route' => 'app_redirects_redirect6_3',);
+                        }
+
+                        // app_redirects_redirect6_4
+                        if ('/oferta/strony-i-serwisy/strony-internetowe' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect6Action',  '_route' => 'app_redirects_redirect6_4',);
+                        }
+
+                        // app_redirects_redirect6_5
+                        if ('/oferta/strony-i-serwisy/serwisy-internetowe' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect6Action',  '_route' => 'app_redirects_redirect6_5',);
+                        }
+
+                    }
+
+                    elseif (0 === strpos($pathinfo, '/oferta/social-media')) {
+                        // app_redirects_redirect100_5
+                        if ('/oferta/social-media/facebook' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect100Action',  '_route' => 'app_redirects_redirect100_5',);
+                        }
+
+                        // app_redirects_redirect100_6
+                        if ('/oferta/social-media/reklama' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect100Action',  '_route' => 'app_redirects_redirect100_6',);
+                        }
+
+                        // app_redirects_redirect100_7
+                        if ('/oferta/social-media/aplikacje-spolecznosciowe' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect100Action',  '_route' => 'app_redirects_redirect100_7',);
+                        }
+
+                        // app_redirects_redirect100_13
+                        if ('/oferta/social-media' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect100Action',  '_route' => 'app_redirects_redirect100_13',);
+                        }
+
+                    }
+
+                    // app_redirects_redirect100_14
+                    if ('/oferta/salesmanago' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect100Action',  '_route' => 'app_redirects_redirect100_14',);
+                    }
+
+                }
+
+                elseif (0 === strpos($pathinfo, '/oferta/linki-sponsorowane')) {
+                    // app_redirects_redirect100
+                    if ('/oferta/linki-sponsorowane' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect100Action',  '_route' => 'app_redirects_redirect100',);
+                    }
+
+                    // app_redirects_redirect100_1
+                    if ('/oferta/linki-sponsorowane/jak-to-dziala' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect100Action',  '_route' => 'app_redirects_redirect100_1',);
+                    }
+
+                    // app_redirects_redirect100_2
+                    if ('/oferta/linki-sponsorowane/koszty' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect100Action',  '_route' => 'app_redirects_redirect100_2',);
+                    }
+
+                }
+
+                elseif (0 === strpos($pathinfo, '/oferta/pozycjonowanie')) {
+                    // app_redirects_redirect100_3
+                    if ('/oferta/pozycjonowanie/jak-to-dziala' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect100Action',  '_route' => 'app_redirects_redirect100_3',);
+                    }
+
+                    // app_redirects_redirect100_4
+                    if ('/oferta/pozycjonowanie/jak-pozycjonujemy' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect100Action',  '_route' => 'app_redirects_redirect100_4',);
+                    }
+
+                    // app_redirects_redirect100_12
+                    if ('/oferta/pozycjonowanie' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect100Action',  '_route' => 'app_redirects_redirect100_12',);
+                    }
+
+                }
+
+                elseif (0 === strpos($pathinfo, '/oferta/gry-i-aplikacje')) {
+                    // app_redirects_redirect100_8
+                    if ('/oferta/gry-i-aplikacje' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect100Action',  '_route' => 'app_redirects_redirect100_8',);
+                    }
+
+                    // app_redirects_redirect100_9
+                    if ('/oferta/gry-i-aplikacje/gry' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect100Action',  '_route' => 'app_redirects_redirect100_9',);
+                    }
+
+                    // app_redirects_redirect100_10
+                    if ('/oferta/gry-i-aplikacje/aplikacje-mobilne' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect100Action',  '_route' => 'app_redirects_redirect100_10',);
+                    }
+
+                    // app_redirects_redirect100_11
+                    if ('/oferta/gry-i-aplikacje/aplikacje-stacjonarne' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect100Action',  '_route' => 'app_redirects_redirect100_11',);
+                    }
+
+                }
+
+            }
+
+        }
+
+        elseif (0 === strpos($pathinfo, '/kariera')) {
+            // app_redirects_redirect2_1
+            if ('/kariera' === $pathinfo) {
+                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect2Action',  '_route' => 'app_redirects_redirect2_1',);
+            }
+
+            if (0 === strpos($pathinfo, '/kariera/Junior+Front-end+developer')) {
+                // app_redirects_redirect13
+                if ('/kariera/Junior+Front-end+developer/7' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect13Action',  '_route' => 'app_redirects_redirect13',);
+                }
+
+                // app_redirects_redirect13_1
+                if ('/kariera/Junior+Front-end+developer' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect13Action',  '_route' => 'app_redirects_redirect13_1',);
+                }
+
+            }
+
+            elseif (0 === strpos($pathinfo, '/kariera/Regular+Front-end+developer')) {
+                // app_redirects_redirect14
+                if ('/kariera/Regular+Front-end+developer/6' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect14Action',  '_route' => 'app_redirects_redirect14',);
+                }
+
+                // app_redirects_redirect14_1
+                if ('/kariera/Regular+Front-end+developer' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect14Action',  '_route' => 'app_redirects_redirect14_1',);
+                }
+
+            }
+
+            elseif (0 === strpos($pathinfo, '/kariera/Software+developer+(Magento)')) {
+                // app_redirects_redirect15
+                if ('/kariera/Software+developer+(Magento)/5' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect15Action',  '_route' => 'app_redirects_redirect15',);
+                }
+
+                // app_redirects_redirect15_1
+                if ('/kariera/Software+developer+(Magento)' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect15Action',  '_route' => 'app_redirects_redirect15_1',);
+                }
+
+            }
+
+            elseif (0 === strpos($pathinfo, '/kariera/Senior+PHP+Developer')) {
+                // app_redirects_redirect16
+                if ('/kariera/Senior+PHP+Developer/3' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect16Action',  '_route' => 'app_redirects_redirect16',);
+                }
+
+                // app_redirects_redirect16_1
+                if ('/kariera/Senior+PHP+Developer' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect16Action',  '_route' => 'app_redirects_redirect16_1',);
+                }
+
+            }
+
+            elseif (0 === strpos($pathinfo, '/kariera/Full-stack+Senior+Developer')) {
+                // app_redirects_redirect17
+                if ('/kariera/Full-stack+Senior+Developer/2' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect17Action',  '_route' => 'app_redirects_redirect17',);
+                }
+
+                // app_redirects_redirect17_1
+                if ('/kariera/Full-stack+Senior+Developer' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect17Action',  '_route' => 'app_redirects_redirect17_1',);
+                }
+
+            }
+
+        }
+
+        // app_redirects_redirect3_1
+        if ('/kontakt/brief_graficzny' === $pathinfo) {
+            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect3Action',  '_route' => 'app_redirects_redirect3_1',);
+        }
+
+        if (0 === strpos($pathinfo, '/rea')) {
+            if (0 === strpos($pathinfo, '/realization')) {
+                if (0 === strpos($pathinfo, '/realization/w')) {
+                    if (0 === strpos($pathinfo, '/realization/webdevelopment')) {
+                        // app_redirects_redirect8
+                        if ('/realization/webdevelopment/mm-prime-tfi' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect8Action',  '_route' => 'app_redirects_redirect8',);
+                        }
+
+                        // app_redirects_redirect9_1
+                        if ('/realization/webdevelopment/ambigante-magento' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect9Action',  '_route' => 'app_redirects_redirect9_1',);
+                        }
+
+                        // app_redirects_redirect10
+                        if ('/realization/webdevelopment/wirtualne-biuro' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect10Action',  '_route' => 'app_redirects_redirect10',);
+                        }
+
+                        // app_redirects_redirect11_1
+                        if ('/realization/webdevelopment/polish-souls' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect11Action',  '_route' => 'app_redirects_redirect11_1',);
+                        }
+
+                    }
+
+                    // app_redirects_redirect7_39
+                    if ('/realization/well-group' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_39',);
+                    }
+
+                    // app_redirects_redirect10_1
+                    if ('/realization/wirtualne-biuro' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect10Action',  '_route' => 'app_redirects_redirect10_1',);
+                    }
+
+                }
+
+                // app_redirects_redirect8_1
+                if ('/realization/mm-prime-tfi' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect8Action',  '_route' => 'app_redirects_redirect8_1',);
+                }
+
+                if (0 === strpos($pathinfo, '/realization/strony-internetowe')) {
+                    // app_redirects_redirect8_2
+                    if ('/realization/strony-internetowe/mm-prime-tfi' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect8Action',  '_route' => 'app_redirects_redirect8_2',);
+                    }
+
+                    // app_redirects_redirect9_2
+                    if ('/realization/strony-internetowe/ambigante-magento' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect9Action',  '_route' => 'app_redirects_redirect9_2',);
+                    }
+
+                    // app_redirects_redirect10_2
+                    if ('/realization/strony-internetowe/wirtualne-biuro' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect10Action',  '_route' => 'app_redirects_redirect10_2',);
+                    }
+
+                    // app_redirects_redirect11_2
+                    if ('/realization/strony-internetowe/polish-souls' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect11Action',  '_route' => 'app_redirects_redirect11_2',);
+                    }
+
+                }
+
+                elseif (0 === strpos($pathinfo, '/realization/a')) {
+                    // app_redirects_redirect9
+                    if ('/realization/ambigante-magento' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect9Action',  '_route' => 'app_redirects_redirect9',);
+                    }
+
+                    // app_redirects_redirect7_44
+                    if ('/realization/air-ball' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_44',);
+                    }
+
+                    // app_redirects_redirect7_46
+                    if ('/realization/akademia-policyjna' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_46',);
+                    }
+
+                }
+
+                elseif (0 === strpos($pathinfo, '/realization/p')) {
+                    // app_redirects_redirect11
+                    if ('/realization/polish-souls' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect11Action',  '_route' => 'app_redirects_redirect11',);
+                    }
+
+                    // app_redirects_redirect7_45
+                    if ('/realization/popgirl' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_45',);
+                    }
+
+                    // app_redirects_redirect7_40
+                    if ('/realization/pse' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_40',);
+                    }
+
+                    // app_redirects_redirect7_47
+                    if ('/realization/prizenoid' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_47',);
+                    }
+
+                }
+
+                elseif (0 === strpos($pathinfo, '/realizations')) {
+                    // app_redirects_redirect7
+                    if ('/realizations/da-de-la-independncia' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7',);
+                    }
+
+                    if (0 === strpos($pathinfo, '/realizations/yasumi')) {
+                        // app_redirects_redirect7_1
+                        if ('/realizations/yasumi-epil2' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_1',);
+                        }
+
+                        // app_redirects_redirect7_2
+                        if ('/realizations/yasumi' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_2',);
+                        }
+
+                        // app_redirects_redirect7_35
+                        if ('/realizations/yasumi-epil' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_35',);
+                        }
+
+                    }
+
+                    // app_redirects_redirect7_6
+                    if ('/realizations/yorknetpl' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_6',);
+                    }
+
+                    // app_redirects_redirect7_3
+                    if ('/realizations/readymadecompanycom' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_3',);
+                    }
+
+                    // app_redirects_redirect7_26
+                    if ('/realizations/rm-legal' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_26',);
+                    }
+
+                    // app_redirects_redirect7_4
+                    if ('/realizations/accountingservicespl' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_4',);
+                    }
+
+                    // app_redirects_redirect7_9
+                    if ('/realizations/akademia-nutricia' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_9',);
+                    }
+
+                    if (0 === strpos($pathinfo, '/realizations/s')) {
+                        // app_redirects_redirect7_5
+                        if ('/realizations/scienceshipcom' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_5',);
+                        }
+
+                        // app_redirects_redirect7_30
+                        if ('/realizations/schodolaz-magento-ce1' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_30',);
+                        }
+
+                        // app_redirects_redirect7_34
+                        if ('/realizations/super-przedsiebiorca' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_34',);
+                        }
+
+                    }
+
+                    elseif (0 === strpos($pathinfo, '/realizations/z')) {
+                        // app_redirects_redirect7_7
+                        if ('/realizations/zaremba-store' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_7',);
+                        }
+
+                        // app_redirects_redirect7_25
+                        if ('/realizations/zak' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_25',);
+                        }
+
+                        // app_redirects_redirect7_10
+                        if ('/realizations/zoio' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_10',);
+                        }
+
+                        // app_redirects_redirect7_18
+                        if ('/realizations/zentiva-aplikacja-mobilna' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_18',);
+                        }
+
+                    }
+
+                    elseif (0 === strpos($pathinfo, '/realizations/nickel-d')) {
+                        // app_redirects_redirect7_8
+                        if ('/realizations/nickel-design2' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_8',);
+                        }
+
+                        // app_redirects_redirect7_21
+                        if ('/realizations/nickel-design1' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_21',);
+                        }
+
+                        // app_redirects_redirect7_20
+                        if ('/realizations/nickel-dom2' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_20',);
+                        }
+
+                    }
+
+                    // app_redirects_redirect7_11
+                    if ('/realizations/i-know-what-i-eat-mobile-app-rwd' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_11',);
+                    }
+
+                    if (0 === strpos($pathinfo, '/realizations/p')) {
+                        // app_redirects_redirect7_12
+                        if ('/realizations/provita-me-magento-ecommerce' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_12',);
+                        }
+
+                        // app_redirects_redirect7_14
+                        if ('/realizations/platforma-edukacyjna-dla-starszych2' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_14',);
+                        }
+
+                        // app_redirects_redirect7_16
+                        if ('/realizations/platforma-edukacyjna-dla-dzieci1' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_16',);
+                        }
+
+                        // app_redirects_redirect7_19
+                        if ('/realizations/polska-szkola-echokardiografii1' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_19',);
+                        }
+
+                    }
+
+                    // app_redirects_redirect7_13
+                    if ('/realizations/ecolight-magento' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_13',);
+                    }
+
+                    // app_redirects_redirect7_27
+                    if ('/realizations/eco-light1' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_27',);
+                    }
+
+                    // app_redirects_redirect7_15
+                    if ('/realizations/gb-architekt1' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_15',);
+                    }
+
+                    if (0 === strpos($pathinfo, '/realizations/gry-na-kase')) {
+                        // app_redirects_redirect7_33
+                        if ('/realizations/gry-na-kase1' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_33',);
+                        }
+
+                        // app_redirects_redirect7_37
+                        if ('/realizations/gry-na-kase' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_37',);
+                        }
+
+                    }
+
+                    // app_redirects_redirect7_17
+                    if ('/realizations/bezglutenowy-swiat-sote1' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_17',);
+                    }
+
+                    if (0 === strpos($pathinfo, '/realizations/wyrazownia')) {
+                        // app_redirects_redirect7_22
+                        if ('/realizations/wyrazownia1' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_22',);
+                        }
+
+                        // app_redirects_redirect7_38
+                        if ('/realizations/wyrazownia' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_38',);
+                        }
+
+                    }
+
+                    // app_redirects_redirect7_23
+                    if ('/realizations/qubus-hotel-memory-game' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_23',);
+                    }
+
+                    // app_redirects_redirect7_24
+                    if ('/realizations/optico1' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_24',);
+                    }
+
+                    // app_redirects_redirect7_28
+                    if ('/realizations/muzeum-fotografii-kalisza1' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_28',);
+                    }
+
+                    // app_redirects_redirect7_29
+                    if ('/realizations/kamyk2' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_29',);
+                    }
+
+                    // app_redirects_redirect7_31
+                    if ('/realizations/tlen-dla-aktywnych-magento-ce1' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_31',);
+                    }
+
+                    // app_redirects_redirect7_32
+                    if ('/realizations/firelli' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_32',);
+                    }
+
+                    // app_redirects_redirect7_36
+                    if ('/realizations/coolturovo' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_36',);
+                    }
+
+                    // app_redirects_redirect7_55
+                    if ('/realizations' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_55',);
+                    }
+
+                }
+
+                // app_redirects_redirect7_41
+                if ('/realization/zloty-orkisz' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_41',);
+                }
+
+                // app_redirects_redirect7_42
+                if ('/realization/e24-cloud' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_42',);
+                }
+
+                // app_redirects_redirect7_43
+                if ('/realization/fun-fair' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_43',);
+                }
+
+                // app_redirects_redirect7_48
+                if ('/realization/caveman' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_48',);
+                }
+
+                // app_redirects_redirect7_49
+                if ('/realization/the-carphone-warehouse' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_49',);
+                }
+
+                // app_redirects_redirect7_50
+                if ('/realization/green-day' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_50',);
+                }
+
+                // app_redirects_redirect7_51
+                if ('/realization/hearts-and-minds' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_51',);
+                }
+
+                // app_redirects_redirect7_58
+                if (preg_match('#^/realization(?:/(?P<page>\\d+))?$#sD', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'app_redirects_redirect7_58')), array (  'page' => false,  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',));
+                }
+
+                if (0 === strpos($pathinfo, '/realization/w')) {
+                    // app_redirects_redirect7_59
+                    if (0 === strpos($pathinfo, '/realization/webdevelopment') && preg_match('#^/realization/webdevelopment(?:/(?P<page>\\d+))?$#sD', $pathinfo, $matches)) {
+                        return $this->mergeDefaults(array_replace($matches, array('_route' => 'app_redirects_redirect7_59')), array (  'page' => false,  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',));
+                    }
+
+                    // app_redirects_redirect7_92
+                    if ('/realization/well-group' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_92',);
+                    }
+
+                    if (0 === strpos($pathinfo, '/realization/wyrazownia')) {
+                        // app_redirects_redirect7_75
+                        if ('/realization/wyrazownia1' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_75',);
+                        }
+
+                        // app_redirects_redirect7_91
+                        if ('/realization/wyrazownia' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_91',);
+                        }
+
+                    }
+
+                }
+
+                elseif (0 === strpos($pathinfo, '/realization/g')) {
+                    // app_redirects_redirect7_60
+                    if (0 === strpos($pathinfo, '/realization/games-and-apps') && preg_match('#^/realization/games\\-and\\-apps(?:/(?P<page>\\d+))?$#sD', $pathinfo, $matches)) {
+                        return $this->mergeDefaults(array_replace($matches, array('_route' => 'app_redirects_redirect7_60')), array (  'page' => false,  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',));
+                    }
+
+                    if (0 === strpos($pathinfo, '/realization/gr')) {
+                        if (0 === strpos($pathinfo, '/realization/gry-na-kase')) {
+                            // app_redirects_redirect7_86
+                            if ('/realization/gry-na-kase1' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_86',);
+                            }
+
+                            // app_redirects_redirect7_90
+                            if ('/realization/gry-na-kase' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_90',);
+                            }
+
+                        }
+
+                        elseif (0 === strpos($pathinfo, '/realization/gry-i-aplikacje')) {
+                            // app_redirects_redirect7_110
+                            if ('/realization/gry-i-aplikacje/da-de-la-independncia' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_110',);
+                            }
+
+                            if (0 === strpos($pathinfo, '/realization/gry-i-aplikacje/z')) {
+                                // app_redirects_redirect7_111
+                                if ('/realization/gry-i-aplikacje/zentiva-aplikacja-mobilna' === $pathinfo) {
+                                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_111',);
+                                }
+
+                                // app_redirects_redirect7_113
+                                if ('/realization/gry-i-aplikacje/zak' === $pathinfo) {
+                                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_113',);
+                                }
+
+                                // app_redirects_redirect7_118
+                                if ('/realization/gry-i-aplikacje/zloty-orkisz' === $pathinfo) {
+                                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_118',);
+                                }
+
+                            }
+
+                            // app_redirects_redirect7_112
+                            if ('/realization/gry-i-aplikacje/qubus-hotel-memory-game' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_112',);
+                            }
+
+                            // app_redirects_redirect7_114
+                            if ('/realization/gry-i-aplikacje/firelli' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_114',);
+                            }
+
+                            // app_redirects_redirect7_119
+                            if ('/realization/gry-i-aplikacje/fun-fair' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_119',);
+                            }
+
+                            // app_redirects_redirect7_115
+                            if ('/realization/gry-i-aplikacje/super-przedsiebiorca' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_115',);
+                            }
+
+                            // app_redirects_redirect7_116
+                            if ('/realization/gry-i-aplikacje/coolturovo' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_116',);
+                            }
+
+                            // app_redirects_redirect7_162
+                            if ('/realization/gry-i-aplikacje/caveman' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_162',);
+                            }
+
+                            // app_redirects_redirect7_117
+                            if ('/realization/gry-i-aplikacje/gry-na-kase' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_117',);
+                            }
+
+                            // app_redirects_redirect7_120
+                            if ('/realization/gry-i-aplikacje/air-ball' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_120',);
+                            }
+
+                            // app_redirects_redirect7_161
+                            if ('/realization/gry-i-aplikacje/akademia-policyjna' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_161',);
+                            }
+
+                            // app_redirects_redirect7_121
+                            if ('/realization/gry-i-aplikacje/popgirl' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_121',);
+                            }
+
+                            // app_redirects_redirect7_163
+                            if ('/realization/gry-i-aplikacje/pet-parlour' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_163',);
+                            }
+
+                        }
+
+                        // app_redirects_redirect7_139
+                        if ('/realization/green-day' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_139',);
+                        }
+
+                    }
+
+                    // app_redirects_redirect7_128
+                    if ('/realization/gb-architekt1' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_128',);
+                    }
+
+                }
+
+                // app_redirects_redirect7_61
+                if (0 === strpos($pathinfo, '/realization/logo-designs') && preg_match('#^/realization/logo\\-designs(?:/(?P<page>\\d+))?$#sD', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'app_redirects_redirect7_61')), array (  'page' => false,  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',));
+                }
+
+                // app_redirects_redirect7_62
+                if ('/realization/da-de-la-independncia' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_62',);
+                }
+
+                if (0 === strpos($pathinfo, '/realization/yasumi')) {
+                    // app_redirects_redirect7_63
+                    if ('/realization/yasumi-epil2' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_63',);
+                    }
+
+                    // app_redirects_redirect7_64
+                    if ('/realization/yasumi' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_64',);
+                    }
+
+                    // app_redirects_redirect7_88
+                    if ('/realization/yasumi-epil' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_88',);
+                    }
+
+                }
+
+                // app_redirects_redirect7_68
+                if ('/realization/yorknetpl' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_68',);
+                }
+
+                // app_redirects_redirect7_65
+                if ('/realization/readymadecompanycom' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_65',);
+                }
+
+                // app_redirects_redirect7_79
+                if ('/realization/rm-legal' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_79',);
+                }
+
+                if (0 === strpos($pathinfo, '/realization/a')) {
+                    // app_redirects_redirect7_66
+                    if ('/realization/accountingservicespl' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_66',);
+                    }
+
+                    // app_redirects_redirect7_71
+                    if ('/realization/akademia-nutricia' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_71',);
+                    }
+
+                    // app_redirects_redirect7_135
+                    if ('/realization/akademia-policyjna' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_135',);
+                    }
+
+                    // app_redirects_redirect7_133
+                    if ('/realization/air-ball' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_133',);
+                    }
+
+                }
+
+                elseif (0 === strpos($pathinfo, '/realization/s')) {
+                    // app_redirects_redirect7_67
+                    if ('/realization/scienceshipcom' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_67',);
+                    }
+
+                    // app_redirects_redirect7_83
+                    if ('/realization/schodolaz-magento-ce1' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_83',);
+                    }
+
+                    // app_redirects_redirect7_87
+                    if ('/realization/super-przedsiebiorca' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_87',);
+                    }
+
+                    if (0 === strpos($pathinfo, '/realization/strony-internetowe')) {
+                        if (0 === strpos($pathinfo, '/realization/strony-internetowe/yasumi')) {
+                            // app_redirects_redirect7_96
+                            if ('/realization/strony-internetowe/yasumi-epil2' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_96',);
+                            }
+
+                            // app_redirects_redirect7_97
+                            if ('/realization/strony-internetowe/yasumi' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_97',);
+                            }
+
+                        }
+
+                        // app_redirects_redirect7_101
+                        if ('/realization/strony-internetowe/yorknetpl' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_101',);
+                        }
+
+                        // app_redirects_redirect7_98
+                        if ('/realization/strony-internetowe/readymadecompanycom' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_98',);
+                        }
+
+                        // app_redirects_redirect7_154
+                        if ('/realization/strony-internetowe/rm-legal' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_154',);
+                        }
+
+                        // app_redirects_redirect7_99
+                        if ('/realization/strony-internetowe/accountingservicespl' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_99',);
+                        }
+
+                        // app_redirects_redirect7_104
+                        if ('/realization/strony-internetowe/akademia-nutricia' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_104',);
+                        }
+
+                        // app_redirects_redirect7_100
+                        if ('/realization/strony-internetowe/scienceshipcom' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_100',);
+                        }
+
+                        // app_redirects_redirect7_158
+                        if ('/realization/strony-internetowe/schodolaz-magento-ce1' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_158',);
+                        }
+
+                        // app_redirects_redirect7_102
+                        if ('/realization/strony-internetowe/zaremba-store' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_102',);
+                        }
+
+                        // app_redirects_redirect7_105
+                        if ('/realization/strony-internetowe/zoio' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_105',);
+                        }
+
+                        if (0 === strpos($pathinfo, '/realization/strony-internetowe/nickel-d')) {
+                            // app_redirects_redirect7_103
+                            if ('/realization/strony-internetowe/nickel-design2' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_103',);
+                            }
+
+                            // app_redirects_redirect7_151
+                            if ('/realization/strony-internetowe/nickel-design1' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_151',);
+                            }
+
+                            // app_redirects_redirect7_150
+                            if ('/realization/strony-internetowe/nickel-dom2' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_150',);
+                            }
+
+                        }
+
+                        // app_redirects_redirect7_141
+                        if ('/realization/strony-internetowe/i-know-what-i-eat-mobile-app-rwd' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_141',);
+                        }
+
+                        // app_redirects_redirect7_143
+                        if ('/realization/strony-internetowe/ims-med' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_143',);
+                        }
+
+                        if (0 === strpos($pathinfo, '/realization/strony-internetowe/p')) {
+                            // app_redirects_redirect7_142
+                            if ('/realization/strony-internetowe/provita-me-magento-ecommerce' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_142',);
+                            }
+
+                            // app_redirects_redirect7_145
+                            if ('/realization/strony-internetowe/platforma-edukacyjna-dla-starszych2' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_145',);
+                            }
+
+                            // app_redirects_redirect7_147
+                            if ('/realization/strony-internetowe/platforma-edukacyjna-dla-dzieci1' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_147',);
+                            }
+
+                            // app_redirects_redirect7_149
+                            if ('/realization/strony-internetowe/polska-szkola-echokardiografii1' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_149',);
+                            }
+
+                        }
+
+                        // app_redirects_redirect7_144
+                        if ('/realization/strony-internetowe/ecolight-magento' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_144',);
+                        }
+
+                        // app_redirects_redirect7_155
+                        if ('/realization/strony-internetowe/eco-light1' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_155',);
+                        }
+
+                        // app_redirects_redirect7_146
+                        if ('/realization/strony-internetowe/gb-architekt1' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_146',);
+                        }
+
+                        // app_redirects_redirect7_160
+                        if ('/realization/strony-internetowe/gry-na-kase1' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_160',);
+                        }
+
+                        // app_redirects_redirect7_148
+                        if ('/realization/strony-internetowe/bezglutenowy-swiat-sote1' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_148',);
+                        }
+
+                        // app_redirects_redirect7_152
+                        if ('/realization/strony-internetowe/wyrazownia1' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_152',);
+                        }
+
+                        // app_redirects_redirect7_153
+                        if ('/realization/strony-internetowe/optico1' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_153',);
+                        }
+
+                        // app_redirects_redirect7_156
+                        if ('/realization/strony-internetowe/muzeum-fotografii-kalisza1' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_156',);
+                        }
+
+                        // app_redirects_redirect7_157
+                        if ('/realization/strony-internetowe/kamyk2' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_157',);
+                        }
+
+                        // app_redirects_redirect7_159
+                        if ('/realization/strony-internetowe/tlen-dla-aktywnych-magento-ce1' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_159',);
+                        }
+
+                    }
+
+                }
+
+                elseif (0 === strpos($pathinfo, '/realization/z')) {
+                    // app_redirects_redirect7_69
+                    if ('/realization/zaremba-store' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_69',);
+                    }
+
+                    // app_redirects_redirect7_78
+                    if ('/realization/zak' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_78',);
+                    }
+
+                    // app_redirects_redirect7_94
+                    if ('/realization/zloty-orkisz' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_94',);
+                    }
+
+                    // app_redirects_redirect7_122
+                    if ('/realization/zoio' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_122',);
+                    }
+
+                    // app_redirects_redirect7_131
+                    if ('/realization/zentiva-aplikacja-mobilna' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_131',);
+                    }
+
+                }
+
+                elseif (0 === strpos($pathinfo, '/realization/nickel-d')) {
+                    // app_redirects_redirect7_70
+                    if ('/realization/nickel-design2' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_70',);
+                    }
+
+                    // app_redirects_redirect7_74
+                    if ('/realization/nickel-design1' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_74',);
+                    }
+
+                    // app_redirects_redirect7_73
+                    if ('/realization/nickel-dom2' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_73',);
+                    }
+
+                }
+
+                elseif (0 === strpos($pathinfo, '/realization/p')) {
+                    // app_redirects_redirect7_72
+                    if ('/realization/polska-szkola-echokardiografii1' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_72',);
+                    }
+
+                    // app_redirects_redirect7_134
+                    if ('/realization/popgirl' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_134',);
+                    }
+
+                    // app_redirects_redirect7_93
+                    if ('/realization/pse' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_93',);
+                    }
+
+                    if (0 === strpos($pathinfo, '/realization/pr')) {
+                        if (0 === strpos($pathinfo, '/realization/projekty-logo')) {
+                            // app_redirects_redirect7_106
+                            if ('/realization/projekty-logo/wyrazownia' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_106',);
+                            }
+
+                            // app_redirects_redirect7_107
+                            if ('/realization/projekty-logo/well-group' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_107',);
+                            }
+
+                            // app_redirects_redirect7_108
+                            if ('/realization/projekty-logo/pse' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_108',);
+                            }
+
+                            // app_redirects_redirect7_109
+                            if ('/realization/projekty-logo/prizenoid' === $pathinfo) {
+                                return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_109',);
+                            }
+
+                        }
+
+                        // app_redirects_redirect7_124
+                        if ('/realization/provita-me-magento-ecommerce' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_124',);
+                        }
+
+                        // app_redirects_redirect7_136
+                        if ('/realization/prizenoid' === $pathinfo) {
+                            return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_136',);
+                        }
+
+                    }
+
+                    // app_redirects_redirect7_127
+                    if ('/realization/platforma-edukacyjna-dla-starszych2' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_127',);
+                    }
+
+                    // app_redirects_redirect7_129
+                    if ('/realization/platforma-edukacyjna-dla-dzieci1' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_129',);
+                    }
+
+                }
+
+                // app_redirects_redirect7_76
+                if ('/realization/qubus-hotel-memory-game' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_76',);
+                }
+
+                // app_redirects_redirect7_77
+                if ('/realization/optico1' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_77',);
+                }
+
+                if (0 === strpos($pathinfo, '/realization/e')) {
+                    // app_redirects_redirect7_80
+                    if ('/realization/eco-light1' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_80',);
+                    }
+
+                    // app_redirects_redirect7_126
+                    if ('/realization/ecolight-magento' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_126',);
+                    }
+
+                    // app_redirects_redirect7_95
+                    if ('/realization/e24-cloud' === $pathinfo) {
+                        return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_95',);
+                    }
+
+                }
+
+                // app_redirects_redirect7_81
+                if ('/realization/muzeum-fotografii-kalisza1' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_81',);
+                }
+
+                // app_redirects_redirect7_82
+                if ('/realization/kamyk2' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_82',);
+                }
+
+                // app_redirects_redirect7_84
+                if ('/realization/tlen-dla-aktywnych-magento-ce1' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_84',);
+                }
+
+                // app_redirects_redirect7_138
+                if ('/realization/the-carphone-warehouse' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_138',);
+                }
+
+                // app_redirects_redirect7_85
+                if ('/realization/firelli' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_85',);
+                }
+
+                // app_redirects_redirect7_132
+                if ('/realization/fun-fair' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_132',);
+                }
+
+                // app_redirects_redirect7_89
+                if ('/realization/coolturovo' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_89',);
+                }
+
+                // app_redirects_redirect7_137
+                if ('/realization/caveman' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_137',);
+                }
+
+                // app_redirects_redirect7_123
+                if ('/realization/i-know-what-i-eat-mobile-app-rwd' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_123',);
+                }
+
+                // app_redirects_redirect7_125
+                if ('/realization/ims-med' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_125',);
+                }
+
+                // app_redirects_redirect7_130
+                if ('/realization/bezglutenowy-swiat-sote1' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_130',);
+                }
+
+                // app_redirects_redirect7_140
+                if ('/realization/hearts-and-minds' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_140',);
+                }
+
+            }
+
+            elseif (0 === strpos($pathinfo, '/realizacje')) {
+                // app_redirects_redirect7_167
+                if (preg_match('#^/realizacje(?:/(?P<page>\\d+(\\/\\d+)?))?$#sD', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'app_redirects_redirect7_167')), array (  'page' => false,  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',));
+                }
+
+                // app_redirects_redirect7_168
+                if (0 === strpos($pathinfo, '/realizacje/strony-internetowe') && preg_match('#^/realizacje/strony\\-internetowe(?:/(?P<page>\\d+))?$#sD', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'app_redirects_redirect7_168')), array (  'page' => false,  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',));
+                }
+
+                // app_redirects_redirect7_169
+                if (0 === strpos($pathinfo, '/realizacje/gry-i-aplikacje') && preg_match('#^/realizacje/gry\\-i\\-aplikacje(?:/(?P<page>\\d+))?$#sD', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'app_redirects_redirect7_169')), array (  'page' => false,  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',));
+                }
+
+                // app_redirects_redirect7_170
+                if (0 === strpos($pathinfo, '/realizacje/projekty-logo') && preg_match('#^/realizacje/projekty\\-logo(?:/(?P<page>\\d+))?$#sD', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'app_redirects_redirect7_170')), array (  'page' => false,  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',));
+                }
+
+                // app_redirects_redirect7_171
+                if ('/realizacje//1' === $pathinfo) {
+                    return array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect7Action',  '_route' => 'app_redirects_redirect7_171',);
+                }
+
+            }
+
+            // app_redirects_news
+            if (0 === strpos($pathinfo, '/readthis') && preg_match('#^/readthis(?:/(?P<news>.+))?$#sD', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'app_redirects_news')), array (  'news' => false,  '_controller' => 'AppBundle\\Controller\\RedirectsController::newsAction',));
+            }
+
+        }
+
+        // app_redirects_redirect99
+        if ('/swieta/wielkanoc2013' === $trimmedPathinfo) {
+            $ret = array (  '_controller' => 'AppBundle\\Controller\\RedirectsController::redirect99Action',  '_route' => 'app_redirects_redirect99',);
+            if ('/' === substr($pathinfo, -1)) {
+                // no-op
+            } elseif ('GET' !== $canonicalMethod) {
+                goto not_app_redirects_redirect99;
+            } else {
+                return array_replace($ret, $this->redirect($rawPathinfo.'/', 'app_redirects_redirect99'));
+            }
+
+            return $ret;
+        }
+        not_app_redirects_redirect99:
 
         if ('/' === $pathinfo && !$allow) {
             throw new Symfony\Component\Routing\Exception\NoConfigurationException();

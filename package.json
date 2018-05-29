@@ -1,0 +1,26 @@
+{
+  "name": "pimcore",
+  "version": "1.0.0",
+  "description": "THE OPEN-SOURCE ENTERPRISE CMS/CMF, PIM, DAM, ECOMMERCE-SUITE",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simerblur/pimcore.git"
+  },
+  "author": "Juliusz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Simerblur/pimcore/issues"
+  },
+  "homepage": "https://github.com/Simerblur/pimcore#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

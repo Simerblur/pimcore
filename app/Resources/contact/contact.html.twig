@@ -1,0 +1,685 @@
+{% extends 'layout/base.html.twig' %}
+
+{% block title %}{{'_CONTACTPAGE_META_TITLE_' | trans}}{% endblock %}    
+    
+{% block keywords %}{{'_CONTACTPAGE_META_KEYWORDS_' | trans}}{% endblock %}
+{% block description %}{{'_CONTACTPAGE_META_DESCRIPTION_' | trans}}{% endblock %}
+{% block stylesheetsAppend %}
+    <link href="{{ asset('styles/BoxIt/jquery.selectBoxIt.css') }}" rel="stylesheet" type="text/css"/>
+    <link href="{{ asset('styles/magnificPopup/magnific-popup.css') }}" rel="stylesheet" type="text/css"/>
+{% endblock %}
+{% block javascriptsAppend %}
+    <script src="{{ asset('scripts/magnificPopup/jquery.magnific-popup.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('scripts/validate/jquery.validate.min.js') }}" type="text/javascript"></script>
+{% endblock %}
+{% block body %}
+
+    {% if app.request.getLocale() == 'en' or app.request.getLocale() == 'de'  %}
+
+        <script>
+            $(document).ready(function ()
+            {
+
+                $.getJSON('//api.ipify.org?format=jsonp&callback=?', function (data2) {
+
+                    {#var ip = data2.ip;#}
+
+                    {% if app.request.getLocale() == 'en' %}
+                        var ip = '5.62.63.255';
+                    {% endif %}
+                    {% if app.request.getLocale() == 'de' %}
+                        var ip = '5.9.220.87'
+                    {% endif %}
+
+                            $.getJSON('//geoip.nekudo.com/api/' + ip, function (data) {
+
+                                var country = data.country.code;
+
+                                if (country == 'GB') {
+
+                                    $('.de-branch').css('display', 'block');
+                                    $('.pl-branch').css('display', 'none');
+                                    $('.uk-branch').css('display', 'block');
+                                    
+                                    newLocation(51.5224999, -0.0858378);
+
+                                    markers.push(new google.maps.Marker({
+                                        position: {lat: 51.5224999, lng: -0.0858378},
+                                        map: advoxMap,
+                                        icon: image,
+                                        animation: google.maps.Animation.DROP
+                                    }));
+                                    
+                                    
+                                    if (($(window).width() > 767) && ($(window).width() < 1220)) {
+                                        $('.contact-box-label').css('margin-top','20px');
+                                        $('.form-slider-box').css('margin-top','50px');
+                                    }
+
+                                }else if(country == 'DE'){
+
+                                    $('.de-branch').css('display', 'block');
+                                    $('.pl-branch').css('display', 'none');
+                                    $('.uk-branch').css('display', 'none');
+
+                                    newLocation(50.0095016, 8.245241);
+
+                                    markers.push(new google.maps.Marker({
+                                        position: {lat: 50.0095016, lng: 8.245241},
+                                        map: advoxMap,
+                                        icon: image,
+                                        animation: google.maps.Animation.DROP
+                                    }));
+
+
+                                    if (($(window).width() > 767) && ($(window).width() < 1220)) {
+                                        $('.contact-box-label').css('margin-top','20px');
+                                        $('.form-slider-box').css('margin-top','50px');
+                                    }
+
+                                } else {
+                                    $('.pl-branch').css('display', 'block');
+                                    $('.uk-branch').css('display', 'none');
+                                    $('.de-branch').css('display', 'none');
+                                }
+                            })
+                        });
+                    });
+        </script>
+
+    {% else %}
+
+        <script>
+            $(document).ready(function ()
+            {
+                $('.pl-branch').css('display', 'block');
+                $('.uk-branch').css('display', 'none');
+                $('.de-branch').css('display', 'none');
+            });
+        </script>
+
+    {% endif %}
+
+    <div class="contact-container">
+        <div class="content-container">
+            <div class="top-contact-container">
+                <div class="left-top-contact-block">
+                    <div class="contact-box-center">
+                        {{ include('contact/plbranch/contactbox.html.twig') }}
+                        {{ include('contact/ukbranch/contactbox.html.twig') }}
+                        {{ include('contact/debranch/contactbox.html.twig') }}
+                    </div>
+                </div>
+                <div class="right-top-contact-block">
+                    <div id="contact-form-container">
+                        <div class="form-slider-box">
+                            {{ include('contact/form.html.twig') }}
+                        </div>
+                    </div>
+                </div>
+                <div class="both-clear"></div>
+            </div>
+            <div class="both-clear"></div>
+        </div>
+        <div class="content-container-full-width">
+            <div class="middle-branches-container">
+                <div class="content-container-full">
+                    <div class="branch-box toggle-branch-box" data-branchboxid="1">
+                        <div class="center-test">
+                            <p class="localization-city-paragraph">{{'_CONTACT_WARSAW_' | trans | raw}} <span class="seemore seemore-down-arrow"></span></p>
+                        </div>
+                    </div>
+                     {{ include('contact/plbranch/tooglebranchbox.html.twig') }}
+                     {{ include('contact/ukbranch/tooglebranchbox.html.twig') }}
+                    <div class="branch-box toggle-branch-box" data-branchboxid="3">
+                        <div class="center-test">
+                            <p class="localization-city-paragraph">{{'_CONTACT_BERLIN_' | trans | raw}}<span class="seemore seemore-down-arrow"></span></p>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                </div>
+                <div class="content-container-full">
+                    <div id="slide-toggle-container">
+                        <div class="branch-box" data-branchboxid="1">
+                            <div class="center-test">
+                                <p class="location-address-paragraph">Solec 81B lok. A-51,<span>00-382 Warsaw</span></p>
+                                <p class="see-location" id="toogle-warsaw-location"><span class="see-location-icon"></span>{{'_SEE_LOCATION_' | trans}}</p>
+                                <div class="contact-person-section">                   
+                                    <div class="vertical-paragraph-box">
+                                        <p class="vertical-paragraph-big">{{'_CONTACT_GENERAL_' | trans}}</p>
+                                        <p class="vertical-paragraph-small">{{'_CONTACT_MANAGER_' | trans}}</p>
+                                    </div>
+                                    <div class="contact-person-box"> 
+                                        <p class="contact-person-name">RAFAŁ GADOMSKI</p>
+                                        <p class="contact-person-phone">+48 503 193 554</p>
+                                        <p class="contact-person-mail"><a href="mailto:rafal@advox.pl">rafal@advox.pl</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {{ include('contact/plbranch/branchbox.html.twig') }}
+                        {{ include('contact/ukbranch/branchbox.html.twig') }}
+                        {{ include('contact/debranch/branchbox.html.twig') }}
+
+                        <div class="both-clear"></div>
+                    </div> 
+                </div>
+                <div class="both-clear"></div>
+            </div>  
+            <div class="middle-branches-container-mobile">
+                <div class="content-container-full-width">
+                    <div class="branch-box" data-branchboxid="1">
+                        <div class="center-box-city-paragraph">
+                            <p class="localization-city-paragraph">{{'_CONTACT_WARSAW_' | trans | raw}}<span class="seemore seemore-down-arrow-mobile"></span></p>      
+                        </div>
+                    </div>
+                    <div class="branch-box-mobile">
+                        <div class="center-box-branch-info">
+                            <p class="location-address-paragraph">Solec 81B lok. A-51,<span>00-382 Warsaw</span></p>
+                            <p class="see-location" id="toogle-warsaw-location-mobile"><span class="see-location-icon"></span>{{'_SEE_LOCATION_' | trans}}</p>
+                            <div class="contact-person-section">                   
+                                <div class="vertical-paragraph-box">
+                                    <p class="vertical-paragraph-big">{{'_CONTACT_GENERAL_' | trans}}</p>
+                                    <p class="vertical-paragraph-small">{{'_CONTACT_MANAGER_' | trans}}</p>
+                                </div>
+                                <div class="contact-person-box"> 
+                                    <p class="contact-person-name">RAFAŁ GADOMSKI</p>
+                                    <p class="contact-person-phone">+48 503 193 554</p>
+                                    <p class="contact-person-mail"><a href="mailto:rafal@advox.pl">rafal@advox.pl</a></p>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="branch-box" data-branchboxid="2">
+                        <div class="center-box-city-paragraph">
+                           {{ include('contact/plbranch/tooglebranchboxmobile.html.twig') }}
+                           {{ include('contact/ukbranch/tooglebranchboxmobile.html.twig') }}
+                           {#{{ include('contact/debranch/tooglebranchboxmobile.html.twig') }}#}
+                        </div>
+                    </div>
+                    <div class="branch-box-mobile">
+                        <div class="center-box-branch-info">
+                           {{ include('contact/plbranch/branchboxmobile.html.twig') }}
+                           {{ include('contact/ukbranch/branchboxmobile.html.twig') }}
+                           {#{{ include('contact/debranch/branchboxmobile.html.twig') }}#}
+                        </div>
+                    </div>  
+                    <div class="branch-box" data-branchboxid="3">
+                        <div class="center-box-city-paragraph">
+                            <p class="localization-city-paragraph">{{'_CONTACT_BERLIN_' | trans | raw}}<span class="seemore seemore-down-arrow-mobile"></span></p>       
+                        </div>
+                    </div>
+                    <div class="branch-box-mobile">
+                        <div class="center-box-branch-info">
+                            <p class="location-address-paragraph">Mombacher Str. 52 ,<span><br>55122 Mainz</span></p>
+                            <p class="see-location" id="toogle-mainz-location-mobile"><span class="see-location-icon"></span>{{'_SEE_LOCATION_' | trans}}</p>
+                            <div class="contact-person-section">
+                                <div class="vertical-paragraph-box">
+                                    <p class="vertical-paragraph-big">{{'_COUNTRY_MANAGER_1_' | trans}}</p>
+                                    <p class="vertical-paragraph-small">{{'_COUNTRY_MANAGER_2_' | trans}}</p>
+                                </div>
+                                <div class="contact-person-box">
+                                    <p class="contact-person-name">FABIAN PREGEL</p>
+                                    <p class="contact-person-phone">+49 178 274 61 50</p>
+                                    <p class="contact-person-mail"><a href="mailto:rafal@advox.pl">rafal@advox.pl</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="both-clear"></div>
+                </div>
+                <div class="both-clear"></div>
+            </div>     
+        </div>
+        {{ include('contact/webtoleadform/contact.html.twig') }}        
+        <div class="content-container-full-width">
+            <div class="contact-map-container">
+                <p class="world-map-title-paragraph">{{'_WHERE_WE_ARE_' | trans}}</p>
+                <div id="advox-poznan-map"></div>
+            </div>
+            <div class="contact-client-map-container">
+                <p class="world-map-title-paragraph">{{'_WARE_OUR_CLIENT_ARE_' | trans}}</p>
+                <div id="map1"></div>
+            </div>
+            <div class="both-clear"></div>
+        </div>
+    </div>
+    <script>
+
+        var advoxHead = [
+            {lat: 52.409252, lng: 16.934752},
+            {lat: 52.234884, lng: 21.031823}
+        ],
+                markers = [],
+                advoxMap, advoxWorldMap,
+                advoxMapStyles = [
+                    {
+                        stylers: [
+                            {hue: "#07a9d7"},
+                            {saturation: -20}
+                        ]
+                    }, {
+                        featureType: "road",
+                        elementType: "geometry",
+                        stylers: [
+                            {lightness: 100},
+                            {visibility: "simplified"}
+                        ]
+                    }, {
+                        featureType: "road",
+                        elementType: "labels",
+                        stylers: [
+                            {visibility: "off"}
+                        ]
+                    },
+                    {
+                        featureType: "all",
+                        elementType: "labels",
+                        stylers: [
+                            {visibility: "off"}
+                        ]
+                    }
+
+                ],
+                worldMapStyles = [
+                    {
+                        stylers: [
+                            {hue: "#07a9d7"},
+                            {saturation: -20}
+                        ]
+                    }, {
+                        featureType: "road",
+                        elementType: "geometry",
+                        stylers: [
+                            {lightness: 100},
+                            {visibility: "simplified"}
+                        ]
+                    }, {
+                        featureType: "road",
+                        elementType: "labels",
+                        stylers: [
+                            {visibility: "off"}
+                        ]
+                    }
+                ],
+                image = '{{ asset('images/examples/marker.png') }}';
+                imageClientMarker = '{{ asset('images/markerklient.png') }}';
+
+        function initMap() {
+
+            var advoxClientsCities = [
+                [53.4293685, 14.344447],
+                [52.232855, 20.9211132],
+                [52.4004458, 16.761585],
+                [50.3012186, 18.5795771],
+                [51.2180881, 22.493731],
+                [50.0467446, 19.9348338],
+                [51.127057, 16.9218248],
+                [54.5037729, 18.3933577],
+                [53.0241658, -2.1915053],
+                [51.5285582, -0.2416796],
+                [53.9585914, -1.1156108],
+                [52.5074592, 13.2860639],
+                [49.9647282, 8.1713292],
+                [-33.847973, 150.6517829],
+                [43.7181557, -79.5181399],
+                [47.3774337, 8.4666757],
+            ];
+
+            var styledMap = new google.maps.StyledMapType(worldMapStyles,
+                    {name: "Advox Map"});
+
+            var styledMap2 = new google.maps.StyledMapType(advoxMapStyles,
+                    {name: "Advox Map2"});
+
+            advoxMap = new google.maps.Map(document.getElementById('advox-poznan-map'), {
+                streetViewControl: false,
+                panControl: false,
+                scaleControl: false,
+                mapTypeControl: false,
+                scrollwheel: false,
+                zoom: 15,
+                minZoom: 11,
+                center: new google.maps.LatLng(52.409252, 16.934752),
+                zoomControl: false,
+                zoomControlOptions: {
+                    style: google.maps.ZoomControlStyle.LARGE,
+                    position: google.maps.ControlPosition.RIGHT_TOP
+                },
+                mapTypeControlOptions: {
+                    mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+                }
+            });
+
+            advoxWorldMap = new google.maps.Map(document.getElementById('map1'), {
+                streetViewControl: false,
+                panControl: false,
+                scaleControl: false,
+                mapTypeControl: false,
+                scrollwheel: false,
+                zoom: 5,
+                minZoom: 2,
+                center: new google.maps.LatLng(51.3300627, 8.7157575),
+                zoomControl: false,
+                zoomControlOptions: {
+                    style: google.maps.ZoomControlStyle.LARGE,
+                    position: google.maps.ControlPosition.RIGHT_TOP
+                },
+                mapTypeControlOptions: {
+                    mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+                }
+            });
+
+            advoxMap.mapTypes.set('map_style', styledMap);
+            advoxMap.setMapTypeId('map_style');
+
+            advoxWorldMap.mapTypes.set('map_style', styledMap2);
+            advoxWorldMap.setMapTypeId('map_style');
+
+            markers.push(new google.maps.Marker({
+                position: advoxHead[0],
+                map: advoxMap,
+                icon: image,
+                animation: google.maps.Animation.DROP
+            }));
+
+            for (i = 0; i < advoxClientsCities.length; i++) {
+                var position = new google.maps.LatLng(advoxClientsCities[i][0], advoxClientsCities[i][1]);
+
+                markers.push(new google.maps.Marker({
+                    position: position,
+                    map: advoxWorldMap,
+                    icon: imageClientMarker,
+                    animation: google.maps.Animation.DROP
+                }));
+            }
+
+        }
+
+        function newLocation(newLat, newLng)
+        {
+            advoxMap.setCenter({
+                lat: newLat,
+                lng: newLng
+            });
+        }
+
+        $(document).ready(function ()
+        {
+
+            var advoxMaptoggle = 0;
+            var advoxWorldMaptoggle = 0;
+
+            $('.contact-map-container').click(function (e) {
+                if (advoxMaptoggle == 1) {
+                    advoxMap.setOptions({scrollwheel: false});
+                    advoxMaptoggle = 0;
+                } else {
+                    advoxMap.setOptions({scrollwheel: true});
+                    advoxMaptoggle = 1;
+                }
+                e.preventDefault();
+            });
+
+            $('.contact-client-map-container').click(function (e) {
+                if (advoxWorldMaptoggle == 1) {
+                    advoxWorldMap.setOptions({scrollwheel: false});
+                    advoxWorldMaptoggle = 0;
+                } else {
+                    advoxWorldMap.setOptions({scrollwheel: true});
+                    advoxWorldMaptoggle = 1;
+                }
+                e.preventDefault();
+            });
+
+            $("#toogle-warsaw-location,#toogle-warsaw-location-mobile").on('click', function ()
+            {
+
+                newLocation(52.234884, 21.031823);
+
+                markers.push(new google.maps.Marker({
+                    position: {lat: 52.234884, lng: 21.031823},
+                    map: advoxMap,
+                    icon: image,
+                    animation: google.maps.Animation.DROP
+                }));
+            });
+
+            $("#toogle-poznan-location,#toogle-poznan-location-mobile").on('click', function ()
+            {
+                newLocation(52.409252, 16.934752);
+
+                markers.push(new google.maps.Marker({
+                    position: {lat: 52.234884, lng: 16.934752},
+                    map: advoxMap,
+                    icon: image,
+                    animation: google.maps.Animation.DROP
+                }));
+            });
+
+            $("#toogle-london-location,#toogle-london-location-mobile").on('click', function ()
+            {
+
+                newLocation(51.5224999, -0.0858378);
+
+                markers.push(new google.maps.Marker({
+                    position: {lat: 51.5224999, lng: -0.0858378},
+                    map: advoxMap,
+                    icon: image,
+                    animation: google.maps.Animation.DROP
+                }));
+            });
+
+            $("#toogle-mainz-location,#toogle-mainz-location-mobile").on('click', function ()
+            {
+
+                newLocation(50.0095016, 8.245241);
+
+                markers.push(new google.maps.Marker({
+                    position: {lat: 50.0095016, lng: 8.245241},
+                    map: advoxMap,
+                    icon: image,
+                    animation: google.maps.Animation.DROP
+                }));
+            });
+
+            $(".see-location").on('click', function (e)
+            {
+                var headerHeight = $('header').height();
+
+                $('html, body').animate({
+                    scrollTop: $('.contact-map-container').offset().top - headerHeight,
+                }, 'slow');
+
+            });
+        });
+
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_YCNE5BKKTnKBPuSCpu7yhWFDUc4uy4g&callback=initMap"</script>
+    <script src="/scripts/jquery183/jquery.min.js" type="text/javascript"></script>
+    <script src="/scripts/jqueryui/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/scripts/BoxIt/boxit.js" type="text/javascript"></script>
+
+    <script>
+        $(function () {
+
+            var selectBox = $("select").selectBoxIt({
+                showFirstOption: false
+            });
+
+        });
+    </script>
+
+
+    <script>
+        var captchaValidated = false;
+        $(document).ready(function () {
+
+            $('#contact-main-form').validate({
+                onkeyup: false,
+                errorPlacement: function (error, element) {
+                    $(element).next().show();
+                    $(element).css('border-color', '#fc1556');
+                    $(element).addClass('placeholder-error');
+                },
+                success: function (error, element) {
+                    $(element).next().hide();
+                    $(element).css('border-color', '#dadad2');
+                    $(element).removeClass('placeholder-error');
+                },
+                rules: {
+                    'contact[name]': {
+                        required: true
+                    },
+                    'contact[phone]': {
+                        required: true
+                    },
+                    'contact[email]': {
+                        required: true,
+                        email: true
+                    },
+                    'contact[interestedin]': {
+                        required: true
+                    }
+                }
+            });
+
+            $('#contact-form-submit').click(function () {
+
+                if ($('#contact_interestedin').val() == null) {
+
+                    $('#contact_interestedinSelectBoxItContainer').css('border-color', '#fc1556');
+                    $('#contact_interestedinSelectBoxItText').css('color', '#fc1556');
+                    $('.interested-validator-span').show();
+                } else {
+                    $('#contact_interestedinSelectBoxItContainer').css('border-color', '#dadad2');
+                    $('#contact_interestedinSelectBoxItText').css('color', '#dadad2');
+                    $('.interested-validator-span').hide();
+                }
+
+                if ($('#contact_budget').val() == null) {
+                    $('#contact_budgetSelectBoxItContainer').css('border-color', '#fc1556');
+                    $('#contact_budgetSelectBoxItText').css('color', '#fc1556');
+                    $('.budget-validator-span').show();
+                } else {
+                    $('#contact_budgetSelectBoxItContainer').css('border-color', '#dadad2');
+                    $('#contact_budgetSelectBoxItText').css('color', '#dadad2');
+                    $('.budget-validator-span').hide();
+                }
+            });
+
+            $('#contact-main-form').submit(function (e) {
+                if(!captchaValidated) {
+                    e.preventDefault();
+                    if($('#contact-main-form').valid()) {
+                        grecaptcha.execute();
+                    }
+                }
+
+            });
+
+        });
+
+        function ContactSubmit()
+        {
+            captchaValidated = true;
+            $('#contact-main-form').submit();
+        }
+
+    </script>
+
+    <script>
+
+        $(document).ready(function () {
+            if (($(window).width() > 767)) {
+
+                $(".toggle-branch-box").click(function () {
+
+                    var branchboxId = $(this).data('branchboxid');
+
+                    $("#slide-toggle-container").slideDown("medium");
+                    $(".branch-box").css('opacity', '0.6');
+                    $('*[data-branchboxid="' + branchboxId + '"]').css('opacity', '1.0');
+
+                    if ($(this).hasClass('active')) {
+                        $("#slide-toggle-container").slideUp("medium");
+                        $(this).removeClass('active');
+                        $(".branch-box").css('opacity', '1.0');
+
+                    } else {
+                        $(this).siblings('.branch-box').removeClass('active');
+                        $(this).addClass('active');
+                    }
+                });
+            }
+
+            if (($(window).width() < 767)) {
+
+                $(".branch-box").click(function () {
+
+                    $(this).next(".branch-box-mobile").slideToggle("medium");
+
+                    if ($(this).hasClass("branches-toggled")) {
+                        $('.seemore', this).removeClass("seemore-up-arrow-mobile").addClass("seemore-down-arrow-mobile");
+                        $(this).removeClass('branches-toggled');
+                    } else {
+                        $('.seemore', this).removeClass("seemore-down-arrow-mobile").addClass("seemore-up-arrow-mobile");
+                        $(this).addClass('branches-toggled');
+                    }
+                });
+            }
+        });
+    </script>
+    
+    <script>
+        $("input[name$='contact[name]']").on("change paste keyup", function() {
+            var value = $("input[name$='contact[name]']").val();
+            $( "input[name$='last_name']" ).val(value);
+         });
+         
+        $("input[name$='contact[phone]']").on("change paste keyup", function() {
+            var value = $("input[name$='contact[phone]']").val();
+            $( "input[name$='phone_mobile']" ).val(value);
+         });
+         
+         $("input[name$='contact[email]']").on("change paste keyup", function() {
+            var value = $("input[name$='contact[email]']").val();
+            $( "input[name$='email1']" ).val(value);
+         });
+         
+         $("#contact_description").on("change paste keyup", function() {
+            var value = $("#contact_description").val();
+            $( "input[name$='description']" ).val(value);
+         });
+         
+         $( "#contact-form-submit" ).click(function() {
+             var value = $("#contact_interestedinSelectBoxItText").attr("data-val");
+            $( "input[name$='lead_source_description']" ).val(value);
+        });
+    </script>
+    
+    <script>
+    $( "#contact-form-submit" ).click(function() {
+        
+                                  var form = $('#WebToLeadForm');
+                                  var formAction = form.attr('action');
+                                  var formData = new FormData(form[0]);
+
+                                  $.ajax({
+                                      url: formAction,
+                                      type: 'POST',
+                                      enctype: 'multipart/form-data',
+                                      cache: false,
+                                      processData: false,
+                                      contentType: false,
+                                      data: formData
+                                  });
+    });
+    </script>
+    
+                            
+{% endblock %}
+
+
+

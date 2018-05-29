@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
+  <file date="2017-01-03T15:29:36Z" source-language="en" target-language="pl" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+<!--      <trans-unit id="93cba120bd33a21e2587ad7674a4e0eff8258645" resname="_ANYFIELD_IS_REQUIRED_">
+        <source>_ANYFIELD_IS_REQUIRED_</source>
+        <target>_ANYFIELD_IS_REQUIRED_</target>
+        <jms:reference-file line="92">/../../../../.././src/AppBundle/Forms/Career.php</jms:reference-file>
+        <jms:reference-file line="75">/../../../../.././src/AppBundle/Forms/Contact.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0d1c8ad11317a2a1a80ecb251fd9f34a71f60fd5" resname="_E_COMMERCE_CONSULTING_">
+        <source>_E_COMMERCE_CONSULTING_</source>
+        <target>_E_COMMERCE_CONSULTING_</target>
+        <jms:reference-file line="30">/../../../../.././src/AppBundle/Forms/Contact.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9999ef9dab7b2debd977fba440a079eed1d1f990" resname="_E_COMMERCE_MAGENTO_DEVELOPMENT_CONTACT">
+        <source>_E_COMMERCE_MAGENTO_DEVELOPMENT_CONTACT</source>
+        <target>_E_COMMERCE_MAGENTO_DEVELOPMENT_CONTACT</target>
+        <jms:reference-file line="26">/../../../../.././src/AppBundle/Forms/Contact.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="54789cb0c19ea9bd61044de0db1deb02ae07d620" resname="_FRONTEND_DEVELOPMENT_CONTACT">
+        <source>_FRONTEND_DEVELOPMENT_CONTACT</source>
+        <target>_FRONTEND_DEVELOPMENT_CONTACT</target>
+        <jms:reference-file line="27">/../../../../.././src/AppBundle/Forms/Contact.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="faef0712521ac30156ebda63ea430fae473cd382" resname="_GENERAL_ENQUIRY_">
+        <source>_GENERAL_ENQUIRY_</source>
+        <target>_GENERAL_ENQUIRY_</target>
+        <jms:reference-file line="32">/../../../../.././src/AppBundle/Forms/Contact.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4523390c3edfcbecfddc640543306f386d55adf8" resname="_INTERESTED_IN_">
+        <source>_INTERESTED_IN_</source>
+        <target>_INTERESTED_IN_</target>
+        <jms:reference-file line="35">/../../../../.././src/AppBundle/Forms/Contact.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="11d354ff76fb00bcbbe4ecd9edd5ea1f272f372c" resname="_OTHER_DEVELOPMENT_CONTACT_">
+        <source>_OTHER_DEVELOPMENT_CONTACT_</source>
+        <target>_OTHER_DEVELOPMENT_CONTACT_</target>
+        <jms:reference-file line="29">/../../../../.././src/AppBundle/Forms/Contact.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d3adb30e069f4f5f1fcc97d177e79356cd972777" resname="_UX_DESIGN_CONTACT_">
+        <source>_UX_DESIGN_CONTACT_</source>
+        <target>_UX_DESIGN_CONTACT_</target>
+        <jms:reference-file line="31">/../../../../.././src/AppBundle/Forms/Contact.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5d6397909643a4a7c9d1b0714f441400792ed642" resname="_ZEND_SYMFONY_DEVELOPMENT_CONTACT_">
+        <source>_ZEND_SYMFONY_DEVELOPMENT_CONTACT_</source>
+        <target>_ZEND_SYMFONY_DEVELOPMENT_CONTACT_</target>
+        <jms:reference-file line="28">/../../../../.././src/AppBundle/Forms/Contact.php</jms:reference-file>
+      </trans-unit>-->
+    </body>
+  </file>
+</xliff>

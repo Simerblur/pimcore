@@ -1,0 +1,30 @@
+{% block footer %}
+    <footer id="footer">
+        <div class="content-container">
+            <div class="left-footer-side">
+                <div class="copyrights-footer">
+                    <p class="copyright-paragraph">COPYRIGHT © 	{{ "now"|date("Y") }} ADVOX STUDIO</p>
+                    <a href="{{ path('privacypolicy') }}"><p class="cookies-link">COOKIES</p></a>
+                </div>
+            </div>
+            <div class="right-footer-side">
+                <div class="social-footer">
+                    <a href="{{'_FOOTER_FACEBOOK_LINK' | trans}}"><p class="facebook-link">FACEBOOK</p></a>
+                    <a href="https://plus.google.com/101034644122785640873/?prsrc=3"><p class="google-link">GOOGLE</p></a>
+                </div>
+            </div>
+            <div class="left-footer-side-mobile">
+                <div class="copyrights-footer">
+                    <p class="copyright-paragraph">COPYRIGHT © 	{{ "now"|date("Y") }} ADVOX STUDIO</p>
+                </div>
+            </div>
+            <div class="right-footer-side-mobile">
+                <div class="social-footer">
+                    <a href="{{ path('privacypolicy') }}"><p class="cookies-link">COOKIES</p></a>
+                    <a href="{{'_FOOTER_FACEBOOK_LINK' | trans}}"><p class="facebook-link">FACEBOOK</p></a>
+                    <a href="https://plus.google.com/101034644122785640873/?prsrc=3"><p class="google-link">GOOGLE</p></a>
+                </div>
+            </div>
+        </div>
+    </footer>   
+{% endblock %}

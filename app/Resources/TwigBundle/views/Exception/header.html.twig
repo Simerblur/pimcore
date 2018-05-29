@@ -1,0 +1,115 @@
+{% block header %}
+{% set routeParams = app.request.get('_route_params') %}
+{% if routeParams is null %}
+    {% set routeParams = [] %}
+{% endif %}
+<header>
+    <div class="content-container">
+        <div class="left-header-side">
+            <div class="menu-box">
+                <a class="nav-trigger menu-trigger" href="#"><span></span><em>{{'_MENU_' | trans}}</em><em class="closeEm">{{'_CLOSE_' | trans}}</em></a>
+            </div>
+            <div class="logo-box non-service-container-menu-element" >
+                <a id="logoImage-desktop" href="{{ path('homepage') }}"><img src="/images/logo/logo_frontBAK.svg"/><img src="/images/logo/logo motto_front.svg"/></a>
+                <a id="logoImage-mobile" href="{{ path('homepage') }}"><img src="/images/logo/logo_frontBAK.svg" /></a>
+            </div>
+            <div class="both-clear"></div>
+        </div>
+        <div class="right-header-side">
+            <div class="non-service-container-menu-element">
+            <div class="magento-associate-header-image">
+                <a target="_blank" href="https://magento.com/partners/portal/details/partner/id/1600/back_url/aHR0cHM6Ly9tYWdlbnRvLmNvbS9wYXJ0bmVycy9wb3J0YWwvZGlyZWN0b3J5Lz9wYXJ0bmVyX3R5cGU9MSZhbXA7cGFydG5lcl9yZWdpb249ZXVyb3BlJmFtcDtwYXJ0bmVyX2xvY2F0aW9uPVBM">
+                <img src="/images/svg/Magento_SI_Business_Small_front.svg" alt="magento partner"/>
+                </a>
+            </div>
+            <div class="header-button">
+                <a href="{{ path('contact') }}">{{'_CONTACT_BTN_' | trans | upper}}</a>
+            </div>
+            <div class="language-switch-box">
+            <p>
+                <a{% if app.request.getLocale() == 'de' %} class="active-language"{% else %}{% endif %}href="http://www.advox.de/">DE</a>
+                <span>/</span>
+                <a{% if app.request.getLocale() == 'en' %} class="active-language"{% else %}{% endif %}href="http://www.advoxstudio.com/">EN</a>
+                <span>/</span>
+                <a{% if app.request.getLocale() == 'pl' %} class="active-language"{% else %}{% endif %}href='http://www.advox.pl/'>PL</a>
+            </p>
+            </div>
+            </div>
+        </div>
+        <div class="both-clear"></div>
+    </div>
+    <div class="both-clear"></div>
+
+    <div class="menu-list-container">
+        <div class="mobile-language-switcher">
+            <a{% if app.request.getLocale() == 'de' %} class="active-language"{% else %}{% endif %}href="http://www.advox.de/">DE</a>
+                <span>/</span>
+            <a{% if app.request.getLocale() == 'en' %} class="active-language"{% else %}{% endif %}href="http://www.advoxstudio.com/">EN</a>
+                <span>/</span>
+            <a {% if app.request.getLocale() == 'pl' %} class="active-language"{% else %}{% endif %}href='http://www.advox.pl/'>PL</a>
+        </div>
+        <div class="content-container">
+            <ul class="menu-list">
+                <li><a href="{{ path('homepage') }}">{{'_HOME_ELMENU' | trans}}</a></li>
+                <li><a href="{{ path('news') }}">{{'_NEWS_ELMENU' | trans}}</a></li>
+                <li><a href="{{ path('about-us') }}">{{'_ABOUT_US_ELMENU' | trans}}</a></li>
+                <li><a href="{{ path('personal-bio') }}">{{'_OUR_TEAM_ELMENU' | trans}}</a></li>
+                <li id="toogle-submenu-sitemenu"><a href="#">{{'_SERVICES' | trans}}</a></li>
+                <li class="submenu-underlist">
+                    <ul class="menu-sub-list">
+                        <li><a href="{{ path('magentoservice') }}">{{'_ECOMMERCE&MAGENTO_ELMENU' | trans}}</a></li>
+                        <li><a href="{{ path('phpframeworksservice') }}">{{'_SYMFONY&ZENDDEVELOPMENT_ELMENU' | trans}}</a></li>
+                        <li><a href="{{ path('frontendservice') }}">{{'_FRONTENDDEVELOPMENT_ELMENU' | trans}}</a></li>
+                        <li><a href="{{ path('uxanddesignservice') }}">{{'_UX&UIDESIGN_ELMENU' | trans}}</a></li>
+                    </ul>
+                </li>
+                <li><a href="{{ path('projectslist') }}">{{'_PROJECTS_ELMENU' | trans}}</a></li>
+                <li><a href="{{ path('careers') }}">{{'_CAREERS_ELMENU' | trans}}</a></li>
+                <li><a href="{{ path('contact') }}">{{'_CONTACT_ELMENU' | trans}}</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="overlaylayer"></div>
+</header>
+<script type="text/javascript">
+
+    var triggerNav = document.getElementsByClassName("nav-trigger")[0],
+    body = document.getElementsByTagName("body")[0],
+    overlaylayer = document.querySelector(".overlaylayer");
+
+    triggerNav.addEventListener("click", toggleNavigation);
+    overlaylayer.addEventListener("click", toggleNavigation);
+
+    function toggleNavigation(event) {
+        event.preventDefault();
+        body.classList.toggle("nav-open");
+        $(".closeEm").toggle();
+
+        if (($(window).width() < 767)) {
+
+                $('.service-navigation-footer-mobile').toggle();
+                $('#footer,.pre-footer-container').toggle('fast');
+            }else{
+                $('.service-navigation-foooter-desktop,#fp-nav').toggle();
+                $('#footer,.pre-footer-container').toggle('fast');
+            }
+    }
+
+    document.addEventListener('keyup', function(event) {
+        if (event.keyCode == 27) {
+            body.classList.remove("nav-open");
+        }
+    });
+
+</script>
+
+<script>
+
+    $('#toogle-submenu-sitemenu').click(function () {
+        $(this).parent().find('ul').slideToggle();
+    });
+
+</script>
+
+{% endblock %}

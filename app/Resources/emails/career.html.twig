@@ -1,0 +1,38 @@
+{% block subject %}
+    ContactEmailSubject
+{% endblock %}
+{% block body_html %}
+    <br />
+    <h1>Zgłoszenie rekrutacyjne.</h1>
+    <br />
+    <table>
+        {% if career_type is defined and career_type is not empty %}
+            <tr><td><b>Stanowisko</b></td><td>{{ career_type }}</td></tr>
+        {% endif %}
+        {% if contact_name is defined and contact_name is not empty %}
+            <tr><td><b>Nazwisko</b></td><td>{{ contact_name }}</td></tr>
+        {% endif %}
+        {% if contact_phone is defined and contact_phone is not empty %}
+            <tr><td><b>Telefon</b></td><td>{{ contact_phone }}</td></tr>
+        {% endif %}
+        {% if contact_email is defined and contact_email is not empty %}
+            <tr><td><b>Email</b></td><td>{{ contact_email }}</td></tr>
+        {% endif %}
+        {% if contact_description is defined and contact_description is not empty %}
+            <tr><td><b>Opis</b></td><td>{{ contact_description }}</td></tr>
+        {% endif %}
+        {% if cover_letter is defined and cover_letter is not empty %}
+            <tr>
+                <td style="height:10px;font-size:10px;line-height:10px">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>List motywacyjny:</b></td>
+            </tr>
+            <tr>
+                <td colspan="2">{{ cover_letter }}</td>
+            </tr>
+        {% endif %}
+    </table>
+    <br/>
+{% endblock %}
+{% block body_text %}{% endblock %}
